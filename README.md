@@ -32,3 +32,5 @@ Output snapshot: https://vdzel.home.xs4all.nl/ehrsfm-fhir-r5/
 --------------------
 For debugging xslt:
 ``` <!-- XXX --> <xsl:message><xsl:copy-of select="."/></xsl:message> ```
+
+http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html

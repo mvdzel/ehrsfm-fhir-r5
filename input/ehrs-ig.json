@@ -2,7 +2,7 @@
     "resourceType": "ImplementationGuide",
     "id": "EHRSFMR2.1",
     "url": "http://hl7.org/ehrs/ImplementationGuide/EHRSFMR2.1",
-    "version": "0.2",
+    "version": "0.3",
     "name": "EHRSFMR2.1",
     "title": "EHR System Functional Model R2.1",
     "status": "draft",
@@ -24,26 +24,57 @@
     "packageId": "EHRSFMR2.1",
     "fhirVersion": [ "5.0.0-snapshot3" ],
     "definition": {
+      "grouping" : [
+        {
+          "id": "OV",
+          "name" : "OV Overarching",
+          "description" : "The Overarching Section contains Conformance Criteria that apply to all EHR Systems and consequently must be included in all EHR-S FM compliant profiles. These criteria are grouped under a single Function. All functions within the Overarching Section have an identifier starting with “OV”."
+        },
+        {
+          "id": "CP",
+          "name" : "CP Care Provision",
+          "description" : "The Care Provision Section contains those functions and supporting Conformance Criteria that are required to provide direct care to a specific patient and enable hands-on delivery of healthcare. The functions are general and are not limited to a specific care setting and may be applied as part of an Electronic Health Record supporting healthcare offices, clinics, hospitals and specialty care centers. The functions in this section are organized in general flow of an encounter; however, it is recognized that encounter flow varies considerably in different care settings and scopes of practice. All functions within the Care Provision Section have an identifier starting with “CP”."
+        },
+        {
+          "id": "AS",
+          "name": "AS Administration_Support",
+          "description": "The Administrative Support Section focusses on functions required in the EHR-S to support the management of the clinical practice and to assist with the administrative and financial operations. This includes management of resources, workflow and communication with patients and providers as well as the management of non-clinical administrative information on patients and providers. All functions within the Administrative Support Section have an identifier starting with “AS”."
+        }
+      ],
+      "resource": [
+        {
+          "reference": { "reference": "Requirements/EHRSFMR2.1-OV.1" },
+          "groupingId": "OV"
+        },
+        {
+          "reference": { "reference": "Requirements/EHRSFMR2.1-CP.1" },
+          "groupingId": "CP"
+        },
+        {
+          "reference": { "reference": "Requirements/EHRSFMR2.1-CP.2" },
+          "groupingId": "CP"
+        }
+      ],
       "page": {
+        "generation": "html",
+        "title": "Table of Contents",
         "page": [
           {
             "name": "index.html",
-            "generation": "html",
+            "generation": "markdown",
             "title": "Home Page"
           },
           {
             "name": "downloads.html",
-            "generation": "html",
+            "generation": "markdown",
             "title": "Useful Downloads"
           },
           {
             "name": "changes.html",
-            "generation": "html",
+            "generation": "markdown",
             "title": "IG Change History"
           }
-        ],
-        "generation": "html",
-        "title": "Table of Contents"
+        ]
       },
       "parameter": [
         {
