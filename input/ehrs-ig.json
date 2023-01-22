@@ -1,0 +1,63 @@
+{
+    "resourceType": "ImplementationGuide",
+    "id": "EHRSFMR2.1",
+    "url": "http://hl7.org/ehrs/ImplementationGuide/EHRSFMR2.1",
+    "version": "0.2",
+    "name": "EHRSFMR2.1",
+    "title": "EHR System Functional Model R2.1",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "EHR WG",
+    "contact" : [ {
+      "telecom" : [ {
+        "system" : "url",
+        "value" : "http://www.hl7.org/Special/committees/ehr"
+      } ]
+    } ],
+    "description": "A brief description of what MyIG is about (probably the same text as in your readme)",
+    "jurisdiction" : [{
+      "coding" : [{
+        "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+        "code" : "001"
+      }]
+    }],
+    "packageId": "EHRSFMR2.1",
+    "fhirVersion": [ "5.0.0-snapshot3" ],
+    "definition": {
+      "page": {
+        "page": [
+          {
+            "name": "index.html",
+            "generation": "html",
+            "title": "Home Page"
+          },
+          {
+            "name": "downloads.html",
+            "generation": "html",
+            "title": "Useful Downloads"
+          },
+          {
+            "name": "changes.html",
+            "generation": "html",
+            "title": "IG Change History"
+          }
+        ],
+        "generation": "html",
+        "title": "Table of Contents"
+      },
+      "parameter": [
+        {
+          "code" : {
+            "code" : "releaselabel"
+          },
+          "value": "CI Build"
+        },
+        {
+          "code" : {
+            "code" : "copyrightyear"
+          },
+          "value": "2023"
+        }
+      ]
+    }
+  }

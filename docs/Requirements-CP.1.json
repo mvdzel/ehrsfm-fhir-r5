@@ -1,0 +1,8 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.1",
+  "url": "http://hl7.org/fhir/Requirements/EHRSFMR2.1-CP.1",
+  "name": "ManageClinicalHistory",
+  "title": "CP.1 Manage Clinical History",
+  "status": "active"
+}

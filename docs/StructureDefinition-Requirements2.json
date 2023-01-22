@@ -1,0 +1,55 @@
+{
+    "resourceType": "StructureDefinition",
+    "url": "http://hl7.org/fhir/StructureDefinition/Requirements2",
+    "language": "en",
+    "version": "1.0",
+    "name": "Requirements2",
+    "title": "Requirements2",
+    "status": "draft",
+    "date": "2020-04-06",
+    "contact": [
+        {
+            "name": "EHR WG"
+        }
+    ],
+    "description": "Each function in the Function List includes one or more Conformance Criteria. A Conformance Criteria, which exists as normative language in this standard, defines the requirements for conforming to the function. The language used to express a conformance criterion is highly structured with standardized components with set meanings. The structured language used to define conformance clauses in the Function List are defined in the Glossary (Chapter 4).",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Requirements",
+    "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Requirements",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "Requirement",
+                "path": "Requirement",
+                "min": 0,
+                "max": "*"
+            },
+            {
+                "id": "Requirement.name",
+                "path": "Requirements2.short",
+                "label": "short",
+                "min": 1,
+                "max": "1",
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "Requirement.parent",
+                "path": "Requirements2.parent",
+                "label": "parent",
+                "min": 1,
+                "max": "1",
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            }
+        ]
+    }
+}

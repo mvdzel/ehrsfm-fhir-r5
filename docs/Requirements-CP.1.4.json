@@ -1,0 +1,20 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.1.4",
+  "url": "http://hl7.org/fhir/Requirements/EHRSFMR2.1-CP.1.4",
+  "name": "ManageProblemList",
+  "title": "CP.1.4 Manage Problem List",
+  "status": "active",
+  "description": "A problem list may include, but is not limited to chronic conditions, diagnoses, or symptoms, injury/poisoning (both intentional and unintentional), adverse effects of medical or dental care (e.g., drugs, surgical), functional limitations, visit or stay-specific conditions, diagnoses, or symptoms.. ...",
+  "statement": [
+    {
+      "key": "EHRSFMR2.1-CP.1.4-03",
+      "label": "CP.1.4#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "requirement": "The system SHALL provide the ability to manage the status of each problem (e.g., active, inactive, resolved).",
+      "reference": "EHRSFMR1#DC.1.4#03"
+    }
+  ]
+}

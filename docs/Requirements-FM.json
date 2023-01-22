@@ -1,0 +1,9 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1",
+  "url": "http://hl7.org/fhir/Requirements/EHRSFMR2.1",
+  "name": "FunctionalModel",
+  "title": "EHR System Functional Model R2.1",
+  "version": "R2.1",
+  "status": "active"
+}

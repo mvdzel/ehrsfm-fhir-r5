@@ -1,0 +1,8 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP",
+  "url": "http://hl7.org/fhir/Requirements/EHRSFMR2.1-CP",
+  "name": "CareProvision",
+  "title": "Care Provision",
+  "status": "active"
+}
