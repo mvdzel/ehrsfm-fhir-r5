@@ -5,7 +5,6 @@ Output snapshot: https://vdzel.home.xs4all.nl/ehrsfm-fhir-r5/
 * Get FM metadata from the .mif file + authors
 * How to create links [[TI.1.5]] from criteria to Functions?
 * IG Template adjustments (.fhir/packages/fhir.base.template#current)
-* Sorting in Section not yet correct, sort resource in script?!
 
 ## Running the scipt and IG publisher
 
@@ -33,4 +32,15 @@ Output snapshot: https://vdzel.home.xs4all.nl/ehrsfm-fhir-r5/
 For debugging xslt:
 ``` <!-- XXX --> <xsl:message><xsl:copy-of select="."/></xsl:message> ```
 
+--------------------
 http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
+
+No narrative removes rendering of Requirement.statements?
+        {
+          "code" : {
+            "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+            "code" : "no-narrative"
+          },
+          "value": "Requirements/*"
+        },
+

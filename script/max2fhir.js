@@ -55,6 +55,7 @@ Object.values(reqs).forEach(req => {
     fs.writeFileSync(filename, JSON.stringify(req, null, 2))
 });
 
+sortResources();
 console.log('"grouping":' + JSON.stringify(groupings, null, 2));
 console.log('"resource":' + JSON.stringify(resources, null, 2));
 
@@ -99,7 +100,7 @@ function handleSection(section, parentObject) {
       }
     var grouping = {
         "id": alias,
-        "name" : alias + " " + title,
+        "name" : title + " Section",
         "description" : overview
       }
     groupings.push(grouping);
@@ -258,6 +259,51 @@ function sort(obj) {
             bname += cnum;
         }
         // console.log(aname + " " + bname);
+        return (aname > bname) ? 1 : -1 ;
+    });    
+}
+
+function sortResources(obj) {
+    // sort by FM ID
+    var section_sortkey = [];
+    // EHR-S FM and UFP chapters
+    section_sortkey['OV'] = '1OV';
+    section_sortkey['CP'] = '2CP';
+    section_sortkey['CPS'] = '3CPS';
+    section_sortkey['AS'] = '4AS';
+    section_sortkey['POP'] = '5POP';
+    section_sortkey['RI'] = '6RI';
+    section_sortkey['TI'] = '7TI';
+    section_sortkey['U'] = '8U';    
+    // PHR-S FM chapters
+    section_sortkey['PH'] = '1PH';
+    section_sortkey['S'] = '2S';
+    section_sortkey['RI'] = '3RI';
+    section_sortkey['TI'] = '4TI';
+
+    resources.sort(function (a,b) {
+        var aref = a.reference.reference;
+        var bref = b.reference.reference;
+        var aname = aref.substring(aref.indexOf('-')+1);
+        var bname = bref.substring(bref.indexOf('-')+1);
+
+        var p = aname.split(/[\.]/);
+        aname = section_sortkey[p[0]];
+        for(var i=1; i<p.length; i++){
+            aname += '.';
+            var num = Number(p[i]);
+            if (num<10) aname += '0';
+            aname += num;
+        }
+
+        var p = bname.split(/[\.]/);
+        bname = section_sortkey[p[0]];
+        for(var i=1; i<p.length; i++){
+            bname += '.';
+            if (p[i]<10) bname += '0';
+            bname += p[i];
+        }
+        //console.log(aname + " " + bname);
         return (aname > bname) ? 1 : -1 ;
     });    
 }
