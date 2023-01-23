@@ -3,6 +3,10 @@
 
 This implementation guide is the result of converting the EHR-S FM R2.1 to FHIR Requirements resources.
 
+### Dependencies
+
+{% include dependency-table.xhtml %}
+
 ### Authors and Contributors
 
 | Role  | Name | Organization | Contact |
@@ -35,7 +39,3 @@ The Function List includes the following components:
 | R1.1 Reference (Reference) | .reference | Reference to the previous version of the Functional Model is included to support transition from one version to the next. The first 2 digits indicate the source document; FM = Functional Model, LM = Lifecycle Model. The remainder of the reference is to the function and, if applicable, conformance criteria.
 | Change Indicator | *derive* | The change indicator shows the change from previous versions. This will be valued as follows: <br/>C - Changed<br/>D - Deleted<br/>N - New<br/>NC - No Change |
 | Row # | .extension... | A unique number for the row within the section. |
-
-### Dependencies
-
-{% include dependency-table.xhtml %}
