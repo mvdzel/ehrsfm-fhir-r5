@@ -10,8 +10,11 @@ xml.parseString(fs.readFileSync('ehrs_fm_r2_1-2022APR.max'), function (err, data
 // Fix the order.
 sort(maxroot);
 
-var fmid = "EHRSFMR2.1"
-var reqs = { }
+var fmid = "EHRSFMR2.1";
+var groupings = [ ];
+var resources = [ ];
+var reqs = { };
+
 maxroot.model.objects.forEach(_temp => {
     _temp.object.forEach(object => {
         var parentObject;
@@ -52,6 +55,9 @@ Object.values(reqs).forEach(req => {
     fs.writeFileSync(filename, JSON.stringify(req, null, 2))
 });
 
+console.log('"grouping":' + JSON.stringify(groupings, null, 2));
+console.log('"resource":' + JSON.stringify(resources, null, 2));
+
 function handleFM(fm) {
     var title = fm.name[0];
     var name = title.replace(/[^A-Za-z0-9_]/g, '_');
@@ -82,7 +88,7 @@ function handleSection(section, parentObject) {
     var actors = notes.substring(acidx+4).trim();
     if (actors == "") { actors = "n/a"; }
 
-    fhir_section = {
+    var fhir_section = {
         "resourceType": "Requirements",
         "id": fmid + "-" + alias,
         // "url": "http://hl7.org/fhir/Requirements/" + fmid + "-" + alias,
@@ -91,6 +97,13 @@ function handleSection(section, parentObject) {
         "status": "active",
         "description": overview,
       }
+    var grouping = {
+        "id": alias,
+        "name" : alias + " " + title,
+        "description" : overview
+      }
+    groupings.push(grouping);
+    
     return fhir_section;
 }
 
@@ -102,7 +115,7 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
     }
 
     // There are names with a '&', that gives issues in Jekyll? In title they need to be html escaped.
-    var title = headerOrFunction.name[0].replace('&', '&amp;');
+    var title = headerOrFunction.name[0];
     // Names should be computer friendly
     var name = headerOrFunction.name[0].replace(/[^A-Za-z0-9_]/g, '_');
     var alias = headerOrFunction.alias[0];
@@ -114,30 +127,29 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
     var description = notes.substring(deidx+4, exidx).trim();
     var example = notes.substring(exidx+4).trim();
     if (example == "") { example = "n/a"; }
-    var type = "";
-    switch (headerOrFunction.stereotype[0]) {
-        case "Function":
-            type = "F";
-            break;
-        case "Header":
-            type = "H";
-            break;
-        }
+    var type = headerOrFunction.stereotype[0];
 
-    fhir_headerorfunction = {
+    var fhir_headerorfunction = {
         "resourceType": "Requirements",
         "id": fmid + "-" + alias,
         // "url": "http://hl7.org/fhir/Requirements/" + fmid + "-" + alias,
         "name": name,
-        "title": title,
+        "title": title + " (" + type + ")",
         "status": "active",
-        "description": description,
+        "description": description
       }
+
+    var resource = {
+        "reference": { "reference": "Requirements/" + fmid + "-" + alias },
+        "groupingId": alias.substring(0, alias.indexOf('.'))
+      }
+    resources.push(resource);
+
     return fhir_headerorfunction;
 }
 
 function handleCriteria(criteria, fhir_parent_req) {
-    var id = criteria.id[0].replace('#','-');
+    var id = criteria.name[0].replace('#','-');
     var name = criteria.name[0];
     var notes = criteria.notes[0];
     var optionality = criteria.tag.find(tag => tag['$'].name === 'Optionality');

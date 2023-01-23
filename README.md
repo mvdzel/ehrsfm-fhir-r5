@@ -1,11 +1,11 @@
 Output snapshot: https://vdzel.home.xs4all.nl/ehrsfm-fhir-r5/
 
 ## TODO
-* Define extension to denote EHRS Requirements type, Functional Model, Funcional Profile, Header, Function, ...
-* Get FM metadata from the .mif file
+* Define extension or profiles to for EHRS type and constraints, Functional Model, Funcional Profile, Header, Function, ... 
+* Get FM metadata from the .mif file + authors
 * How to create links [[TI.1.5]] from criteria to Functions?
 * IG Template adjustments (.fhir/packages/fhir.base.template#current)
-* Sorting the artifact index based on name -> TODO: based on FM section id and then alfa (ig/template/scripts/createArtifactSummary.xslt)
+* Sorting in Section not yet correct, sort resource in script?!
 
 ## Running the scipt and IG publisher
 
