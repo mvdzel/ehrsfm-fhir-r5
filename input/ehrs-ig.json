@@ -41,2080 +41,2080 @@
           "description": "The Care Provision Support Section focusses on functions required to support the provision of care to a specific patient to enable hands-on delivery of healthcare. This section is organized generally in alignment with Care Provision Section. For example, CP.4 (Manage Orders) is supported directly by CPS.4 (Support Orders). This alignment is designed to assist in finding related support functions related to care provision functions but is not expected to be 100% matched as some Care Provision Functions do not require matching Support functions or vice-versa.\n\nAll functions within the Care Provision Support Section have an identifier starting with “CPS”."
         },
         {
-          "id": "RI",
-          "name": "Record Infrastructure Section",
-          "description": "The Record Infrastructure Section consists of functions common to EHR System record management, particularly those functions foundational to managing record lifecycle (origination, attestation, amendment, access/use, translation, transmittal/disclosure, receipt, de-identification, archive…) and record lifespan (persistence, indelibility, continuity, audit, encryption). RI functions are core and foundational to all other functions of the Model (CP, CPS, POP, AS). Note extensive reference to RI functions in Overarching Criteria. RI functions may be implemented within the architecture of a single system or across a tightly coupled suite of systems (applications).All functions within the Record Infrastructure Section have an identifier starting with “RI”."
-        },
-        {
           "id": "AS",
           "name": "Administration Support Section",
           "description": "The Administrative Support Section focusses on functions required in the EHR-S to support the management of the clinical practice and to assist with the administrative and financial operations. This includes management of resources, workflow and communication with patients and providers as well as the management of non-clinical administrative information on patients and providers. All functions within the Administrative Support Section have an identifier starting with “AS”."
         },
         {
-          "id": "TI",
-          "name": "Trust Infrastructure Section",
-          "description": "The Trust Infrastructure (TI) Section consists of functions common to an EHR System infrastructure, particularly those functions foundational to system operations, security, efficiency and data integrity assurance, safeguards for privacy and confidentiality, and interoperability with other systems. TI functions are core and foundational to all other functions of the Model (Care Provision, Care Provision Support, Population Health, Administrative Support and Record Infrastructure). Note extensive reference to TI functions in Overarching Criteria. TI functions may be implemented within the architecture of a single system or across a tightly coupled suite of systems (applications).All functions within the Trust Infrastructure Section have an identifier starting with \"TI\"."
-        },
-        {
           "id": "POP",
           "name": "Population Health Support Section",
           "description": "The Population Health Support Section focuses on those functions required of the EHR to support the prevention and control of disease among a group of people (as opposed to the direct care of a single patient), usually with something(s) in common, e.g., reside in the U.S., have diabetes, are under the age of 5, are treated by the same care provider, have pneumonia and are in a long-term care facility, etc. This section includes functions to support input to systems that perform medical research, promote public health, & improve the quality of care at a multi-patient level. Population health data must be managed carefully to avoid inadvertently breaching patient privacy and confidentiality. Individual patients may be identifiable within a population or aggregate based on information other than patient identifiers, e.g., age plus location, and/or based on a combination of public and population-based information. This section specifically addresses requirements related to patient privacy and consent for use of patient information for secondary uses, and/or reporting. All functions within the Population Health Support Section have an identifier starting with “POP”."
+        },
+        {
+          "id": "RI",
+          "name": "Record Infrastructure Section",
+          "description": "The Record Infrastructure Section consists of functions common to EHR System record management, particularly those functions foundational to managing record lifecycle (origination, attestation, amendment, access/use, translation, transmittal/disclosure, receipt, de-identification, archive…) and record lifespan (persistence, indelibility, continuity, audit, encryption). RI functions are core and foundational to all other functions of the Model (CP, CPS, POP, AS). Note extensive reference to RI functions in Overarching Criteria. RI functions may be implemented within the architecture of a single system or across a tightly coupled suite of systems (applications).All functions within the Record Infrastructure Section have an identifier starting with “RI”."
+        },
+        {
+          "id": "TI",
+          "name": "Trust Infrastructure Section",
+          "description": "The Trust Infrastructure (TI) Section consists of functions common to an EHR System infrastructure, particularly those functions foundational to system operations, security, efficiency and data integrity assurance, safeguards for privacy and confidentiality, and interoperability with other systems. TI functions are core and foundational to all other functions of the Model (Care Provision, Care Provision Support, Population Health, Administrative Support and Record Infrastructure). Note extensive reference to TI functions in Overarching Criteria. TI functions may be implemented within the architecture of a single system or across a tightly coupled suite of systems (applications).All functions within the Trust Infrastructure Section have an identifier starting with \"TI\"."
         }
       ],
       "resource":[
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-OV.1"
-    },
-    "groupingId": "OV"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.1"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.1.1"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.1.2"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.1.3"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.1.4"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.1.5"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.1.6"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.1.7"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.1.8"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.1.9"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.2"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.2.1"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.2.2"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.2.3"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.2.4"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.2.5"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.3"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.3.1"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.3.2"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.3.3"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.3.4"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.3.5"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.4"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.4.1"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.4.2"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.4.2.1"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.4.2.2"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.4.2.3"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.4.2.4"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.4.3"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.4.4"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.4.5"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.4.6"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.5"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.5.1"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.6"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.6.1"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.6.2"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.6.3"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.7"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.7.1"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.7.2"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.8"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.8.1"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.9"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.9.1"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CP.9.2"
-    },
-    "groupingId": "CP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.4"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.5"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.6"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.6.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.6.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.6.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.6.4"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.7"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.7.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.7.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.1.7.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.2.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.2.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.2.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.2.4"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.2.5"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.2.6"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.2.7"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.2.8"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.4"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.5"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.6"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.7"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.8"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.9"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.10"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.11"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.3.12"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.2.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.2.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.2.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.2.4"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.2.5"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.4"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.5"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.6"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.6.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.6.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.4.6.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.5"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.6"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.6.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.6.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.6.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.6.4"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.7"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.7.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.8"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.8.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.8.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.8.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.8.4"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.8.5"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.8.6"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.9"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.9.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.9.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.9.2.1"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.9.2.2"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.9.2.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.9.3"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.9.4"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.9.5"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.9.6"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-CPS.10"
-    },
-    "groupingId": "CPS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.1.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.2"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.2.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.3"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.3.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.4"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.4.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.5"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.5.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.6"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.6.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.7"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.7.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.8"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.8.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.9"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.9.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.10"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.10.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.11"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.11.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.12"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.12.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.13"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.13.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.14"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.14.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.15"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.15.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.16"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.16.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.17"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.17.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.18"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.18.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.19"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.19.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.20"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.20.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.21"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.21.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.22"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.22.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.23"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.23.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.24"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.24.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.25"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.25.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.26"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.26.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.27"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.1.27.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.2"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.2.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.2.2"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.3"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.3.1"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.3.2"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.3.3"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.3.4"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.1.4"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.2"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-RI.3"
-    },
-    "groupingId": "RI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.1"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.1.1"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.1.2"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.1.3"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.1.4"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.1.5"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.1.6"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.1.7"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.1.8"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.2"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.2.1"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.2.2"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.2.3"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.2.4"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.2.5"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.2.6"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.3"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.3.1"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.3.2"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.3.2.1"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.3.2.2"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.4"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.4.1"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.4.2"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.4.3"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.4.4"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.5"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.5.1"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.5.2"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.5.3"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.5.4"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.6"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.6.1"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.6.2"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.6.3"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.6.4"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.6.5"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.6.6"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.7"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.7.1"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.7.2"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.7.3"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.7.4"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.7.5"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.8"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.8.1"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.8.2"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.8.3"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.8.4"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.8.5"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.9"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.9.1"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.9.2"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.9.3"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.9.4"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-AS.9.5"
-    },
-    "groupingId": "AS"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.3"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.3.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.4"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.5"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.6"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.7"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.8"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.8.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.8.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.9"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.10"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.1.11"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.3"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.4"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.5"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.6"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.7"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.8"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.9"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.3"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.4"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.5"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.6"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.7"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.8"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.9"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.10"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.11"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.12"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.13"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.14"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.15"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.16"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.4"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.4.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.4.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.1.4.3"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.2.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.2.3"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.3"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.4"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.4.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.4.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.4.3"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.5"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.5.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.5.1.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.5.1.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.5.1.3"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.5.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.5.3"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.5.4"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.5.5"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.6"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.7"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.8"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.9"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.10"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.10.1"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.10.2"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-TI.10.3"
-    },
-    "groupingId": "TI"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.1"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.1.1"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.1.2"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.2"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.2.1"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.2.2"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.2.3"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.3"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.4"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.5"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.6"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.6.1"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.6.2"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.6.3"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.6.4"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.7"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.8"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.9"
-    },
-    "groupingId": "POP"
-  },
-  {
-    "reference": {
-      "reference": "Requirements/EHRSFMR2.1-POP.10"
-    },
-    "groupingId": "POP"
-  }
-],
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-OV.1"
+          },
+          "groupingId": "OV"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.1"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.1.1"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.1.2"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.1.3"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.1.4"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.1.5"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.1.6"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.1.7"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.1.8"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.1.9"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.2"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.2.1"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.2.2"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.2.3"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.2.4"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.2.5"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.3"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.3.1"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.3.2"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.3.3"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.3.4"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.3.5"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.4"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.4.1"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.4.2"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.4.2.1"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.4.2.2"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.4.2.3"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.4.2.4"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.4.3"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.4.4"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.4.5"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.4.6"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.5"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.5.1"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.6"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.6.1"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.6.2"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.6.3"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.7"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.7.1"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.7.2"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.8"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.8.1"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.9"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.9.1"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP.9.2"
+          },
+          "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.4"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.5"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.6"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.6.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.6.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.6.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.6.4"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.7"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.7.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.7.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.1.7.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.2.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.2.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.2.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.2.4"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.2.5"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.2.6"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.2.7"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.2.8"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.4"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.5"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.6"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.7"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.8"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.9"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.10"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.11"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.3.12"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.2.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.2.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.2.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.2.4"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.2.5"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.4"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.5"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.6"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.6.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.6.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.4.6.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.5"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.6"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.6.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.6.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.6.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.6.4"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.7"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.7.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.8"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.8.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.8.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.8.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.8.4"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.8.5"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.8.6"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.9"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.9.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.9.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.9.2.1"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.9.2.2"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.9.2.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.9.3"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.9.4"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.9.5"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.9.6"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS.10"
+          },
+          "groupingId": "CPS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.1"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.1.1"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.1.2"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.1.3"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.1.4"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.1.5"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.1.6"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.1.7"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.1.8"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.2"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.2.1"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.2.2"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.2.3"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.2.4"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.2.5"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.2.6"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.3"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.3.1"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.3.2"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.3.2.1"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.3.2.2"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.4"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.4.1"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.4.2"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.4.3"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.4.4"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.5"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.5.1"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.5.2"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.5.3"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.5.4"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.6"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.6.1"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.6.2"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.6.3"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.6.4"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.6.5"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.6.6"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.7"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.7.1"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.7.2"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.7.3"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.7.4"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.7.5"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.8"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.8.1"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.8.2"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.8.3"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.8.4"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.8.5"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.9"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.9.1"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.9.2"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.9.3"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.9.4"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS.9.5"
+          },
+          "groupingId": "AS"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.1"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.1.1"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.1.2"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.2"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.2.1"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.2.2"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.2.3"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.3"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.4"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.5"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.6"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.6.1"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.6.2"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.6.3"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.6.4"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.7"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.8"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.9"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP.10"
+          },
+          "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.1.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.2"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.2.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.3"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.3.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.4"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.4.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.5"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.5.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.6"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.6.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.7"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.7.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.8"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.8.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.9"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.9.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.10"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.10.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.11"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.11.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.12"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.12.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.13"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.13.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.14"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.14.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.15"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.15.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.16"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.16.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.17"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.17.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.18"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.18.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.19"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.19.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.20"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.20.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.21"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.21.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.22"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.22.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.23"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.23.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.24"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.24.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.25"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.25.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.26"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.26.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.27"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.1.27.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.2"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.2.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.2.2"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.3"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.3.1"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.3.2"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.3.3"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.3.4"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.1.4"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.2"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI.3"
+          },
+          "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.3"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.3.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.4"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.5"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.6"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.7"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.8"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.8.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.8.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.9"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.10"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.1.11"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.3"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.4"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.5"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.6"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.7"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.8"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.2.9"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.3"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.4"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.5"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.6"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.7"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.8"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.9"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.10"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.11"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.12"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.13"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.14"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.15"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.3.16"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.4"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.4.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.4.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.1.4.3"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.2.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.2.3"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.3"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.4"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.4.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.4.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.4.3"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.5"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.5.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.5.1.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.5.1.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.5.1.3"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.5.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.5.3"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.5.4"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.5.5"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.6"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.7"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.8"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.9"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.10"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.10.1"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.10.2"
+          },
+          "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI.10.3"
+          },
+          "groupingId": "TI"
+        }
+      ],
       "page": {
         "generation": "html",
         "title": "Table of Contents",

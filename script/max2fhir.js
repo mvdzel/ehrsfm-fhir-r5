@@ -176,7 +176,7 @@ function handleCriteria(criteria, fhir_parent_req) {
 function sort(obj) {
     // sort by FM ID
     var section_sortkey = [];
-    // EHR-S FM and UFP chapters
+    // EHR-S FM
     section_sortkey['OV'] = '1OV';
     section_sortkey['CP'] = '2CP';
     section_sortkey['CPS'] = '3CPS';
@@ -184,12 +184,11 @@ function sort(obj) {
     section_sortkey['POP'] = '5POP';
     section_sortkey['RI'] = '6RI';
     section_sortkey['TI'] = '7TI';
+    // extra UFP chapter
     section_sortkey['U'] = '8U';    
-    // PHR-S FM chapters
+    // extra PHR-S FM chapters
     section_sortkey['PH'] = '1PH';
     section_sortkey['S'] = '2S';
-    section_sortkey['RI'] = '3RI';
-    section_sortkey['TI'] = '4TI';
 
     obj['model'].objects[0].object.sort(function (a,b) {
         var aname = a.name;
@@ -274,12 +273,11 @@ function sortResources(obj) {
     section_sortkey['POP'] = '5POP';
     section_sortkey['RI'] = '6RI';
     section_sortkey['TI'] = '7TI';
+    // extra UFP chapter
     section_sortkey['U'] = '8U';    
-    // PHR-S FM chapters
+    // extra PHR-S FM chapters
     section_sortkey['PH'] = '1PH';
     section_sortkey['S'] = '2S';
-    section_sortkey['RI'] = '3RI';
-    section_sortkey['TI'] = '4TI';
 
     resources.sort(function (a,b) {
         var aref = a.reference.reference;
