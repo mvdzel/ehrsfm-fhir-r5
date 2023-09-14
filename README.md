@@ -13,6 +13,7 @@ Output snapshot: https://vdzel.home.xs4all.nl/ehrsfm-fhir-r5/
 > docker run --name=ehrsfm-fhir-r5 -it -v "$(pwd)":/app node:lts-buster /bin/bash
 @> npm init
 @> node max2fhir.js
+@> node max2plantuml.js > ../input/images-source/relationships.plantuml 
 @> java -jar { path-to-publisher }/org.hl7.fhir.publisher.jar -ig ig.ini -tx n/a
 ```
 
