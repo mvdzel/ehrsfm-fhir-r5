@@ -9,8 +9,9 @@ xml.parseString(fs.readFileSync('ehrs_fm_r2_1-2022APR.max'), function (err, data
 
 var objects = { };
 
-console.log("skinparam nodesep 10");
 console.log(`
+@startuml
+skinparam nodesep 10
 skinparam rectangle {
     backgroundColor<<OV>> 99ccff
     backgroundColor<<CP>> 99ff99
@@ -51,3 +52,4 @@ maxroot.model.relationships.forEach(relationships => {
     });
 });
 
+console.log("@enduml");

@@ -7,3 +7,4 @@ template/
 input-cache/
 */node_modules
 .~lock*
+.index.json
