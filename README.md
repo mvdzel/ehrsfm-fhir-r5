@@ -1,10 +1,12 @@
 Output snapshot: https://vdzel.home.xs4all.nl/ehrsfm-fhir-r5/
 
 ## TODO
-* Define extension or profiles to for EHRS type and constraints, Functional Model, Funcional Profile, Header, Function, ... 
+* Define Profiles for EHRS types include constraints, Functional Model, Funcional Profile, Header, Function, ... 
+  * Extension needed for "Dependent"
 * Get FM metadata from the .mif file + authors
-* How to create links [[TI.1.5]] from criteria to Functions?
-* IG Template adjustments (.fhir/packages/fhir.base.template#current)
+
+## Solutions
+* How to create links [[TI.1.5]] from criteria to Functions? -> done in template Requirements.liquid
 
 ## Running the scipt and IG publisher
 
@@ -36,7 +38,7 @@ For debugging xslt:
 --------------------
 http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 
-No narrative removes rendering of Requirement.statements?
+No narrative removes rendering of Requirement.statements. So don't do this.
         {
           "code" : {
             "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",

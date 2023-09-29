@@ -132,16 +132,21 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
 
     var fhir_headerorfunction = {
         "resourceType": "Requirements",
-        "id": fmid + "-" + alias,
-        // "url": "http://hl7.org/fhir/Requirements/" + fmid + "-" + alias,
+        "id": `${fmid}-${alias}`,
+        "meta": {
+            "profile": [
+                `http://hl7.org/ehrs/StructureDefinition/FM${type}`
+            ]
+        },
+        // "url": `http://hl7.org/fhir/Requirements/${fmid}-${alias}`,
         "name": name,
-        "title": title + " (" + type + ")",
+        "title": `${title} (${type})`,
         "status": "active",
         "description": description
       }
 
     var resource = {
-        "reference": { "reference": "Requirements/" + fmid + "-" + alias },
+        "reference": { "reference": `Requirements/${fmid}-${alias}` },
         "groupingId": alias.substring(0, alias.indexOf('.'))
       }
     resources.push(resource);

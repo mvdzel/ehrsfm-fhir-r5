@@ -1,9 +1,9 @@
 {
     "resourceType": "ImplementationGuide",
-    "id": "EHRSFMR2.1",
-    "url": "http://hl7.org/ehrs/ImplementationGuide/EHRSFMR2.1",
-    "version": "0.5",
-    "name": "EHRSFMR2.1",
+    "id": "EHRSFMR2_1",
+    "url": "http://hl7.org/ehrs/ImplementationGuide/EHRSFMR2_1",
+    "version": "0.6.0",
+    "name": "EHRSFMR2_1",
     "title": "ISO/HL7 10781 - Electronic Health Record System Functional Model, Release 2.1",
     "status": "draft",
     "experimental": false,
@@ -14,13 +14,7 @@
         "value" : "http://www.hl7.org/Special/committees/ehr"
       } ]
     } ],
-    "description": "A brief description of what MyIG is about (probably the same text as in your readme)",
-    "jurisdiction" : [{
-      "coding" : [{
-        "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-        "code" : "001"
-      }]
-    }],
+    "description": "This is the base EHR-System Functional Model used in Functional Profiles.",
     "packageId": "EHRSFMR2.1",
     "fhirVersion": [ "5.0.0" ],
     "definition": {
