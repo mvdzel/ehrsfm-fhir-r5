@@ -124,10 +124,11 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
     var stidx = notes.indexOf("$ST$");
     var deidx = notes.indexOf("$DE$");
     var exidx = notes.indexOf("$EX$");
+    if (exidx == -1) exidx = notes.length;
     var statement = notes.substring(4, deidx).trim();
     var description = notes.substring(deidx+4, exidx).trim();
     var example = notes.substring(exidx+4).trim();
-    if (example == "") { example = "n/a"; }
+    //if (example == "") { example = "n/a"; }
     var type = headerOrFunction.stereotype[0];
 
     var fhir_headerorfunction = {

@@ -3,6 +3,7 @@ Output snapshot: https://vdzel.home.xs4all.nl/ehrsfm-fhir-r5/
 ## TODO
 * Define Profiles for EHRS types include constraints, Functional Model, Funcional Profile, Header, Function, ... 
   * Extension needed for "Dependent"
+  * use Extension for statement -> short
 * Get FM metadata from the .mif file + authors
 
 ## Solutions
