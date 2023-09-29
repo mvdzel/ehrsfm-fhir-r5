@@ -1,10 +1,7 @@
-<script>
+<script type="text/javascript">
 var statements = document.getElementById("statements");
 var requirements = statements.getElementsByClassName("requirement");
-if (requirements) {
-    for(var i=0; i<requirements.length; i++) {
-        var req = requirements[i];
-        req.innerHTML = req.innerHTML.replace(/\[\[([^\]]+)\]\]/g, '<a href="Requirements-EHRSFMR2.1-\$1.html">\$1</a>')
-    }
+for(var req of requirements) {
+    req.innerHTML = req.innerHTML.replace(/\[\[([^\]]+)\]\]/g, '<a href="Requirements-EHRSFMR2.1-\$1.html">\$1</a>')
 }
 </script>

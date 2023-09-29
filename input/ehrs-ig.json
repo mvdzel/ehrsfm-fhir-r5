@@ -1,9 +1,9 @@
 {
     "resourceType": "ImplementationGuide",
-    "id": "EHRSFMR2_1",
-    "url": "http://hl7.org/ehrs/ImplementationGuide/EHRSFMR2_1",
+    "id": "EHRSFMR2.1",
+    "url": "http://hl7.org/ehrs/ImplementationGuide/EHRSFMR2.1",
     "version": "0.6.0",
-    "name": "EHRSFMR2_1",
+    "name": "EHRSFMR21",
     "title": "ISO/HL7 10781 - Electronic Health Record System Functional Model, Release 2.1",
     "status": "draft",
     "experimental": false,
@@ -2110,14 +2110,10 @@
         }
       ],
       "page": {
-        "generation": "html",
-        "title": "Table of Contents",
+        "name": "index.html",
+        "generation": "markdown",
+        "title": "Home Page",
         "page": [
-          {
-            "name": "index.html",
-            "generation": "markdown",
-            "title": "Home Page"
-          },
           {
             "name": "downloads.html",
             "generation": "markdown",
