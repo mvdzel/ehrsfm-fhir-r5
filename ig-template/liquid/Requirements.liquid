@@ -20,7 +20,7 @@
                 {% if statement.satisfiedBy.exists() %}
                 Satisfied by:<ol>
                 {% for uri in statement.satisfiedBy %}
-                    <li><a href="https://hl7.org/fhir/allergyintolerance-definitions.html#{{uri}}">{{uri}}</a></li>
+                    <li>{{uri}}</li>
                 {% endfor %}
                 </ol>
                 {% endif %}

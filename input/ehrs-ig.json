@@ -15,7 +15,7 @@
       } ]
     } ],
     "description": "This is the base EHR-System Functional Model used in Functional Profiles.",
-    "packageId": "EHRSFMR2.1",
+    "packageId": "hl7.ehrsfmr21.base",
     "fhirVersion": [ "5.0.0" ],
     "definition": {
       "grouping":[

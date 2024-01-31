@@ -7,29 +7,36 @@ Output snapshot: https://vdzel.home.xs4all.nl/ehrsfm-fhir-r5/
 * Get FM metadata from the .mif file + authors
 
 ## Solutions
-* How to create links [[TI.1.5]] from criteria to Functions? -> done in template Requirements.liquid
+* How to create links [[TI.1.5]] from criteria to Functions? -> done in ig-template _append.fragment-footer.html javascript include
+* How to create links from criterie to satisfiedby -> done in ig-template Requirements.liquid
+  * Example: CP.1.4 add as last in first requirement
+        "satisfiedBy": [ "https://hl7.org/fhir/R5/condition.html" ]
 
 ## Running the scipt and IG publisher
 
 # Convert script
 ```
 > docker run --name=ehrsfm-fhir-r5 -it -v "$(pwd)":/app node:lts-buster /bin/bash
-@> npm init
+@> cd script
+@> (once) npm init
+@> (once) dpkg -i jdk-21_linux-x64_bin.deb
+@> (once) apt update; apt install graphviz jekyll
 @> node max2fhir.js
 @> node max2plantuml.js > ../input/images-source/relationships.plantuml 
-@> java -jar { path-to-publisher }/org.hl7.fhir.publisher.jar -ig ig.ini -tx n/a
+...
+@> java -jar publisher.jar -ig ig.ini -tx n/a
 ```
 
 # Validate
 ```
 (optional) > curl -L https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar -o validator_cli.jar
-> java -jar ../../latest-ig-publisher/validator_cli.jar -version current input/resources -ig input/resources
+> java -jar validator_cli.jar -version current input/resources -ig input/resources
 ```
 
 # To build IG
 ```
 (optional)> curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher.jar
-> java -jar ../../latest-ig-publisher/publisher.jar -ig ig.ini
+> java -jar publisher.jar -ig ig.ini
 ```
 
 --------------------
