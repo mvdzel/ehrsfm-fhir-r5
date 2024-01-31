@@ -1,5 +1,3 @@
-Output snapshot: https://vdzel.home.xs4all.nl/ehrsfm-fhir-r5/
-
 ## TODO
 * Define Profiles for EHRS types include constraints, Functional Model, Funcional Profile, Header, Function, ... 
   * Extension needed for "Dependent"
@@ -23,8 +21,6 @@ Output snapshot: https://vdzel.home.xs4all.nl/ehrsfm-fhir-r5/
 @> (once) apt update; apt install graphviz jekyll
 @> node max2fhir.js
 @> node max2plantuml.js > ../input/images-source/relationships.plantuml 
-...
-@> java -jar publisher.jar -ig ig.ini -tx n/a
 ```
 
 # Validate
