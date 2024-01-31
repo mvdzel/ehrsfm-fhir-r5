@@ -185,7 +185,7 @@ function handleCriteria(criteria, fhir_parent_req) {
         "requirement": notes
       };
     if (!fhir_parent_req.statement) { fhir_parent_req.statement = [] }
-    if (id in satisfiedBy) { fhir_statement["satisfieBy"] = [ satisfiedBy[id]] }
+    if (id in satisfiedBy) { fhir_statement["satisfiedBy"] = [ satisfiedBy[id]] }
     fhir_parent_req.statement.push(fhir_statement);
 }
 
