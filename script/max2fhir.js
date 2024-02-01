@@ -152,7 +152,8 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
         "name": name,
         "title": `${title} (${type})`,
         "status": "active",
-        "description": description
+        "description": statement,
+        "purpose": description
       }
 
     var resource = {
