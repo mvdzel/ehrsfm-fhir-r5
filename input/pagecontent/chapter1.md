@@ -1,3 +1,5 @@
+<style>table, td, th { border: 1px solid black; padding:5px; }</style>
+
 The HL7 EHR System Functional Model provides a reference list of functions that may be present in an Electronic
 Health Record System (EHR-S). The function list is described from a user perspective with the intent to enable
 consistent expression of system functionality. This EHR-S Functional Model, through the creation of Functional

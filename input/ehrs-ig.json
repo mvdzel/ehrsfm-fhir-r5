@@ -2125,6 +2125,26 @@
             "title": "Scope"
           },
           {
+            "name": "chapter2.html",
+            "generation": "markdown",
+            "title": "Normative References"
+          },
+          {
+            "name": "chapter3.html",
+            "generation": "markdown",
+            "title": "Terms and Definitions"
+          },
+          {
+            "name": "chapter4.html",
+            "generation": "markdown",
+            "title": "Overview and Definition of the Functional Model (Normative)"
+          },
+          {
+            "name": "chapter5.html",
+            "generation": "markdown",
+            "title": "Anticipated Uses (Reference)"
+          },
+          {
             "name": "downloads.html",
             "generation": "markdown",
             "title": "Useful Downloads"
