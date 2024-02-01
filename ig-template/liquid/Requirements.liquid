@@ -1,10 +1,13 @@
 <div>
-    <span id="description"><b>Description:</b> {{Requirements.description}}</span>
+    <span id="description"><b>Description <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>:</b> {{Requirements.description}}</span>
 
     {% if Requirements.purpose.exists() %}
-    <span><b>Purpose:</b> {{Requirements.purpose}}</span>
+    <span><b>Purpose <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>:</b> {{Requirements.purpose}}</span>
     {% endif %}
 
+    {% if Requirements.statement.exists() %}
+    <span><b>Statements <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>:</b></span>
+    {% endif %}
     <table id="statements" class="grid dict">
         {% for statement in Requirements.statement %}
         <tr>
