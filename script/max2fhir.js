@@ -171,6 +171,9 @@ function handleCriteria(criteria, fhir_parent_req) {
     var notes = criteria.notes[0];
     var optionality = criteria.tag.find(tag => tag['$'].name === 'Optionality');
     var conditional = criteria.tag.find(tag => tag['$'].name === 'Conditional');
+    var refAlias = criteria.tag.find(tag => tag['$'].name === 'Reference.Alias');
+    var refFunctionID = criteria.tag.find(tag => tag['$'].name === 'Reference.FunctionID');
+    var refCriteriaID = criteria.tag.find(tag => tag['$'].name === 'Reference.CriteriaID');
 
     if (!fhir_parent_req) {
         console.log("parent not yet created? " + name);
@@ -186,6 +189,9 @@ function handleCriteria(criteria, fhir_parent_req) {
         "requirement": notes
       };
     if (!fhir_parent_req.statement) { fhir_parent_req.statement = [] }
+    if (refAlias && refFunctionID) {
+        fhir_statement["derivedFrom"] = refAlias['$'].value + " " + refFunctionID['$'].value + (refCriteriaID?"#" + refCriteriaID['$'].value:"");
+    }
     if (id in satisfiedBy) { fhir_statement["satisfiedBy"] = [ satisfiedBy[id]] }
     fhir_parent_req.statement.push(fhir_statement);
 }
