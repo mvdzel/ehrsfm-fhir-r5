@@ -1,0 +1,17 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "FMSection",
+    "url": "http://hl7.org/ehrs/StructureDefinition/FMSection",
+    "status": "draft",
+    "name": "FMSection",
+    "title": "FMSection",
+    "description": "This StructureDefinition represents the base EHR-S FM Section type",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Requirements",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Requirements",
+    "derivation": "constraint",
+    "differential": {
+        "element": [ ]
+    }
+}

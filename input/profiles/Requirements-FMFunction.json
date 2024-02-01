@@ -5,7 +5,7 @@
     "status": "draft",
     "name": "FMFunction",
     "title": "FMFunction",
-    "description": "This StructureDefinition represents the basis EHR-S FM Function type",
+    "description": "This StructureDefinition represents the base EHR-S FM Function type",
     "kind": "resource",
     "abstract": false,
     "type": "Requirements",

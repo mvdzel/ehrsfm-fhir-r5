@@ -1,7 +1,9 @@
 <div>
-    <span><b>Description:</b> {{Requirements.description}}</span>
+    <span id="description"><b>Description:</b> {{Requirements.description}}</span>
 
+    {% if Requirements.purpose.exists() %}
     <span><b>Purpose:</b> {{Requirements.purpose}}</span>
+    {% endif %}
 
     <table id="statements" class="grid dict">
         {% for statement in Requirements.statement %}

@@ -71,14 +71,21 @@ console.log('"resource":' + JSON.stringify(resources, null, 2));
 function handleFM(fm) {
     var title = fm.name[0];
     var name = title.replace(/[^A-Za-z0-9_]/g, '_');
+    var notes = fm.notes[0];
 
     var fhir_req = {
         "resourceType": "Requirements",
         "id": fmid,
+        "meta": {
+            "profile": [
+                `http://hl7.org/ehrs/StructureDefinition/FunctionalModel`
+            ]
+        },
         // "url": "http://hl7.org/fhir/Requirements/" + fmid,
-        "name": "FunctionalModel",
+        "name": name,
         "title": name,
         "status": "active",
+        "description": notes
       };
     return fhir_req;
 }
@@ -101,6 +108,11 @@ function handleSection(section, parentObject) {
     var fhir_section = {
         "resourceType": "Requirements",
         "id": fmid + "-" + alias,
+        "meta": {
+            "profile": [
+                `http://hl7.org/ehrs/StructureDefinition/FMSection`
+            ]
+        },
         // "url": "http://hl7.org/fhir/Requirements/" + fmid + "-" + alias,
         "name": name,
         "title": title,
@@ -189,7 +201,7 @@ function handleCriteria(criteria, fhir_parent_req) {
         "requirement": notes
       };
     if (!fhir_parent_req.statement) { fhir_parent_req.statement = [] }
-    if (refAlias && refFunctionID) {
+    if (refAlias && refAlias['$'].value != "" && refFunctionID && refFunctionID['$'].value != "") {
         fhir_statement["derivedFrom"] = refAlias['$'].value + " " + refFunctionID['$'].value + (refCriteriaID?"#" + refCriteriaID['$'].value:"");
     }
     if (id in satisfiedBy) { fhir_statement["satisfiedBy"] = [ satisfiedBy[id]] }

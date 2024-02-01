@@ -5,7 +5,7 @@
     "status": "draft",
     "name": "FMHeader",
     "title": "FMHeader",
-    "description": "This StructureDefinition represents the basis EHR-S FM Header type",
+    "description": "This StructureDefinition represents the base EHR-S FM Header type",
     "kind": "resource",
     "abstract": false,
     "type": "Requirements",
