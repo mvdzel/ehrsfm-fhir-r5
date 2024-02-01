@@ -2153,6 +2153,11 @@
             "name": "changes.html",
             "generation": "markdown",
             "title": "IG Change History"
+          },
+          {
+            "nameUrl": "searchform.html",
+            "generation": "markdown",
+            "title": "Search Form"
           }
         ]
       },

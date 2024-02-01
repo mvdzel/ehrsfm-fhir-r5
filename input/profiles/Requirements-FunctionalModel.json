@@ -10,8 +10,5 @@
     "abstract": false,
     "type": "Requirements",
     "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Requirements",
-    "derivation": "constraint",
-    "differential": {
-        "element": [ ]
-    }
+    "derivation": "constraint"
 }

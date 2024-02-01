@@ -8,7 +8,7 @@
 * How to create links [[TI.1.5]] from criteria to Functions? -> done in ig-template _append.fragment-footer.html javascript include
 * How to create links from criterie to satisfiedby -> done in ig-template Requirements.liquid
   * Example: CP.1.4 add as last in first requirement
-        "satisfiedBy": [ "https://hl7.org/fhir/R5/condition.html" ]
+        "satisfiedBy": [ "https://hl7.org/fhir/condition.html" ]
 
 ## Running the scipt and IG publisher
 
