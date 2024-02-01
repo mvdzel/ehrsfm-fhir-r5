@@ -4,14 +4,7 @@ The EHR-S Functional Model is composed of a list of functions, known as the Func
 seven sections: Overarching, Care Provision, Care Provision Support, Population Health Support, Administrative
 Support, Record Infrastructure and Trust Infrastructure.
 
-Overarching (OV)
-Care Provision (CP)
-Care Provision Support (CPS)
-Population Health Support (POP)
-Administrative Support (AS)
-Record Infrastructure (RI)
-Trust Infrastructure (TI)
-Figure 1: Function List Sections
+{% include img.html img="figure1.png" caption="Figure 1: Function List Sections" width="70%" %}
 
 Within the seven Sections of the Functional List the functions are grouped under header functions which each
 have one or more sub-functions in a hierarchical structure.
@@ -36,8 +29,7 @@ In the aggregate, the EHR-S FM is intended to include the superset of functions 
 be generated. This subset illustrates what is needed within an EHR-S. Only a subset of all EHR-S FM functions
 will apply to any particular EHR-S Functional Profile (FP).
 
-{% include img.html img="figure2.png" caption="Figure 2. Profiling from the EHR-S FM." width="70%" %}
-
+{% include img.html img="figure2.png" caption="Figure 2. Profiling from the EHR-S FM" width="70%" %}
 
 Figure 2 shows that a profile would include all 7 sections of the Functional Model, however it may not be
 necessary to include all the functions and criteria within each section. A profile may include additional functions

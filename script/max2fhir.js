@@ -84,8 +84,7 @@ function handleFM(fm) {
         // "url": "http://hl7.org/fhir/Requirements/" + fmid,
         "name": name,
         "title": name,
-        "status": "active",
-        "description": notes
+        "status": "active"
       };
     return fhir_req;
 }

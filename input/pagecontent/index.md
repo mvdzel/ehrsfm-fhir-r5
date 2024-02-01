@@ -1,4 +1,13 @@
 
+### Relationships in this FM
+
+* solid lines are Consequence Links
+* dotted lines are See Also relationships
+
+<div>
+{% include relationships.svg %}
+</div>
+
 ### Function List Component Descriptions
 
 The Function List (see [artifacts](artifacts.html)) includes the following components:
@@ -14,15 +23,6 @@ The Function List (see [artifacts](artifacts.html)) includes the following compo
 | R1.1 Reference <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a> | [statement.derivedFrom](https://hl7.org/fhir/R5/requirements-definitions.html#Requirements.statement.derivedFrom) | Reference to the previous version of the Functional Model is included to support transition from one version to the next. The first 2 digits indicate the source document; FM = Functional Model, LM = Lifecycle Model. The remainder of the reference is to the function and, if applicable, conformance criteria.
 | Change Indicator | *derive or extension?* | The change indicator shows the change from previous versions. This will be valued as follows: <br/>C - Changed<br/>D - Deleted<br/>N - New<br/>NC - No Change |
 | Row # | *extension?* | A unique number for the row within the section. |
-
-### Relationships in this FM
-
-* solid lines are Consequence Links
-* dotted lines are See Also relationships
-
-<div>
-{% include relationships.svg %}
-</div>
 
 ### Dependencies
 
