@@ -1,9 +1,9 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "ext-example",
-    "url": "http://hl7.org/ehrs/StructureDefinition/ext-example",
-    "name": "ext-example",
-    "title": "ext-example",
+    "id": "requirements-example",
+    "url": "http://hl7.org/ehrs/StructureDefinition/requirements-example",
+    "name": "RequirementsExample",
+    "title": "requirements-example",
     "description": "Requirements Statement Example",
     "status": "active",
     "publisher": "HL7",
@@ -23,7 +23,7 @@
             {
                 "id": "Extension.url",
                 "path": "Extension.url",
-                "fixedUri": "http://hl7.org/ehrs/StructureDefinition/ext-example"
+                "fixedUri": "http://hl7.org/ehrs/StructureDefinition/requirements-example"
             },
             {
                 "id": "Extension.value[x]",

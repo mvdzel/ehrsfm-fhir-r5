@@ -5,6 +5,10 @@
     <span><b>Purpose <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>:</b> {{Requirements.purpose}}</span>
     {% endif %}
 
+    {% if Requirements.extension.exists() %}
+    <p><b>Example:</b> {{Requirements.extension.value}}</p>
+    {% endif %}
+
     {% if Requirements.statement.exists() %}
     <span><b>Statements <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>:</b></span>
     {% endif %}

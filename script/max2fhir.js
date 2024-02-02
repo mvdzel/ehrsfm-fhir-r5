@@ -100,9 +100,7 @@ function handleSection(section, parentObject) {
     var acidx = notes.indexOf("$AC$");
     var overview = notes.substring(4, exidx).trim();
     var example = notes.substring(exidx+4, acidx).trim();
-    if (example == "") { example = "n/a"; }
     var actors = notes.substring(acidx+4).trim();
-    if (actors == "") { actors = "n/a"; }
 
     var fhir_section = {
         "resourceType": "Requirements",
@@ -112,12 +110,22 @@ function handleSection(section, parentObject) {
                 `http://hl7.org/ehrs/StructureDefinition/FMSection`
             ]
         },
+        "extension": [
+            {
+                "url": "http://hl7.org/ehrs/StructureDefinition/requirements-example",
+                "valueString": example
+            }
+        ],
         // "url": "http://hl7.org/fhir/Requirements/" + fmid + "-" + alias,
         "name": name,
         "title": title,
         "status": "active",
         "description": overview,
-      }
+    }
+    // remove extension if there is no example
+    if (example == "") {
+        delete fhir_section.extension;
+    }
     var grouping = {
         "id": alias,
         "name" : title + " Section",
@@ -148,7 +156,6 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
     var statement = notes.substring(4, deidx).trim();
     var description = notes.substring(deidx+4, exidx).trim();
     var example = notes.substring(exidx+4).trim();
-    //if (example == "") { example = "n/a"; }
     var type = headerOrFunction.stereotype[0];
 
     var fhir_headerorfunction = {
@@ -159,14 +166,23 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
                 `http://hl7.org/ehrs/StructureDefinition/FM${type}`
             ]
         },
+        "extension": [
+            {
+                "url": "http://hl7.org/ehrs/StructureDefinition/requirements-example",
+                "valueString": example
+            }
+        ],
         // "url": `http://hl7.org/fhir/Requirements/${fmid}-${alias}`,
         "name": name,
         "title": `${title} (${type})`,
         "status": "active",
         "description": statement,
         "purpose": description
-      }
-
+    }
+    // remove extension if there is no example
+    if (example == "") {
+        delete fhir_headerorfunction.extension;
+    }
     var resource = {
         "reference": { "reference": `Requirements/${fmid}-${alias}` },
         "groupingId": alias.substring(0, alias.indexOf('.'))

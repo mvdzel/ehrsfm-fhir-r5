@@ -1,9 +1,9 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "ext-change-info",
-    "url": "http://hl7.org/ehrs/StructureDefinition/ext-change-info",
-    "name": "ext-change-info",
-    "title": "ext-change-info",
+    "id": "requirements-change-info",
+    "url": "http://hl7.org/ehrs/StructureDefinition/requirements-change-info",
+    "name": "RequirementsChangeInfo",
+    "title": "requirements-change-info",
     "description": "Requirements or Statement Criteria Change Indicator",
     "status": "active",
     "publisher": "HL7",
@@ -23,7 +23,7 @@
             {
                 "id": "Extension.url",
                 "path": "Extension.url",
-                "fixedUri": "http://hl7.org/ehrs/StructureDefinition/ext-change-info"
+                "fixedUri": "http://hl7.org/ehrs/StructureDefinition/requirements-change-info"
             },
             {
                 "id": "Extension.value[x]",

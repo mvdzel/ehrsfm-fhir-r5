@@ -7,7 +7,7 @@
         ]
     },
     "url": "http://hl7.org/ehrs/ValueSet/change-info",
-    "name": "change-info",
+    "name": "ChangeInfo",
     "title": "Requirement Change Indicators",
     "status": "active",
     "experimental": false,
