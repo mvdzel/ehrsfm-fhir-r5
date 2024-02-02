@@ -1,0 +1,34 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "change-info",
+    "url": "http://hl7.org/ehrs/CodeSystem/change-info",
+    "name": "change-info",
+    "title": "change-info",
+    "status": "active",
+    "experimental": false,
+    "description": "Requirement Change Indicator",
+    "caseSensitive": true,
+    "content": "complete",
+    "concept": [
+        {
+            "code": "NC",
+            "display": "No Change"
+        },
+        {
+            "code": "C",
+            "display": "Changed"
+        },
+        {
+            "code": "N",
+            "display": "New"
+        },
+        {
+            "code": "D",
+            "display": "Deleted"
+        },
+        {
+            "code": "DEP",
+            "display": "Deprecated"
+        }
+    ]
+}

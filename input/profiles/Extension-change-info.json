@@ -1,0 +1,43 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "ext-change-info",
+    "url": "http://hl7.org/ehrs/StructureDefinition/ext-change-info",
+    "name": "ext-change-info",
+    "title": "ext-change-info",
+    "description": "Requirements or Statement Criteria Change Indicator",
+    "status": "active",
+    "publisher": "HL7",
+    "kind": "complex-type",
+    "abstract": false,
+    "context": [
+        {
+            "type": "element",
+            "expression": "Requirements or Requirements.statement"
+        }
+    ],
+    "type": "Extension",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "Extension.url",
+                "path": "Extension.url",
+                "fixedUri": "http://hl7.org/ehrs/StructureDefinition/ext-change-info"
+            },
+            {
+                "id": "Extension.value[x]",
+                "path": "Extension.value[x]",
+                "type": [
+                    {
+                        "code": "code"
+                    }
+                ],
+                "binding": {
+                    "strength": "required",
+                    "valueSet": "http://hl7.org/ehrs/ValueSet/change-info"
+                }
+            }
+        ]
+    }
+}

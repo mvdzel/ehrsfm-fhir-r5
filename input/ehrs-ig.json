@@ -2155,7 +2155,7 @@
             "title": "IG Change History"
           },
           {
-            "nameUrl": "searchform.html",
+            "name": "searchform.html",
             "generation": "markdown",
             "title": "Search Form"
           }
