@@ -16,9 +16,9 @@
 ```
 > docker run --name=ehrsfm-fhir-r5 -it -v "$(pwd)":/app node:lts-buster /bin/bash
 @> cd script
-@> (once) npm init
 @> (once) dpkg -i jdk-21_linux-x64_bin.deb
 @> (once) apt update; apt install graphviz jekyll
+@> (once) npm instal
 @> node max2fhir.js
 @> node max2plantuml.js > ../input/images-source/relationships.plantuml 
 ```
@@ -51,3 +51,6 @@ No narrative removes rendering of Requirement.statements. So don't do this.
           "value": "Requirements/*"
         },
 
+> sftp user@sftp
+@> cd WWW
+@> put -r *
