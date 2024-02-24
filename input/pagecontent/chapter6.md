@@ -613,10 +613,8 @@ likely that multiple criteria will reference the same explanation or citing.
 Examples:
 
 Functional Profile criteria
-1. The system SHALL enable EHR-S security administrators to grant authorizations to principles in
-accordance with HIPAA*.
-2. The system SHALL enable EHR-S security administrators to grant authorizations for roles in
-accordance with 42 CFR Part 2*.
+1. The system SHALL enable EHR-S security administrators to grant authorizations to principles in accordance with HIPAA*.
+2. The system SHALL enable EHR-S security administrators to grant authorizations for roles in accordance with 42 CFR Part 2*.
 
 **Dependency Explanation**
 *For a U.S. realm Functional Profile, the Health Insurance Portability and Accountability Act of 1996

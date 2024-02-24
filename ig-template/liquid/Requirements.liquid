@@ -21,6 +21,12 @@
                 {% endif %}
             </td>
             <td style="padding-left: 4px;">
+                {% if statement.extension.value %}
+                <i>dependent</i>
+                {% endif %}
+                {% if statement.conditionality %}
+                <i>conditional</i>
+                {% endif %}
                 {% if statement.conformance.exists() %}
                 <span>{{statement.conformance}}</span>
                 {% endif %}

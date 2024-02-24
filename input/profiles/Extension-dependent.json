@@ -1,0 +1,39 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "requirements-dependent",
+    "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+    "name": "RequirementsDependent",
+    "title": "requirements-dependent",
+    "description": "Requirements Statement Criteria is dependent",
+    "status": "active",
+    "publisher": "HL7",
+    "kind": "complex-type",
+    "abstract": false,
+    "context": [
+        {
+            "type": "element",
+            "expression": "Requirements.statement"
+        }
+    ],
+    "type": "Extension",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "Extension.url",
+                "path": "Extension.url",
+                "fixedUri": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent"
+            },
+            {
+                "id": "Extension.value[x]",
+                "path": "Extension.value[x]",
+                "type": [
+                    {
+                        "code": "boolean"
+                    }
+                ]
+            }
+        ]
+    }
+}

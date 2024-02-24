@@ -198,6 +198,7 @@ function handleCriteria(criteria, fhir_parent_req) {
     var notes = criteria.notes[0];
     var optionality = criteria.tag.find(tag => tag['$'].name === 'Optionality');
     var conditional = criteria.tag.find(tag => tag['$'].name === 'Conditional');
+    var dependent = criteria.tag.find(tag => tag['$'].name === 'Dependent');
     var refAlias = criteria.tag.find(tag => tag['$'].name === 'Reference.Alias');
     var refFunctionID = criteria.tag.find(tag => tag['$'].name === 'Reference.FunctionID');
     var refCriteriaID = criteria.tag.find(tag => tag['$'].name === 'Reference.CriteriaID');
@@ -207,6 +208,12 @@ function handleCriteria(criteria, fhir_parent_req) {
         return;
     }
     var fhir_statement = {
+        "extension": [
+            {
+                "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+                "valueBoolean": (dependent['$'].value=="Y")
+            }
+        ],
         "key": fmid + "-" + id.replace('#','-'),
         "label": name,
         "conformance": [

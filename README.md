@@ -1,6 +1,5 @@
 ## TODO
 * Define Profiles for EHRS types include constraints, Functional Model, Funcional Profile, Header, Function, ... 
-  * Extension needed for "Dependent"
   * use Extension for statement -> short
 * Get FM metadata from the .mif file + authors
 
@@ -35,22 +34,32 @@
 > java -jar publisher.jar -ig ig.ini
 ```
 
---------------------
-For debugging xslt:
+# Debugging xslt
 ``` <!-- XXX --> <xsl:message><xsl:copy-of select="."/></xsl:message> ```
 
---------------------
+# IG Parameters
+
 http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 
-No narrative removes rendering of Requirement.statements. So don't do this.
-        {
-          "code" : {
-            "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
-            "code" : "no-narrative"
-          },
-          "value": "Requirements/*"
-        },
+No narrative removes rendering of Requirement.statements. So don't use this.
+```
+  {
+    "code" : {
+      "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+      "code" : "no-narrative"
+    },
+    "value": "Requirements/*"
+  },
+```
 
+# SFTP Publish
+
+```
 > sftp user@sftp
 @> cd WWW
 @> put -r *
+```
+
+# Examples
+
+CPS.4.2.2 example of dependent and conditionality
