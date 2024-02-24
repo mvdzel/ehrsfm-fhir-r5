@@ -13,7 +13,7 @@ conforms to one or more Functional Profiles.
 whether an EHR system conforms to a EHR-S Functional Profile or whether a Functional Profile
 conforms to the EHR-S Functional Model.
 
-### Scope and Field of Application (Normative)
+### Scope and Field of Application <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>
 
 This Conformance Clause defines the minimum requirements for Functional Profiles claiming conformance to the
 EHR System Functional Model. It also identifies how EHR systems achieve conformance to the Functional Model,
@@ -35,7 +35,7 @@ Profile’s conformance to the Functional Model. It also does not specify inspec
 to determine whether an EHR system conforms to a Functional Profile or matches the EHR System Conformance
 Statement.
 
-### Concepts (Normative)
+### Concepts <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>
 
 #### Functional Profiles
 
@@ -107,7 +107,7 @@ arise as to where did it come from, why was it chosen or modified, etc. It can a
 back to the FM functions and criteria if and when revisions to a profile or for derived profile are needed to reflect
 care setting, regulatory, technology changes – or a future new release of the base EHR-S FM.
 
-### Normative Language (Normative)
+### Normative Language <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>
 
 The EHR-S Functional Model (i.e., all chapters) contains normative, informative, and reference sections. In this
 Conformance Clause section, the normative content defines how a Functional Profile achieves conformance to
@@ -118,7 +118,7 @@ The following keywords (i.e., normative verbs) **SHALL** be used to convey confo
 * SHOULD – to indicate an optional recommended action, one that is particularly suitable, without mentioning or excluding others. Synonymous with ‘is permitted and recommended’.
 * MAY – to indicate an optional, permissible action. Synonymous with ‘is permitted’.
 
-### Conformance Criteria (Normative)
+### Conformance Criteria <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>
 
 Every function in the Functional Model is associated with a set of conformance criteria. These *conformance
 criteria* form the basis for determining whether the function has been implemented
@@ -168,7 +168,7 @@ A criterion in the Functional Profile that references a specific criterion in an
 function by rewriting the referenced criterion as one of its own and indicating the function and criterion number
 from where it came (e.g. F#, CC3).
 
-### Functional Model Structure and Extensibility (Normative)
+### Functional Model Structure and Extensibility <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>
 
 #### Hierarchical Structure
 
@@ -228,7 +228,7 @@ Incorporation of additional criterion, changing the sequence of criterion and pr
 beyond what is defined in the Functional Model, is accommodated through a set of rules for adding new criterion
 or changing existing criterion as defined in Section 6.7.2.
 
-### Functional Profile Conformance (Normative)
+### Functional Profile Conformance <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>
 
 A Functional Profile claiming conformance to the Functional Model **SHALL** meet all requirements specified in the
 6.7.1 Rules for Functional Domain Profiles or in the 6.7.5 Rules for Functional Companion Profiles.
