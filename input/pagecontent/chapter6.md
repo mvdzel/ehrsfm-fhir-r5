@@ -628,7 +628,7 @@ be applied to ‘dependent shall’ criteria in the Functional Profile.
 <th>Dependency Applicable?</th>
 <th>Applicability</th>
 <th>Functional Profile</th></tr>
-<tr><td rowspan=4>Dependent SHALL</td><td rowspan=4>Yes</td><td>Mandatory</td><td>Copy SHALL from FM</td></tr>
+<tr><td rowspan="4">Dependent SHALL</td><td rowspan="4">Yes</td><td>Mandatory</td><td>Copy SHALL from FM</td></tr>
 <tr><td>Mandatory</td><td>Add additional criteria to reflect the dependencies. Use ‘shall’.</td></tr>
 <tr><td>Mandatory</td><td>Add explanation or citing</td></tr>
 <tr><td>Optional</td><td>Add additional criteria derived from ‘dependent shall’. Use ‘shall’, ‘should’ or ‘may’.</td></tr>
@@ -647,7 +647,7 @@ explanation will apply to multiple ‘dependent shall’ criteria.
 <th>Dependency Applicable?</th>
 <th>Applicability</th>
 <th>Functional Profile</th></tr>
-<tr><td rowspan=4>Dependent SHALL</td><td rowspan=4>No</td><td>Mandatory</td><td>Copy SHALL from FM</td></tr>
+<tr><td rowspan="4">Dependent SHALL</td><td rowspan="4">No</td><td>Mandatory</td><td>Copy SHALL from FM</td></tr>
 <tr><td>Mandatory</td><td>Add explanation</td></tr>
 <tr><td>Optional</td><td>Add additional criteria derived from ‘dependent shall’. Use ‘shall’, ‘should’ or ‘may’.</td></tr>
 <caption>Table 5 Summary of actions for when no dependencies</caption>

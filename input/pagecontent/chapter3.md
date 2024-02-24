@@ -1,5 +1,6 @@
+
 | Term | Definition |
-|---|---|
+| --- | --- |
 | access control | a means of ensuring that the resources of a data processing system can be accessed only by authorized entities in authorized ways|
 | base functional profile | an existing domain or companion functional profile from which new functional profiles are created/derived|
 | conformance | the fulfillment of a product, process, or service of specified requirements|
@@ -12,4 +13,4 @@
 | informative functional profile | a registered functional profile that has successfully completed formal public scrutiny via the HL7 consensus process| 
 | inherited criterion |  all the conformance criteria listed in a parent function will be inherited by all its children functions| 
 | registered functional profile| a functional profile that has successfully completed HL7 EHR Work Group registration process and review| 
-| situational criterion| criterion that is required if the circumstances given are applicable (IF/Then or Dependent SHALL)| 
+| situational criterion| criterion that is required if the circumstances given are applicable (IF/Then or Dependent SHALL)|
