@@ -633,7 +633,7 @@ be applied to ‘dependent shall’ criteria in the Functional Profile.
 <tr><td>Mandatory</td><td>Add explanation or citing</td></tr>
 <tr><td>Optional</td><td>Add additional criteria derived from ‘dependent shall’. Use ‘shall’, ‘should’ or ‘may’.</td></tr>
 <caption>Table 4 Summary of actions when dependency exists</caption>
-<table>
+</table>
 
 ##### No Dependency exists
 
@@ -651,7 +651,7 @@ explanation will apply to multiple ‘dependent shall’ criteria.
 <tr><td>Mandatory</td><td>Add explanation</td></tr>
 <tr><td>Optional</td><td>Add additional criteria derived from ‘dependent shall’. Use ‘shall’, ‘should’ or ‘may’.</td></tr>
 <caption>Table 5 Summary of actions for when no dependencies</caption>
-<table>
+</table>
 
 Add additional criteria – regardless of whether a dependency exists or not.
 
