@@ -1,0 +1,12 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.1.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_1_1_Manage_Provider_Registry_or_Directory",
+  "title": "AS.1.1 Manage Provider Registry or Directory (Function)",
+  "status": "active"
+}

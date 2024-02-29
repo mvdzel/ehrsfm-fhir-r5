@@ -1,12 +1,9 @@
 
-### Relationships in this FM
+### This Project
 
-* solid lines are Consequence Links
-* dotted lines are See Also relationships
-
-<div>
-{% include relationships.svg %}
-</div>
+> Within HL7, since 2020, the Common H7 Toolset initiative to develop the same underlying publication process technology stack across all HL7 standards has been underway. The intent is to provide the same look and feel, to leverage inherent [validation and versioning](validation.html), to ease annual updates, and to avoid the unwieldy word and pdf publication process. This publication of EHR-S FM R2.1 is the realization of that intent for the [EHR-S FM product family](https://www.hl7.org/implement/standards/product_section.cfm?section=11).
+>
+> This is a EHR-S FM specification that uses FHIR R5 Requirements resource to define its functional model sections, headers, functions and criteria. It references FHIR resources for data requirements and is based on FHIR R5 but not in a way that FHIR Implementation Guides would be based by profiling FHIR resources. It is important and relevant to declare the version of FHIR structures that are being used for toolsmiths and others using those structures.
 
 ### Function List Component Descriptions
 
@@ -24,11 +21,7 @@ The Function List (see [artifacts](artifacts.html)) includes the following compo
 | Change Indicator | *derive or extension?* | The change indicator shows the change from previous versions. This will be valued as follows: <br/>C - Changed<br/>D - Deleted<br/>N - New<br/>NC - No Change |
 | Row # | *extension?* | A unique number for the row within the section. |
 
-### Dependencies
-
-{% include dependency-table.xhtml %}
-
-### Authors and Contributors
+### EHR-S FM R2.1 Primary Authors and Contributors
 
 | Role  | Name | Organization | Contact |
 | --- | --- | --- | --- |

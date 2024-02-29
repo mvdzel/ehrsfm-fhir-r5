@@ -18,8 +18,38 @@
                 "path": "Requirements",
                 "constraint": [
                     {
-                        "key": "FMFLC13",
+                        "key": "FMHC002",
                         "severity": "warning",
+                        "human": "The header should have a name.",
+                        "expression": "title"
+                    },
+                    {
+                        "key": "FMHC004",
+                        "severity": "error",
+                        "human": "Header must have a statement about its purpose.",
+                        "expression": "description"
+                    },
+                    {
+                        "key": "FMHC005",
+                        "severity": "warning",
+                        "human": "Header purpose statement must end in a period.",
+                        "expression": "description.endsWith('.')"
+                    },
+                    {
+                        "key": "FMHC006",
+                        "severity": "error",
+                        "human": "Header must have a description.",
+                        "expression": "purpose"
+                    },
+                    {
+                        "key": "FMHC007",
+                        "severity": "warning",
+                        "human": "Header desctiption statement must end in a period.",
+                        "expression": "purpose.endsWith('.')"
+                    },
+                    {
+                        "key": "FMHC010",
+                        "severity": "error",
                         "human": "A Header must not have criteria.",
                         "expression": "statement.count() = 0"
                     }

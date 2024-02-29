@@ -1,0 +1,157 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.1.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "AS_1_1_Manage_Provider_Registry_or_Directory",
+  "title": "AS.1.1 Manage Provider Registry or Directory (Function)",
+  "status": "active",
+  "description": "Provide a current registry or directory of practitioners that contains data needed to determine levels of access required by the system",
+  "purpose": "Provider information may include any credentials, certifications, or any other information that may be used to verify that a practitioner is permitted to use or access authorized data",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.1-01",
+      "label": "AS.1.1#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage a registry or directory of all personnel who currently use or access the system according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.3.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.1-02",
+      "label": "AS.1.1#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain realm-specific legal identifiers required for care delivery (e.g., the provider's license number or national provider identifier).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.3.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.1-03",
+      "label": "AS.1.1#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and maintain the role of each provider associated with a patient (e.g., encounter provider, primary care provider, attending, resident, or consultant)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.1-04",
+      "label": "AS.1.1#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD link provider information in the registry or directory with the security function to determine or identify authorized levels of access.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.3.1#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.1-05",
+      "label": "AS.1.1#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage a directory of clinical/support personnel external to the organization that are not users of the system (to facilitate documentation and information communication).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.3.1#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.1-06",
+      "label": "AS.1.1#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to update the provider's access to the requested patient's information when a patient-provider relationship is established in the system (e.g., when patient is cared for in Emergency, system enables emergency attending provider to access patient's information); according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.1-07",
+      "label": "AS.1.1#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF [[TI.3]] (Registry and Directory Services) is implemented, THEN the system SHALL conform to function [[TI.3]] and provide the ability to use registries or directories to uniquely identify providers for the provision of care.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.3.7#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.1-08",
+      "label": "AS.1.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability for authorized users to hide selected elements of the registry or directory information for the users of the system based on the user's security level and access needs. For example, the administrator hides from data-entry clerks the name of the data-entry clerk's immediate relatives who are listed on the hospital's cancer registry.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.3.7#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.1-09",
+      "label": "AS.1.1#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to maintain a registry or directory which identifies the provider by multiple unique identifiers."
+    }
+  ]
+}

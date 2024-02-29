@@ -18,8 +18,38 @@
                 "path": "Requirements",
                 "constraint": [
                     {
-                        "key": "FMFLC13",
+                        "key": "FMFLC08",
                         "severity": "warning",
+                        "human": "Function names must not end with a period.",
+                        "expression": "title.endsWith('.').not()"
+                    },
+                    {
+                        "key": "FMFLC09",
+                        "severity": "error",
+                        "human": "Function must have a statement about its purpose.",
+                        "expression": "description"
+                    },
+                    {
+                        "key": "FMFLC10",
+                        "severity": "warning",
+                        "human": "Function purpose statement must end in a period.",
+                        "expression": "description.endsWith('.')"
+                    },
+                    {
+                        "key": "FMFLC11",
+                        "severity": "error",
+                        "human": "Function must have a description.",
+                        "expression": "purpose"
+                    },
+                    {
+                        "key": "FMFLC12",
+                        "severity": "warning",
+                        "human": "Function desctiption statement must end in a period.",
+                        "expression": "purpose.endsWith('.')"
+                    },
+                    {
+                        "key": "FMFLC13",
+                        "severity": "error",
                         "human": "Function must have one or more conformance criteria.",
                         "expression": "statement.count() > 0"
                     }

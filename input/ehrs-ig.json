@@ -2185,6 +2185,11 @@
             "title": "Bibliography"
           },
           {
+            "name": "validation.html",
+            "generation": "markdown",
+            "title": "Validation Rules"
+          },
+          {
             "name": "downloads.html",
             "generation": "markdown",
             "title": "Useful Downloads"

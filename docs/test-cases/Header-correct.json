@@ -1,0 +1,20 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/ehrs/StructureDefinition/requirements-example",
+      "valueString": "For example, a hospital's directory ought to contain the full name, specialty, credentials, address, and contact information for each provider. A directory might also manage information regarding a given provider's work assignment/allocation, expectations, and/or history (e.g., the percentage of time planned towards (or devoted to) patient care, research, teaching, administration, and/or other duties). Directory Information could also describe the type of care offered by a given care provider (e.g, cardiologist or general practitioner), health care setting (e.g., long term care facility or hospital), and categories of patient (e.g., children or geriatric patients)."
+    }
+  ],
+  "name": "AS_1_Manage_Provider_Information",
+  "title": "AS.1 Manage Provider Information (Header)",
+  "status": "active",
+  "description": "Maintain, or provide access to, current provider information.",
+  "purpose": "Manage the information regarding providers within and external to an organization that is required to support care provision. This information includes a registry of providers (internal to the EHR-S or external), the provider's location, on-call information, and office information. Information regarding teams or groups of providers as well as individual patient relationships with providers is necessary to support care coordination and access to patient information."
+}
