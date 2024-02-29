@@ -27,30 +27,30 @@
                         "key": "FMHC004",
                         "severity": "error",
                         "human": "Header must have a statement about its purpose.",
-                        "expression": "description"
+                        "expression": "purpose"
                     },
                     {
                         "key": "FMHC005",
                         "severity": "warning",
                         "human": "Header purpose statement must end in a period.",
-                        "expression": "description.endsWith('.')"
+                        "expression": "purpose.endsWith('.')"
                     },
                     {
                         "key": "FMHC006",
                         "severity": "error",
                         "human": "Header must have a description.",
-                        "expression": "purpose"
+                        "expression": "description"
                     },
                     {
                         "key": "FMHC007",
                         "severity": "warning",
-                        "human": "Header desctiption statement must end in a period.",
-                        "expression": "purpose.endsWith('.')"
+                        "human": "Header description statement must end in a period.",
+                        "expression": "description.endsWith('.')"
                     },
                     {
                         "key": "FMHC010",
                         "severity": "error",
-                        "human": "A Header must not have criteria.",
+                        "human": "A Header must not have criteria statements.",
                         "expression": "statement.count() = 0"
                     }
                 ]

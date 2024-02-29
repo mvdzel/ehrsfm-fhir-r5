@@ -27,30 +27,30 @@
                         "key": "FMFLC09",
                         "severity": "error",
                         "human": "Function must have a statement about its purpose.",
-                        "expression": "description"
+                        "expression": "purpose"
                     },
                     {
                         "key": "FMFLC10",
                         "severity": "warning",
                         "human": "Function purpose statement must end in a period.",
-                        "expression": "description.endsWith('.')"
+                        "expression": "purpose.endsWith('.')"
                     },
                     {
                         "key": "FMFLC11",
                         "severity": "error",
                         "human": "Function must have a description.",
-                        "expression": "purpose"
+                        "expression": "description"
                     },
                     {
                         "key": "FMFLC12",
                         "severity": "warning",
-                        "human": "Function desctiption statement must end in a period.",
-                        "expression": "purpose.endsWith('.')"
+                        "human": "Function description statement must end in a period.",
+                        "expression": "description.endsWith('.')"
                     },
                     {
                         "key": "FMFLC13",
                         "severity": "error",
-                        "human": "Function must have one or more conformance criteria.",
+                        "human": "Function must have one or more conformance criteria statements.",
                         "expression": "statement.count() > 0"
                     }
                 ]

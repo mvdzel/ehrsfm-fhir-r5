@@ -2,7 +2,7 @@
     "resourceType": "ImplementationGuide",
     "id": "EHRSFMR2.1",
     "url": "http://hl7.org/ehrs/ImplementationGuide/EHRSFMR2.1",
-    "version": "0.9.0",
+    "version": "0.10.0",
     "name": "EHRSFMR21",
     "title": "ISO/HL7 10781 - Electronic Health Record System Functional Model, Release 2.1",
     "status": "draft",
