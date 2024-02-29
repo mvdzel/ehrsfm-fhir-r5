@@ -33,3 +33,12 @@ The Function List (see [artifacts](artifacts.html)) includes the following compo
 | **Co-Chair, EHR Work Group** | Feliciano Yu MD, MS | University of Arkansas Medical Sciences | Pele.Yu@archildrens.org |
 | **Publishing Facilitator** | Anneke Goossen, MScN | Results4Care | annekegoossen@results4care.nl |
 | **Publishing Facilitator** | Michael van der Zel | UMCG | m.van.der.zel@umcg.nl |
+
+### Relationships in this FM
+
+* solid lines are Consequence Links
+* dotted lines are See Also relationships
+
+<div>
+{% include relationships.svg %}
+</div>
