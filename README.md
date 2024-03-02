@@ -59,7 +59,3 @@ No narrative removes rendering of Requirement.statements. So don't use this.
 @> cd WWW/ehrsfm-fhir-r5
 @> put -r *
 ```
-
-# Examples
-
-CPS.4.2.2 example of dependent and conditionality
