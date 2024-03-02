@@ -56,7 +56,7 @@ No narrative removes rendering of Requirement.statements. So don't use this.
 
 ```
 > sftp user@sftp
-@> cd WWW
+@> cd WWW/ehrsfm-fhir-r5
 @> put -r *
 ```
 
