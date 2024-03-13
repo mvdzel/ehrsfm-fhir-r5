@@ -1,0 +1,39 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "requirements-actors",
+    "url": "http://hl7.org/ehrs/StructureDefinition/requirements-actors",
+    "name": "RequirementsActors",
+    "title": "requirements-actors",
+    "description": "Requirements Statement Actors",
+    "status": "active",
+    "publisher": "HL7",
+    "kind": "complex-type",
+    "abstract": false,
+    "context": [
+        {
+            "type": "element",
+            "expression": "Requirements"
+        }
+    ],
+    "type": "Extension",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "Extension.url",
+                "path": "Extension.url",
+                "fixedUri": "http://hl7.org/ehrs/StructureDefinition/requirements-actors"
+            },
+            {
+                "id": "Extension.value[x]",
+                "path": "Extension.value[x]",
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            }
+        ]
+    }
+}

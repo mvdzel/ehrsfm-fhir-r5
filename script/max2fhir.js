@@ -113,8 +113,8 @@ function handleSection(section, parentObject) {
         },
         "extension": [
             {
-                "url": "http://hl7.org/ehrs/StructureDefinition/requirements-example",
-                "valueString": example
+                "url": "http://hl7.org/ehrs/StructureDefinition/requirements-actors",
+                "valueString": actors
             }
         ],
         // "url": "http://hl7.org/fhir/Requirements/" + fmid + "-" + alias,
@@ -124,7 +124,7 @@ function handleSection(section, parentObject) {
         "description": _description
     }
     // remove extension if there is no example
-    if (example == "") {
+    if (actors == "") {
         delete fhir_section.extension;
     }
     var grouping = {
@@ -158,6 +158,7 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
     var description = notes.substring(deidx+4, exidx).trim();
     var example = notes.substring(exidx+4).trim();
     var type = headerOrFunction.stereotype[0];
+    var _description = description + (example!=""?`\nExample:\n${example}`:"");
 
     var fhir_headerorfunction = {
         "resourceType": "Requirements",
@@ -167,22 +168,12 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
                 `http://hl7.org/ehrs/StructureDefinition/FM${type}`
             ]
         },
-        "extension": [
-            {
-                "url": "http://hl7.org/ehrs/StructureDefinition/requirements-example",
-                "valueString": example
-            }
-        ],
         // "url": `http://hl7.org/fhir/Requirements/${fmid}-${alias}`,
         "name": name,
         "title": `${title} (${type})`,
         "status": "active",
         "description": statement,
-        "purpose": description
-    }
-    // remove extension if there is no example
-    if (example == "") {
-        delete fhir_headerorfunction.extension;
+        "purpose": _description
     }
     var resource = {
         "reference": { "reference": `Requirements/${fmid}-${alias}` },

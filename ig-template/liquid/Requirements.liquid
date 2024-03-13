@@ -2,11 +2,11 @@
     <span id="description"><b>Statement <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>:</b> {{Requirements.description}}</span>
 
     {% if Requirements.purpose.exists() %}
-    <span id="purpose" style="white-space: pre-line; p.margin-bottom: 5px;"><b>Description <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>:</b> {{Requirements.purpose}}</span>
+    <span id="purpose"><b>Description <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>:</b> {{Requirements.purpose}}</span>
     {% endif %}
 
     {% if Requirements.extension.exists() %}
-    <span id="example" style="white-space: pre-line;"><p><b>Example:</b> {{Requirements.extension.value}}</p></span>
+    <span id="actors"><b>Actors:</b><br/> {{Requirements.extension.value}}</span>
     {% endif %}
 
     {% if Requirements.statement.exists() %}
