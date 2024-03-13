@@ -5,6 +5,10 @@
 >
 > This is a EHR-S FM specification that uses FHIR R5 Requirements resource to define its functional model sections, headers, functions and criteria. It references FHIR resources for data requirements and is based on FHIR R5 but not in a way that FHIR Implementation Guides would be based by profiling FHIR resources. It is important and relevant to declare the version of FHIR structures that are being used for toolsmiths and others using those structures.
 
+### Introduction
+
+See [Introduction section](chapter0.html).
+
 ### Function List Component Descriptions
 
 The Function List (see [artifacts](artifacts.html)) includes the following components:

@@ -101,6 +101,7 @@ function handleSection(section, parentObject) {
     var overview = notes.substring(4, exidx).trim();
     var example = notes.substring(exidx+4, acidx).trim();
     var actors = notes.substring(acidx+4).trim();
+    var _description = overview + (example!=""?`\nExample:\n${example}`:"");
 
     var fhir_section = {
         "resourceType": "Requirements",
@@ -120,7 +121,7 @@ function handleSection(section, parentObject) {
         "name": name,
         "title": title,
         "status": "active",
-        "description": overview,
+        "description": _description
     }
     // remove extension if there is no example
     if (example == "") {
