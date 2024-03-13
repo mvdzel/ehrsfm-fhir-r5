@@ -19262,7 +19262,7 @@ The system should provide for both verbal and written communication. These excha
       <notes>$ST$Provide report generation features using tools internal or external to the system, for the generation of standard reports.$DE$Providers and administrators need access to data in the EHR-S for clinical, administrative, financial decision-making, audit trail and metadata reporting, as well as to create reports for patients. Many systems may use internal or external reporting tools to accomplish this. Reports may be based on structured data, and/or unstructured text from the patient's health record.
 
 Users need to be able to sort, and/or filter reports. For example:
--the user may wish to view only the diabetic patients on a report listing patients and diagnoses-the user may wish to view only male patients over 35 with a complaint of chest pain.$EX$</notes>
+- the user may wish to view only the diabetic patients on a report listing patients and diagnoses-the user may wish to view only male patients over 35 with a complaint of chest pain.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1167</parentId>
@@ -20357,8 +20357,8 @@ A key feature of an electronic health record is its ability to support the deliv
       <notes>$ST$Identify relationships among providers treating a single patient, and provide the ability to manage patient lists assigned to a particular provider.$DE$This function addresses the ability to manage current information about the relationships between providers and the patients. This information should be able to flow seamlessly between the different components of the system, and between the EHR system and other systems. Business rules may be reflected in the presentation of, and the access to this information. The relationship among providers treating a single patient will include any necessary chain of authority/responsibility.
 
 Example:
--In a care setting with multiple providers, where the patient can only see certain kinds of providers (or an individual provider); allow the selection of only the appropriate providers.
--The user is presented with a list of people assigned to a given practitioner and may alter the assignment as required to a group, to another individual
+- In a care setting with multiple providers, where the patient can only see certain kinds of providers (or an individual provider); allow the selection of only the appropriate providers.
+- The user is presented with a list of people assigned to a given practitioner and may alter the assignment as required to a group, to another individual
         or by sharing the assignment.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
@@ -20842,9 +20842,9 @@ The patient administrative information also includes patient location informatio
       <name>AS.2.3 Manage Patient's Residence for the Provision and Administration of Services</name>
       <alias>AS.2.3</alias>
       <notes>$ST$Provide the patient's residence information for the provision and administration of services to the patient, patient transport, and as required for public health reporting.$DE$This function is intended to support the provision of services to patients at their place of residence. Examples include but are not limited to the following:
--Visiting nurse may be providing care to a new mother and baby at their place of residence.
--A patient with a mobility problem may require transport to and from a clinic appointment.
--Support identification of multiple residences for a patient like a child with multiple guardians (divorced parents with joint custody) or adults with Winter/Summer residences.$EX$</notes>
+- Visiting nurse may be providing care to a new mother and baby at their place of residence.
+- A patient with a mobility problem may require transport to and from a clinic appointment.
+- Support identification of multiple residences for a patient like a child with multiple guardians (divorced parents with joint custody) or adults with Winter/Summer residences.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1434</parentId>
@@ -35797,9 +35797,10 @@ $EX$Examples of applied business rules include:
       <name>TI.7 Workflow Management</name>
       <alias>TI.7</alias>
       <notes>$ST$Support workflow management functions including both the management and set up of work queues, personnel lists, and system interfaces as well as the implementation functions that use workflow-related business rules to direct the flow of work assignments.$DE$Workflow management functions that an EHR-S supports include:
--Distribution of information to and from internal and external parties;
--Support for task-management as well as parallel and serial task distribution;
--Support for notification and task routing based on system triggers; and-Support for task assignments, escalations and redirection in accordance with business rules.
+- Distribution of information to and from internal and external parties;
+- Support for task-management as well as parallel and serial task distribution;
+- Support for notification and task routing based on system triggers; and
+- Support for task assignments, escalations and redirection in accordance with business rules.
 
 Workflow definitions and management may be implemented by a designated application or distributed across an EHR-S.$EX$</notes>
       <stereotype>Function</stereotype>
