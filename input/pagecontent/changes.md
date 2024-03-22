@@ -1,3 +1,18 @@
+### Status
+
+Status ISO Normative / Reference vs FHIR Normative / Informative
+
+See [Chapter 3.2 EHR-S Functional Model Scope - Table 1](chapter1.html#ehr-s-functional-model-scope)
+
+### Previously Hidden Content
+
+* Examples - some examples were not rendered; now part of Section, Header and Function description
+* Actors - added to Section rendering
+* Conditional and Dependent flags - prepended italic to conformance
+
+### New Content - SatisfiedBy
+
+As a preview to EHR-S FM R3 we populated the satisfiedBy for *some* functions with a reference to the associated FHIR Resource or FHIR Profile.
 
 ### Chapter Numbers
 
@@ -19,13 +34,3 @@ Here are the mappings from the original EHR-S FM R2.1 chapter numbers to the FHI
 | B | 13 |
 | C | 14 |
 | D | 15 |
-
-### Status
-
-Status ISO Normative / Reference vs FHIR Normative / Informative
-
-See [Chapter 3.2 EHR-S Functional Model Scope - Table 1](chapter1.html#ehr-s-functional-model-scope)
-
-### New Content - SatisfiedBy
-
-As a preview to EHR-S FM R3 we populated the satisfiedBy for *some* functions with a reference to the associated FHIR Resource or FHIR Profile.
