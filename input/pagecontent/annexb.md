@@ -1,3 +1,4 @@
+<style>table, td, th { border: 1px solid black; padding:5px; }</style>
 <table cellspacing="0" border="0">
 	<tr>
 		<th align="left">Term</th>
