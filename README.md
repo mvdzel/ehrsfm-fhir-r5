@@ -59,3 +59,15 @@ No narrative removes rendering of Requirement.statements. So don't use this.
 @> cd WWW/ehrsfm-fhir-r5
 @> put -r *
 ```
+
+# Tips: Convert Overview Table Content to MD
+
+We need these steps to keep formatting in table.
+
+* paste table in Google Sheet
+* select all & CTRL-\
+* paste in Libreoffice
+* select all & CTRL-M (remove formatting)
+* export to HTML
+* put <table> in MD
+* CTRL-H: ' height="\d+"'
