@@ -1,9 +1,4 @@
-## TODO
-
-* LOW: script Get FM metadata from the .mif file + authors
-* Script to replace grouping and resources section in ImplementationGuide ehrs-ig.json
-* Overview Chapter 8 Glossary content
-* See https://github.com/mvdzel/ehrsfm-fhir-r5/issues/
+For issues: https://github.com/mvdzel/ehrsfm-fhir-r5/issues/
 
 ## Running the scipt and IG publisher
 
