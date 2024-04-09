@@ -1,7 +1,8 @@
 ## TODO
 
-* LOW/script Get FM metadata from the .mif file + authors
-* Overview Chapter8 content
+* LOW: script Get FM metadata from the .mif file + authors
+* Script to replace grouping and resources section in ImplementationGuide ehrs-ig.json
+* Overview Chapter 8 Glossary content
 * See https://github.com/mvdzel/ehrsfm-fhir-r5/issues/
 
 ## Running the scipt and IG publisher
@@ -15,9 +16,10 @@ Convert current computable version of the FM (MAX file) to FHIR IG artifacts.
 @> (once) dpkg -i jdk-21_linux-x64_bin.deb
 @> (once) apt update; apt install graphviz jekyll
 @> (once) npm instal
-@> node max2fhir.js
+@> node max2fhir.js > output.txt
 @> node max2plantuml.js > ../input/images-source/relationships.plantuml 
 ```
+Copy grouping & resource json from output.txt into ehrs-ig.json
 
 ### Validate
 ```
@@ -51,7 +53,6 @@ No narrative removes rendering of Requirement.statements. So don't use this.
 ```
 
 ## SFTP Publish
-
 ```
 > sftp user@sftp
 @> cd WWW/ehrsfm-fhir-r5

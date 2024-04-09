@@ -177,6 +177,7 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
     }
     var resource = {
         "reference": { "reference": `Requirements/${fmid}-${alias}` },
+        "isExample": false,
         "groupingId": alias.substring(0, alias.indexOf('.'))
       }
     resources.push(resource);
