@@ -53,15 +53,34 @@
           "id": "TI",
           "name": "Trust Infrastructure Section",
           "description": "The Trust Infrastructure (TI) Section consists of functions common to an EHR System infrastructure, particularly those functions foundational to system operations, security, efficiency and data integrity assurance, safeguards for privacy and confidentiality, and interoperability with other systems. TI functions are core and foundational to all other functions of the Model (Care Provision, Care Provision Support, Population Health, Administrative Support and Record Infrastructure). Note extensive reference to TI functions in Overarching Criteria. TI functions may be implemented within the architecture of a single system or across a tightly coupled suite of systems (applications).All functions within the Trust Infrastructure Section have an identifier starting with \"TI\"."
+        },
+        {
+          "id": "OTH",
+          "name": "Other",
+          "description": ""
         }
       ],
       "resource":[
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-OV"
+          },
+          "isExample": false,
+          "groupingId": "OTH"
+        },
         {
           "reference": {
             "reference": "Requirements/EHRSFMR2.1-OV.1"
           },
           "isExample": false,
           "groupingId": "OV"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CP"
+          },
+          "isExample": false,
+          "groupingId": "OTH"
         },
         {
           "reference": {
@@ -391,6 +410,13 @@
           },
           "isExample": false,
           "groupingId": "CP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-CPS"
+          },
+          "isExample": false,
+          "groupingId": "OTH"
         },
         {
           "reference": {
@@ -940,6 +966,13 @@
         },
         {
           "reference": {
+            "reference": "Requirements/EHRSFMR2.1-AS"
+          },
+          "isExample": false,
+          "groupingId": "OTH"
+        },
+        {
+          "reference": {
             "reference": "Requirements/EHRSFMR2.1-AS.1"
           },
           "isExample": false,
@@ -1332,6 +1365,13 @@
         },
         {
           "reference": {
+            "reference": "Requirements/EHRSFMR2.1-POP"
+          },
+          "isExample": false,
+          "groupingId": "OTH"
+        },
+        {
+          "reference": {
             "reference": "Requirements/EHRSFMR2.1-POP.1"
           },
           "isExample": false,
@@ -1462,6 +1502,13 @@
           },
           "isExample": false,
           "groupingId": "POP"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-RI"
+          },
+          "isExample": false,
+          "groupingId": "OTH"
         },
         {
           "reference": {
@@ -1931,6 +1978,13 @@
           },
           "isExample": false,
           "groupingId": "RI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1-TI"
+          },
+          "isExample": false,
+          "groupingId": "OTH"
         },
         {
           "reference": {
@@ -2449,6 +2503,13 @@
           },
           "isExample": false,
           "groupingId": "TI"
+        },
+        {
+          "reference": {
+            "reference": "Requirements/EHRSFMR2.1"
+          },
+          "isExample": false,
+          "groupingId": "OTH"
         }
       ],
       "page": {

@@ -65,6 +65,12 @@ Object.values(reqs).forEach(req => {
 });
 
 sortResources();
+var grouping = {
+    "id": "OTH",
+    "name" : "Other",
+    "description" : ""
+}
+groupings.push(grouping);
 console.log('"grouping":' + JSON.stringify(groupings, null, 2));
 console.log('"resource":' + JSON.stringify(resources, null, 2));
 
@@ -85,7 +91,15 @@ function handleFM(fm) {
         "name": name,
         "title": name,
         "status": "active"
-      };
+    };
+
+    var resource = {
+        "reference": { "reference": `Requirements/${fmid}` },
+        "isExample": false,
+        "groupingId": "OTH"
+    }
+    resources.push(resource);
+
     return fhir_req;
 }
 
@@ -105,7 +119,7 @@ function handleSection(section, parentObject) {
 
     var fhir_section = {
         "resourceType": "Requirements",
-        "id": fmid + "-" + alias,
+        "id": `${fmid}-${alias}`,
         "meta": {
             "profile": [
                 `http://hl7.org/ehrs/StructureDefinition/FMSection`
@@ -131,9 +145,16 @@ function handleSection(section, parentObject) {
         "id": alias,
         "name" : title + " Section",
         "description" : overview
-      }
+    }
     groupings.push(grouping);
-    
+
+    var resource = {
+        "reference": { "reference": `Requirements/${fmid}-${alias}` },
+        "isExample": false,
+        "groupingId": "OTH"
+    }
+    resources.push(resource);
+ 
     return fhir_section;
 }
 
@@ -179,7 +200,7 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
         "reference": { "reference": `Requirements/${fmid}-${alias}` },
         "isExample": false,
         "groupingId": alias.substring(0, alias.indexOf('.'))
-      }
+    }
     resources.push(resource);
 
     return fhir_headerorfunction;
@@ -214,7 +235,7 @@ function handleCriteria(criteria, fhir_parent_req) {
         ],
         "conditionality": (conditional['$'].value=="Y"),
         "requirement": notes
-      };
+    };
     if (!fhir_parent_req.statement) { fhir_parent_req.statement = [] }
     if (refAlias && refAlias['$'].value != "" && refFunctionID && refFunctionID['$'].value != "") {
         fhir_statement["derivedFrom"] = refAlias['$'].value + " " + refFunctionID['$'].value + (refCriteriaID?"#" + refCriteriaID['$'].value:"");

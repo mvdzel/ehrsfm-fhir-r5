@@ -25,7 +25,7 @@ The Function List (see [artifacts](artifacts.html)) includes the following compo
 | Change Indicator | *derive or extension?* | The change indicator shows the change from previous versions. This will be valued as follows: <br/>C - Changed<br/>D - Deleted<br/>N - New<br/>NC - No Change |
 | Row # | *extension?* | A unique number for the row within the section. |
 
-### EHR-S FM R2.1 Primary Authors and Contributors
+### EHR WG CoChairs and Publishing Facilitators
 
 | Role  | Name | Organization | Contact |
 | --- | --- | --- | --- |

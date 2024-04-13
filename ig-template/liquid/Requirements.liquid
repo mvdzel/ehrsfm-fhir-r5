@@ -43,11 +43,6 @@
                 </ol>
                 {% endif %}
             </td>
-            <td style="padding-left: 4px;">
-                {% if statement.derivedFrom.exists() %} 
-                <span>{{statement.derivedFrom}}</span>
-                {% endif %}
-            </td>
         </tr>
         {% endfor %}
     </table>

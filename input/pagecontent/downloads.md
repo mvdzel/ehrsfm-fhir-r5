@@ -1,3 +1,7 @@
+### Cross-Reference spreadsheet to EHR-S FM R1.1
+
+Cross-Reference spreadsheet EHR-S FM R1.1 to R2.1 [here](ehrsfm_r11_r2_map_only.xlsx)
+
 ### Full IG
 
 Download the entire implementation guide [here](full-ig.zip).
@@ -15,13 +19,3 @@ In addition there are format specific definition files:
 - [TTL](definitions.ttl.zip)
 
 These files should be the first choice whenever generating any implementation artifacts since they contain all of the rules about what makes these profiles valid. Implementers will still need to be familiar with the content of the specification and profiles that apply in order to make a conformant implementation.  See the overview on [validating FHIR profiles and resources]({{ site.data.fhir.path }}validation.html).
-
-There are also specific packages for the R4 and R4B FHIR specifications:
-
-### Examples
-
-All of the examples that are used in this Implementation Guide are available for download:
-
-- [XML](examples.xml.zip)
-- [JSON](examples.json.zip)
-- [TTL](examples.ttl.zip)
