@@ -54,6 +54,14 @@ No narrative removes rendering of Requirement.statements. So don't use this.
 @> put -r *
 ```
 
+## GIT Mirror
+The HL7 repo is now setup to being a mirror of the work repo (@mvdzel). Use these commands to update the HL7 mirror.
+```
+@> git clone --mirror https://github.com/mvdzel/ehrsfm-fhir-r5.git
+@> git fetch
+@> git push --mirror https://github.com/HL7/ehrsfm-ig.git
+```
+
 --------------------
 --------------------
 
@@ -64,7 +72,7 @@ No narrative removes rendering of Requirement.statements. So don't use this.
   * Example: CP.1.4 add as last in first requirement
         "satisfiedBy": [ "https://hl7.org/fhir/condition.html" ]
 
-### Tips: Convert Overview Table Content to MD
+## Tips: Convert Overview Table Content to MD
 
 We need these steps to keep formatting in table.
 
