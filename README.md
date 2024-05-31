@@ -83,3 +83,11 @@ We need these steps to keep formatting in table.
 * export to HTML
 * put ''< table >'' in MD
 * CTRL-H: ' height="\d+"'
+
+## Using Pandoc to convert docx to markdown
+
+https://pandoc.org/
+
+```
+> docker run --rm --volume "`pwd`:/data" --user `id -u`:`id -g` pandoc/core Glossary.docx -o chapter8.md
+```
