@@ -57,3 +57,5 @@ Each section within this document is clearly labeled "Normative" if it is normat
 
 In the external Annex A, Function List, the Function ID, Function Name, Function Statement, and Conformance
 Criteria components are Normative in this Functional Model.
+
+{% include nav.html previous="chapter0" next="chapter2" %}

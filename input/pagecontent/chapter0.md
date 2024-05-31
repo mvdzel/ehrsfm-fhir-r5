@@ -62,3 +62,5 @@ support the use of those technologies as implementation strategies.
 The EHR-S Functional Model and specific functions have been widely reviewed by healthcare providers,
 vendors, public health agencies, regulatory and accreditation bodies, professional societies, trade associations,
 researchers and other stakeholders. This Standard reflects input from all these reviewers.
+
+{% include nav.html previous="index" next="chapter1" %}

@@ -1,4 +1,3 @@
-
 ### This Project
 
 > Within HL7, since 2020, the Common H7 Toolset initiative to develop the same underlying publication process technology stack across all HL7 standards has been underway. The intent is to provide the same look and feel, to leverage inherent [validation and versioning](validation.html), to ease annual updates, and to avoid the unwieldy word and pdf publication process. This publication of EHR-S FM R2.1 is the realization of that intent for the [EHR-S FM product family](https://www.hl7.org/implement/standards/product_section.cfm?section=11).
@@ -7,7 +6,7 @@
 
 ### Introduction
 
-See [Introduction section](chapter0.html).
+Start here: [Introduction section](chapter0.html).
 
 ### Function List Component Descriptions
 

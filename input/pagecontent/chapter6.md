@@ -662,3 +662,5 @@ Examples:
 2. The system **MAY** enable EHR-S security administrators to grant authorizations for roles.
 3. The system **SHOULD** enable EHR-S security administrators to grant authorizations within contexts.
 4. The system **SHALL** enable EHR-S security administrators to grant authorizations for roles for organizations with 10 employees or more.
+
+{% include nav.html previous="chapter5" next="chapter7" %}

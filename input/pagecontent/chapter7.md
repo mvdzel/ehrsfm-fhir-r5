@@ -21,3 +21,5 @@ issue with the software developer. The end user (provider) may also communicate 
 EHR Work Group. The EHR WG shall not be responsible for validation of any statement of conformance or for
 intervening with a software vendor/developer when a discrepancy is reported by an end user but may at its
 discretion reach out to the EHR-S vendor/developer to discuss the identified issues.
+
+{% include nav.html previous="chapter6" next="chapter8" %}

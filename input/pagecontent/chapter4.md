@@ -115,3 +115,5 @@ as normative language in this standard, define the requirements for conforming t
 used to express a conformance criterion is highly structured with standardized components with set meanings.
 The structured language used to define Conformance Criteria in the Function List are further specified in the
 Conformance Section 7 and Glossary Section 8.
+
+{% include nav.html previous="chapter3" next="chapter5" %}

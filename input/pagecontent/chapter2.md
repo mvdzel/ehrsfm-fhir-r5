@@ -8,3 +8,5 @@ The following referenced documents are indispensable for the application of this
 1. ISO 16527:2017, Health Informatics – HL7 personal health record system functional model, Release 1
 1. ISO 20514:2005, Health Informatics – Electronic health record – definition, scope and context
 1. ISO 21089:2018, Health Informatics – Trusted End-to-End Information Flows
+
+{% include nav.html previous="chapter1" next="chapter3" %}
