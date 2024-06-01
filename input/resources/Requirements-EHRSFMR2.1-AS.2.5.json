@@ -1,0 +1,61 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.2.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_2_5_Manage_Patients_in_Healthcare_Programs",
+  "title": "AS.2.5 Manage Patients in Healthcare Programs (Function)",
+  "status": "active",
+  "description": "Capture and manage patient participation in healthcare programs.",
+  "purpose": "The system can provide the ability to identify patients participating in health care programs and to also manage information about those programs. The system can also support managing an organization's defined healthcare programs. These directories may include population based programs like an accountable care organization or patient-centered medical homes or patient panels. (NOTE: These program may include a roster-based funding component tied to patients in the programs.)",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.5-01",
+      "label": "AS.2.5#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture information about patient subscribed or registered into health care programs (e.g., clinical trials or wellness programs)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.5-02",
+      "label": "AS.2.5#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage information about health care programs (e.g., clinical trials or wellness programs) into which the patient has been subscribed or registered."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.5-03",
+      "label": "AS.2.5#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage separate status options for multiple healthcare program."
+    }
+  ]
+}

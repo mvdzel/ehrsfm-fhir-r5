@@ -1,0 +1,382 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.4.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_4_1_Manage_Order_Set_Templates",
+  "title": "CPS.4.1 Manage Order Set Templates (Function)",
+  "status": "active",
+  "description": "Maintain order set templates based on preferred standards, provider preferences, organizational policy or other criteria.",
+  "purpose": "Order set templates, which may include medication orders, allow a care provider to choose common orders for a particular circumstance or disease state according to standards (e.g., best practice guidelines) or other criteria. Order Set Templates may be defined to allow or not allow the provider to modify (add/remove/update) specific orders when applying them to a specific patient.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-01",
+      "label": "CPS.4.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage order set templates, including creation from provider input and version control.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-02",
+      "label": "CPS.4.1#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture an order set template based on a specific patient's orders/data according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.1#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-03",
+      "label": "CPS.4.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage order set templates created for conditions or diseases.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.1#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-04",
+      "label": "CPS.4.1#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture the practice standards or criteria used to create order set templates (e.g., as a note attached to the template).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.1#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-05",
+      "label": "CPS.4.1#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY render order set templates to providers based on diagnoses, conditions, or symptoms to aid decision support.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.1#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-06",
+      "label": "CPS.4.1#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CP.4.1]] (Use Order Sets).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.1#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-07",
+      "label": "CPS.4.1#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain an order set template containing all order types relevant to a particular problem (e.g., laboratory , radiology, medications, nursing tasks, and materials management)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-08",
+      "label": "CPS.4.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture, maintain and render order set templates customized by patient age, sex, or other patient factors."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-09",
+      "label": "CPS.4.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture, maintain and render order set templates customized by provider type."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-10",
+      "label": "CPS.4.1#10",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture, maintain and render order set templates customized by provider."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-11",
+      "label": "CPS.4.1#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture, maintain and render standing order set templates for triage or for specific conditions."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-12",
+      "label": "CPS.4.1#12",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage links or access to applicable clinical standards and reference materials within an order set."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-13",
+      "label": "CPS.4.1#13",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain and render the date that an order set was last modified."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-14",
+      "label": "CPS.4.1#14",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain and render order set templates that are pre-configured with order entry information."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-15",
+      "label": "CPS.4.1#15",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain and render multiple choices of orders within an order set template for clinician selection."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-16",
+      "label": "CPS.4.1#16",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain and render text instructions or recommendations within order sets."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-17",
+      "label": "CPS.4.1#17",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture a name for an order set."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-18",
+      "label": "CPS.4.1#18",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render order set(s) by name."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-19",
+      "label": "CPS.4.1#19",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render orders in the same manner regardless of the manner in which they were ordered (individually or from within an order set)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-20",
+      "label": "CPS.4.1#20",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to integrate order sets within other order sets."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-21",
+      "label": "CPS.4.1#21",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine and render drug-drug interaction and drug-allergy reaction checking to orders placed through an order set in the same way as orders placed individually."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-22",
+      "label": "CPS.4.1#22",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render reports on the use of order sets, including such data as orders, ordering provider, date/time ordered, basic patient data (e.g., demographics), and condition(s) being treated."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-23",
+      "label": "CPS.4.1#23",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain and render order sets that allow or disallow individual orders to be selected or deselected by the user (e.g., standing orders that can't be modified during care provision)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.1-24",
+      "label": "CPS.4.1#24",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and maintain order set preferences."
+    }
+  ]
+}

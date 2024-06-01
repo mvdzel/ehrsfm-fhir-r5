@@ -1,0 +1,136 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-TI.2.1.2.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_2_1_2_2_User_Authentication_to_the_System__Start_user_session__Security_Audit_Trigger",
+  "title": "TI.2.1.2.2 User Authentication to the System (Start user session) Security Audit Trigger (Function)",
+  "status": "active",
+  "description": "Manage Audit Trigger initiated to track user authentication to the system (start user session).",
+  "purpose": "Capture user authentication to the system (start user session), both routine and exceptional, including key metadata (who, what, when, where, why).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.2-01",
+      "label": "TI.2.1.2.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL audit each occurrence of user authentication at logon (start session)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.2-02",
+      "label": "TI.2.1.2.2#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the organization."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.2-03",
+      "label": "TI.2.1.2.2#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF known, THEN the system SHALL capture identity of the user."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.2-04",
+      "label": "TI.2.1.2.2#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the system."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.2-05",
+      "label": "TI.2.1.2.2#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.2-06",
+      "label": "TI.2.1.2.2#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the date and time of the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.2-07",
+      "label": "TI.2.1.2.2#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the location (i.e., network address)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.2-08",
+      "label": "TI.2.1.2.2#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the method of user authentication (e.g., user ID, password, biometrics, token, security question(s))."
+    }
+  ]
+}

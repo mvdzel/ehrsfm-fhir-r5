@@ -1,0 +1,80 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-POP.4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "POP_4_Support_for_Monitoring_Response_Notifications_Regarding_a_Specific_Patient_s_Health",
+  "title": "POP.4 Support for Monitoring Response Notifications Regarding a Specific Patient's Health (Function)",
+  "status": "active",
+  "description": "In the event of a health risk alert, evaluate whether expected actions have been taken, and execute follow-up notification otherwise.",
+  "purpose": "The system assists in follow-up for a specific patient event that has failed to occur (e.g., follow-up to a health alert or absence of an expected laboratory result) and communicate the omission to the appropriate care provider(s).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.4-01",
+      "label": "POP.4#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine and render to the provider specific recommended actions that may be taken at the patient level regarding a health risk alert.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.6.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.4-02",
+      "label": "POP.4#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine and render a notification to appropriate care providers of specific actions to be taken regarding the set of patients who are the target of a health risk alert.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.6.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.4-03",
+      "label": "POP.4#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine and render a list of those patients who have not received appropriate action in response to a health risk alert.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.6.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.4-04",
+      "label": "POP.4#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to determine and render a status report regarding the compliance of the set of all patients who are the target of a health risk alert.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.6.3#4"
+    }
+  ]
+}

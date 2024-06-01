@@ -1,0 +1,76 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.1.3.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_3_3_Manage_Record_Entry_Succession_and_Version_Control",
+  "title": "RI.1.3.3 Manage Record Entry Succession and Version Control (Function)",
+  "status": "active",
+  "description": "Manage successive Record Entry versions over time.",
+  "purpose": "The system must have a mechanism to handle versions and succession of Record Entries (such as a preliminary and final laboratory reports, amended or corrected documents). Versioning and succession management is based on Record Entry content, and/or status change over time.\n\nA version may be one of:1) A completed and attested Record Entry; 2) A Record Entry completed and attested which has been modified one or more times3) A Record Entry that has been viewed for clinical decision-making purposes by an individual other than the author4) A Record Entry that has been captured in an incomplete state per organization business rules and updated over time (i.e., a preliminary laboratory test). 5) A Record Entry that electively, according to the author, must be preserved in the current state at a given point in time (i.e., History and Physical). Certain types of Record Entries are typically handled in versions, for example:\n        laboratory results (preliminary and final)- Dictated reports- Work ups (over course of days)The prior version of Record Entries should be retained for the legally prescribed timeframe as defined by scope of practice, organizational policy, and jurisdictional law.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.3.3-01",
+      "label": "RI.1.3.3#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage Record Entries that become new versions when their state changes (e.g., augmented, amended, corrected, etc.)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.3.3-02",
+      "label": "RI.1.3.3#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to update a Record Entry and save it as a new version."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.3.3-03",
+      "label": "RI.1.3.3#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture, maintain and render the date, time and user for the original and each updated version of the Record Entry."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.3.3-04",
+      "label": "RI.1.3.3#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL manage the succession of Record Entries in chronological version order."
+    }
+  ]
+}

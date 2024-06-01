@@ -1,0 +1,280 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.3.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_3_2_Manage_Patient_Clinical_Measurements",
+  "title": "CP.3.2 Manage Patient Clinical Measurements (Function)",
+  "status": "active",
+  "description": "Capture and manage patient clinical measures, such as vital signs, as discrete patient data.",
+  "purpose": "Within the context of an episode of care, patient measures such as vital signs are captured and managed as discrete data to facilitate reporting and provision of care. Other clinical measures (such as expiratory flow rate, size of lesion, etc.) are captured and managed, and may be discrete data.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-01",
+      "label": "CP.3.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture patient vital signs (e.g., blood pressure, temperature, heart rate, respiratory rate, and pain scale) as discrete elements of structured or unstructured data.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.4#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-02",
+      "label": "CP.3.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture other clinical measures (e.g., peak expiratory flow rate, size of lesions, oxygen saturation, height, weight, length, body mass index and severity of pain) as discrete elements of either structured or unstructured data.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.4#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-03",
+      "label": "CP.3.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine additional values within an assessment based on discrete or atomic elements (e.g., Body Mass Index based on height and weight).",
+      "derivedFrom": "PHFP DC.1.8.4#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-04",
+      "label": "CP.3.2#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to import or receive clinical measurements (e.g., bone density, bone age, cardiac rhythm) from an ancillary system or external device (e.g., Holter monitor) as discrete elements of either structured or unstructured data."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-05",
+      "label": "CP.3.2#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture mood, behavior and daily functioning as structured or unstructured data.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.4#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-06",
+      "label": "CP.3.2#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine and render percentile values when data with normative distributions are entered.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.4#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-07",
+      "label": "CP.3.2#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine based on information provided, normal ranges for numeric, as well as normal values for non-numeric, data (e.g., presence or absence of physical findings based on developmental stage) based on age and other parameters such as height, weight, ethnicity or gestational age.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.4#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-08",
+      "label": "CP.3.2#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render target clinical measurement values according to scope of practice, organizational policy, and/or jurisdictional law (e.g., mean target total blood cholesterol of 199 mg/dL as recommended by Public Health authorities)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-09",
+      "label": "CP.3.2#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture both the time the clinical measurement was taken as well as the time it was entered into the system, including measurements from an ancillary system or external device."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-10",
+      "label": "CP.3.2#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, as discrete data, clinical measurement (including vital signs) contextual information (e.g., methods used for the vital signs measurements, position of patient)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-11",
+      "label": "CP.3.2#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render trends of clinical measurements."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-12",
+      "label": "CP.3.2#12",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render growth charts that include growth data (weight, length or height and head circumference) on a graph that includes normative data plotted against population-based normative curves by age ranges, gender and ethnicity of the respective normative data (e.g., females 0-36 months).",
+      "derivedFrom": "PHFP(BD) DC.1.8.4#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-13",
+      "label": "CP.3.2#13",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render the number of standard deviations from the mean when data with normal distributions are captured.",
+      "derivedFrom": "PHFP(BD) DC.1.8.4#19"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-14",
+      "label": "CP.3.2#14",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, store and render data using different units of measurement (e.g., grams, kilograms and pounds).",
+      "derivedFrom": "PHFP DC.1.8.4#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-15",
+      "label": "CP.3.2#15",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and render clinical context for each data point on the growth chart (e.g., ventilated, receiving growth hormone, \"Tanner Stage\")."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-16",
+      "label": "CP.3.2#16",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture, maintain, and render patient maturity level measurements (e.g., using the \"Tanner Stage\" method)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.2-17",
+      "label": "CP.3.2#17",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine post conceptional age (corrected age) for the purposes of decision support."
+    }
+  ]
+}

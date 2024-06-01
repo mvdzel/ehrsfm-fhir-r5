@@ -1,0 +1,166 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-TI.2.1.2.9",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_2_1_2_9_User_Permissions__Authorization__Security_Audit_Trigger",
+  "title": "TI.2.1.2.9 User Permissions (Authorization) Security Audit Trigger (Function)",
+  "status": "active",
+  "description": "Manage Audit Trigger initiated to track user permissions (authorization).",
+  "purpose": "Capture user permissions (authorization), both routine and exceptional, including key metadata (who, what, when, where, why).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.9-01",
+      "label": "TI.2.1.2.9#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL audit each occurrence when user permissions (authorizations) are granted, removed or updated."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.9-02",
+      "label": "TI.2.1.2.9#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the organization."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.9-03",
+      "label": "TI.2.1.2.9#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF known, THEN the system SHALL capture identity of the user."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.9-04",
+      "label": "TI.2.1.2.9#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the system."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.9-05",
+      "label": "TI.2.1.2.9#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.9-06",
+      "label": "TI.2.1.2.9#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the date and time of the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.9-07",
+      "label": "TI.2.1.2.9#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the location (i.e., network address)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.9-08",
+      "label": "TI.2.1.2.9#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture the rationale for granting, removing or updating user permissions."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.9-09",
+      "label": "TI.2.1.2.9#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of user to whom permissions apply."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.9-10",
+      "label": "TI.2.1.2.9#10",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the new set of applicable user permissions (authorizations)."
+    }
+  ]
+}

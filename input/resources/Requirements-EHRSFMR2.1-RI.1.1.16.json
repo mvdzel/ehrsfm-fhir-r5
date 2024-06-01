@@ -1,0 +1,47 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.1.1.16",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_16_Destroy_Delete_Record_Lifecycle_Event",
+  "title": "RI.1.1.16 Destroy/Delete Record Lifecycle Event (Function)",
+  "status": "active",
+  "description": "Destroy/Delete Record Entries (1 or more instances)",
+  "purpose": "Occurs when an agent causes the system to permanently erase record entry content from the system. \n\nReference: ISO 21089-2018, Section 15.16.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.16-01",
+      "label": "RI.1.1.16#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to delete (destroy) Record Entries (e.g., those exceeding their legal retention period) according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-LM_R1 14.10"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.16-02",
+      "label": "RI.1.1.16#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to tag Record Entries as missing."
+    }
+  ]
+}

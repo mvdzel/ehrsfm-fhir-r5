@@ -1,0 +1,166 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.1.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_1_5_Manage_Health_Related_Factors_List",
+  "title": "CP.1.5 Manage Health-Related Factors List (Function)",
+  "status": "active",
+  "description": "Manage patient-specific health-related factors.",
+  "purpose": "A patient's strengths (positive factors) or weaknesses (negative factors) may impact a patient's care or recovery and may be recorded as part of the EHR to support the development of care plans and treatment options. Examples of health factors include family support, financial support, health insurance levels, overall health, personal health behaviors (e.g., tobacco, physical activity, sleep), body mass index, employment status/type, access to care, or education level. Note that heath factors may be included in the Problem list (CP.1.4) which may include problems or strengths (e.g., ambulatory status or addictions). An example of an active patient-specific strength is an elderly parent receiving care from an adult child during the adult child's summer break from college. A patient's care may be affected by certain positive or negative factors. For example, coverage by insurance (a positive health factor) versus unemployment (a negative health factor).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.5-01",
+      "label": "CP.1.5#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage, as discrete data, patient-specific Health-Related Factors."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.5-02",
+      "label": "CP.1.5#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage the source of information regarding patient-specific Health-Related Factors."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.5-03",
+      "label": "CP.1.5#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[RI.1.1.17]] (Deprecate/Retract Record Entries) to enable the inactivation or deprecation of a patient-specific Health-Related Factor."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.5-04",
+      "label": "CP.1.5#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to update a patient-specific Health-Related Factors to re-activate a previously deactivated patient-specific Health-Related Factor."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.5-05",
+      "label": "CP.1.5#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link encounters, orders, medications and notes to one or more patient-specific Health-Related Factors."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.5-06",
+      "label": "CP.1.5#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture a patient-specific Health-Related Factors using standardized coding schemes (e.g., a standardized Nursing Diagnosis coding system)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.5-07",
+      "label": "CP.1.5#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture free text patient-specific Health-Related Factors and render them in a manner that distinguishes them from coded patient-specific Health-Related Factor entries."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.5-08",
+      "label": "CP.1.5#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD tag and render an indicator that interaction checking will not occur against free text patient-specific Health-Related Factors."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.5-09",
+      "label": "CP.1.5#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage free text comments associated with patient-specific Health-Related Factors."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.5-10",
+      "label": "CP.1.5#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link actions taken (e.g., placing an order for home health aid) and outcomes (e.g., family providing additional home support) with patient-specific Health-Related Factors (e.g., living alone)."
+    }
+  ]
+}

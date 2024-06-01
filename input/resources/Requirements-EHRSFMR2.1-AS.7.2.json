@@ -1,0 +1,96 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.7.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_7_2_Support_Encounter_Documentation",
+  "title": "AS.7.2 Support Encounter Documentation (Function)",
+  "status": "active",
+  "description": "Provide assistance in assembling data, supporting data collection and processing output from a specific encounter.",
+  "purpose": "Workflows, based on the encounter management settings, will assist (with triggers alerts and other means) in determining and supportingdata collection, import, export, extraction, linkages and transformation. As an example, a pediatrician is presented with diagnostic and procedure codes specific to pediatrics. Business rules enable automatic collection of data from the patient's health record and patient registry. As the provider enters data, workflow processes are triggered to populate transactions and documents. For example, data entry might populate an eligibility verification transaction or query the immunization registry.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.7.2-01",
+      "label": "AS.7.2#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render workflow support for data collection in a care setting.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.7.2-02",
+      "label": "AS.7.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain encounter and care setting specific data entry workflows.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.7.2-03",
+      "label": "AS.7.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to extract information from the patient record as necessary to support documentation of the patient encounter.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.7.2-04",
+      "label": "AS.7.2#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture and maintain a reduced set of diagnostic and procedure codes for the care setting.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.2#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.7.2-05",
+      "label": "AS.7.2#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY analyze the information entered into the encounter and, based on business rules, initiate secondary reporting workflows.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.2#5"
+    }
+  ]
+}

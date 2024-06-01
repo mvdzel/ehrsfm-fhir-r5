@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.1.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "RI_1_2_Record_Lifespan",
+  "title": "RI.1.2 Record Lifespan (Header)",
+  "status": "active",
+  "description": "Manage Record Lifespan",
+  "purpose": "Record Lifecycle Events (Function [[RI.1.1]]) are those required to manage Record Entries in persistent storage over the full course of Record Lifespan (Section [[RI.1.2]]). See Section [[RI.1.1]], Record Lifecycle, for further description."
+}

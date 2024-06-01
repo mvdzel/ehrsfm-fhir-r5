@@ -1,0 +1,222 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.1.7.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_1_7_3_Manage_Consents_and_Authorizations",
+  "title": "CPS.1.7.3 Manage Consents and Authorizations (Function)",
+  "status": "active",
+  "description": "Create, maintain, and verify patient decisions (such as informed consent for treatment or disclosure).",
+  "purpose": "Decisions are documented and include the extent of information, verification levels and exposition of treatment options. This documentation helps ensure that decisions made at the discretion of the patient, family, or other responsible party, govern the actual care that is delivered or withheld. There may be several documents active at any one time that may govern a patient's care. Both clinical and administrative consents and authorizations are considered part of this function. A consent or authorization includes patient authorization for re-disclosure of sensitive information to third parties. Consents/Authorizations for printing should include appropriate standardized forms for patients, guardians, or foster parents. The system must appropriately present forms for adolescents according to privacy rules.\n\nSome jurisdictions may mandate assent. Assent is agreement by the patient to participate in services when they a legally unable to consent (e.g., an adolescent, an adult with early dementia).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-01",
+      "label": "CPS.1.7.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and render an indication that a patient has completed a consent and authorization (e.g., the patient completes an eye surgery -related consent before receiving eye surgery).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-02",
+      "label": "CPS.1.7.3#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and render an indication that a patient has withdrawn applicable consents and authorizations.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-03",
+      "label": "CPS.1.7.3#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[CPS.2.1]] (Support externally-sourced Clinical Documents).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-04",
+      "label": "CPS.1.7.3#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[CPS.2.2]] (Support externally-sourced Clinical Data)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-05",
+      "label": "CPS.1.7.3#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture scanned consent and authorization paper documents.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-06",
+      "label": "CPS.1.7.3#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to present consent and authorization forms on-line.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-07",
+      "label": "CPS.1.7.3#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to enter consent and authorization forms on-line, with appropriate electronic signature, according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-08",
+      "label": "CPS.1.7.3#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render printable consent and authorization forms/form templates.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.3#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-09",
+      "label": "CPS.1.7.3#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY render the consents and authorizations as part of the patient's record during a specific clinical activity, (e.g., a treatment or a surgery).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.3#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-10",
+      "label": "CPS.1.7.3#10",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render consents and authorizations chronologically, reverse chronologically, and by type of consent or authorization.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.3#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-11",
+      "label": "CPS.1.7.3#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture an assent for patients who are legally unable to consent.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.3#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-12",
+      "label": "CPS.1.7.3#12",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture the source of each consent, such as the patient or the patient's personal representative if the patient is legally unable to provide it.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.3#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.7.3-13",
+      "label": "CPS.1.7.3#13",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage information regarding the patient's personal representative, advocate, healthcare proxy, legal representative, financially responsible entity or other similar person or entity, including their level of authority to make medical or financial decisions on behalf of the patient.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.3#10"
+    }
+  ]
+}

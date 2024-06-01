@@ -1,0 +1,265 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.4.2.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_4_2_1_Support_for_Medication_Interaction_and_Allergy_Checking",
+  "title": "CPS.4.2.1 Support for Medication Interaction and Allergy Checking (Function)",
+  "status": "active",
+  "description": "Identify medication interaction warnings at the time of medication or immunization ordering, or prescribing, as well as at the time of dispensing.",
+  "purpose": "The clinician is alerted to medication-medication, medication-allergy, medication-food, medication-supplement (herbal or dietary) interactions at levels appropriate to the health care setting and with respect to the patient condition. These alerts may be customized to suit the user or group.\n\nNote, medication may be affected by food or dietary choices; whist this is not considered an interaction it is consequently not included in this function; however, the provision of drug-food effectiveness in information to be provided to the patient is included in the function [[CP.8.1]] (Generate, Record and Distribute Patient-Specific Instructions). If the patient's condition is one where, in order to view the necessary components of the health record, patient authorization or consent is required; then the system should show the medication but mask the condition for which the medication is prescribed until the required consent or authorization is available. In an emergent situation, where all health information is required to provide the most effective treatment, and it is not possible to obtain an authorization or consent; the system should provide an override (e.g., \"break the glass\") function to allow access to the diagnosis or problem for which a medication was ordered, according to scope of practice, organizational policies, and/or jurisdictional law.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-01",
+      "label": "CPS.4.2.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine and present the presence of interactions between medications ordered and medications already on the current medication list.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-02",
+      "label": "CPS.4.2.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine and present the presence of interactions between medications ordered and true-allergies on the current allergy list.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-03",
+      "label": "CPS.4.2.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and present the presence of contraindications between medications ordered and patient's current health condition and characteristics (e.g., gender, age, weight, smoking status, pregnancy status, renal function).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.1#11"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-04",
+      "label": "CPS.4.2.1#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY determine and present the presence of interactions between medications ordered and ingestibles (e.g., food or beverages).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.1#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-05",
+      "label": "CPS.4.2.1#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY determine and render the presence of interactions between medications ordered, medications on the current medication list as well as previous medications according to organization policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-06",
+      "label": "CPS.4.2.1#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and present the presence of interactions between medications ordered and supplements (i.e. herbal or dietary) on the current medication list."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-07",
+      "label": "CPS.4.2.1#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain and render a medication order despite alerts for interactions, and/or allergies being present.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.1#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-08",
+      "label": "CPS.4.2.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine and present the presence of duplicate therapies.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.1#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-09",
+      "label": "CPS.4.2.1#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CPS.3.8]] (Manage Documentation of Clinician Response to Decision Support Prompts) and provide the ability to document why a drug interaction warning was overridden.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.1#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-10",
+      "label": "CPS.4.2.1#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine the presence of drug-laboratory interactions and present information to the clinician that certain laboratory test results may be impacted by a patient's medications.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.1#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-11",
+      "label": "CPS.4.2.1#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine, maintain, and present medications noted to be ineffective for the patient in the past.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.1#10"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-12",
+      "label": "CPS.4.2.1#12",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to present, on demand, potential medication-allergy, medication-medication and medication-condition interactions based on current medications, active allergies and active problems lists."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-13",
+      "label": "CPS.4.2.1#13",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD present the rationale for a medication interaction alert."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-14",
+      "label": "CPS.4.2.1#14",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CP.1.3]] (Manage Medication List) in order to maintain a coded list of medications for the patient (including a unique identifier for each medication)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-15",
+      "label": "CPS.4.2.1#15",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY render an alert to the user if the medication interaction information or database has not been updated within a set time parameter."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.1-16",
+      "label": "CPS.4.2.1#16",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render notifications regarding drug-drug interaction(s) to the patient's provider or to the patient's care team when relevant clinical information changes (e.g., new clinical data from an internal or external source) according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

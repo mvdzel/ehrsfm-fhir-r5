@@ -1,0 +1,190 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.9.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_9_5_Ad_Hoc_Query_and_Rendering",
+  "title": "CPS.9.5 Ad Hoc Query and Rendering (Function)",
+  "status": "active",
+  "description": "Provide support for ad hoc query and report generation using tools internal or external to the system. Present customized views and summarized information from a patient's comprehensive EHR subject to jurisdictional laws and organizational policies related to privacy and confidentiality. The view may be arranged chronologically, by problem, or other parameters, and may be filtered or sorted.",
+  "purpose": "Providers and administrators need to respond quickly to new requirements for data measurement and analysis. This need may result from new regulatory requirements or internal requirements. This need also requires that users be able to define and retain their own query parameters. The data being queried may be in either structured or unstructured data formats. \n\nProviders and administrators also need to query for the absence of specific clinical or administrative data. For example, the Quality Control department may desire to determine the level of adherence to the Diabetes Mellitus management protocol. If the protocol calls for the capture of fasting blood sugars information every 3 months at minimum, the investigator might need to perform a multi-patient query that identifies diabetic patients who do not show a Fasting Blood Sugar result within the last 3 months. Key time-related Emergency Department benchmarking reports include: arrival time; entrance-to-treatment-area time, doctor-to-patient contact time; decision-to-admit time, discharge or transfer time; and departure (from the Emergency Department) time. Important time intervals include, but are not limited to, the \"door-to-doctor time\", \"doctor-to-dictation time\", \"admission to bed availability or departure\", and overall length of stay.\n\nA key feature of an electronic health record is its ability to support the delivery of care by enabling prior information to be found and meaningfully displayed. EHR systems should facilitate search, filtering (e.g., filtering by key word, tagged data, or diagnosis), summarization, and presentation of available data needed for patient care. Systems should enable views to be customized (e.g., specific data may be organized chronologically, by clinical category, or by consultant). The views may be arranged chronologically, by problem, or by other parameters, and may be filtered or sorted. Jurisdictional laws and organizational policies that prohibit certain users from accessing certain patient information must be supported.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.5-01",
+      "label": "CPS.9.5#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render ad hoc query and reports of structured clinical and administrative data through either internal or external reporting tools.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.5-02",
+      "label": "CPS.9.5#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and render information extracted from unstructured clinical and administrative data in the report generation process, using internal or external tools.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.5-03",
+      "label": "CPS.9.5#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to extract and transmit reports generated.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.5-04",
+      "label": "CPS.9.5#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain report parameters, based on patient demographic, and/or clinical data, which would allow sorting, and/or filtering of the data.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.5-05",
+      "label": "CPS.9.5#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to save report parameters for generating subsequent reports.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.3#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.5-06",
+      "label": "CPS.9.5#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to edit one or more parameters of a saved report specification when generating a report using that specification.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.3#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.5-07",
+      "label": "CPS.9.5#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render reports, using internal or external reporting tools, based on the absence of a clinical data element (e.g., a laboratory test has not been performed in the last year).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.3#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.5-08",
+      "label": "CPS.9.5#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability for the patient to render [query] the financial data and the data about his or her health related accounts.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.1.5#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.5-09",
+      "label": "CPS.9.5#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to present and transmit customized views of summarized information based on sort and filter controls for date or date range, problem, or other clinical parameters.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.1.5#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.5-10",
+      "label": "CPS.9.5#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to present and transmit summarized information through customized views based on prioritization of chronology, problem, or other pertinent clinical parameters."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.5-11",
+      "label": "CPS.9.5#11",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability for a provider to capture and maintain filters to search for previous events (e.g., encounters, reports, consults) meeting specified criteria."
+    }
+  ]
+}

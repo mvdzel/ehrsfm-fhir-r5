@@ -1,0 +1,174 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.3.4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_3_4_Support_for_Context_Sensitive_Care_Plans__Guidelines__Protocols",
+  "title": "CPS.3.4 Support for Context-Sensitive Care Plans, Guidelines, Protocols (Function)",
+  "status": "active",
+  "description": "Identify and present the appropriate care plans, guidelines, protocols, and/or clinical pathways for the management of patient-specific conditions that are identified in a patient clinical encounter.",
+  "purpose": "At the time of the clinical encounter (problem identification), recommendations for tests, treatments, medications, immunizations, referrals and evaluations are presented based on evaluation of patient-specific data such as age, gender, developmental stage, their health profile, and any site-specific considerations. These may be modified on the basis of new clinical data at subsequent encounters.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.4-01",
+      "label": "CPS.3.4#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render care and treatment plans that are sensitive to the context of patient data and assessments.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.1.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.4-02",
+      "label": "CPS.3.4#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain the choice of action in response to care plan suggestions.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.1.2#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.4-03",
+      "label": "CPS.3.4#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render alerts, notifications, and reports about variances from standard care plans, guidelines, protocols, and clinical pathways.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.1.2#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.4-04",
+      "label": "CPS.3.4#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CPS.3.1]] (Support for Standard Assessments).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.1.2#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.4-05",
+      "label": "CPS.3.4#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CPS.3.2]] (Support for Patient Context-Driven Assessments).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.1.2#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.4-06",
+      "label": "CPS.3.4#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CPS.3.3]] (Support for Standard Care Plans, Guidelines, Protocols).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.1.2#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.4-07",
+      "label": "CPS.3.4#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain, and render specialized medical treatment guidelines and protocols for unique physical, chemical, biological, and radiologic exposures."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.4-08",
+      "label": "CPS.3.4#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage biometric data, such as age-specific, weight-specific or height-specific normative data, to identify, track and provide alerts, notifications and reports about variances, care plans, guidelines and protocols.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.1.2#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.4-09",
+      "label": "CPS.3.4#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain and render care plan templates to be used as a basis for the creation of new plans of care and treatment.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.6.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.4-10",
+      "label": "CPS.3.4#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture care plan templates from previously developed care plans."
+    }
+  ]
+}

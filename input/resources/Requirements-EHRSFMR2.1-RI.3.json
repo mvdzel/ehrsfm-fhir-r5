@@ -1,0 +1,136 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_3_Record_Archive_and_Restore",
+  "title": "RI.3 Record Archive and Restore (Function)",
+  "status": "active",
+  "description": "Manage Record Archive and Restore",
+  "purpose": "EHR Record Entries must be transitioned over its lifecycle from online data structures to near-line or off-line data structures. The archive function performs this transition of Record Entries from an online, production EHR-S to offline storage for information that is not being purged/destroyed. The system must provide such archive and restore functions to extract and preserve indefinitely, Record Entries selected to be removed from the live production EHR-S database and retained.\n\nRecord Entries must be archived and restored in such a manner as to permit them to be returned to their original or similar information structures. Archived Record Entries must also include corresponding metadata to ensure logical and semantic consistency of the information for subsequent access upon restoration.\n\nThe archive function should provide both an automated, configurable capability as well as a user-invoked archival function to enable selected Record Entries to be preserved, or flagged for preservation. \n\nIn the first instance, rules are specified to enable the system to conduct archiving in an unattended fashion. This is often the case for periodic system maintenance requirements (e.g., nightly processing where archival, data summarization and possibly purging of information occurs). In the second instance the system should provide the ability to select Record Entries to be preserved for future reference and access, such as in the case where selected Entries need to be preserved and retained for litigation.\n\nIn restoring information, it may occur that Record Entries being restored are a subset of the Entries originally archived. For example, when all Record Entries for a patient encounter were archived and only a particular set of Record Entries related to a study or result are to be restored. The system may provide for such finer granularity of restoration.\n\nArchiving and restoring of Record Entries must be performed in a timely fashion, consistent with the operational requirements of both EHR users and system and technology capabilities.\n\nThe system must enable compliance with records retention according to scope of practice, organizational policy or jurisdictional law.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.3-01",
+      "label": "RI.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to archive and restore Record Entries according to scope of practice, organizational policy, and/or jurisdictional law (e.g., to/from off-line or near-line media)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.3-02",
+      "label": "RI.3#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability for an authorized user to tag and untag Record Entries to be archived."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.3-03",
+      "label": "RI.3#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to archive or restore metadata that is associated with Record Entries that have been archived or restored."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.3-04",
+      "label": "RI.3#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to enter a target destination when restoring Record Entries (e.g., original data location, temporary user storage, or a research/analysis database)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.3-05",
+      "label": "RI.3#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to tag Record Entries that will be retained or archived during the archival process."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.3-06",
+      "label": "RI.3#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to enter a schedule for archive and restore processing."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.3-07",
+      "label": "RI.3#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to restore selected portions of archived Record Entries."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.3-08",
+      "label": "RI.3#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage (configure) archival parameters for Record Entries (e.g., what and when to archive)."
+    }
+  ]
+}

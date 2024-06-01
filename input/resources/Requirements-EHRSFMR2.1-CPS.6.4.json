@@ -1,0 +1,80 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.6.4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_6_4_Support_for_Accurate_Specimen_Collection",
+  "title": "CPS.6.4 Support for Accurate Specimen Collection (Function)",
+  "status": "active",
+  "description": "Facilitate real-time checks to ensure accurate specimen collection.",
+  "purpose": "To ensure specimen collection accuracy, the patient and specimen are positively identified. The provider is notified in real-time of potential collection errors such as wrong patient, wrong specimen type, wrong means of collection, wrong site, and wrong date and time.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.6.4-01",
+      "label": "CPS.6.4#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render information necessary to correctly identify the patient and accurately identify the specimen to be collected including, but not limited to, patient name, specimen type, specimen source, means of collection, date and time.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.5.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.6.4-02",
+      "label": "CPS.6.4#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to determine and render variations between the type of specimen order placed and actual specimen collected.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.5.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.6.4-03",
+      "label": "CPS.6.4#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture the details of specimen collection.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.5.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.6.4-04",
+      "label": "CPS.6.4#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD render, at the time of specimen collection, information notifying the provider of a variation between the type of specimen order placed and the actual specimen collected.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.5.2#5"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-POP.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "POP_1_Support_for_Health_Maintenance__Preventative_Care_and_Wellness",
+  "title": "POP.1 Support for Health Maintenance, Preventative Care and Wellness (Header)",
+  "status": "active",
+  "description": "Evaluate patient information to provide alerts, notifications and reminders regarding health, preventative care and wellness.",
+  "purpose": "The system assists in determining ongoing and pertinent communications from the provider to patient to promote health, preventative care and wellness."
+}

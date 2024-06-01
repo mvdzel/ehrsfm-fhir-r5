@@ -1,0 +1,32 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.6.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_6_2_Manage_Healthcare_Resource_Availability_Information",
+  "title": "AS.6.2 Manage Healthcare Resource Availability Information (Function)",
+  "status": "active",
+  "description": "Support the collection and distribution of local healthcare resource information, through interactions with other systems, applications, and modules, to enable planning and response to extraordinary events such as local or national emergencies.",
+  "purpose": "In times of identified local or national emergencies and upon request from authorized bodies, provide current status of healthcare resources including, but not limited to, available beds, providers, support personnel, ancillary care areas and devices, operating theaters, medical supplies, vaccines, and pharmaceuticals. The intent is to enable the authorized body to distribute or re-distribute either resources or patient load to maximize efficient healthcare delivery. In addition, these functions may also be used for internal assessment and planning purposes by facility administrators.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.6.2-01",
+      "label": "AS.6.2#01",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY manage healthcare resource availability through interactions with other systems, applications and modules (e.g., available beds, providers, support personnel, ancillary care areas and devices, operating theaters, medical supplies, vaccines, and pharmaceuticals) according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.7#1"
+    }
+  ]
+}

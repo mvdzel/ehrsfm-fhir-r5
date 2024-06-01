@@ -1,0 +1,124 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.2.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_2_1_Synchronize_Patient_Demographic_Data",
+  "title": "AS.2.1 Synchronize Patient Demographic Data (Function)",
+  "status": "active",
+  "description": "Support interactions with other systems, applications, and modules to enable the maintenance of updated demographic information in accordance with realm-specific recordkeeping requirements.",
+  "purpose": "The minimum demographic data set must include the data required by realm-specific laws governing health care transactions and reporting. For example, this may include data input of death status information, or may include support to identify multiple names, such as updating from Baby Girl Doe, to neonate's given name.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.1-01",
+      "label": "AS.2.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and harmonize patient demographic information through interaction with other systems, applications, and modules according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.4.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.1-02",
+      "label": "AS.2.1#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and harmonize information regarding a patient's occupation."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.1-03",
+      "label": "AS.2.1#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and harmonize a patient's special-interest requirements (e.g., divers, firefighters, or airline pilots whose abilities to perform their occupations may be impacted based on a given diagnosis, and/or treatment)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.1-04",
+      "label": "AS.2.1#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD tag a patient who has similar names in other systems (e.g., aliases, similar names to family members for common issues, multiple patients with same name, one patient with multiple names in external systems)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.1-05",
+      "label": "AS.2.1#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture a patient's information from multiple internal or external systems and harmonize the information."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.1-06",
+      "label": "AS.2.1#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to analyze the data quality of a patient's information (e.g., vital records information regarding the higher data quality of the date-and-time-of-death on one record, versus the lower data quality of the month-of-death on another record).",
+      "derivedFrom": "PHFP S.1.4.1#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.1-07",
+      "label": "AS.2.1#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture data-validation rules for patient demographic data according to scope of practice, organizational policy, and/or jurisdictional law (e.g., synchronization of a patient's records where the values for the patient's sex are Male=\"1\" in one record, and Male=\"m\" in another record, can only be accomplished if the data-validation rules for those values in each record are known).",
+      "derivedFrom": "PHFP S.1.4.1#4"
+    }
+  ]
+}

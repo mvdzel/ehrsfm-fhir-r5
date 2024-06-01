@@ -1,0 +1,121 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.9.2.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_9_2_1_Manage_Consultation_Requests_and_Responses",
+  "title": "CPS.9.2.1 Manage Consultation Requests and Responses (Function)",
+  "status": "active",
+  "description": "Provide a means to capture and manage requests for consultation and responses.",
+  "purpose": "EHR system should support the ability to document and note calls made to physician/provider consultants, as well as their responses. This includes the time of the initial and any subsequent pages or calls, the time and method whereby the consultant responded, as well as the final disposition of the consultation.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.2.1-01",
+      "label": "CPS.9.2.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and maintain records of consultations by providers other than the attending provider."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.2.1-02",
+      "label": "CPS.9.2.1#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture time notified (e.g., paged), time responded, and time arrived, as well as final disposition and recommendation of consultations."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.2.1-03",
+      "label": "CPS.9.2.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture the details of the request for consultation and its responses as discrete data, including timestamps, sufficient for reporting."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.2.1-04",
+      "label": "CPS.9.2.1#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to transmit from within the application, signals for electronic paging and dialing."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.2.1-05",
+      "label": "CPS.9.2.1#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to present data on pending consultations."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.2.1-06",
+      "label": "CPS.9.2.1#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY render to the referring provider a notification of the completion of consultations."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.2.1-07",
+      "label": "CPS.9.2.1#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY present estimated time of arrival of consultants."
+    }
+  ]
+}

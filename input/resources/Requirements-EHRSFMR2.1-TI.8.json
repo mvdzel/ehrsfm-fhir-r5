@@ -1,0 +1,136 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-TI.8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_8_Database_Backup_and_Recovery",
+  "title": "TI.8 Database Backup and Recovery (Function)",
+  "status": "active",
+  "description": "Provide for the ability to backup and recover the EHR system.",
+  "purpose": "To enable the preservation of the EHR database and its data, functionality needs to be present to record a copy of the database and its contents to offline media as well as the recovery of the system from a backup copy and resumption of normal system operation. The backup must preserve both data as well as database structure and definition information sufficient to recover a complete functional EHR system. Database components may include, but not be limited to application data, security credentials, log/audit files, and programs; ultimately all EHR components necessary to provide a full and complete operating environment. Finally, the backup must be capable of being used during recovery processing to restore an exact copy of the EHR system as of a particular instant in time. This is a requirement to be able to preserve logical consistency of information within the recovered EHR system.\n\nIn providing for this capability the system may include multiple backup, and/or redundancy solutions such as fail-over architecture, database journaling, transaction processing, etc.\n\nThe backup and recovery function must address both physical system failure (i.e., failure of EHR system hardware) as well as logical system failure (e.g., database corruption). To support the requirement that the EHR system be available whenever it is needed within the design parameters of the system and provide reliability and redundancy of the EHR database and its data, the backup function shall not impact user functionality or appreciably impact user performance.\n\nThe backup function may include features which permit multiple processes and technologies to perform its task. This may include multiple backup technologies such as tape, disk, cloud, etc. Also, multiple architectures such as redundancy, online, near-line and off-line media.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.8-01",
+      "label": "TI.8#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to backup and recover EHR information according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.8-02",
+      "label": "TI.8#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to backup and recover all database contents including programs and all software components necessary to permit a complete EHR to be recovered. (i.e., 'full' backup and recovery)"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.8-03",
+      "label": "TI.8#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to backup and recover EHR information using alternative backup methods in addition to a full backup/recovery (e.g., incremental, differential, reverse delta, or continuous)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.8-04",
+      "label": "TI.8#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to backup EHR information according to a defined schedule of storage media rotation."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.8-05",
+      "label": "TI.8#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF the EHR user requirements specify that the EHR system be available continuously, THEN the system SHALL provide the ability to backup EHR information concurrently with the normal operation of the EHR application."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.8-06",
+      "label": "TI.8#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to backup EHR information to a remote location."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.8-07",
+      "label": "TI.8#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to backup EHR information to more than one storage media (e.g., disk, tape, or cloud)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.8-08",
+      "label": "TI.8#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to encrypt backup data."
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-TI.5.1.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_5_1_1_Application_Interchange_Standards",
+  "title": "TI.5.1.1 Application Interchange Standards (Function)",
+  "status": "active",
+  "description": "Support the ability to operate seamlessly with other systems by using applications, and/or structured messages and documents that adhere to interchange standards.",
+  "purpose": "Placeholder - Not Defined at this time",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.5.1.1-01",
+      "label": "TI.5.1.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to receive and transmit information using interchange standards as required by realm / local -specific profiles, and/or by recognized jurisdictional authorities.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.5.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.5.1.1-02",
+      "label": "TI.5.1.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to integrate with the operations of other systems that adhere to interchange standards as required by realm / local -specific authorities and/or by recognized jurisdictional authorities.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.5.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.5.1.1-03",
+      "label": "TI.5.1.1#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.4]] (Standard Terminology and Terminology Services) including all child-functions, to support terminology standards according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.5.1#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.5.1.1-04",
+      "label": "TI.5.1.1#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": true,
+      "requirement": "IF a standard information model is not available, THEN the system SHOULD provide the ability to exchange information with other systems in a seamless manner by using a formal explicit information model.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.5.1#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.5.1.1-05",
+      "label": "TI.5.1.1#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to exchange information with other systems by using an explicit formal information model, and/or by using a standard coded terminology.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.5.1#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.5.1.1-06",
+      "label": "TI.5.1.1#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to receive and transmit data using standard, coded terminology."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.5.1.1-07",
+      "label": "TI.5.1.1#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to export data using an explicit and formal information model in accordance with industry and governmental-mandated standards."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.5.1.1-08",
+      "label": "TI.5.1.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to import data using an explicit and formal information model in accordance with industry and governmental-mandated standards."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.5.1.1-09",
+      "label": "TI.5.1.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to harmonize data with another system."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.5.1.1-10",
+      "label": "TI.5.1.1#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine whether the information transmitted to another system has been successfully received by that other system."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.5.1.1-11",
+      "label": "TI.5.1.1#11",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL store a log record of each data exchange (transaction) when transmitting information with external systems."
+    }
+  ]
+}

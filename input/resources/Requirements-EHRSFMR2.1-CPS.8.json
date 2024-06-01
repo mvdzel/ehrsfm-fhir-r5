@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "CPS_8_Support_Patient_Education___Communication",
+  "title": "CPS.8 Support Patient Education & Communication (Header)",
+  "status": "active",
+  "description": "Support for appropriate communication with the patient or the patient representatives.",
+  "purpose": "Support for patient education and communication is critical to ensure that the patient can appropriately participate in his care. This includes providing access to relevant patient educational materials and reminders from internal, and/or external sources."
+}

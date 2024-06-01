@@ -1,0 +1,31 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.1.1.15",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_15_Restore_Record_Lifecycle_Event",
+  "title": "RI.1.1.15 Restore Record Lifecycle Event (Function)",
+  "status": "active",
+  "description": "Restore Record Entries from archive (1 or more instances)",
+  "purpose": "Occurs when an agent causes the system to recreate record entries and their content from a previous created archive artefact. \n\nReference: ISO 21089-2018, Section 15.15.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.15-01",
+      "label": "RI.1.1.15#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to restore (previously archived) Record Entries according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

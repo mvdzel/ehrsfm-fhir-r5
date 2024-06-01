@@ -1,0 +1,140 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.4.2.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_4_2_3_Medication_Order_Efficiencies",
+  "title": "CP.4.2.3 Medication Order Efficiencies (Function)",
+  "status": "active",
+  "description": "Provide the tooling necessary to increase the efficiency of medication ordering.",
+  "purpose": "Make medication ordering workflows more efficient by allowing medications to be sorted and reviewed by key attributes (e.g., generic or trade names). Also support editing medication orders across multiple instances of an order and capturing medication orders in order sets.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.4.2.3-01",
+      "label": "CP.4.2.3#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to present a list of medications based on an attribute of the medication (e.g., partial medication name, therapeutic class, or formulary).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.1#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.4.2.3-02",
+      "label": "CP.4.2.3#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to present a list of medications based on an attribute of the patient (e.g., proposed treatment, patient condition, order set, age, gender)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.4.2.3-03",
+      "label": "CP.4.2.3#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability for the clinician to edit medication administration instructions and link it to the corresponding instances of that medication order."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.4.2.3-04",
+      "label": "CP.4.2.3#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to extract, update and store a prescription reorder by allowing a prior prescription to be reordered without re-entering previous data (e.g., administration schedule, quantity, SIG).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.1#14"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.4.2.3-05",
+      "label": "CP.4.2.3#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to extract, update and store a prescription reorder from a prior prescription using the same dosage but allowing for editing of details adequate for correct filling and administration of medication (e.g., dose, frequency, body weight).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.1#15"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.4.2.3-06",
+      "label": "CP.4.2.3#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to extract, update and store a prescription renewal from a prior prescription using a different dosage but allowing for editing of details adequate for correct filling and administration of medication (e.g., dose, frequency, body weight)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.4.2.3-07",
+      "label": "CP.4.2.3#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CP.4.1]] (Use Order Sets).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.1#10"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.4.2.3-08",
+      "label": "CP.4.2.3#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to extract and render medications by generic, and/or brand name."
+    }
+  ]
+}

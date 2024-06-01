@@ -1,0 +1,110 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.8.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_8_3_Patient_Reminder_Information_Updates",
+  "title": "CPS.8.3 Patient Reminder Information Updates (Function)",
+  "status": "active",
+  "description": "Receive and validate formatted inbound communications to facilitate updating of patient reminder information from external sources such as Cancer or Immunization Registries.",
+  "purpose": "Information from outside groups, such as immunization groups, public health organizations, etc. may periodically send updates to patient care providers. The system should be capable of generating patient reminders based on the recommendations of these organizations. Patient reminders could be provided to patients by a number of means including phone calls, or mail. A record of such reminders may become part of a patient's record. Examples of reminders could include a recommended immunization, prophylactic guidelines for MVP, patient self-testing for disease, etc.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.3-01",
+      "label": "CPS.8.3#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain and render patient reminders for all patients to whom the reminder applies, based on the recommendations of public health authorities or disease specific associations (e.g., new dietary recommendations for patients with diabetes - captured, maintained and rendered as a reminder for all patients with diabetes).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.7.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.3-02",
+      "label": "CPS.8.3#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY determine and link patient reminders with patients meeting specific criteria (e.g., age, gender, diagnosis, phenotypic factors)",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.7.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.3-03",
+      "label": "CPS.8.3#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render patient reminders.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.7.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.3-04",
+      "label": "CPS.8.3#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY determine and render automated patient reminders for mailing to patients.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.7.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.3-05",
+      "label": "CPS.8.3#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to update disease management guidelines and any associated reference material."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.3-06",
+      "label": "CPS.8.3#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to update preventative services/wellness guidelines and any associated reference material."
+    }
+  ]
+}

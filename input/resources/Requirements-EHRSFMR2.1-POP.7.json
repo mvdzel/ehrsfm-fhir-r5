@@ -1,0 +1,48 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-POP.7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "POP_7_Public_Health_Related_Updates",
+  "title": "POP.7 Public Health Related Updates (Function)",
+  "status": "active",
+  "description": "Receive and validate formatted inbound communications to facilitate updates to the system's public health reporting guidelines.",
+  "purpose": "Information and reporting requirements from outside groups, such as public health organizations, may be made available to care providers. Examples may include requirements to report on new disease types, or changes to reporting guidelines. The information in these public health updates may be applied to the system so that appropriate data can be collected and reported to comply with requirements.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.7-01",
+      "label": "POP.7#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and update public health reporting guidelines.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.7.4#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.7-02",
+      "label": "POP.7#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render information that will promote the validation of the public health education material prior to update.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.7.4#2"
+    }
+  ]
+}

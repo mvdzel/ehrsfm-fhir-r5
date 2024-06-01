@@ -1,0 +1,232 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.8.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_8_1_Generate__Record_and_Distribute_Patient_Specific_Instructions",
+  "title": "CP.8.1 Generate, Record and Distribute Patient-Specific Instructions (Function)",
+  "status": "active",
+  "description": "Generate and record patient-specific instructions related to pre- and post-procedural and post-treatment/discharge requirements.",
+  "purpose": "When a patient is scheduled for a test, procedure, or discharge, specific instructions about diet, clothing, transportation assistance, convalescence, follow-up with physician, etc., may be generated and recorded, including the timing relative to the scheduled event. In an outpatient scenario, similar instructions for post-diagnosis, and/or post-treatment needs may also be generated and recorded (e.g., exercise instructions for low back pain, wound or burn care).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-01",
+      "label": "CP.8.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to determine and render standardized instruction sets pertinent to the patient condition, for procedures, or scheduled events.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.9#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-02",
+      "label": "CP.8.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render instructions pertinent to the patient as selected by the provider.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.9#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-03",
+      "label": "CP.8.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to transmit instruction information in electronic format to be provided to the patient.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.9#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-04",
+      "label": "CP.8.1#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render as part of patient instructions details on further care such as follow up, return visits and appropriate timing of further care.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.9#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-05",
+      "label": "CP.8.1#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture an indication that instructions were given to the patient.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.9#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-06",
+      "label": "CP.8.1#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture the actual instructions given to the patient or a reference to the document(s) containing those instructions.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.9#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-07",
+      "label": "CP.8.1#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to annotate patient-specific instructions."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-08",
+      "label": "CP.8.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain, as discrete data, the reason for variation from rule-based clinical messages and patient information."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-09",
+      "label": "CP.8.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage patient instructions in multiple languages."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-10",
+      "label": "CP.8.1#10",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage a list of appropriate patient instructions based on age."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-11",
+      "label": "CP.8.1#11",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage a list of appropriate patient instructions based on gender."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-12",
+      "label": "CP.8.1#12",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage a list of appropriate patient instructions based on diagnosis."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-13",
+      "label": "CP.8.1#13",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage a list of appropriate patient instructions based on reading level."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.8.1-14",
+      "label": "CP.8.1#14",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render educational materials using alternative modes to accommodate patient sensory capabilities (e.g., vision impairment, hearing impairment)."
+    }
+  ]
+}

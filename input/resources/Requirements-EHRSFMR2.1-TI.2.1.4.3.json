@@ -1,0 +1,136 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-TI.2.1.4.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_2_1_4_3_Disable_Decision_Support_Alerts_Clinical_Audit_Trigger",
+  "title": "TI.2.1.4.3 Disable Decision Support Alerts Clinical Audit Trigger (Function)",
+  "status": "active",
+  "description": "Manage Audit Trigger initiated to track disabling of decision support alerts.",
+  "purpose": "Capture disabling of decision support alerts, both routine and exceptional, including key metadata (who, what, when, where, why).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.4.3-01",
+      "label": "TI.2.1.4.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL audit each occurrence when decision support alerts are disabled according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.4.3-02",
+      "label": "TI.2.1.4.3#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the organization."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.4.3-03",
+      "label": "TI.2.1.4.3#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF known, THEN the system SHALL capture identity of the user."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.4.3-04",
+      "label": "TI.2.1.4.3#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the system."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.4.3-05",
+      "label": "TI.2.1.4.3#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.4.3-06",
+      "label": "TI.2.1.4.3#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the date and time of the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.4.3-07",
+      "label": "TI.2.1.4.3#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the location (i.e., network address)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.4.3-08",
+      "label": "TI.2.1.4.3#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the rationale for disabling clinical alerts."
+    }
+  ]
+}

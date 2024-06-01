@@ -1,0 +1,286 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.4.6.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_4_6_3_Support_for_Electronic_Referral_Ordering",
+  "title": "CPS.4.6.3 Support for Electronic Referral Ordering (Function)",
+  "status": "active",
+  "description": "Enable the transmission of electronic referral orders from the EHR-S.",
+  "purpose": "When a referral order is created in the system, the system should have the ability to compose the referral package, including any supporting clinical and administrative information, and transmit the referral order to the referred-to provider electronically.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-01",
+      "label": "CPS.4.6.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to export or transmit electronic referral(s) (e-referral), including all supporting clinical and administrative information to other care provider(s), whether internal or external to the organization."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-02",
+      "label": "CPS.4.6.3#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain a minimum set of required information that must be included in an e-referral to be transmitted."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-03",
+      "label": "CPS.4.6.3#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system provides the ability to capture a minimum set of required information that must be included in an e-referral to be transmitted, THEN the system SHALL determine if the minimum set of information is satisfied prior to transmitting an e-referral."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-04",
+      "label": "CPS.4.6.3#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system provides the ability to capture a minimum set of required information that must be included in an e-referral to be transmitted and determines that the minimum set is not satisfied, THEN the system SHALL render prompts to capture missing information prior to transmitting an e-referral."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-05",
+      "label": "CPS.4.6.3#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture administrative information (e.g., insurance information, consents and authorizations for disclosure) for inclusion in an e-referral according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-06",
+      "label": "CPS.4.6.3#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture clinical information (e.g., medications, diagnostic results) for inclusion in an e-referral."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-07",
+      "label": "CPS.4.6.3#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to present e-referrals, including all attached information, and capture an e-signature prior to transmission."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-08",
+      "label": "CPS.4.6.3#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture diagnosis-based requirements for sending an e-referral based on the referred-to provider's requirements (e.g., a breast cancer specialist would not want to receive a colon cancer patient referral)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-09",
+      "label": "CPS.4.6.3#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system provides the ability to capture diagnosis-based requirements for sending an e-referral based on the referred-to provider's requirements, THEN the system SHALL provide the ability to present those requirements at the time of referral order entry."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-10",
+      "label": "CPS.4.6.3#10",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture a set of clinical requirements (e.g., history, physical examination, laboratory or Radiology results) for sending an e-referral based on the referred-to provider's requirements (e.g., a breast cancer specialist may require a positive mammogram before accepting the referral)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-11",
+      "label": "CPS.4.6.3#11",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system provides the ability to capture clinical requirements for sending an e-referral based on the referred-to provider's requirements, THEN the system SHALL provide the ability to present those requirements at the time of referral order entry."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-12",
+      "label": "CPS.4.6.3#12",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture and render a electronic acceptance or rejection of an e-referral request."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-13",
+      "label": "CPS.4.6.3#13",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture and render the reason for an e-referral acceptance or rejection."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-14",
+      "label": "CPS.4.6.3#14",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture a standards-based coded reason (e.g., SNOMED) for an e-referral acceptance or rejection."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-15",
+      "label": "CPS.4.6.3#15",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture and render an electronic request for additional information from the referred-to provider."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-16",
+      "label": "CPS.4.6.3#16",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to annotate an e-referral order with additional information."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-17",
+      "label": "CPS.4.6.3#17",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to export or transmit a copy of an e-referral, including all supporting clinical and administrative information, to another care provider (s), whether internal or external to the organization (e.g., in case the other provider failed to receive or inadvertently deleted the e-referral)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.6.3-18",
+      "label": "CPS.4.6.3#18",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY conform to function [[AS.9.2]] (Support Financial Eligibility Verification) and display the results of e-referral eligibility and health plan/payer checking prior to approval of an referral order."
+    }
+  ]
+}

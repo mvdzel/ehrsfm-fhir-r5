@@ -1,0 +1,196 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.1.1.23.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_23_1_Evidence_of_Record_Entry_Legal_Hold_Event",
+  "title": "RI.1.1.23.1 Evidence of Record Entry Legal Hold Event (Function)",
+  "status": "active",
+  "description": "Maintain Evidence of Record Entry Legal Hold Event",
+  "purpose": "Evidence of Record Entry Legal Hold Event includes key metadata, ensures health record integrity (and trust) and enables record audit.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-01",
+      "label": "RI.1.1.23.1#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD audit each occurrence when a set of Record Entries are placed on legal hold."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-02",
+      "label": "RI.1.1.23.1#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture identity of the organization where Record Entries are placed on legal hold."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-03",
+      "label": "RI.1.1.23.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture identity of the patient who is subject of Record Entries placed on legal hold."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-04",
+      "label": "RI.1.1.23.1#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture the identifier for the set of Record Entries placed on legal hold."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-05",
+      "label": "RI.1.1.23.1#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture identity of the user placing Record Entries on legal hold."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-06",
+      "label": "RI.1.1.23.1#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture identity of the system application which placed Record Entries on legal hold."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-07",
+      "label": "RI.1.1.23.1#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture the type of Record Event trigger (i.e., placed on legal hold)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-08",
+      "label": "RI.1.1.23.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture the date and time Record Entries are placed on legal hold."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-09",
+      "label": "RI.1.1.23.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture identity of the location (i.e., network address) from which Record Entries are placed on legal hold."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-10",
+      "label": "RI.1.1.23.1#10",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture identity of the location (i.e., network address) in which Record Entries on legal hold are placed."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-11",
+      "label": "RI.1.1.23.1#11",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture the rationale for placing Record Entries on legal hold."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23.1-12",
+      "label": "RI.1.1.23.1#12",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture the data, document or other identifier for Record Entries placed on legal hold."
+    }
+  ]
+}

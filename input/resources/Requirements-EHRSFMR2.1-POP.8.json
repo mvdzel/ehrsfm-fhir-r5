@@ -1,0 +1,109 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-POP.8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "POP_8_De_Identified_Data_Request_Management",
+  "title": "POP.8 De-Identified Data Request Management (Function)",
+  "status": "active",
+  "description": "Provide patient data in a manner that meets applicable requirements for de-identification.",
+  "purpose": "When an internal or external party requests patient data and that party requests de-identified data (or is not entitled to identified patient information, either by law or custom), the user can export the data in a fashion that meets the requirements for de-identification in that locale or realm.\n\nAn auditable record of these requests and associated exports may be maintained by the system. This record could be implemented in any way that would allow the who, what, why and when of a request and export to be recoverable for review.\n\nA random re-identification key may be added to the data, to support re-identification for the purpose of alerting providers of potential patient safety issues. For example, if it is discovered that a patient is at risk for a major cardiac event, the provider could be notified of this risk, allowing the provider to identify the patient from the random key.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.8-01",
+      "label": "POP.8#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.1.8]] (Patient Privacy and Confidentiality) when managing de-identified views of data according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.5#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.8-02",
+      "label": "POP.8#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to de-identify extracted information.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.5#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.8-03",
+      "label": "POP.8#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability for authorized users to tag data for de-identification according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "PHFP S.1.5#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.8-04",
+      "label": "POP.8#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability for authorized users to transmit de-identified data to authorized recipients according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.8-05",
+      "label": "POP.8#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to transmit a re-identification key to recipients of de-identified data according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.8-06",
+      "label": "POP.8#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to edit discrete patient identifiers from all reports containing data on multiple patients according to scope of practice, organizational policy, and/or jurisdictional law (e.g., replace \"John Smith\" with \"***\")."
+    }
+  ]
+}

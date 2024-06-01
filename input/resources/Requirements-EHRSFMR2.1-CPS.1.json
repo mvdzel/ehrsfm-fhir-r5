@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "CPS_1_Record_Management",
+  "title": "CPS.1 Record Management (Header)",
+  "status": "active",
+  "description": "Manage the patient record including all patient demographics, identifiers and other information to support the provision of care.",
+  "purpose": "Management of the patient record includes creation through quick registration or through a captured referral request as well as managing the patient encounter information linked to the appropriate patient record. It is also critical to manage the patient's relationships through genealogy, insurance, living situation or other means. This section also includes support for the management of patient and family preferences including patient advance directives, consents and authorizations linked to the unique patient record. For those functions related to data capture, data should be captured using standardized code sets or nomenclature, depending on the nature of the data, or captured as unstructured data. Care-setting dependent data are entered by a variety of caregivers. Data may also be captured from devices or other tele-health applications."
+}

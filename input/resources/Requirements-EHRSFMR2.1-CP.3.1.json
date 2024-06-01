@@ -1,0 +1,279 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.3.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_3_1_Conduct_Assessments",
+  "title": "CP.3.1 Conduct Assessments (Function)",
+  "status": "active",
+  "description": "Create and maintain assessment information.",
+  "purpose": "During an encounter with a patient, the provider will conduct an assessment that is germane to the age, gender, developmental or functional state, medical and behavioral condition of the patient, such as growth charts, developmental profiles, and disease specific assessments. Wherever possible, this assessment should follow industry standard protocols although, for example, an assessment for an infant will have different content than one for an elderly patient. When a specific assessment template does not exist, a new, locally-defined assessment can be created, using the format and data elements of similar assessments whenever possible. (NOTE: A new assessment may not necessarily be unique, since a facility may copy an assessment from another facility.)",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-01",
+      "label": "CP.3.1#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage assessment information captured (e.g., age, gender, developmental state, and health condition) according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.5#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-02",
+      "label": "CP.3.1#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage patient information captured using recognized-standard, and/or locally-defined assessments according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.5#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-03",
+      "label": "CP.3.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage additional assessment information as the patient's medical condition changes.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.5#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-04",
+      "label": "CP.3.1#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link assessment information to a problem list according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.5#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-05",
+      "label": "CP.3.1#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to transmit assessment information to an individual care plan according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.5#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-06",
+      "label": "CP.3.1#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to receive assessment information from external sources (e.g., laboratory results and radiographic results) according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.5#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-07",
+      "label": "CP.3.1#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze and render assessment data compared with standardized curves (e.g., growth charts).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.5#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-08",
+      "label": "CP.3.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to exchange data between an assessment and a medication list."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-09",
+      "label": "CP.3.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render appropriate assessment information as trends on a graph or a flowsheet."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-10",
+      "label": "CP.3.1#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze assessment information using clinical prediction rules (e.g., the Glasgow Coma Score or Well's score) and capture and render the results."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-11",
+      "label": "CP.3.1#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[CPS.3.1]] (Support for Standard Assessments)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-12",
+      "label": "CP.3.1#12",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[CPS.3.2]] (Support for Patient Context-Driven Assessments)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-13",
+      "label": "CP.3.1#13",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render prior versions of completed recognized-standard, and/or locally-defined assessment information."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-14",
+      "label": "CP.3.1#14",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze the schedule of mandated assessments, render a proposed schedule, and capture the assessment appointments."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-15",
+      "label": "CP.3.1#15",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY determine and render a proposed list of assessments based on context-related information (e.g., chief complaint, length of stay, abnormal vital signs, or response to medication)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-16",
+      "label": "CP.3.1#16",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, render and store assessment information and the final score as discrete data as appropriate."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.1-17",
+      "label": "CP.3.1#17",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze by comparing \"elements of assessments captured by the clinician\" to \"those elements of assessments designated by the organization as best practice assessments, and/or evidence-based resources\" and render the results of the analysis.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.1#3"
+    }
+  ]
+}

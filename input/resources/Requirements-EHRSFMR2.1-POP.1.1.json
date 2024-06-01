@@ -1,0 +1,202 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-POP.1.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "POP_1_1_Present_Alerts_for_Preventative_Services_and_Wellness",
+  "title": "POP.1.1 Present Alerts for Preventative Services and Wellness (Function)",
+  "status": "active",
+  "description": "Identify patient-specific suggestions/reminders, screening tests/exams, and other preventative services in support of routine preventative and wellness care.",
+  "purpose": "At the time of an encounter, the provider or patient is presented with due or overdue activities based on protocols for preventative care and wellness. Examples include routine immunizations, adult and well child care, age and gender appropriate screening exams, such as PAP smears.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-01",
+      "label": "POP.1.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage criteria for disease management, wellness, and preventative services based on patient demographic data (minimally age and gender).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.5.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-02",
+      "label": "POP.1.1#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain the rules or parameters upon which guideline-related alerts are based.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.5.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-03",
+      "label": "POP.1.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage clinical decision support criteria for disease management, wellness, and preventative services based on clinical data (e.g., problem/diagnosis list or current medications).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.5.1#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-04",
+      "label": "POP.1.1#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render alerts based on recognized-standard guidelines, and/or locally-defined standard guidelines.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.5.1#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-05",
+      "label": "POP.1.1#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render a list of all alerts along with the scheduled date and time for the preventative care and wellness.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.5.1#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-06",
+      "label": "POP.1.1#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render a history of all alerts that were generated for the patient in the record.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.5.1#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-07",
+      "label": "POP.1.1#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain reasons disease management or preventative services/wellness prompts were overridden."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-08",
+      "label": "POP.1.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain documentation that a preventative or disease management service has been performed based on activities documented in the record (e.g., vitals signs taken)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-09",
+      "label": "POP.1.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain documentation that a disease management or preventative service has been performed with associated dates or other relevant details recorded."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-10",
+      "label": "POP.1.1#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain and render alerts to individual patients regarding their specific clinical situation."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-11",
+      "label": "POP.1.1#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine when the patient's monitored health parameters have exceeded threshold values according to scope of practice, and/or organizational policy, and transmit an alert to a patient's provider or to the patient's care team."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.1.1-12",
+      "label": "POP.1.1#12",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render notifications regarding drug-drug interaction(s) (e.g., drug-drug, drug duplication, drug-disease, drug-allergy, and/or drug-food) to the patient's provider or to the patient's care team when changes are made to a population health decision support rule set according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

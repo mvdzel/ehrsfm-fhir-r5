@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "CP_1_Manage_Clinical_History",
+  "title": "CP.1 Manage Clinical History (Header)",
+  "status": "active",
+  "description": "Manage the patient's clinical history lists used to present summary or detailed information on patient health history.",
+  "purpose": "Patient Clinical History lists are used to present succinct \"snapshots\" of critical health information including patient history; allergy, intolerance and adverse reactions; medications; problems; strengths; immunizations; medical equipment/devices; and patient and family preferences."
+}

@@ -1,0 +1,46 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.2.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_2_3_Support_Emergency_Medical_System_Originated_Data",
+  "title": "CPS.2.3 Support Emergency Medical System Originated Data (Function)",
+  "status": "active",
+  "description": "Provide the ability to capture and maintain patient information from an external Emergency Medical System (EMS).",
+  "purpose": "Emergency Medical Systems can provide care at the patient's location, prior to transport, or while enroute to medical facilities via ambulance, aeromedical evacuation and other transport mechanisms. Key parts of information about the patient can be gathered here, some of which is computable data (e.g., EKG and other telemetry), non-computable text-based and multimedia digital objects (e.g., images, audio reports and conversations).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.2.3-01",
+      "label": "CPS.2.3#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and store information transmitted from the Emergency Medical Services (EMS) (e.g., wound site, nature of the wound, vital signs)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.2.3-02",
+      "label": "CPS.2.3#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and store an audio file from an Emergency Medical Service."
+    }
+  ]
+}

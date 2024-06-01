@@ -1,0 +1,107 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.8.6",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_8_6_Communication_with_Personal_Health_Record_Systems",
+  "title": "CPS.8.6 Communication with Personal Health Record Systems (Function)",
+  "status": "active",
+  "description": "Statement: Enable and manage communication between EHR Systems and PHR Systems.",
+  "purpose": "With the increasing use of Personal Health Record systems, it is necessary for the EHR-S to appropriately communicate with the PHR to both capture patient information from the PHR and transmit relevant portions of the EHR patient record to the PHR to support patient self care.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.6-01",
+      "label": "CPS.8.6#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and maintain documentation of communications between providers/providers EHR-S and the PHR-S."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.6-02",
+      "label": "CPS.8.6#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture communication originating from the PHR-S (e.g., date, person identification and details of communication).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.3.2.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.6-03",
+      "label": "CPS.8.6#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture 3rd party (e.g., family member, authorized representative) authorization documentation for the receipt of health information from the PHR-S."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.6-04",
+      "label": "CPS.8.6#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to exchange communications between providers and PHR-S using a secure internet connection."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.6-05",
+      "label": "CPS.8.6#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to receive clinical and administrative data (e.g., insurance information) as part of the referral process from a PHR-S."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.8.6-06",
+      "label": "CPS.8.6#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to transmit clinical, administrative data, test results and procedure results to a PHR-S based on authorization documentation and according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

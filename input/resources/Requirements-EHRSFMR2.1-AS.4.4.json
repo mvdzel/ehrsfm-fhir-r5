@@ -1,0 +1,61 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.4.4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_4_4_Support_for_Provider_Employer_Communications",
+  "title": "AS.4.4 Support for Provider-Employer Communications (Function)",
+  "status": "active",
+  "description": "Provide support for capturing employment information, and/or special work related requirements (e.g., flyers, divers, firemen, transportation workers) to assist in medical disposition choices and notifications, and support communication to employers.",
+  "purpose": "The ability to capture and maintain a patient's employment information, to include contact information and job title, which is expected to be helpful to the clinician when a patient's work environment may affect the assessment of alternative diagnoses, applicable to the individual, as well as the potential treatment(s) that have been tailored to the individual based on their occupation.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.4.4-01",
+      "label": "AS.4.4#01",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture patient's employment data relevant to potential medical conditions."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.4.4-02",
+      "label": "AS.4.4#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture data used to determine if a patient is able to fulfill physical job requirements and/ or special work requirements as part of their medical disposition."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.4.4-03",
+      "label": "AS.4.4#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage reporting to employers on a patient's ability to fulfill physical or special job requirements as a result of their medical disposition."
+    }
+  ]
+}

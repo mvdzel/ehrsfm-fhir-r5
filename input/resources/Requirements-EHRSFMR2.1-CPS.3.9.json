@@ -1,0 +1,64 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.3.9",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_3_9_Clinical_Decision_Support_System_Guidelines_Updates",
+  "title": "CPS.3.9 Clinical Decision Support System Guidelines Updates (Function)",
+  "status": "active",
+  "description": "Capture and maintain updates of clinical decision support system guidelines and associated reference material.",
+  "purpose": "System content such as discharge instructions, clinical guidelines, formularies, and other knowledge bases should be capable of being maintained and updated, independent of a particular encounter. Clinical decision support rules may be applied to the system using a manual process. As standards are developed to represent these rules, an automated update will be recommended. Any process to update decision support rules should include the verification of the appropriateness of the rules to the system. This may include but not be limited to authenticity of the source, the currency of the version, and any necessary approvals before updates can take place.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.9-01",
+      "label": "CPS.3.9#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to maintain the clinical content or rules utilized to generate clinical decision support reminders and alerts.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.7.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.9-02",
+      "label": "CPS.3.9#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render information that will allow validation that the most applicable version (of the decision support rules) is utilized for the update.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.7.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.9-03",
+      "label": "CPS.3.9#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture the date of update of the decision support rules.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.7.1#3"
+    }
+  ]
+}

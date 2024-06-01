@@ -1,0 +1,121 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.2.6",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_2_6_Manage_Patient_Privacy_Consent_Directives",
+  "title": "AS.2.6 Manage Patient Privacy Consent Directives (Function)",
+  "status": "active",
+  "description": "Provide the ability to record and manage patient-specific privacy consent directive consistent with privacy policies.",
+  "purpose": "The system enables the management of information access to support privacy policies. These policies allow patients to stipulate specific privacy preferences as a privacy consent directive. The consent may be issued for a specific disclosure, for a period of time, or until it is explicitly revoked. This function depends on infrastructure to enforce the privacy consent and any associated privacy policies using a combination of access control, secure messaging, secure data routing, and data segmentation.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.6-01",
+      "label": "AS.2.6#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage the privacy preferences of patients (e.g., opt-in with exceptions, opt-out with exceptions, opt-in, opt-out) in their privacy consent directive."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.6-02",
+      "label": "AS.2.6#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture the patient's preferences regarding providers who are permitted to access, or explicitly excluded from accessing, the patient's information."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.6-03",
+      "label": "AS.2.6#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render disclosure events."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.6-04",
+      "label": "AS.2.6#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render an accounting of any patient identifiable information disclosed to other providers."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.6-05",
+      "label": "AS.2.6#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to enter, import or receive information that documents the patient's expressed selection of privacy preferences related to the disclosure of information identified by its content type (e.g., related diagnosis or payment method), and a specific purpose."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.6-06",
+      "label": "AS.2.6#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage data visibility based on both privacy policy, and patient's privacy consent."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.2.6-07",
+      "label": "AS.2.6#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to link to privacy consent management systems to access patients' privacy consent directives and digital certificates."
+    }
+  ]
+}

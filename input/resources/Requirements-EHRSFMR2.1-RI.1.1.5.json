@@ -1,0 +1,62 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.1.1.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_5_Access_View_Record_Lifecycle_Event",
+  "title": "RI.1.1.5 Access/View Record Lifecycle Event (Function)",
+  "status": "active",
+  "description": "Access/View Record Entries (1 or more instances)",
+  "purpose": "Occurs when an agent causes the system to obtain and open a record entry for inspection or review. \n\nReference: ISO 21089-2018, Section 15.5.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.5-01",
+      "label": "RI.1.1.5#01",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY mask Record Entry content to access by authorized entities.",
+      "derivedFrom": "EHR-LM_R1 14.4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.5-02",
+      "label": "RI.1.1.5#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render Record Entry content, including original version and any subsequent amendments."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.5-03",
+      "label": "RI.1.1.5#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render Record Entry content down to the discrete element or item, including encoded fields."
+    }
+  ]
+}

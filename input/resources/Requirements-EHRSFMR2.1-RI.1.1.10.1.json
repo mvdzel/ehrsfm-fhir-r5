@@ -1,0 +1,167 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.1.1.10.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_10_1_Evidence_of_Record_Entry_De_Identification_Event",
+  "title": "RI.1.1.10.1 Evidence of Record Entry De-Identification Event (Function)",
+  "status": "active",
+  "description": "Maintain Evidence of Record Entry De-Identification Event",
+  "purpose": "Evidence of Record Entry De-Identification Event includes key metadata, ensures health record integrity (and trust) and enables record audit.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.10.1-01",
+      "label": "RI.1.1.10.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL audit each occurrence when Record Entry content is de-identified.",
+      "derivedFrom": "EHR-LM_R1 14.7.1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.10.1-02",
+      "label": "RI.1.1.10.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the organization where Record Entry content is de-identified."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.10.1-03",
+      "label": "RI.1.1.10.1#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the patient who is subject of de-identified Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.10.1-04",
+      "label": "RI.1.1.10.1#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the user de-identifying Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.10.1-05",
+      "label": "RI.1.1.10.1#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the system application which de-identified Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.10.1-06",
+      "label": "RI.1.1.10.1#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the type of Record Event trigger (i.e., de-identify)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.10.1-07",
+      "label": "RI.1.1.10.1#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the date and time Record Entry content is de-identified."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.10.1-08",
+      "label": "RI.1.1.10.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture identity of the location (i.e., network address) where Record Entry content is de-identified."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.10.1-09",
+      "label": "RI.1.1.10.1#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture the rationale for de-identifying Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.10.1-10",
+      "label": "RI.1.1.10.1#10",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture the data, document or other identifier for de-identified Record Entry content."
+    }
+  ]
+}

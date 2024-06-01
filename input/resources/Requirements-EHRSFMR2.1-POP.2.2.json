@@ -1,0 +1,106 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-POP.2.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "POP_2_2_Support_for_Epidemiologic_Data_Analysis",
+  "title": "POP.2.2 Support for Epidemiologic Data-Analysis (Function)",
+  "status": "active",
+  "description": "Support for Cohort Person-Level and Aggregate-Level Data Content and Analysis",
+  "purpose": "The EHR system assists care providers, public health experts and others in assessing patient and population health conditions. Healthcare can be improved if analyses are performed on a population basis to evaluate care delivery, health status and disease trends, and identify potential modifiable risk factors. The various ways of analyzing a population (cohort) can be complex. Some population-based research examines relationships between events or exposures and their corresponding outcomes. Other population-based research may focus on healthcare utilization, service availability and quality of care. Population-level surveillance, monitoring of disease, and epidemiologic research involves analysis of data based on existing relationships between pre-defined and well-known data elements. These analyses utilize various data elements including demographics, education, marital status, social factors, family history of diseases, personal history (e.g., alcohol and tobacco use, reading capability, hearing impairment), environmental factors (such as proximity to toxic exposures), occupational factors (such as type of occupation and industry, shift-work, training, hobby), genomic and proteomic data elements, resource utilization, problem lists, and other clinical information. The identification of new and previously unrecognized patterns of disease may require sophisticated pattern recognition analysis. Early recognition of new patterns may require data available early in the disease presentation. For example, an investigation of pneumococcal disease may involve a trend analysis of the causative serotype (laboratory data) over time, evaluated per age group of patients diagnosed with pneumonia (aggregates). Several aggregates may be identified (e.g., multiple age groups). Each aggregate then is analyzed as a group for selected data pattern(s) using data elements that include, but are not limited to, patient demographics, presenting symptoms, acute treatment regimens, occupational information, and laboratory and imaging study orders and results.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.2.2-01",
+      "label": "POP.2.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage query results (i.e., cohorts, and/or aggregates) according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.2.2-02",
+      "label": "POP.2.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze various combinations of aggregates within a cohort (e.g., to determine the adequacy of patient confidentiality in the result)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.2.2-03",
+      "label": "POP.2.2#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage person-level information in a cohort or aggregate using user-identified, and/or pre-defined criteria (e.g., demographic or clinical information) according to scope of practice, organizational policy, and/or jurisdictional law"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.2.2-04",
+      "label": "POP.2.2#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine, tag and render changes in dynamic cohorts."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.2.2-05",
+      "label": "POP.2.2#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[TI.5.3]] (Standards-Based Application Integration) to manage query results."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.2.2-06",
+      "label": "POP.2.2#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze and render statistical information that has been derived from query results, including, but not limited to, person-level data and aggregates."
+    }
+  ]
+}

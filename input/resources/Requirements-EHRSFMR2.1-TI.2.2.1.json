@@ -1,0 +1,31 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-TI.2.2.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_2_2_1_Audit_Log_Indelibility",
+  "title": "TI.2.2.1 Audit Log Indelibility (Function)",
+  "status": "active",
+  "description": "Manage Audit Log Indelibility",
+  "purpose": "Audit logs must be maintained in a persistent and indelible form according to scope of practice, organizational policy, and jurisdictional law.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.2.1-01",
+      "label": "TI.2.2.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL manage each Audit Log entry as a persistent, indelible (unalterable) data object including all metadata."
+    }
+  ]
+}

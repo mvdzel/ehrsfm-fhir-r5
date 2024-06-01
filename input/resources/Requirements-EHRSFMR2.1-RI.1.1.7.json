@@ -1,0 +1,121 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.1.1.7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_7_Disclose_Record_Lifecycle_Event",
+  "title": "RI.1.1.7 Disclose Record Lifecycle Event (Function)",
+  "status": "active",
+  "description": "Disclose Record Entry Content (1 or more instances)",
+  "purpose": "Occurs when an agent causes the system to release, transfer, provision access to, or otherwise divulge record entry content. \n\nReference: ISO 21089-2018, Section 15.7.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.7-01",
+      "label": "RI.1.1.7#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture the identity of the patient or individual subject to whom Record Entry content was transmitted/disclosed."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.7-02",
+      "label": "RI.1.1.7#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture a log entry for disclosure of protected Record Entry content, according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.7-03",
+      "label": "RI.1.1.7#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": true,
+      "requirement": "IF the identity of a specific recipient has been stored, THEN the system SHOULD render protected Record Entry content based on established permissions and according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.7-04",
+      "label": "RI.1.1.7#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": true,
+      "requirement": "IF known and explicit as to Record Entry content being transmitted, THEN the system SHOULD transmit corresponding authorizations and patient consent permissions."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.7-05",
+      "label": "RI.1.1.7#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.1.6]] (Secure Data Exchange)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.7-06",
+      "label": "RI.1.1.7#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to extract Record Entry content prior to disclosure, conforming to function [[RI.1.1.13]] (Extract Record Entry Content)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.7-07",
+      "label": "RI.1.1.7#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to de-identify Record Entry content prior to disclosure, conforming to function [[RI.1.1.10]] (De-Identify Record Entries)."
+    }
+  ]
+}

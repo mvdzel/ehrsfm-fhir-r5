@@ -1,0 +1,110 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.9.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_9_3_Support_Service_Authorizations",
+  "title": "AS.9.3 Support Service Authorizations (Function)",
+  "status": "active",
+  "description": "Support interactions with other systems, applications, and modules to enable the creation of requests, responses and appeals related to service authorization, including prior authorizations, referrals, and pre-certification.",
+  "purpose": "Retrieves information needed to support verification of medical necessity and prior authorization of services at the appropriate juncture in the encounter workflow. Improves timeliness of patient care and reduces claim denials.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.9.3-01",
+      "label": "AS.9.3#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture service authorizations relevant to the service provided including the source, dates, and service(s) authorized.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.3.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.9.3-02",
+      "label": "AS.9.3#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture referrals relevant to the service provided including the source, date and service(s) referred.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.3.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.9.3-03",
+      "label": "AS.9.3#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to exchange computer readable data on service authorizations according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.3.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.9.3-04",
+      "label": "AS.9.3#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to exchange computer readable data on service referral information according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.3.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.9.3-05",
+      "label": "AS.9.3#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to export electronic referral(s), including relevant supporting clinical information from care providers internal or external to the organization."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.9.3-06",
+      "label": "AS.9.3#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to export electronic referral(s), including relevant supporting administrative information from care providers internal or external to the organization."
+    }
+  ]
+}

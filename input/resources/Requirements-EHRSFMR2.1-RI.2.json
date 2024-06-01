@@ -1,0 +1,95 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_2_Record_Synchronization",
+  "title": "RI.2 Record Synchronization (Function)",
+  "status": "active",
+  "description": "Manage Record Synchronization",
+  "purpose": "An EHR-S may consist of a set of components or applications; each application manages a subset of the health information. Therefore it is important that, through various interoperability mechanisms, an EHR-S maintains all the relevant information regarding the health record in synchrony. For example, if a physician orders an MRI, a set of diagnostic images and a radiology report will be created. As a result, the patient demographic information, the order for MRI, the diagnostic images associated with the order, and the report associated with the study must all be synchronized in order for the clinicians to receive a synchronized view the complete record (with respect to time and geographic location).Date and time need to be consistent across the applications that are part of the EHR system.\n\nSynchronization demonstrates a sequence and chain of events for reconstruction and is relevant during a legal proceeding. Maintenance of synchronization activities could be relevant during a legal proceeding.\n\nNote: Standards exist for Consistent Date and Time.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.2-01",
+      "label": "RI.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.5.1]] (Application and Structured-Document Interchange Standards).",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.2.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.2-02",
+      "label": "RI.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[TI.3]] (Registry and Directory Services).",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.2.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.2-03",
+      "label": "RI.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link Record Entries to external information.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.2.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.2-04",
+      "label": "RI.2#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD store the location of each known Record Entry in order to enable authorized access to a complete logical health record if the EHR is distributed among several applications, services, or devices within the EHR-S.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.2.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.2-05",
+      "label": "RI.2#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage date and time-related information between applications, components, services, systems, and devices."
+    }
+  ]
+}

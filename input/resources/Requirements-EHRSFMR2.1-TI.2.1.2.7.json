@@ -1,0 +1,121 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-TI.2.1.2.7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_2_1_2_7_User_Attempts_to_Access_Data__Unsuccessful___Access_Denied__Security_Audit_Trigger",
+  "title": "TI.2.1.2.7 User Attempts to Access Data (Unsuccessful – Access Denied) Security Audit Trigger (Function)",
+  "status": "active",
+  "description": "Manage Audit Trigger initiated to track user attempts to access data (unsuccessful – access denied).",
+  "purpose": "Capture user attempts to access data (unsuccessful – access denied), both routine and exceptional, including key metadata (who, what, when, where, why).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.7-01",
+      "label": "TI.2.1.2.7#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL audit each occurrence when user access is unsuccessful (denied)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.7-02",
+      "label": "TI.2.1.2.7#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the organization."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.7-03",
+      "label": "TI.2.1.2.7#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF known, THEN the system SHALL capture identity of the user."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.7-04",
+      "label": "TI.2.1.2.7#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the system."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.7-05",
+      "label": "TI.2.1.2.7#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.7-06",
+      "label": "TI.2.1.2.7#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the date and time of the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.1.2.7-07",
+      "label": "TI.2.1.2.7#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the location (i.e., network address)."
+    }
+  ]
+}

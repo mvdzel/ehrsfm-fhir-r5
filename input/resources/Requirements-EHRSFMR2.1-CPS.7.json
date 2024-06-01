@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "CPS_7_Support_Future_Care",
+  "title": "CPS.7 Support Future Care (Header)",
+  "status": "active",
+  "description": "Support for Future Care is necessary to enable the planning of future care according to appropriate healthcare guidelines.",
+  "purpose": "Support for future care includes the provision of clinical decision support through giving access to healthcare guidelines from external sources."
+}

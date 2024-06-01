@@ -1,0 +1,140 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.6.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_6_3_Manage_Healthcare_Resource_Scheduling",
+  "title": "AS.6.3 Manage Healthcare Resource Scheduling (Function)",
+  "status": "active",
+  "description": "Support interactions with other systems, applications, and modules to provide the necessary data to a scheduling system for optimal efficiency in the scheduling of patient care, for either the patient or a resource/device.",
+  "purpose": "The system may support user access to scheduling systems as required. Relevant clinical or demographic information required in the scheduling process could be linked to the task.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.6.3-01",
+      "label": "AS.6.3#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and render patient care resource scheduling information, either internal or external to the system.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.6#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.6.3-02",
+      "label": "AS.6.3#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage the schedule of internal or external healthcare resources or devices (e.g., ambulance, wheel chair, dialysis machine).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.6#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.6.3-03",
+      "label": "AS.6.3#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY exchange relevant clinical or demographic information to support the resource scheduling process.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.6#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.6.3-04",
+      "label": "AS.6.3#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY transmit relevant clinical or demographic information to support resource scheduling in coordination with other systems.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.6#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.6.3-05",
+      "label": "AS.6.3#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY render clinical or demographic information for children or other dependents with the same guarantor to support efficient scheduling with other systems (e.g., a mother with multiple children receiving immunizations)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.6.3-06",
+      "label": "AS.6.3#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage patient appointment requests with health care providers (e.g., evaluate availability, present choices and make the selection for in-person or remote encounter)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.6.3-07",
+      "label": "AS.6.3#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render a patient's, and/or provider's appointment schedule."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.6.3-08",
+      "label": "AS.6.3#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture appointment scheduling requests from patients."
+    }
+  ]
+}

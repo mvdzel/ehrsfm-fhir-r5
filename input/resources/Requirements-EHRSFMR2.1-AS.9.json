@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.9",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "AS_9_Manage_Administrative_Transaction_Processing",
+  "title": "AS.9 Manage Administrative Transaction Processing (Header)",
+  "status": "active",
+  "description": "Support the creation (including using external data sources, if necessary), electronic interchange, and processing of transactions listed below that may be necessary foradministrative management during an episode of care.",
+  "purpose": "Support the creation (including using external data sources, if necessary), electronic interchange, and processing of transactions listed below that may be necessary for administrative management during an episode of care.\n\nThe EHR system collects patient health-related information needed for purpose of administrative and financial activities including reimbursement.\n\nCaptures the episode and encounter information to pass to administrative or financial processes (e.g., triggers transmissions of charge transactions as by-product of on-line interaction including order entry, order statusing, result entry, documentation entry, medication administration charting).Automatically retrieves information needed to verify coverage and medical necessity. As a byproduct of care delivery and documentation captures and presents all patient information needed to support coding. Ideally performs coding based on documentation.\n\nClinically automated revenue cycle - examples of reduced denials and error rates in claims.\n\nClinical information needed for billing is available on the date of service.\n\nPhysician and clinical teams do not perform additional data entry / tasks exclusively to support administrative or financial processes."
+}

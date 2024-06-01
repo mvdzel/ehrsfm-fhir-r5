@@ -1,0 +1,496 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_5_Manage_Results",
+  "title": "CP.5 Manage Results (Function)",
+  "status": "active",
+  "description": "Present, annotate, and route current and historical test results to appropriate providers for review. Provide the ability to filter and compare results.",
+  "purpose": "Results of tests are presented in an easily accessible manner to the appropriate providers. For example, flow sheets, graphs, or other tools allow care providers to view or uncover trends in test data over time. The provider may desire to annotate, filter, and/or compare results. In addition to making results viewable, it is often necessary to send results to appropriate providers using electronic messaging systems, pagers, or other mechanisms. In addition, the system may have the ability to redirect or copy specific test results to a specified individual. Documentation of notification is accommodated. Results may also be routed to patients electronically or non-electronically (e.g., by hard copy). Note: “Results” are understood as applying to any type of test, whether biological or psychological. Management of the results may also require the provider's communication of the results to the patient (see function [[CPS.8.4]] (Support for Communications between Provider and the Patient, and/or the Patient's Representative)). There may also be a need to notify public health agencies based on the result. See function [[POP.2]] (Support Population-based Epidemiological Investigation).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-01",
+      "label": "CP.5#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage test results according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-02",
+      "label": "CP.5#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render numerical and non-numerical current and historical test results.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-03",
+      "label": "CP.5#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render results for an identified patient or group of patients.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-04",
+      "label": "CP.5#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render results by factors that supports results management including type of test, critical indicator and abnormal indicator.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-05",
+      "label": "CP.5#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to tag results as being normal or abnormal (based on data provided from the original data source) and render a \"normal\" or \"abnormal\" indicator accordingly.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-06",
+      "label": "CP.5#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render numerical results in flow sheets, graphical form or other views that allow comparison of results, and display values graphed over time.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-07",
+      "label": "CP.5#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render results by date/time range including ordered date/time, specimen collection date/time and results received date/time.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-08",
+      "label": "CP.5#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to tag new results received and render to the relevant providers (ordering, copy to) that new results have been received but not reviewed.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-09",
+      "label": "CP.5#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture an indicator that a result has been rendered and acknowledged by a user.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-10",
+      "label": "CP.5#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to transmit results to other care providers.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#10"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-11",
+      "label": "CP.5#11",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to transmit results to patients by methods such as phone, fax, electronically or letter.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#11"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-12",
+      "label": "CP.5#12",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to transmit results to an automated callback system."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-13",
+      "label": "CP.5#13",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and transmit a request for action to another provider(s).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#12"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-14",
+      "label": "CP.5#14",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[CPS.9.2]] (Support for Inter-Provider Communication) to receive a request for action regarding a test result from another provider and to transmit an acknowledgement to that provider of the receipt of that provider's request for action."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-15",
+      "label": "CP.5#15",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system provides the ability to receive a request for action regarding a result from another provider, THEN the system MAY provide the ability to transmit an acknowledgement of the receipt of that provider's request for action."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-16",
+      "label": "CP.5#16",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render results in clinically logical sections (e.g., Pathology, Chemistry, Cytology).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#13"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-17",
+      "label": "CP.5#17",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL link results to the electronic order if the system contains the electronic order.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#15"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-18",
+      "label": "CP.5#18",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to annotate a result.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#16"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-19",
+      "label": "CP.5#19",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link and render the results report to other data (e.g., images) with which it is associated.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.3#17"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-20",
+      "label": "CP.5#20",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to import and receive preliminary and final result reports from ancillary systems according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-21",
+      "label": "CP.5#21",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to import or receive preliminary and final results as discrete data from ancillary systems, when discrete data is sent from the ancillary system, according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-22",
+      "label": "CP.5#22",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain and render preliminary (e.g., \"wet read\") and final result reports according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-23",
+      "label": "CP.5#23",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to tag and render a notification to the appropriate health care team member(s) (using role-based or rule-based alerts) of clinically-significant results or result changes."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-24",
+      "label": "CP.5#24",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link results to a specific medical condition, medication or therapeutic class of medication."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-25",
+      "label": "CP.5#25",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render non-diagnostic quality images."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-26",
+      "label": "CP.5#26",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link with Radiology Information Systems (RIS) or Picture Archiving & Communication Systems (PACS) to enable the presentation of diagnostic quality images."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-27",
+      "label": "CP.5#27",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to link one or more images to a result report."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-28",
+      "label": "CP.5#28",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system provides the ability to annotate a result, THEN the system SHALL render the annotation with subsequent views of that result."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-29",
+      "label": "CP.5#29",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture an annotation from the patient on a result and render the annotation with subsequent views of that result."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-30",
+      "label": "CP.5#30",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine that results were received for a patient who is no longer under the care of the ordering provider and tag and render a notification according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.5-31",
+      "label": "CP.5#31",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage results of specific genetic tests, genetic markers, or findings according to scope of practice, organizational policy, and/or jurisdictional law and subject to patient's preferences and consent."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.1.6.4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_1_6_4_Related_by_Other_Means",
+  "title": "CPS.1.6.4 Related by Other Means (Function)",
+  "status": "active",
+  "description": "Provide information on patient relationships that are represented other than by genealogy, insurance or living situation.",
+  "purpose": "Patients relationships are not limited to genealogy, insurance or living situations. Other examples of patient relationships that are relevant to the healthcare or administrative process may include surrogate mother, guardian, a person authorized to see health records, health care surrogate, and persons who may be related by epidemiologic exposure.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.6.4-01",
+      "label": "CPS.1.6.4#01",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render information regarding patients related by employer and work location for purposes of epidemiological exposure and public health analysis and reporting.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.5.4#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.6.4-02",
+      "label": "CPS.1.6.4#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render information regarding persons with \"Power of Attorney for Health Care\" or other persons with the authority to make medical decisions on behalf of the patient.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.5.4#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.6.4-03",
+      "label": "CPS.1.6.4#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render information regarding persons related to the patient other than by genealogy, insurance, and/or living situation according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

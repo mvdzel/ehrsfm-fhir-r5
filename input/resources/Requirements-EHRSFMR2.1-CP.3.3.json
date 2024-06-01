@@ -1,0 +1,358 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.3.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_3_3_Manage_Clinical_Documents_and_Notes",
+  "title": "CP.3.3 Manage Clinical Documents and Notes (Function)",
+  "status": "active",
+  "description": "Create, addend, amend, correct, authenticate, maintain, present and close, as needed, transcribed or directly-entered clinical documentation and notes.",
+  "purpose": "Clinical documents and notes may be unstructured and created in a narrative form, which may be based on a template, graphic, audio, etc. The documents may also be structured documents that result from the capture of coded data. Each of these forms of clinical documentation is important and appropriate for different users and situations. To facilitate the management and documentation on how providers are responding to incoming data on orders and results, there may also be some free text or formal record on the providers' responsibility, and/or standard choices for disposition, such as Reviewed and Filed, Recall Patient, or Future Follow Up. The system may also provide support for documenting the clinician's differential diagnosis process.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-01",
+      "label": "CP.3.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and render clinical documentation as 'structured', and/or 'unstructured' data.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-02",
+      "label": "CP.3.3#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD present documentation templates (structured or free text) to facilitate creating documentation.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-03",
+      "label": "CP.3.3#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to present existing documentation within the patient's EHR while creating new documentation.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-04",
+      "label": "CP.3.3#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link documentation with specific patient encounter(s) or event(s) (e.g., office visit, phone communication, e-mail consult, laboratory result).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-05",
+      "label": "CP.3.3#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render the list in a user-defined sort order.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-06",
+      "label": "CP.3.3#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link clinical documents and notes to one or more problems.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-07",
+      "label": "CP.3.3#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to update documentation prior to finalizing it.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-08",
+      "label": "CP.3.3#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to tag a document or note as final, according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-09",
+      "label": "CP.3.3#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render all author(s) and authenticator(s) of documentation.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-10",
+      "label": "CP.3.3#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render designated documents based on metadata search and filter (e.g., note type, date range, facility, author, authenticator and patient).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#11"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-11",
+      "label": "CP.3.3#11",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability for providers to capture clinical document process disposition using standard choices (e.g., reviewed and filed, recall patient, or future follow-up).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#14"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-12",
+      "label": "CP.3.3#12",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain and render the clinician's differential diagnosis and the list of diagnoses that the clinician has considered in the evaluation of the patient.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.5#15"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-13",
+      "label": "CP.3.3#13",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render clinical documentation using an integrated charting or documentation tool (e.g., notes, flow-sheets, radiology views, or laboratory views)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-14",
+      "label": "CP.3.3#14",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture clinical documentation using specialized charting tools for patient-specific requirements (e.g., age - neonates, pediatrics, geriatrics; condition - impaired renal function; medication)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-15",
+      "label": "CP.3.3#15",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain and render transition-of-care related information according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-16",
+      "label": "CP.3.3#16",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to tag the status of clinical documentation (e.g., preliminary, final, signed)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-17",
+      "label": "CP.3.3#17",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to tag and render lists of patients requiring follow up contact (e.g., laboratory callbacks, radiology callbacks, left without being seen)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-18",
+      "label": "CP.3.3#18",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture patient follow-up contact activities (e.g., laboratory callbacks, radiology callbacks, left without being seen)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-19",
+      "label": "CP.3.3#19",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to save partially completed clinical documentation (i.e., without signature) for later editing and completion."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-20",
+      "label": "CP.3.3#20",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system provides the ability to save partially completed clinical documentation, THEN the system SHALL render this documentation only to the authorized users (e.g., author or author's supervisors)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-21",
+      "label": "CP.3.3#21",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system provides the ability to save partially completed clinical documentation, THEN the system SHOULD provide the ability to tag unsigned documentation."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.3-22",
+      "label": "CP.3.3#22",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system provides the ability to save partially completed clinical documentation, THEN the system SHOULD render a notification at specified intervals to the author."
+    }
+  ]
+}

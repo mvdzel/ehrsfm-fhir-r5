@@ -1,0 +1,109 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.1.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_1_5_Team_Group_of_Providers_Registry_or_Directory",
+  "title": "AS.1.5 Team/Group of Providers Registry or Directory (Function)",
+  "status": "active",
+  "description": "Provide access to a current directory, registry or repository of information on teams or groups of providers according to scope of practice, organizational policy, and/or jurisdictional law.",
+  "purpose": "An organization may assign caregivers to teams that need to be registered as such. In another scenario, an organization might contract with a group of providers. The group would be listed by the group name or individually or both. A caregiver might be part of more than one team or group. All of these factors need to be supported. Information includes, but is not limited to: full name, address or physical location, and a 24x7 telecommunications address (e.g., a phone or pager access number).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.5-01",
+      "label": "AS.1.5#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render a current directory, registry or repository of teams or groups of providers according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.3.5#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.5-02",
+      "label": "AS.1.5#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability for authorized users to manage the assignment of providers to appropriate teams or groups of providers according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.5-03",
+      "label": "AS.1.5#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine the identity of a provider's employer(s) for administrative or financial purposes through the use of internal, and/or external registry services or directories.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.3.5#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.5-04",
+      "label": "AS.1.5#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to tag the role of each provider associated with a patient (e.g., encounter provider, primary care provider, attending, resident, or consultant)",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.3.5#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.5-05",
+      "label": "AS.1.5#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage care team membership."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.1.5-06",
+      "label": "AS.1.5#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage demographic and scheduling information on care team members, according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

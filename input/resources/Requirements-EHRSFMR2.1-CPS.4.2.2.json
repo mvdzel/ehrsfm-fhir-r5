@@ -1,0 +1,372 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.4.2.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_4_2_2_Support_for_patient_specific_Dosing_and_Warnings",
+  "title": "CPS.4.2.2 Support for patient-specific Dosing and Warnings (Function)",
+  "status": "active",
+  "description": "Identify and present appropriate dose recommendations based on known patient conditions and characteristics at the time of medication ordering and dispensing.",
+  "purpose": "The clinician is alerted to patient-specific contraindications and warnings e.g., pregnancy, breast-feeding or occupational risks, hepatic or renal insufficiency. The preferences of the patient may also be presented (e.g., reluctance to use an antibiotic). Additional patient parameters, such as age, gestation, genetic disposition, height, weight, and Body Surface Area (BSA), shall also be incorporated.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-01",
+      "label": "CPS.4.2.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine and render contraindications to the ordered dosage range.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-02",
+      "label": "CPS.4.2.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render an appropriate medication dosage range, specific for each known patient condition (e.g., diagnosis, pregnancy) and parameter (e.g., height, weight, pulse).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-03",
+      "label": "CPS.4.2.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[CPS.9.2.3]] (Support for Provider Pharmacy Communication) to support transmitting documented reasons for overriding a medication alert to the pharmacy .",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.2#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-04",
+      "label": "CPS.4.2.2#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF the maximum daily doses are known, THEN the system SHALL present the maximum dose per day in dosing decision support.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.2#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-05",
+      "label": "CPS.4.2.2#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine and render medication dose by patient body weight."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-06",
+      "label": "CPS.4.2.2#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine and render medication dose by body surface area."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-07",
+      "label": "CPS.4.2.2#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine and render medication dose recommendations based on patient parameters, including age and diagnostic test results.",
+      "derivedFrom": "PHFP DC.2.3.1.12#14"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-08",
+      "label": "CPS.4.2.2#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY determine when no recommended medication dosing is available that is specific to known patient conditions and parameters, such as age or weight, and render notifications to the provider.",
+      "derivedFrom": "PHFP DC.2.3.1.2#15"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-09",
+      "label": "CPS.4.2.2#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine whether no recommended pediatric medication dosing is available and render notifications to the provider according to scope of practice.",
+      "derivedFrom": "PHFP DC.2.3.1.2#18"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-10",
+      "label": "CPS.4.2.2#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render medication dosages using all components of a combination medication (e.g., acetaminophen-hydrocodone).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.2#10"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-11",
+      "label": "CPS.4.2.2#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture the factors used to calculate the future dose for a given prescription.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.2#11"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-12",
+      "label": "CPS.4.2.2#12",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine whether data required to compute a dose are missing or invalid and render notifications to the provider.",
+      "derivedFrom": "PHFP DC.2.3.1.2#17"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-13",
+      "label": "CPS.4.2.2#13",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system determines a value that affects medication dosing recommendations (e.g., creatinine clearance), THEN the system SHOULD maintain the formula used for the calculation.",
+      "derivedFrom": "PHFP DC.2.3.1.2#21"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-14",
+      "label": "CPS.4.2.2#14",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system supports electronic communication with the pharmacy system, THEN the system SHOULD provide the ability to transmit the documented reasons for overriding a medication alert."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-15",
+      "label": "CPS.4.2.2#15",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine and maintain the cumulative drug dose."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-16",
+      "label": "CPS.4.2.2#16",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render a notification if the cumulative medication dose exceeds the recommended dose."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-17",
+      "label": "CPS.4.2.2#17",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to maintain and uniquely render medications with look-alike names with recommended conventions (e.g., from FDA or Institute for Safe Medication Practices), such as, \"Tall Man lettering\"."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-18",
+      "label": "CPS.4.2.2#18",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine the presence of medication interactions when multiple medications of the same therapeutic or pharmacologic class are ordered and present notifications when such medications are selected during prescribing/ordering."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-19",
+      "label": "CPS.4.2.2#19",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine and render recommended medication for substitution based on availability, cost, generic equivalent, and according to organizational policy, and/or jurisditional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-20",
+      "label": "CPS.4.2.2#20",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, store and render information concerning medication orders including any alerts following screening of medication orders and the clinician responses (place, modify or cancel order)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-21",
+      "label": "CPS.4.2.2#21",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and render medication warnings and recommendations from official governmental agencies (e.g., FDA, regional centers)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-22",
+      "label": "CPS.4.2.2#22",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to extract reference information for prescribing/warning ( e.g., FDA warnings in the US realm)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2.2-23",
+      "label": "CPS.4.2.2#23",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to store configuration parameters (e.g., coefficients, exponents, formulas) regarding the patient's body surface area."
+    }
+  ]
+}

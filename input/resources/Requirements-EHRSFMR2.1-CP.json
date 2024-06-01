@@ -1,0 +1,19 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMSection"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/ehrs/StructureDefinition/requirements-actors",
+      "valueString": "The principal users of these functions are expected to be authorized healthcare providers; the patient, and/or subject of care will have access to certain functions to view, update or make corrections to their Electronic Health Record. The provider will receive appropriate decision support, as well as support from the EHR-S to enable effective electronic communication between providers, and between the provider and the patient/parent/caregiver."
+    }
+  ],
+  "name": "Care_Provision",
+  "title": "Care Provision",
+  "status": "active",
+  "description": "The Care Provision Section contains those functions and supporting Conformance Criteria that are required to provide direct care to a specific patient and enable hands-on delivery of healthcare. The functions are general and are not limited to a specific care setting and may be applied as part of an Electronic Health Record supporting healthcare offices, clinics, hospitals and specialty care centers. The functions in this section are organized in general flow of an encounter; however, it is recognized that encounter flow varies considerably in different care settings and scopes of practice. All functions within the Care Provision Section have an identifier starting with “CP”.\nExample:\nFor example, when a child presents with symptoms of common cold, a Direct Care EHR-S Function will enable the doctor to record that event. Additionally, Clinical decision-support functions within the Direct Care EHR-S section will alert the provider that a vaccination is due and will offer contraindication alerts for the medication given to the child who has symptoms of a cold."
+}

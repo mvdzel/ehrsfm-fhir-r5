@@ -1,0 +1,91 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.3.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_3_5_Acknowledge_Amend_Other_Provider_Documentation",
+  "title": "CP.3.5 Acknowledge/Amend Other Provider Documentation (Function)",
+  "status": "active",
+  "description": "Review and indicate or amend other caregiver notes as permitted.",
+  "purpose": "Scan/review notes from physicians, nurses, technicians and other members of the health care team (e.g., Respiratory Therapist, Physical Therapist). Annotate for disparities, make additions/amendments and import when desired and permitted.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.5-01",
+      "label": "CP.3.5#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to tag documentation by another clinician as read according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.5-02",
+      "label": "CP.3.5#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to tag agreement or disagreement with documentation by another provider according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.5-03",
+      "label": "CP.3.5#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability for a user (e.g., supervising clinician) to annotate regarding his/her role in advising, and/or providing direct care according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.5-04",
+      "label": "CP.3.5#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and render a co-signature of documentation according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.3.5-05",
+      "label": "CP.3.5#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture the approval of documentation that was captured by another user according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

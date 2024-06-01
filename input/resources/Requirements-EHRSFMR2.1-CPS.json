@@ -1,0 +1,13 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMSection"
+    ]
+  },
+  "name": "Care_Provision_Support",
+  "title": "Care Provision Support",
+  "status": "active",
+  "description": "The Care Provision Support Section focusses on functions required to support the provision of care to a specific patient to enable hands-on delivery of healthcare. This section is organized generally in alignment with Care Provision Section. For example, CP.4 (Manage Orders) is supported directly by CPS.4 (Support Orders). This alignment is designed to assist in finding related support functions related to care provision functions but is not expected to be 100% matched as some Care Provision Functions do not require matching Support functions or vice-versa.\n\nAll functions within the Care Provision Support Section have an identifier starting with “CPS”."
+}

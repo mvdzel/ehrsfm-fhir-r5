@@ -1,0 +1,76 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-POP.10",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "POP_10_Manage_Population_Health_Study_Related_Identifiers",
+  "title": "POP.10 Manage Population Health Study-Related Identifiers (Function)",
+  "status": "active",
+  "description": "Manage information that identifies key elements of a research or population study.",
+  "purpose": "Research or population studies can be distinguished from each other through the proper use of identifiers for key elements. Study key elements may include identifying the study, location where the study is being performed, patient subject of study, and investigator. Identifiers are managed through their lifecycle including capture, maintenance and rendering.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.10-01",
+      "label": "POP.10#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage unique research identifiers (i.e. sponsor-provided Protocol mnemonic) such that the research study can be identified."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.10-02",
+      "label": "POP.10#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage the site identification number(s) as assigned by the Sponsor."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.10-03",
+      "label": "POP.10#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage unique research subject identifiers (e.g., these identifiers could be used as a screening number prior to the subject qualifying for the clinical trial). Note: A given patient may have multiple research subject identifiers if the patient has been on multiple research studies."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-POP.10-04",
+      "label": "POP.10#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage clinical research identifiers (e.g., investigator identifier or visit name) as discrete data elements."
+    }
+  ]
+}

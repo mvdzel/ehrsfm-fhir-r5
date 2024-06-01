@@ -1,0 +1,198 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-TI.1.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_1_1_Entity_Authentication",
+  "title": "TI.1.1 Entity Authentication (Function)",
+  "status": "active",
+  "description": "Authenticate EHR-S users, and/or entities before allowing access.",
+  "purpose": "All entities accessing the EHR-S are subject to authentication.\n\nExamples of entity authentication, with varying levels of authentication rigor, include:\n- username/password;\n- digital certificate;\n- secure token;\n- biometrics.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-01",
+      "label": "TI.1.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL authenticate entities (e.g., users, organizations, applications, components, objects, and/or devices) accessing EHR-S protected resources (e.g., functions and data) according to scope of practice, organizational policy, and/or jurisdictional law, using an authentication mechanism such as an accredited Standards Development Organization-approved authentication standard (e.g., SAML, WS-Trust, Kerberos), username/password, digital certificate, secure token, biometric, or hardware-specific addressing mechanism. (See also ISO 22600.)",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-02",
+      "label": "TI.1.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL manage authentication data/information securely (e.g., passwords or biometric data)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-03",
+      "label": "TI.1.1#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL maintain configurable conditions and rules which protect against invalid, possibly malicious, authentication attempts according to organizational policy, and/or jurisdictional law (e.g., consecutive invalid logon attempts).",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-04",
+      "label": "TI.1.1#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF passwords are used to control access to the EHR-S, THEN the system SHALL provide the ability to maintain configurable timeframes (e.g., 180 days) for the reuse of passwords according to organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-05",
+      "label": "TI.1.1#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF passwords are used to control access to the EHR-S, THEN the system SHALL provide the ability to maintain a configurable limit on the reuse of recently used passwords (e.g., the last 5 passwords) according to organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-06",
+      "label": "TI.1.1#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF username/passwords are used to control access to the EHR-S, THEN the system SHALL maintain password strength rules (e.g., requiring a minimum number of characters and inclusion of alpha-numeric complexity)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-07",
+      "label": "TI.1.1#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF passwords are used to control access to the system, THEN the system SHALL capture the password using obfuscation techniques (e.g., during user password entry) according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-08",
+      "label": "TI.1.1#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF passwords are used to control access to the EHR-S, THEN the system SHALL manage password reset as an administrative function."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-09",
+      "label": "TI.1.1#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF user passwords are initially set or later reset by an administrator, THEN the system SHALL provide the ability to update password at the next successful logon."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-10",
+      "label": "TI.1.1#10",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL present limited feedback to the user during authentication."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-11",
+      "label": "TI.1.1#11",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to enter case-insensitive 'usernames' that contain typeable alpha-numeric characters in support of ISO-646/ECMA-6 (aka US ASCII)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.1.1-12",
+      "label": "TI.1.1#12",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF passwords are used, THEN the system SHALL provide the ability to enter case-sensitive passwords that contain typeable alpha-numeric characters in support of ISO-646/ECMA-6 (aka US ASCII)."
+    }
+  ]
+}

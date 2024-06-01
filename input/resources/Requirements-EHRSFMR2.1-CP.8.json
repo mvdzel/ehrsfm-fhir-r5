@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "CP_8_Manage_Patient_Education___Communication",
+  "title": "CP.8 Manage Patient Education & Communication (Header)",
+  "status": "active",
+  "description": "Provide the functionality to effectively communicate with the patient regarding their care and document the communication as part of the patient's medical record.",
+  "purpose": "During an encounter with a patient or when any medical decision is made that affects the patient and requires action from the patient it is necessary to communicate effectively with the patient (or their representative) to ensure that they can participate appropriately in their care. This includes providing instructions pertaining to preparation for a procedure, self-administration of medications and self care."
+}

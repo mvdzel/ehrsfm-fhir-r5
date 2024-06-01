@@ -1,0 +1,13 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-POP",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMSection"
+    ]
+  },
+  "name": "Population_Health_Support",
+  "title": "Population Health Support",
+  "status": "active",
+  "description": "The Population Health Support Section focuses on those functions required of the EHR to support the prevention and control of disease among a group of people (as opposed to the direct care of a single patient), usually with something(s) in common, e.g., reside in the U.S., have diabetes, are under the age of 5, are treated by the same care provider, have pneumonia and are in a long-term care facility, etc. This section includes functions to support input to systems that perform medical research, promote public health, & improve the quality of care at a multi-patient level. Population health data must be managed carefully to avoid inadvertently breaching patient privacy and confidentiality. Individual patients may be identifiable within a population or aggregate based on information other than patient identifiers, e.g., age plus location, and/or based on a combination of public and population-based information. This section specifically addresses requirements related to patient privacy and consent for use of patient information for secondary uses, and/or reporting. All functions within the Population Health Support Section have an identifier starting with “POP”."
+}

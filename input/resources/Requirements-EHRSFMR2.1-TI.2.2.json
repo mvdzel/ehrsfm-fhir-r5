@@ -1,0 +1,77 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-TI.2.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_2_2_Audit_Log_Management",
+  "title": "TI.2.2 Audit Log Management (Function)",
+  "status": "active",
+  "description": "Manage Audit Log",
+  "purpose": "Audit Triggers create Audit Log entries. Audit Log entries are typically managed as persistent evidence of events occurring over time, including events pertaining to record management, security, system operations and performance, key clinical situations.\n\nAudit log entries capture event details, including key metadata (who, what, when, where).Audit log functions fulfill log maintenance and persistence requirements according to scope of practice, organizational policy, and jurisdictional law.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.2-01",
+      "label": "TI.2.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture audit log entries using a standards-based audit record format according to scope of practice, organizational policy, and/or jurisdictional law (e.g., IETF RFC 3881 \"Internet Engineering Task Force, Request For Comment, Security Audit and Access Accountability Message XML Data Definitions for Healthcare Applications\").",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.2.2#25"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.2-02",
+      "label": "TI.2.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to annotate or tag previously recorded audit log entries."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.2-03",
+      "label": "TI.2.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to store audit log entry metadata (including related metadata). NOTE: Audit log entry metadata and related metadata ought to be stored in a secure fashion."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.2.2-04",
+      "label": "TI.2.2#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to log access to audit log entries, and/or metadata."
+    }
+  ]
+}

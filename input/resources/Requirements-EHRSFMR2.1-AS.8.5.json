@@ -1,0 +1,136 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.8.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_8_5_Support_for_Provider_Training",
+  "title": "AS.8.5 Support for Provider Training (Function)",
+  "status": "active",
+  "description": "Provide the ability to clinician and staff training requirements and document proficiency.",
+  "purpose": "In order to deliver quality care, health care systems train their staff in the processes, workflows, and tools required to deliver quality patient care. This training is necessary when staff are initially hired, and also periodically as the evidence-based medical guidance or the tools available to the health care systems change. The system can have a role to track and document the training requirement, progress and proficiency. The system may control user access to system functionality based on training.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.8.5-01",
+      "label": "AS.8.5#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture information on clinician training received and clinician proficiency requirements met, as defined by the applicable professional and governing organizations (e.g., Graduate Medical Education [GME] Program Information File [PIF], for a residency review committee [RRC])."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.8.5-02",
+      "label": "AS.8.5#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render reports on clinician training and proficiency, as defined by the applicable professional and governing organizations (e.g., Graduate Medical Education [GME] Program Information File [PIF], for a residency review committee [RRC])."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.8.5-03",
+      "label": "AS.8.5#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and render reports on role-based clinician training."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.8.5-04",
+      "label": "AS.8.5#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to import and transmit data to external systems for centralized tracking of training."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.8.5-05",
+      "label": "AS.8.5#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render a notification of enhancements, updates or new training requirements based on their individual training records."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.8.5-06",
+      "label": "AS.8.5#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to maintain user authorizations based upon training received, and/or proficiency requirements met according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.8.5-07",
+      "label": "AS.8.5#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render context-sensitive training and education \"help files\"."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.8.5-08",
+      "label": "AS.8.5#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to remove personal patient identifying information on educationally relevant clinical consults for training and archiving."
+    }
+  ]
+}

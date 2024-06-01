@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "CPS_3_Support_Clinical_Documentation",
+  "title": "CPS.3 Support Clinical Documentation (Header)",
+  "status": "active",
+  "description": "Standard assessments, guidelines and prompts are provided to facilitate decision support for the optimization of patient care based on specific medical conditions.",
+  "purpose": "Provider support is offered for the consideration of issues that would help assure optimal patient management. These may include standard assessments, care plans and treatment protocols, with triggers and prompts to assist during the patient encounter. Recommendation for patient testing and follow-up is also included along with decision support for patient self-management of a condition between patient-provider encounters."
+}

@@ -1,0 +1,157 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.9.4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_9_4_Standard_Report_Generation",
+  "title": "CPS.9.4 Standard Report Generation (Function)",
+  "status": "active",
+  "description": "Provide report generation features using tools internal or external to the system, for the generation of standard reports.",
+  "purpose": "Providers and administrators need access to data in the EHR-S for clinical, administrative, financial decision-making, audit trail and metadata reporting, as well as to create reports for patients. Many systems may use internal or external reporting tools to accomplish this. Reports may be based on structured data, and/or unstructured text from the patient's health record.\n\nUsers need to be able to sort, and/or filter reports. For example:\n- the user may wish to view only the diabetic patients on a report listing patients and diagnoses-the user may wish to view only male patients over 35 with a complaint of chest pain.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.4-01",
+      "label": "CPS.9.4#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render reports of structured clinical and administrative data using either internal or external reporting tools.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.4-02",
+      "label": "CPS.9.4#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to extract unstructured clinical and administrative data for inclusion in the report generation process, using internal or external tools.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.4-03",
+      "label": "CPS.9.4#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to extract and transmit reports generated.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.4-04",
+      "label": "CPS.9.4#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain report parameters, based on patient demographic, and/or clinical data, which would allow sorting, and/or filtering of the data.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.2#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.4-05",
+      "label": "CPS.9.4#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to save report parameters for generating subsequent reports either as integrated component of the system, or an external application, using data from the system.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.2#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.4-06",
+      "label": "CPS.9.4#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to edit one or more parameters of a saved report specification when generating a report using that specification either as an integrated component of the system, or an external application, using data from the system.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.2#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.4-07",
+      "label": "CPS.9.4#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render automated reports as required by industry and regulatory bodies."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.4-08",
+      "label": "CPS.9.4#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to extract facility level data at an organizational level in support of organizational initiatives."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.9.4-09",
+      "label": "CPS.9.4#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render a cumulative directory of all personnel who use or access the data."
+    }
+  ]
+}

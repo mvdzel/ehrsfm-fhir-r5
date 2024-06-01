@@ -1,0 +1,109 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CP.1.8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_1_8_Manage_Patient_and_Family_Preferences",
+  "title": "CP.1.8 Manage Patient and Family Preferences (Function)",
+  "status": "active",
+  "description": "Capture and maintain patient and family preferences.",
+  "purpose": "This function is focused on the capture and maintenance of facts on patient/family preferences. Patient and family preferences regarding issues such as language, religion, spiritual practices and culture may be important to the delivery of care. It is important to capture these so that they will be available to the provider at the point of care. Patient/Family preferences differ from social history and Advance Directives as follows: Social history refers primarily to elements of a patient's background that may impact on the patient's health (e.g., smoking, drinking, occupation, abuse, etc.). Advance Directives refers to requests regarding care when the patient is unable to competently make decisions about their own care (e.g., Do Not Resuscitate orders, living wills).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.8-01",
+      "label": "CP.1.8#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage patient preferences (e.g., language(s), religion, spiritual and cultural practices).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.8-02",
+      "label": "CP.1.8#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage family preferences (e.g., language(s), religion, spiritual and cultural practices).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.8-03",
+      "label": "CP.1.8#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage patient and family preferences based on business rules.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.3.1#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.8-04",
+      "label": "CP.1.8#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render, at appropriate decision points, patient and family preferences as they pertain to current and planned treatment plans and orders."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.8-05",
+      "label": "CP.1.8#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to integrate patient and family preferences with appropriate health education materials (e.g., dietary advice based on dietary preference)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CP.1.8-06",
+      "label": "CP.1.8#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[CPS.1.7.1]] (Support for Patient and Family Preferences)."
+    }
+  ]
+}

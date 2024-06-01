@@ -1,0 +1,139 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.3.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_3_2_Support_for_Patient_Context__Driven_Assessments",
+  "title": "CPS.3.2 Support for Patient Context- Driven Assessments (Function)",
+  "status": "active",
+  "description": "Offer prompts based on patient-specific data at the point of information capture for assessment purposes.",
+  "purpose": "When a clinician fills out an assessment, data entered is matched against data already in the system to identify potential linkages and optimize patient care. For example, the system could scan the medication list and the knowledge base to see if any of the symptoms are side effects of medication already prescribed. Important diagnoses could be brought to the doctor's attention, for instance ectopic pregnancy in a woman of child bearing age, or appendicitis in a geriatric patient who has abdominal pain.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.2-01",
+      "label": "CPS.3.2#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze assessment data entered during the encounter against health evidence based standards and best practices.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.2-02",
+      "label": "CPS.3.2#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY analyze health data and patient context-driven assessments in terms of practice standards, and render notifications (e.g., of possible additional testing, possible diagnoses, or adjunctive treatment).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.2-03",
+      "label": "CPS.3.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze assessment data against data in the patient-specific problem list.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.2#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.2-04",
+      "label": "CPS.3.2#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage care setting specific templates."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.2-05",
+      "label": "CPS.3.2#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render alerts based on patient-specific clinical data (e.g., age for neonates, pediatrics, geriatrics; conditions for impaired renal function; medication)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.2-06",
+      "label": "CPS.3.2#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to maintain integrated, chief complaint -driven documentation templates."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.2-07",
+      "label": "CPS.3.2#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to maintain integrated, diagnosis-driven documentation templates."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.3.2-08",
+      "label": "CPS.3.2#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to maintain integrated, disposition-driven documentation templates."
+    }
+  ]
+}

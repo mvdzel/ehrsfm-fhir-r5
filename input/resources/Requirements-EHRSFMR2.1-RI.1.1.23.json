@@ -1,0 +1,31 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.1.1.23",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_23_Add_Legal_Hold_Record_Lifecycle_Event",
+  "title": "RI.1.1.23 Add Legal Hold Record Lifecycle Event (Function)",
+  "status": "active",
+  "description": "Add Legal Hold to Record Entries (1 or more instances)",
+  "purpose": "Occurs when an agent causes the system to tag or otherwise indicate special access management and suspension of record entry deletion/destruction, if deemed relevant to a lawsuit or which are reasonably anticipated to be relevant or to fulfill organizational policy under the legal doctrine of “duty to preserve”. \n\nReference: ISO 21089-2018, Section 15.23.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.1.23-01",
+      "label": "RI.1.1.23#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage a specified set of patient Record Entries during period of legal hold, marking as to on hold status and preventing alteration according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

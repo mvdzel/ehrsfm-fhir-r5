@@ -1,0 +1,78 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-AS.9.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_9_1_Support_Financial_Plan_Enrollment",
+  "title": "AS.9.1 Support Financial Plan Enrollment (Function)",
+  "status": "active",
+  "description": "Support interactions with other systems, applications, and modules to facilitate enrollment of uninsured patients into subsidized and unsubsidized health plans, and enrollment of patients who are eligible on the basis of health, and/or financial status in social service and other programs, including clinical trials.",
+  "purpose": "Expedites determination of health insurance coverage, thereby increasing patient access to care. The provider may be alerted that uninsured patients may be eligible for subsidized health insurance or other health programs because they meet eligibility criteria based on demographics, and/or health status. For example a provider is notified that the uninsured parents of a child enrolled in S-CHIP may now be eligible for a new subsidized health insurance program; a provider of a pregnant patient who has recently immigrated is presented with information about eligibility for subsidy. Links may be provided to online enrollment forms. When enrollment is determined, the health coverage information needed for processing administrative and financial documentation, reports or transactions is captured.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.9.1-01",
+      "label": "AS.9.1#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture subsidized and unsubsidized health plan options from internal or external sources to allow for presentation of alternatives for health care coverage to patients.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.3.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.9.1-02",
+      "label": "AS.9.1#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage multiple status options for multiple registries and directories. (e.g., roster based, population based, research based funding; US initiatives of Accountable Care Organizations (ACO), Patient Center Medical Home (PCMH) and other managed care lists/memberships/directories)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.9.1-03",
+      "label": "AS.9.1#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture government-sponsored health plan enrollment criteria.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.3.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-AS.9.1-04",
+      "label": "AS.9.1#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine and render government sponsored plans that align with the patient's demographics (e.g., health and financial status)."
+    }
+  ]
+}

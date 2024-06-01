@@ -1,0 +1,322 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.1.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_1_2_Manage_Patient_Demographics",
+  "title": "CPS.1.2 Manage Patient Demographics (Function)",
+  "status": "active",
+  "description": "Manage patient demographic information.",
+  "purpose": "Demographic information (including names, addresses, phone numbers, email addresses, date of birth, gender, race, and ethnicity) must be managed to support unique patient identification, reporting, care provision requirements. Patient Demographic information may also include information about the patient's contacts, methods of contact (e.g., email or telephone), and modes of contact (e.g., call secretary during the day, send text message on the weekend). Patient demographic data are captured and maintained as discrete fields and may be enumerated, numeric, or codified according to scope of practice, organizational policy, and/or jurisdictional law. Key patient identifiers (i.e., name and primary patient record identifier) often appear on patient information output (e.g., rendering of a patient's record). Patients may have multiple, and/or compound names, sometimes employing accent marks or special characters. To help parse patient names, discete fields are often used.\nExample:\nFor example, \"Mary Jane Sue Smith\" may be parsed as: First-name: “Mary Jane\", Middle-name: ”Sue\", Last-name: “Smith\". Some jurisdictions may specify the capture and reporting of key patient demographic information (e.g., the \"Meaningful Use, Stage 2\" information requirements in the USA).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-01",
+      "label": "CPS.1.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture demographic information as discrete data as part of the patient record.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.1.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-02",
+      "label": "CPS.1.2#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to maintain demographic information as discrete data as part of the patient record.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.1.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-03",
+      "label": "CPS.1.2#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render demographic information as discrete data as part of the patient record.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.1.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-04",
+      "label": "CPS.1.2#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage historic information for demographic data including prior names, addresses, phone numbers and email addresses.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.1.2#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-05",
+      "label": "CPS.1.2#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL render a set of patient identifying information at each interaction with the patient record, according to scope of practice, organizational policy, and/or jurisdictional law (e.g., a certain realm may require that the patient's picture appear on every screen that is used during a provider's face-to-face interactions with the patient).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.1.2#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-06",
+      "label": "CPS.1.2#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY store the demographic information (and other meaningful individual identifiers) separately from clinical data for identity protection purposes.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.1.2#10"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-07",
+      "label": "CPS.1.2#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture valid date/time values in discrete fields ( e.g., 2011/12/31 2330), including valid incomplete or partial date/time values (e.g., 2011/12)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-08",
+      "label": "CPS.1.2#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to enter a partial date/time if the exact date/time of birth or death is unknown (e.g., year/month only)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-09",
+      "label": "CPS.1.2#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture the patient's gender used for administrative purposes (as distinct from the clinical gender)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-10",
+      "label": "CPS.1.2#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage multiple active addresses for the patient."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-11",
+      "label": "CPS.1.2#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage multiple active phone numbers for the patient."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-12",
+      "label": "CPS.1.2#12",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage the names and contact information of the patient's personal representatives (e.g., guardian, surrogate or financial guarantor) and personal relationships (e.g., foster parents or biological parents)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-13",
+      "label": "CPS.1.2#13",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage the date/time of birth, down to the minute, according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-14",
+      "label": "CPS.1.2#14",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture patient demographics through integration with hospital systems to facilitate patient registration."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-15",
+      "label": "CPS.1.2#15",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability for the patient to annotate demographic data."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-16",
+      "label": "CPS.1.2#16",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render a patient's age and age units for any given date."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-17",
+      "label": "CPS.1.2#17",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY analyze and render potential merge matches for registrations according to organizational policy."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-18",
+      "label": "CPS.1.2#18",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage multiple patient names in each name component field (e.g., first, middle, last, suffix, or title)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-19",
+      "label": "CPS.1.2#19",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage patient names that include any accent marks or special characters."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.1.2-20",
+      "label": "CPS.1.2#20",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to link family or group members so that information that is common to all the members can be updated."
+    }
+  ]
+}

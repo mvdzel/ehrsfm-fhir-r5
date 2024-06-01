@@ -1,0 +1,76 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.10",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_10_Manage_User_Help",
+  "title": "CPS.10 Manage User Help (Function)",
+  "status": "active",
+  "description": "Support the ability to manage the configuration, and/or customization of appropriate user help that is context sensitive and may include the exchange of live online chat.",
+  "purpose": "Throughout the system it is necessary to provide configurable, context sensitive, and/or searchable user help to assist in the use of the system. User help levels should be configurable based on user requirements, scope of practice, organizational policy, and/or jurisdictional law. User Help may include the live online chat support.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.10-01",
+      "label": "CPS.10#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage the configuration and customization of User Help in accordance with user requirements, and according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.10-02",
+      "label": "CPS.10#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD receive queries and render responses for data entry and system navigation assistance (User Help)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.10-03",
+      "label": "CPS.10#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY exchange User Help queries and responses via live online chat."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.10-04",
+      "label": "CPS.10#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD render context-sensitive invokable help to guide users through activities in the system (e.g., charting steps, menu navigation)."
+    }
+  ]
+}

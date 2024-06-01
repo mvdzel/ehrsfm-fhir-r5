@@ -1,0 +1,121 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.1.3.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_3_1_Manage_Record_Pending_State",
+  "title": "RI.1.3.1 Manage Record Pending State (Function)",
+  "status": "active",
+  "description": "Manage Record Entries during the various states of completion.",
+  "purpose": "Record Entries may reside in various states that must be managed. An important underlying principle for managing record states is the need to retain Record Entries that have been viewed for patient care purposes even if it has not been completed or attested. This principle has important legal impact because it provides a record of what the provider relied on for clinical decision-making. For example, if a Record Entry was available in pending state and a clinician accessed the information to make decisions, it is important to retain the pending version even after the final version was available. Determining if the Record Entry was accessed for patient care may be challenging. Access logs should show if the information was accessed/viewed.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.3.1-01",
+      "label": "RI.1.3.1#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage the length of time a Record Entry can be in a pending or inactive state before being administratively closed."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.3.1-02",
+      "label": "RI.1.3.1#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY present a notification to the author or designate that a Record Entry will be administratively closed after a designated period of time."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.3.1-03",
+      "label": "RI.1.3.1#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY present pending Record Entries in accordance with the organization's business rules."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.3.1-04",
+      "label": "RI.1.3.1#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system displays pending Record Entries, THEN the system SHALL tag and present that a Record Entry is pending or incomplete."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.3.1-05",
+      "label": "RI.1.3.1#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to update a Record Entry status to one of:\n- complete,\n- complete while retaining incomplete version of the Entry if viewed for patient care or used by the system,\n- mark as erroneous and retain if Entry used for patient care or by the system, or - discard if Entry never viewed for patient care purposes."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.3.1-06",
+      "label": "RI.1.3.1#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage administrative closure of a Record Entry after a period of inactivity according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-RI.1.3.1-07",
+      "label": "RI.1.3.1#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture a date/time stamp and identify the author each time a Record Entry is updated including when opened, when updated, with the signature event and when officially closed, conforming to function [[TI.2.1.1]] (Record Entry Audit Triggers)."
+    }
+  ]
+}

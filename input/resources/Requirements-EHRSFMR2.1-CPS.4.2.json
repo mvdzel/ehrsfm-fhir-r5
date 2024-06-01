@@ -1,0 +1,183 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-CPS.4.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_4_2_Support_for_Medication_and_Immunization_Ordering",
+  "title": "CPS.4.2 Support for Medication and Immunization Ordering (Function)",
+  "status": "active",
+  "description": "Provide functionality to alert providers to potential medication and immunization ordering errors (such as wrong patient, wrong drug, wrong dose, wrong route and wrong time).",
+  "purpose": "During medication or immunization ordering it is critical to minimize potential errors that can cause adverse events. This is accomplished by the EHR system through the use of clinical decision support and prompting to validate the order at time of ordering. Whist many of these functions are more commonly associated with medication ordering; they also apply to ordering of immunizations when such ordering occurs. The support includes the checking for drug/drug interactions, checking against documented allergies or previous adverse events, as well as validating patient-specific dosing and providing appropriate warnings. Support for medical ordering efficiencies also ensures that orders are appropriate and contain all required supporting information.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2-01",
+      "label": "CPS.4.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to maintain a discrete list of orderable medications and immunizations (i.e., formulary).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.1#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2-02",
+      "label": "CPS.4.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render a paper copy of medication and immunization prescriptions for the patient to take to a pharmacy for fulfillment."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2-03",
+      "label": "CPS.4.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render electronic medication and immunization prescriptions to a pharmacy."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2-04",
+      "label": "CPS.4.2#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render an alert or notification that a non-formulary medication or immunization was ordered according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2-05",
+      "label": "CPS.4.2#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to exchange medication and immunization orders with an external medication management system."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2-06",
+      "label": "CPS.4.2#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD update a patient's medication list to show that the medication is discontinued when a prescribed medication or standing medication order is discontinued."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2-07",
+      "label": "CPS.4.2#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage specific formularies according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2-08",
+      "label": "CPS.4.2#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to maintain directly or by reference a list (i.e. formulary) of medications and immunizations which includes a unique identifier for each medication / immunization."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2-09",
+      "label": "CPS.4.2#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture the duration of a drug interaction warning after the prescription has run-out."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2-10",
+      "label": "CPS.4.2#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain the severity level at which warnings are displayed.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.1#11"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-CPS.4.2-11",
+      "label": "CPS.4.2#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain and render appropriate responses to severity levels at which warnings are displayed."
+    }
+  ]
+}

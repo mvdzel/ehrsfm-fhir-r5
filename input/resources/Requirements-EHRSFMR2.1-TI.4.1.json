@@ -1,0 +1,172 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-TI.4.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_4_1_Standard_Terminology_and_Terminology_Models",
+  "title": "TI.4.1 Standard Terminology and Terminology Models (Function)",
+  "status": "active",
+  "description": "Employ approved standard terminologies to ensure data correctness and to enable semantic interoperability (both within an enterprise and externally).Support a formal standard terminology model.",
+  "purpose": "Semantic interoperability requires standard terminologies combined with a formal standard information model. An example of an information model is the HL7 Reference Information Model. Another example is the ISO/EN 13606 Electronic Health Record Communication.\n\nA terminology provides semantic and computable identity to its concepts. Examples of terminologies that an EHR-S may support include: LOINC, SNOMED, ICD-9, ICD-10, and CPT-4.Terminologies are use-case dependent and may or may not be realm dependent. The key is that the standard be approved by all stakeholders. For example, terminologies for public health interoperability may differ from those for healthcare quality, administrative reporting, research, etc.\n\nFormal standard terminology models enable common semantic representations by describing relationships that exist between concepts within a terminology or in different terminologies, such as exemplified in the model descriptions contained in the HL7 Common Terminology Services specification.\n\nThe clinical use of standard terminologies is greatly enhanced with the ability to perform hierarchical inference searches across coded concepts. Hierarchical Inference enables searches to be conducted across sets of coded concepts stored in an EHR-S. Relationships between concepts in the terminology are used in the search to recognize child concepts of a common parent. For example, there may be a parent concept, \"penicillin containing preparations\" which has numerous child concepts, each of which represents a preparation containing a specific form of penicillin (Penicillin V, Penicillin G, etc.). Therefore, a search may be conducted to find all patients taking any form of penicillin preparation.\n\nClinical and other terminologies may be provided through a terminology service internal or external to an EHR-S.\nExample:\nAn example of a terminology service is described in the HL7 Common Terminology Services specification.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.4.1-01",
+      "label": "TI.4.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to exchange data with other systems(internal or external to the EHR-S) using approved standard terminologies.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.4.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.4.1-02",
+      "label": "TI.4.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine that clinical terms and coded clinical data exist in an approved standard terminology."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.4.1-03",
+      "label": "TI.4.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to receive and transmit healthcare data using formal standard information models and approved standard terminologies according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.4.1#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.4.1-04",
+      "label": "TI.4.1#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage data using a formal standard terminology model according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.4.1#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.4.1-05",
+      "label": "TI.4.1#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine hierarchical inferences (e.g., subsumption across coded terminology concepts that are expressed using standard terminology models).",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.4.1#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.4.1-06",
+      "label": "TI.4.1#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage terminology assets and supporting tools (internal or external to the EHR-S).",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.4.1#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.4.1-07",
+      "label": "TI.4.1#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": true,
+      "requirement": "IF there is no recognized-standard terminology model available, THEN the system MAY provide the ability to manage data using a locally-defined standard terminology model.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.4.1#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.4.1-08",
+      "label": "TI.4.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture information into structured data formats using approved standard terminologies without the user requiring knowledge of the terminologies used."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.4.1-09",
+      "label": "TI.4.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to enter data using content that is common to the user, and allow for collection and presentation of text form data to meet the pre-determined purposes of others. Text forms should exclude cryptic or uncommon abbreviations."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2.1-TI.4.1-10",
+      "label": "TI.4.1#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to present standard terminology terms in a language which is appropriate for the user."
+    }
+  ]
+}

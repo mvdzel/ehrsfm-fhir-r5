@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2.1-RI.1.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/ehrs/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "RI_1_3_Record_States",
+  "title": "RI.1.3 Record States (Header)",
+  "status": "active",
+  "description": "Manage Record States",
+  "purpose": "Record Entries may reside in various states that must be managed. An important underlying principle for managing record states is the need to retain Record Entries that have been viewed for patient care purposes even if the Entry has not been completed or attested. This principle has important legal impact because it provides an account of what the provider viewed and relied on for clinical decision-making. For example, if Record Entry content was available in pending state and a clinician used the information to make decisions, it is important to retain the pending version even after the final version was available. Determining if Record Entry content was used for patient care may be challenging. Access logs could provide a mechanism to determine if the information was used."
+}
