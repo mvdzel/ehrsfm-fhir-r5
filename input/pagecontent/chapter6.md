@@ -571,11 +571,11 @@ For example: (derived from the Functional Model criterion above)
 grant authorizations in accordance with HIPAA.
 
 The difference between a ‘shall’ criterion and a ‘dependent shall’ criterion is shown in Table 3 below.
-||‘SHALL’ Criterion|‘Dependent SHALL’ Criterion| 
+
+| | ‘SHALL’ Criterion | ‘Dependent SHALL’ Criterion |
 |---|---|---|
-|Be present in the Functional Profile|Yes, either verbatim or modified (e.g., constrained or refined)|Yes, verbatim.
-If dependency exists, add additional criteria reflecting the dependency.|
-|Implemented by EHR systems|Yes.|Situational - only implement if the dependency exists.<br/>Specifically, EHR system does not implement the ‘dependent shall’ criterion (as copied from the FM), but does implement additional ‘shall’ criteria created to reflect the dependency.|
+| Be present in the Functional Profile|Yes, either verbatim or modified (e.g., constrained or refined)|Yes, verbatim.<br/>If dependency exists, add additional criteria reflecting the dependency.|
+| Implemented by EHR systems|Yes.|Situational - only implement if the dependency exists.<br/>Specifically, EHR system does not implement the ‘dependent shall’ criterion (as copied from the FM), but does implement additional ‘shall’ criteria created to reflect the dependency.|
 
 Table 3 Differences between 'shall' and 'dependent shall'
 
