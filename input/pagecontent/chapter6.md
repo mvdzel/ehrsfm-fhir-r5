@@ -74,7 +74,7 @@ set of functions in the EHR-S FM Overarching section and their related “SHALL�
 parent function will be applicable to all the children of that parent function.
 
 A formal HL7 process exists for registering and balloting Functional Profiles. Functional Profiles that are
-submitted to the HL7 EHR WG with an attestation of conformance to Section 7: Conformance Clause of the HL7
+submitted to the HL7 EHR WG with an attestation of conformance to Section [Conformance Clause](chapter6.html) of the HL7
 EHR-S Standard and successfully complete review by the WG are designated as “Registered Functional Profiles”.
 Registered Functional Profiles that undergo formal public scrutiny via the HL7 consensus process as an
 Informative EHR TC ballot at the committee level will be designated as HL7 functional domain or companion
@@ -97,7 +97,7 @@ more companion profiles. An EHR system cannot claim conformance to only a compan
 #### Profile Traceability
 
 Functional Profiles allow for added specificity and extensibility to the Functional Model with changes allowed to
-the base FM functions and criteria. However, Section 6.6 (following) defines rules for these changes. It is also
+the base FM functions and criteria. However, Section 8.6 (following) defines rules for these changes. It is also
 required that any changes and additions be tracked. Two added columns in profiles accomplish this. One column
 will document the unique source FM row number for each item in the new profile (or source profile for a derived
 profile). The second column will provide codes for the type of changes from the source FM (or source profile).
@@ -222,16 +222,16 @@ of the Essential Future priority (e.g., EF-2015, EF-2016).
 To accommodate changes in technology as well as Functional Profiles’ needs, the Functional Model is designed
 for extensibility, for functions and their related criteria. Incorporation of additional functions in the Functional
 Profile beyond what is defined in the Functional Model is accommodated through a set of rules for adding new
-functions as defined in Section 6.7.2.
+functions as defined in [Section 8.7.2](chapter6.html#rules-for-creating-new-functions-in-functional-profiles).
 
 Incorporation of additional criterion, changing the sequence of criterion and providing greater profile-specific detail,
 beyond what is defined in the Functional Model, is accommodated through a set of rules for adding new criterion
-or changing existing criterion as defined in Section 6.7.2.
+or changing existing criterion as defined in [Section 8.7.2](chapter6.html#rules-for-creating-new-functions-in-functional-profiles).
 
 ### Functional Profile Conformance <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>
 
 A Functional Profile claiming conformance to the Functional Model **SHALL** meet all requirements specified in the
-6.7.1 Rules for Functional Domain Profiles or in the 6.7.5 Rules for Functional Companion Profiles.
+8.7.1 Rules for Functional Domain Profiles or in the 8.7.5 Rules for Functional Companion Profiles.
 
 #### Rules for Functional Domain Profiles
 
@@ -264,7 +264,7 @@ Optional).
     Profile), then the parent's ‘shall’ criteria SHALL appear in at least one child of that function.
     1. If, as yet there is no ‘shall’ criterion (for the function in the Functional Model), then at least one of
     the ‘should’ or ‘may’ criterion SHALL be made mandatory, i.e., a ‘shall’ criterion.
-    1. Adhere to the rules for referencing functions or criteria in Section 6.5.3.
+    1. Adhere to the rules for referencing functions or criteria in Section 8.5.3.
 6. For any function in the Functional Model where one or more criteria are ‘dependent shall’ criteria, the
 Functional Profile for that function SHALL
     1. Replicate verbatim each ‘dependent shall’ in the Functional Profile, regardless of whether the
@@ -274,16 +274,16 @@ Functional Profile for that function SHALL
     shall’ criterion.
     1. State the specific scope of practice, organizational policy, and/or jurisdictional law which applies or
     state why these dependencies do not apply.
-7. Adhere to the rules for creating new functions in Functional Profiles in Section 6.7.2.
-8. Adhere to the rules for creating and changing conformance criteria in Section 6.5.
-9. Complete the two traceability columns, see Section 6.3.3, for any changes to functions or criteria, and
+7. Adhere to the rules for creating new functions in Functional Profiles in Section 8.7.2.
+8. Adhere to the rules for creating and changing conformance criteria in Section 8.5.
+9. Complete the two traceability columns, see Section 8.3.3, for any changes to functions or criteria, and
 include the following codes for type of change: (N/C for no change; A for added; M for modified.).
 10. Be structured in accordance with the structural requirements defined for the Functional Model in
-Section 6.6.1.
+Section 8.6.1.
 11. Use the Glossary Action verbs for modifying or creating new conformance criterion.
 
 Functional domain profiles claiming conformance to the Functional Model MAY:
-1. Create additional functions according to the rules specified in Section 6.7.2.
+1. Create additional functions according to the rules specified in Section 8.7.2.
 2. Contain conformance criteria more specific and limited in scope than those of the Functional Model.
 3. Replace the text ‘standard(s)-based’ found in some criteria with specific standards and/or
 specifications named at the most discrete level of designation.
@@ -299,7 +299,7 @@ specifications named at the most discrete level of designation.
 Functional domain profiles claiming conformance to the Functional Model SHALL NOT:
 1. Specify any requirements that would contradict or cause non-conformance to the Functional Model.
 2. Modify the name or statement of any function in the Functional Model, except to allow for alignment
-with realm specific nomenclature as specified in Section 6.6.2.
+with realm specific nomenclature as specified in Section 8.6.2.
 3. Change a mandatory conformance criteria to an optional criteria (i.e., replace the ‘shall’ within the
 criteria to ‘should’ or ‘may’) of any function in the Functional Model.
 4. Modify any requirements of a function not selected for the Functional Profile (i.e., all unselected
@@ -347,8 +347,8 @@ Function IN 4.4 is added as a new child which is a sibling to IN 4.1, IN 4.2, an
 
 **Derived functional domain profiles claiming conformance to one or more base functional
 domain profiles SHALL:**
-1. Adhere to all the rules for Functional Domain Profiles as specified in Section 6.7.1.
-2. Adhere to the rules for creating new functions as specified in Section 6.7.2, if not prohibited by the
+1. Adhere to all the rules for Functional Domain Profiles as specified in Section 8.7.1.
+2. Adhere to the rules for creating new functions as specified in Section 8.7.2, if not prohibited by the
 base Functional Profile.
 3. Identify the base Functional Profiles from which it is derived.
 4. For each function inherited from a base Functional Profile, retain and not change mandatory
@@ -458,7 +458,7 @@ profile for the unique member.
 
 A vendor with an EHR system wants to claim conformance to the EHR System Functional Model.
 The vendor identifies and lists all the functions that are in his product. The vendor adds a description and a
-Conformance Clause (see samples in section 7.2). This is the vendor’s functional domain profile. If the vendor
+Conformance Clause ([see samples](chapter5.html#examples-of-current-use) in section 7.2). This is the vendor’s functional domain profile. If the vendor
 has actually implemented all the functions listed, then this is equivalent to ‘Essential Now’ and these functions
 are mandatory. If functions that are currently implemented and those that will be implemented in the future are
 listed, then the Functional Profile is comprised of ‘Essential Now’ and ‘Essential Future’ and/or optional
@@ -472,7 +472,7 @@ Statement (a concept most vendors are already familiar with). A vendor may creat
 #### Sample Functional Domain Profile Conformance Clauses
 
 To aid Functional Profile developers in developing a Conformance Clause for their Functional Profile, as required
-by Section 6.1 rule #3, the following examples are offered. Note: in these examples, the keywords ‘shall’, ‘should’,
+by Section 8.1 rule #3, the following examples are offered. Note: in these examples, the keywords ‘shall’, ‘should’,
 and ‘may’ are capitalized and bold. This is a convention to draw attention to the keywords.
 
 **Conformance Clause for a care-setting functional domain profile**

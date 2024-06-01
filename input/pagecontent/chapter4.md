@@ -41,7 +41,7 @@ Criteria? Or how do you know what is mandatory versus optional?. A Conformance C
 communication between the implementers (producers) and users (buyers) as to what is required, and gives
 meaning to the phrases, “conforming profile” and “conforming EHR system”. Additionally, it serves as the basis
 for inspection, testing and/or certification activities which may be performed by organizations external to HL7.
-Refer to the Conformance Clause, section 7, for additional information related to the rules for selecting and adding
+Refer to the [Conformance Clause](chapter6.html), for additional information related to the rules for selecting and adding
 Conformance Criteria in the development of a Functional Profile.
 
 ### EHR-S Function List Components
@@ -114,6 +114,6 @@ Each function in the Function List includes one or more Conformance Criteria. Co
 as normative language in this standard, define the requirements for conforming to the function. The language
 used to express a conformance criterion is highly structured with standardized components with set meanings.
 The structured language used to define Conformance Criteria in the Function List are further specified in the
-Conformance Section 7 and Glossary Section 8.
+[Conformance Section](chapter6.html) and [Glossary Section](chapter8.html).
 
 {% include nav.html previous="chapter3" next="chapter5" %}

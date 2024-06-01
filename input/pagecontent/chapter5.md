@@ -15,7 +15,7 @@ It is not anticipated that any system or implementation will conform to all func
 forth in the base EHR-S FM. Rather EHR systems or implementations may conform to one or more Functional
 Profiles.
 
-For more information about creating, registering, and balloting Functional Profiles, see Conformance Section 7.
+For more information about creating, registering, and balloting Functional Profiles, see [Conformance Section](chapter6.html).
 
 One might create a Functional Profile to support a business case for EHR-S use by selecting an applicable subset
 of functions from the based EHR-S FM list of functions, in effect constraining the model to meet specific
@@ -129,7 +129,7 @@ Level Seven International (HL7®) Child Health Functional Profile Specification,
 modifications thereof, developed by HL7, the copyright of which is owned by HL7. Portions of the Format
 that contain excerpts from the HL7 Child Health Functional Profile are identified in the Provenance Field...”
 
-See the link below to access a copy of the “Children’s EHR Format” - https://ushik.ahrq.gov/mdr/portals/cehrf?system=cehrf
+Access a copy of the [“Children’s EHR Format”](https://ushik.ahrq.gov/mdr/portals/cehrf?system=cehrf).
 
 #### Linking clinical content descriptions to the EHR-S FM <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>
 
