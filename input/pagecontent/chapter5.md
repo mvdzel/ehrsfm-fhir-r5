@@ -131,7 +131,7 @@ that contain excerpts from the HL7 Child Health Functional Profile are identifie
 
 See the link below to access a copy of the “Children’s EHR Format” - https://ushik.ahrq.gov/mdr/portals/cehrf?system=cehrf
 
-#### Linking clinical content descriptions to the EHR-S FM (Reference)
+#### Linking clinical content descriptions to the EHR-S FM <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>
 
 HL7 has ongoing initiatives to link clinical content descriptions to functions and criteria in the EHR-S FM. This
 clinical content linkage can be helpful input to developers of EHR-systems. Examples of these clinical content

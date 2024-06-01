@@ -1,6 +1,6 @@
 <style>table, td, th { border: 1px solid black; padding:5px; }</style>
 
-### Introduction (Reference)
+### Introduction <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>
 
 Sections 6.2 through 6.7 are the HL7 EHR Work Group approved Conformance Clauses. As important
 background on conformance, please note the following:
@@ -415,7 +415,7 @@ Profile).
 
 There are no exceptions to section 6.7.5. for Derived Functional Companion Profiles
 
-### Use Cases and Samples (Reference)
+### Use Cases and Samples <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>
 
 #### Functional Profile Use Cases
 
@@ -522,7 +522,7 @@ now’ in the Long Term Care or Ambulatory domain profile must also be available
 labeled ‘essential future’ are optional, in that they are present for informational purposes only and **MAY** be
 implemented in future functional companion profiles.
 
-#### Interpreting and Applying a Conditional ‘SHALL’ (Reference)
+#### Interpreting and Applying a Conditional ‘SHALL’ <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>
 
 Conformance criteria in the FM and those created can be structured in the simple format an Actor followed by
 normative verb followed by action or property. For example: The system **SHALL** capture demographic information

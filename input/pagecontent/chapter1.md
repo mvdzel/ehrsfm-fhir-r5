@@ -43,16 +43,16 @@ Continuity of Care, is an international standard that does outline key principle
 healthcare. It is recommended that users of the EHR-S FM refer to this standard for clinical processes that EHR
 systems support.
 
-This EHR-S Functional Model package includes both Reference and Normative sections.
+This EHR-S Functional Model package includes both Informative and Normative sections.
 
 | Status | Description |
 | -- | -- |
-| Reference / Informative <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a> | Content of the EHR-S Functional Model Package that contains information which clarifies concepts or otherwise provides additional information to aid understanding and comprehension. Reference material is not balloted as part of the standard. |
+| Informative <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a> | Content of the EHR-S Functional Model Package that contains information which clarifies concepts or otherwise provides additional information to aid understanding and comprehension. Informative material is not balloted as part of the standard. |
 | Normative <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a> | Content that is part of the EHR-S Functional Model which HL7 committee members and interested industry participants have formally reviewed and balloted following the HL7 procedures for Balloting Normative Documents. This HL7 developed Functional Model document has been successfully balloted as a normative standard by the HL7 organization. |
 
 **Table 1: Normative Status Types**
 
-Each section within this document is clearly labeled "Normative" if it is normative. For example, in section 5
+Each section within this document is clearly labeled "Normative" <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a> if it is normative. For example, in section 5
 (Overview) section 5.3 is normative. In section 7, Conformance Clause; sections 7.1 through 7.6 are normative.
 
 In the external Annex A, Function List, the Function ID, Function Name, Function Statement, and Conformance

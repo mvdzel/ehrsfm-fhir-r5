@@ -1,6 +1,6 @@
 # Glossary
 
-## Preface (Reference)
+## Preface <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>
 
 Portions of this Glossary Clause are classified as NORMATIVE, including
 the Action-Verb Structure Section (8.4). See section by section labels.
@@ -14,7 +14,7 @@ FMs.
 This Glossary is intended to be international in application. However,
 each realm may want to adjust terms to their own language.
 
-## Introduction (Normative)
+## Introduction <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>
 
 The Health Level Seven International (HL7) EHR-S and PHR-S FM Glossary
 is an HL7 reference document that provides a set of definitions and
@@ -35,7 +35,7 @@ efforts were deployed to reduce the ambiguities inherent in the use of
 human language; care was used to respect the fundamental meaning of
 words and to avoid domain specific usage of terms.
 
-## Overview (Reference)
+## Overview <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>
 
 HL7's EHR Work Group has unified glossaries for both the EHR-S and PHR-S
 FMs to ensure consistency. Each FM has a unique focus and coverage in
@@ -64,7 +64,7 @@ consult trusted dictionaries or encyclopedias. Where definitions of
 terms are taken from recognized sources, specific references are
 included.
 
-## The Action-Verb Structure (Normative)
+## The Action-Verb Structure <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>
 
 The Action-Verbs to be used for writing conformance criteria in the
 EHR-S FM and the PHR-S FM are organized in two hierarchies, each with
@@ -844,7 +844,7 @@ Table 9 lists a set of deprecated verbs and possible alternatives:
 <p>Instead use...</p>
 </td></tr></tbody></table>
 
-## Guidelines for Use (Reference)
+## Guidelines for Use <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>
 
 Contributors to the contents of the EHR-S and PHR-S FMs must be
 thoroughly familiar with this 'Guidelines For Use' Section. It is
