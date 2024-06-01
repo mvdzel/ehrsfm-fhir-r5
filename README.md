@@ -1,5 +1,17 @@
 For issues: https://github.com/mvdzel/ehrsfm-fhir-r5/issues/
 
+## CI-Build
+
+* [HL7 FHIR CI Build](https://build.fhir.org/ig/mvdzel/ehrsfm-fhir-r5/) 
+* [Auto-IG build dashboard](https://fhir.github.io/auto-ig-builder/)
+
+### Trigger FHIR auto-ig builder
+```
+curl -X POST  "https://us-central1-fhir-org-starter-project.cloudfunctions.net/ig-commit-trigger" \
+  -H "Content-type: application/json" \
+  --data '{"ref": "refs/heads/master", "repository": {"full_name": "mvdzel/ehrsfm-fhir-r5"}}'
+```
+
 ## Running the scipt and IG publisher
 
 ### Convert script
