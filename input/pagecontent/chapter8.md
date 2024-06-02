@@ -352,9 +352,9 @@ Table 8 lists the full set of eligible Action-Verbs and their logical constructi
 <col style="width: 90%" />
 </colgroup>
 <thead>
-<tr class="row-ro1"><th style="text-align:left;width:0.889in; " class="cell-Default">
+<tr class="row-ro1"><th style="text-align:left;width:0.889in; ">
 <p>Action-Verb</p>
-</th><th style="text-align:left;width:0.889in; " class="cell-Default">
+</th><th style="text-align:left;width:0.889in; ">
 <p>Construction</p>
 </th></tr>
 </thead>
@@ -601,12 +601,12 @@ Table 9 lists a set of deprecated verbs and possible alternatives:
 <col style="width: 90%" />
 </colgroup>
 <thead>
-<tr class="row-ro1"><th style="text-align:left;width:0.889in; " class="cell-Default">
+<tr class="row-ro1"><th style="text-align:left;width:0.889in; ">
 <p>Deprecated Action-Verb</p>
-</th><th style="text-align:left;width:0.889in; " class="cell-Default">
+</th><th style="text-align:left;width:0.889in; ">
 <p>Possible Alternative(s)</p>
 </th></tr>
-<thead>
+</thead>
 <tbody>
 <tr class="row-ro1"><td style="text-align:left;width:0.889in; " class="cell-Default">
 <p>Access</p>
