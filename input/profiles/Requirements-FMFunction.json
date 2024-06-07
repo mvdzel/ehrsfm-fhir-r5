@@ -82,6 +82,12 @@
                         "severity": "warning",
                         "human": "Optionality attribute does not match the optionality in the text.",
                         "expression": "requirement.contains(conformance.first())"
+                    },
+                    {
+                        "key": "FMFLC15",
+                        "severity": "error",
+                        "human": "Criterion must have a textual description.",
+                        "expression": "requirement.hasValue()"
                     }
                 ]
             }
