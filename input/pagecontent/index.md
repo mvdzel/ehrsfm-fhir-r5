@@ -29,7 +29,7 @@ The Function List (see [artifacts](artifacts.html)) includes the following compo
 | Role  | Name | Organization | Contact |
 | --- | --- | --- | --- |
 | **Co-Chair, EHR Work Group** | Gary Dickinson | CentriHealth/UnitedHealth Group | gary.dickinson@ehr-standards.com |
-| **Co-Chair, EHR Work Group** | Mark Janczewski MD MPH | Medical Networks, LLC | mark.janczewski@verizon.net |
+| **Co-Chair, EHR Work Group** | Mark Janczewski MD MPH | Medical Networks, LLC | mark.janczewski@gmail.com |
 | **Co-Chair, EHR Work Group** | Michael Brody DPM |  | mbrody@cmeonline.com |
 | **Co-Chair, EHR Work Group** | John Ritter |  | johnritter1@verizon.net |
 | **Co-Chair, EHR Work Group** | Stephen Hufnagel, PhD | Registry Clearinghouse | shufnagel@registryclearinghouse.net |
