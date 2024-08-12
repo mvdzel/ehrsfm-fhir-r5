@@ -70,6 +70,7 @@ No narrative removes rendering of Requirement.statements. So don't use this.
 The HL7 repo is now setup to being a mirror of the work repo (@mvdzel). Use these commands to update the HL7 mirror.
 ```
 @> git clone --mirror https://github.com/mvdzel/ehrsfm-fhir-r5.git
+@> cd ehrsfm-fhir-r5.git
 @> git fetch
 @> git push --mirror https://github.com/HL7/ehrsfm-ig.git
 ```
