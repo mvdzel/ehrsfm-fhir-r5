@@ -8,5 +8,6 @@
   },
   "name": "EHRS_FM_R2_1_April_2022",
   "title": "EHRS_FM_R2_1_April_2022",
-  "status": "active"
+  "status": "active",
+  "description": "This is the base EHR-System Functional Model used in Functional Profiles."
 }
