@@ -10,6 +10,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Clone origin
-          run: git clone --mirror https://github.com/mvdzel/ehrsfm-fhir-r5.git  
+          run: git clone --mirror https://github.com/mvdzel/ehrsfm-fhir-r5.git
         - name: Update mirror
-          run: git push --mirror https://github.com/HL7/ehrsfm-ig.git
+          run: cd ehrsfm-fhir-r5.git ; git push --mirror https://github.com/HL7/ehrsfm-ig.git
