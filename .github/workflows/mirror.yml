@@ -12,4 +12,7 @@ jobs:
         - name: Clone origin
           run: git clone --mirror https://github.com/mvdzel/ehrsfm-fhir-r5.git
         - name: Update mirror
-          run: cd ehrsfm-fhir-r5.git ; git push --mirror https://${GITHUB_ACTOR}:${secrets.GITHUB_TOKEN}@github.com/HL7/ehrsfm-ig.git
+          run: cd ehrsfm-fhir-r5.git ; git push --mirror https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/HL7/ehrsfm-ig.git
+          env:
+              GIHUB_ACTOR: ${{ GITHUB_ACTOR }}
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
