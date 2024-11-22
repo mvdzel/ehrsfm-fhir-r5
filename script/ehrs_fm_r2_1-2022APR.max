@@ -21418,7 +21418,7 @@ The patient administrative information also includes patient location informatio
       <id>1494</id>
       <name>AS.3.2.1 Manage Consents and Authorizations from a PHR</name>
       <alias>AS.3.2.1</alias>
-      <notes>$ST$Maintain the Consents and Authorization directives/statements from the patient's PHR.$DE$Provide the ability to manage Consents and Authorizations from a Personal Health Record including manage access control for individual elements of records to which the Consent or Authorization applies$EX$</notes>
+      <notes>$ST$Maintain the Consents and Authorization directives/statements from the patient's PHR.$DE$Provide the ability to manage Consents and Authorizations from a Personal Health Record including manage access control for individual elements of records to which the Consent or Authorization applies.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1493</parentId>
@@ -28397,7 +28397,7 @@ Reference: ISO 21089-2018, Section 15.27.$EX$</notes>
 - ISO 21089: Health Informatics 
 - Trusted End-to-End Information Flows
 - HL7 EHR Interoperability Model DSTU
-- HL7 Electronic Health Record Lifecycle Model DSTU.$EX$</notes>
+- HL7 Electronic Health Record Lifecycle Model DSTU$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1703</parentId>
