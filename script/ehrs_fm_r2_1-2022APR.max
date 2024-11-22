@@ -3100,7 +3100,7 @@ according to scope of practice, organizational policy, and/or jurisdictional law
       <id>199</id>
       <name>CP.3.1 Conduct Assessments</name>
       <alias>CP.3.1</alias>
-      <notes>$ST$Create and maintain assessment information.$DE$During an encounter with a patient, the provider will conduct an assessment that is germane to the age, gender, developmental or functional state, medical and behavioral condition of the patient, such as growth charts, developmental profiles, and disease specific assessments. Wherever possible, this assessment should follow industry standard protocols although, for example, an assessment for an infant will have different content than one for an elderly patient. When a specific assessment template does not exist, a new, locally-defined assessment can be created, using the format and data elements of similar assessments whenever possible. (NOTE: A new assessment may not necessarily be unique, since a facility may copy an assessment from another facility.)$EX$</notes>
+      <notes>$ST$Create and maintain assessment information.$DE$During an encounter with a patient, the provider will conduct an assessment that is germane to the age, gender, developmental or functional state, medical and behavioral condition of the patient, such as growth charts, developmental profiles, and disease specific assessments. Wherever possible, this assessment should follow industry standard protocols although, for example, an assessment for an infant will have different content than one for an elderly patient. When a specific assessment template does not exist, a new, locally-defined assessment can be created, using the format and data elements of similar assessments whenever possible. NOTE: A new assessment may not necessarily be unique, since a facility may copy an assessment from another facility.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>198</parentId>
@@ -12486,7 +12486,7 @@ Such verification does not have to occur at each individual data field and can b
       <notes>$ST$Capture and explicitly label patient data derived from eligibility, formulary and benefit information; and link the data source with that data.$DE$Sources of eligibility, formulary and benefit may provide data for entry into the electronic prescribing or be given a mechanism for entering this data directly. The data must be explicitly labeled as derived from eligibility, formulary and benefit information. Patient data that is derived from eligibility, formulary and benefit data may be provided by: 
 - a provider 
 - a payer, or 
-- entities that transmit or process eligibility, formulary and benefit data$EX$</notes>
+- entities that transmit or process eligibility, formulary and benefit data.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>759</parentId>
@@ -12662,7 +12662,7 @@ Such verification does not have to occur at each individual data field and can b
       <id>813</id>
       <name>CPS.3.1 Support for Standard Assessments</name>
       <alias>CPS.3.1</alias>
-      <notes>$ST$Support the establishment, updates and use of assessment forms that will assist in the development of and adherence to care plans, guidelines, and protocols at the point of information capture.$DE$As part of managing assessment definitions, the system will support the ability to create a set of assessment forms and, optionally, associated logic (e.g., workflow, business and clinical rules). This assessment definition process may include the ability to define, revise and manage the tools, files and processing for the conduct of a patient assessment. Furthermore, the assessment definition may also include template development, prompts for additional information, related notification alerts and workflow processes. When a clinician fills out an assessment, data entered triggers the system to prompt the assessor to consider issues that would help assure a complete/accurate assessment. A simple demographic value or presenting problem (or combination) could provide a template for data gathering that represents best practice in this situation, e.g., Type 2 (Adult Onset) Diabetes diabetic review, fall and 70+, and rectal bleeding. Support for standard assessment may include the ability to record and store the value for the answers to specific questions in standardized assessment tools or questionnaires. When a specific recognized-standard assessment does not exist, the system will support the creation of unique new, locally-defined assessment. The system may enable, and/or encourage the use of the format and data elements of similar assessments in the systems whenever possible. (NOTE: A new assessment may not necessarily be unique, since a facility may copy an assessment from another facility.) $EX$</notes>
+      <notes>$ST$Support the establishment, updates and use of assessment forms that will assist in the development of and adherence to care plans, guidelines, and protocols at the point of information capture.$DE$As part of managing assessment definitions, the system will support the ability to create a set of assessment forms and, optionally, associated logic (e.g., workflow, business and clinical rules). This assessment definition process may include the ability to define, revise and manage the tools, files and processing for the conduct of a patient assessment. Furthermore, the assessment definition may also include template development, prompts for additional information, related notification alerts and workflow processes. When a clinician fills out an assessment, data entered triggers the system to prompt the assessor to consider issues that would help assure a complete/accurate assessment. A simple demographic value or presenting problem (or combination) could provide a template for data gathering that represents best practice in this situation, e.g., Type 2 (Adult Onset) Diabetes diabetic review, fall and 70+, and rectal bleeding. Support for standard assessment may include the ability to record and store the value for the answers to specific questions in standardized assessment tools or questionnaires. When a specific recognized-standard assessment does not exist, the system will support the creation of unique new, locally-defined assessment. The system may enable, and/or encourage the use of the format and data elements of similar assessments in the systems whenever possible. NOTE: A new assessment may not necessarily be unique, since a facility may copy an assessment from another facility.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>812</parentId>
@@ -17744,7 +17744,7 @@ Examples:
 - A patient may wish to request a refill of medication by emailing the physician.
 - Patients with asthma may wish to communicate their peak flow logs/diaries to their provider.
 - Hospital may wish to communicate with selected patients about a new smoking cessation program.
-- Automated notification regarding annual flu shots</notes>
+- Automated notification regarding annual flu shots.</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1117</parentId>
@@ -18817,7 +18817,7 @@ The system should provide for both verbal and written communication. These excha
 - CEN ENV 13607:2000. Health informatics. Messages for the exchange of information on medicine prescriptions
 - X12N healthcare transactions
 - US realm: National Council for Prescription Drug Programs (NCPDP)
-- Canadian realm: National Electronic Claims Standard (NeCST)</notes>
+- Canadian realm: National Electronic Claims Standard (NeCST).</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1173</parentId>
@@ -21142,7 +21142,7 @@ The patient administrative information also includes patient location informatio
       <id>1474</id>
       <name>AS.2.5 Manage Patients in Healthcare Programs</name>
       <alias>AS.2.5</alias>
-      <notes>$ST$Capture and manage patient participation in healthcare programs.$DE$The system can provide the ability to identify patients participating in health care programs and to also manage information about those programs. The system can also support managing an organization's defined healthcare programs. These directories may include population based programs like an accountable care organization or patient-centered medical homes or patient panels. (NOTE: These program may include a roster-based funding component tied to patients in the programs.)$EX$</notes>
+      <notes>$ST$Capture and manage patient participation in healthcare programs.$DE$The system can provide the ability to identify patients participating in health care programs and to also manage information about those programs. The system can also support managing an organization's defined healthcare programs. These directories may include population based programs like an accountable care organization or patient-centered medical homes or patient panels. NOTE: These program may include a roster-based funding component tied to patients in the programs.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1434</parentId>
@@ -26524,7 +26524,7 @@ A random re-identification key may be added to the data, to support re-identific
       <alias>POP.9</alias>
       <notes>$ST$Provide the ability to identify and consistently manage healthcare over time and across populations or groups of patients that share diagnoses, problems, functional limitations, treatment, medications, and demographic characteristics that may impact care ( e.g., population management, disease management, wellness management or care management).$DE$Populations or groups of patients that share diagnoses (such as diabetes or hypertension), problems, functional limitations, treatment, medication, and demographic characteristics such as race, ethnicity, religion, socio-economic status that may impact care are identified for the clinician. The clinician is advised and assisted with management of these patients to optimize the clinician's ability to provide appropriate care. For example, a clinician is alerted to information regarding racial, cultural, religious, socio-economic, living situation and functional limitations of the patient that are required to provide appropriate care. Among other examples are notification of the patients' eligibility for a particular test, therapy, or follow-up; availability of supportive resources in the community; or results from audits of compliance of these populations with disease management protocols. The system may also Include the ability to identify groups of patients based on clinical observations or laboratory test results and assist in initiating a follow-up or recall for selected patients.
 
-The system may also provide the ability to create and render configurable reports for specific populations/or topics of interest, (e.g., chronic conditions, suicidal risk, or post traumatic stress syndrome, or traumatic brain injury)$EX$</notes>
+The system may also provide the ability to create and render configurable reports for specific populations/or topics of interest, e.g. chronic conditions, suicidal risk, or post traumatic stress syndrome, or traumatic brain injury.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1261</parentId>
@@ -27651,7 +27651,7 @@ The system may also provide the ability to create and render configurable report
       <id>1706</id>
       <name>RI.1.1.1 Originate/Retain Record Lifecycle Event</name>
       <alias>RI.1.1.1</alias>
-      <notes>$ST$Originate and Retain Record Entry (1 instance)$DE$Occurs when an agent causes the system to: a) initiate capture of potential record content, and b) incorporate that content into the storage considered a permanent part of the health record. 
+      <notes>$ST$Originate and Retain Record Entry (1 instance)$DE$Occurs when an agent causes the system to: a) initiate capture of potential record content, and b) incorporate that content into the storage considered a permanent part of the health record.
 
 Reference: ISO 21089-2018, Section 15.1.$EX$</notes>
       <stereotype>Function</stereotype>
@@ -27725,7 +27725,7 @@ Unstructured data may be characterized as being free form, and/or non-computable
 Examples of unstructured health record information include:
 - text (text message to physician) - word processing document (a letter from a family member) - image (photograph of a patient or a scanned image of insurance card) - multimedia (dictated report or a voice recording). 
 
-Context may determine whether data are structured or unstructured. For example, a progress note might be standardized and structured in some systems (e.g., Subjective/Objective/Assessment/Plan) but unstructured in other systems. The EHR System manages Record Lifecycle Events for each Record Entry, including pre and post Event record states, continuity, persistence and related Record Audit Logs. 
+Context may determine whether data are structured or unstructured. For example, a progress note might be standardized and structured in some systems (e.g., Subjective/Objective/Assessment/Plan) but unstructured in other systems. The EHR System manages Record Lifecycle Events for each Record Entry, including pre and post Event record states, continuity, persistence and related Record Audit Logs.
 $EX$Action examples include: 
 (1) In the direct care of a patient, a healthcare professional creates or amends health information to be contained in a history and physical; 
 (2) A medical device can supply the EHR system with a test result;
@@ -28393,8 +28393,11 @@ Reference: ISO 21089-2018, Section 15.27.$EX$</notes>
       <id>1704</id>
       <name>RI.1.1 Record Lifecycle</name>
       <alias>RI.1.1</alias>
-      <notes>$ST$Manage Record Lifecycle$DE$As aboveReferences:
-- ISO 21089: Health Informatics – Trusted End-to-End Information Flows- HL7 EHR Interoperability Model DSTU- HL7 Electronic Health Record Lifecycle Model DSTU$EX$</notes>
+      <notes>$ST$Manage Record Lifecycle$DE$References:
+- ISO 21089: Health Informatics 
+- Trusted End-to-End Information Flows
+- HL7 EHR Interoperability Model DSTU
+- HL7 Electronic Health Record Lifecycle Model DSTU.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1703</parentId>

@@ -10,7 +10,7 @@
   "title": "CP.3.1 Conduct Assessments (Function)",
   "status": "active",
   "description": "Create and maintain assessment information.",
-  "purpose": "During an encounter with a patient, the provider will conduct an assessment that is germane to the age, gender, developmental or functional state, medical and behavioral condition of the patient, such as growth charts, developmental profiles, and disease specific assessments. Wherever possible, this assessment should follow industry standard protocols although, for example, an assessment for an infant will have different content than one for an elderly patient. When a specific assessment template does not exist, a new, locally-defined assessment can be created, using the format and data elements of similar assessments whenever possible. (NOTE: A new assessment may not necessarily be unique, since a facility may copy an assessment from another facility.)",
+  "purpose": "During an encounter with a patient, the provider will conduct an assessment that is germane to the age, gender, developmental or functional state, medical and behavioral condition of the patient, such as growth charts, developmental profiles, and disease specific assessments. Wherever possible, this assessment should follow industry standard protocols although, for example, an assessment for an infant will have different content than one for an elderly patient. When a specific assessment template does not exist, a new, locally-defined assessment can be created, using the format and data elements of similar assessments whenever possible. NOTE: A new assessment may not necessarily be unique, since a facility may copy an assessment from another facility.",
   "statement": [
     {
       "extension": [

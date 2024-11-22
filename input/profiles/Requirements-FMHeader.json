@@ -33,7 +33,7 @@
                         "key": "FMHC005",
                         "severity": "warning",
                         "human": "Header purpose statement must end in a period.",
-                        "expression": "purpose.endsWith('.')"
+                        "expression": "purpose.toString().endsWith('.')"
                     },
                     {
                         "key": "FMHC006",
@@ -45,7 +45,7 @@
                         "key": "FMHC007",
                         "severity": "warning",
                         "human": "Header description statement must end in a period.",
-                        "expression": "description.endsWith('.')"
+                        "expression": "description.toString().endsWith('.')"
                     },
                     {
                         "key": "FMHC010",

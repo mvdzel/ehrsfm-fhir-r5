@@ -5,6 +5,8 @@ This resource could usefully have an OID assigned (OIDs are easy to assign - see
 # There are < in the script QA fails on that
 Unable to Parse HTML - node 'script' has unexpected content %
 
-# Place-holder for potential further development (TODO: No idea how to ignore a warning for 1 specific resource)
-CPS.4.4 Constraint failed: FMFLC13: 'Function must have one or more conformance criteria statements.'
-CPS.4.5 Constraint failed: FMFLC13: 'Function must have one or more conformance criteria statements.'
+# Place-holder for potential further development (How to ignore this QA issue?)
+Constraint failed: FMFLC13: 'Function must have one or more conformance criteria statements.'
+
+# Experimental in the core
+% which is experimental, but this structure is not labeled as experimental
