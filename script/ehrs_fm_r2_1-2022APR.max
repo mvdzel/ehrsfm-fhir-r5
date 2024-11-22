@@ -8186,7 +8186,15 @@ according to scope of practice, organizational policy, and/or jurisdictional law
       <id>531</id>
       <name>CP.6.2#01</name>
       <alias />
-      <notes>The system SHALL provide the ability to capture immunization administration details as discrete data, including:(1) the immunization name/type, series, strength and dose;(2) date and time of administration;(3) manufacturer, lot number, expiration date,(4) route and site of administration;(5) administering provider;(6) observations, reactions and complications;(7) reason immunization not given, and/or immunization related activity not performed;according to scope of practice, organizational policy, and/or jurisdictional law.</notes>
+      <notes>The system SHALL provide the ability to capture immunization administration details as discrete data, including:
+- the immunization name/type, series, strength and dose;
+- date and time of administration;
+- manufacturer, lot number, expiration date,
+- route and site of administration;
+- administering provider;
+- observations, reactions and complications;
+- reason immunization not given, and/or immunization related activity not performed;
+according to scope of practice, organizational policy, and/or jurisdictional law.</notes>
       <stereotype>Criteria</stereotype>
       <type>Requirement</type>
       <parentId>530</parentId>
@@ -14158,7 +14166,10 @@ Such verification does not have to occur at each individual data field and can b
       <id>904</id>
       <name>CPS.3.11 Support Other Encounter and Episode of Care Documentation</name>
       <alias>CPS.3.11</alias>
-      <notes>$ST$Where not covered above, provide the means to manage and organize the documentation of the health care needed and delivered during an encounter/episode of care.$DE$Using data standards and technologies that support interoperability, effective documentation of an encounter can promote patient- centered/oriented care and enables real-time, immediate point-of-service care delivery. Effective encounter and episode-of-care documentation can facilitate efficient work flow and improve operations performance. This can help to ensure the integrity of (1) the health record, (2) public health, financial and administrative reporting, and (3) the healthcare delivery process.$EX$</notes>
+      <notes>$ST$Where not covered above, provide the means to manage and organize the documentation of the health care needed and delivered during an encounter/episode of care.$DE$Using data standards and technologies that support interoperability, effective documentation of an encounter can promote patient- centered/oriented care and enables real-time, immediate point-of-service care delivery. Effective encounter and episode-of-care documentation can facilitate efficient work flow and improve operations performance. This can help to ensure the integrity of 
+- the health record, 
+- public health, financial and administrative reporting, and 
+- the healthcare delivery process.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>812</parentId>
@@ -15847,14 +15858,14 @@ Note, medication may be affected by food or dietary choices; whist this is not c
       <notes>$ST$Review a patient's medication information (from more than one source) and reconcile conflicts.$DE$Medication reconciliation is the process of comparing a patient's medication information (from all sources) to the medications that the patient is actually has been taking. Medication reconciliation is done to avoid medication errors such as omissions, duplications, dosing errors, or drug interactions. Medication Reconciliation should be done at every episode or transition of care in which new medications are ordered or administered, existing orders are rewritten or where medications may influence the care given.
 
 Transitions in care include changes in setting, service, practitioner, or level of care. The Medication Reconciliation process includes several steps: 
-(1) develop a list of current medication list of medications that the patient is taking, 
-(2) develop a list of medications to be prescribed or recommended 
-(3) compare the medication information from all sources; 
-(4) make shared and informed clinical decisions based on the comparison and provide the ability to document the interaction; and 
-(5) communicate the updated medication information to the healthcare teams, the patient and appropriate caregivers.
+- develop a list of current medication list of medications that the patient is taking, 
+- develop a list of medications to be prescribed or recommended 
+- compare the medication information from all sources; 
+- make shared and informed clinical decisions based on the comparison and provide the ability to document the interaction; and 
+- communicate the updated medication information to the healthcare teams, the patient and appropriate caregivers.
 For example: If a patient's pain, anticoagulation hyperglycemia or other high risk therapy is being managed by a specialist, the healthcare team must be aware to avoid prescribing an additional equivalent of this medication.
-(6) Verify the patient's/caregiver's understanding and agreement to the patient's medication treatment plan.
-(7) Standardization of shared medication information (name, dose, instructions, indications, prescriber, etc).$EX$</notes>
+- Verify the patient's/caregiver's understanding and agreement to the patient's medication treatment plan.
+- Standardization of shared medication information (name, dose, instructions, indications, prescriber, etc).$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>945</parentId>

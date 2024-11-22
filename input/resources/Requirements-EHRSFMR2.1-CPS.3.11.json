@@ -10,7 +10,7 @@
   "title": "CPS.3.11 Support Other Encounter and Episode of Care Documentation (Function)",
   "status": "active",
   "description": "Where not covered above, provide the means to manage and organize the documentation of the health care needed and delivered during an encounter/episode of care.",
-  "purpose": "Using data standards and technologies that support interoperability, effective documentation of an encounter can promote patient- centered/oriented care and enables real-time, immediate point-of-service care delivery. Effective encounter and episode-of-care documentation can facilitate efficient work flow and improve operations performance. This can help to ensure the integrity of (1) the health record, (2) public health, financial and administrative reporting, and (3) the healthcare delivery process.",
+  "purpose": "Using data standards and technologies that support interoperability, effective documentation of an encounter can promote patient- centered/oriented care and enables real-time, immediate point-of-service care delivery. Effective encounter and episode-of-care documentation can facilitate efficient work flow and improve operations performance. This can help to ensure the integrity of \n- the health record, \n- public health, financial and administrative reporting, and \n- the healthcare delivery process.",
   "statement": [
     {
       "extension": [

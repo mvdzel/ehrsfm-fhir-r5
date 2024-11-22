@@ -34,5 +34,4 @@ The Function List (see [artifacts](artifacts.html)) includes the following compo
 | **Co-Chair, EHR Work Group** | John Ritter |  | johnritter1@verizon.net |
 | **Co-Chair, EHR Work Group** | Stephen Hufnagel, PhD | Registry Clearinghouse | shufnagel@registryclearinghouse.net |
 | **Co-Chair, EHR Work Group** | Feliciano Yu MD, MS | University of Arkansas Medical Sciences | Pele.Yu@archildrens.org |
-| **Publishing Facilitator** | Anneke Goossen, MScN | Results4Care | annekegoossen@results4care.nl |
 | **Publishing Facilitator** | Michael van der Zel | UMCG | m.van.der.zel@umcg.nl |
