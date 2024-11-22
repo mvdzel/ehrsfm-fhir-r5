@@ -14,4 +14,4 @@ jobs:
         - name: Update mirror
           run: cd ehrsfm-fhir-r5.git ; git push --mirror https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/HL7/ehrsfm-ig.git
           env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              GITHUB_TOKEN: ${{ secrets.HL7_TOKEN }}
