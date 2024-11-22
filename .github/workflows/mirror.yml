@@ -1,0 +1,15 @@
+on:
+    #  push:
+    #    branches:
+    #      - master
+      workflow_dispatch:
+
+jobs:
+    Mirror-to-HL7:
+        name: Mirror the repository to the HL7 GitHub that will then trigger the HL7 IG Build CI 
+        runs-on: ubuntu-latest
+        steps:
+        - name: Clone origin
+          run: git clone --mirror https://github.com/mvdzel/ehrsfm-fhir-r5.git  
+        - name: Update mirror
+          run: git push --mirror https://github.com/HL7/ehrsfm-ig.git
