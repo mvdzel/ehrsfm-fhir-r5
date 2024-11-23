@@ -32,10 +32,10 @@ The Function List (see [artifacts](artifacts.html)) includes the following compo
 
 | Role  | Name | Organization | Contact |
 | --- | --- | --- | --- |
-| **Co-Chair, EHR Work Group** | Gary Dickinson | EHR Standards Consulting | gary.dickinson@ehr-standards.com |
-| **Co-Chair, EHR Work Group** | Mark Janczewski MD, MPH | Medical Networks, LLC | mark.janczewski@gmail.com |
-| **Co-Chair, EHR Work Group** | Michael Brody DPM | Registry Clearinghouse | mbrody@registryclearinghouse.net |
-| **Co-Chair, EHR Work Group** | John Ritter FHL7, MSc |  | johnritter1@verizon.net |
-| **Co-Chair, EHR Work Group** | Feliciano Yu MD, MS | University of Arkansas Medical Sciences | fbyu@uams.edu |
-| **Co-Chair, EHR Work Group** | Lincoln Weed |  | ldweed424@gmail.com |
-| **Publishing Facilitator** | Michael van der Zel BSc | UMCG | m.van.der.zel@umcg.nl |
+| **Co-Chair** | Gary Dickinson | EHR Standards Consulting | gary.dickinson@ehr-standards.com |
+| **Co-Chair** | Mark Janczewski MD, MPH | Medical Networks, LLC | mark.janczewski@gmail.com |
+| **Co-Chair** | Michael Brody DPM | Registry Clearinghouse | mbrody@registryclearinghouse.net |
+| **Co-Chair** | John Ritter FHL7, MSc |  | johnritter1@verizon.net |
+| **Co-Chair** | Feliciano Yu MD, MS | University of Arkansas Medical Sciences | fbyu@uams.edu |
+| **Co-Chair** | Lincoln Weed |  | ldweed424@gmail.com |
+| **Co-Chair, Publishing Facilitator** | Michael van der Zel BSc | UMCG | m.van.der.zel@umcg.nl |
