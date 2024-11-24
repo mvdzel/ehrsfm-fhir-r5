@@ -10,12 +10,12 @@
   "title": "CPS.9.2.3 Support for Provider -Pharmacy Communication (Function)",
   "status": "active",
   "description": "Provide features to enable secure bi-directional communication of information electronically between practitioners and pharmacies or between practitioner and intended recipient of pharmacy orders.",
-  "purpose": "When a medication is prescribed, the order is routed to the pharmacy or other intended recipient of pharmacy orders. This information is used to avoid transcription errors and facilitate detection of potential adverse reactions. If there is a question from the pharmacy, that communication can be presented to the provider with their other tasks. In certain environments, medication order creation is a collaborative process involving the prescriber and facility staff. Accordingly, this function applies to communication process between the prescriber, facility and the pharmacy or other intended recipient of pharmacy orders. The transmission of prescription data between systems should conform to realm acceptable messaging standards. Informative examples:\n- HL7 Clinical Document Architecture Release 2\n- ISO/EN 13606 Electronic Health Record Communication\n- CEN ENV 13607:2000. Health informatics. Messages for the exchange of information on medicine prescriptions\n- X12N healthcare transactions\n- US realm: National Council for Prescription Drug Programs (NCPDP)\n- Canadian realm: National Electronic Claims Standard (NeCST)\nExample:\n- HL7 Clinical Document Architecture Release 2\n- ISO/EN 13606 Electronic Health Record Communication\n- CEN ENV 13607:2000. Health informatics. Messages for the exchange of information on medicine prescriptions\n- X12N healthcare transactions\n- US realm: National Council for Prescription Drug Programs (NCPDP)\n- Canadian realm: National Electronic Claims Standard (NeCST).",
+  "purpose": "When a medication is prescribed, the order is routed to the pharmacy or other intended recipient of pharmacy orders. This information is used to avoid transcription errors and facilitate detection of potential adverse reactions. If there is a question from the pharmacy, that communication can be presented to the provider with their other tasks. In certain environments, medication order creation is a collaborative process involving the prescriber and facility staff. Accordingly, this function applies to communication process between the prescriber, facility and the pharmacy or other intended recipient of pharmacy orders. The transmission of prescription data between systems should conform to realm acceptable messaging standards. Informative examples:\n- HL7 Clinical Document Architecture Release 2\n- ISO/EN 13606 Electronic Health Record Communication\n- CEN ENV 13607:2000. Health informatics. Messages for the exchange of information on medicine prescriptions\n- X12N healthcare transactions\n- US realm: National Council for Prescription Drug Programs (NCPDP)\n- Canadian realm: National Electronic Claims Standard (NeCST).",
   "statement": [
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -31,7 +31,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -47,7 +47,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -63,7 +63,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -79,7 +79,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -95,7 +95,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -111,7 +111,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -127,7 +127,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -142,7 +142,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -157,7 +157,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],

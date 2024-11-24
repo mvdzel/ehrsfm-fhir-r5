@@ -8,7 +8,7 @@
   },
   "extension": [
     {
-      "url": "http://hl7.org/ehrs/StructureDefinition/requirements-actors",
+      "url": "${BASE}/StructureDefinition/requirements-actors",
       "valueString": "Many TI functions are performed transparently by EHR systems – at least from the perspective of users whose role is primarily clinical. Many TI functions occur in the background without end user intervention. Other actors may interact more directly with TI functions: System Administrators (to manage and monitor system operations, configurations, backups, etc.), Security Administrators (to implement security policies for authentication, authorization, access control, audit, identity and signatures, etc.)."
     }
   ],

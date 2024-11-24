@@ -994,5 +994,3 @@ the functional requirements of one function in another function:
 
 -   For example: The system SHALL conform to function TI.1.1 (Entity
     Authentication). 
-
-{% include nav.html previous="chapter7" next="chapter9" %}

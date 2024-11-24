@@ -1746,5 +1746,3 @@
 		<td align="left">ISO 21089:2018</td>
 	</tr>
 </table>
-
-{% include nav.html previous="annexa" next="annexc" %}

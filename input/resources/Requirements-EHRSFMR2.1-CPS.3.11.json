@@ -15,7 +15,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -31,7 +31,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -47,7 +47,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -57,13 +57,13 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL provide the ability to capture encounter documentation by one or more of the following input methods:\n- direct keyboard entry of text;\n- structured data entry utilizing templates, forms, pick lists or macro substitution; and- dictation with subsequent transcription of voice to text, either manually or via voice recognition system.",
+      "requirement": "The system SHALL provide the ability to capture encounter documentation by one or more of the following input methods:\n- direct keyboard entry of text;\n- structured data entry utilizing templates, forms, pick lists or macro substitution; and\n- dictation with subsequent transcription of voice to text, either manually or via voice recognition system.",
       "derivedFrom": "EHR-S_FM_R1.1 S.3.1.5#3"
     },
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],

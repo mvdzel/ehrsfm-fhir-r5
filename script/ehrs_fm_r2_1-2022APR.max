@@ -17752,11 +17752,7 @@ Examples:
 - A patient may wish to request a refill of medication by emailing the physician.
 - Patients with asthma may wish to communicate their peak flow logs/diaries to their provider.
 - Hospital may wish to communicate with selected patients about a new smoking cessation program.
-- Automated notification regarding annual flu shots$EX$- When test results arrive, the clinician may wish to email the patient that test result was normal (details of this communication are captured).
-- A patient may wish to request a refill of medication by emailing the physician.
-- Patients with asthma may wish to communicate their peak flow logs/diaries to their provider.
-- Hospital may wish to communicate with selected patients about a new smoking cessation program.
-- Automated notification regarding annual flu shots.</notes>
+- Automated notification regarding annual flu shots.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1117</parentId>
@@ -18824,12 +18820,7 @@ The system should provide for both verbal and written communication. These excha
 - CEN ENV 13607:2000. Health informatics. Messages for the exchange of information on medicine prescriptions
 - X12N healthcare transactions
 - US realm: National Council for Prescription Drug Programs (NCPDP)
-- Canadian realm: National Electronic Claims Standard (NeCST)$EX$- HL7 Clinical Document Architecture Release 2
-- ISO/EN 13606 Electronic Health Record Communication
-- CEN ENV 13607:2000. Health informatics. Messages for the exchange of information on medicine prescriptions
-- X12N healthcare transactions
-- US realm: National Council for Prescription Drug Programs (NCPDP)
-- Canadian realm: National Electronic Claims Standard (NeCST).</notes>
+- Canadian realm: National Electronic Claims Standard (NeCST).$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1173</parentId>

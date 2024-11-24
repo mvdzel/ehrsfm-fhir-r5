@@ -162,5 +162,3 @@ Such changes need to be cascaded to clinical content embedded in templates, cust
 etc., as determined by existing policy.
 - TI.10.3 Clinical Model Mapping; The statement is; Map or translate one clinical model to another as
 needed by local, regional, national, or international interoperability requirements.
-
-{% include nav.html previous="chapter4" next="chapter6" %}

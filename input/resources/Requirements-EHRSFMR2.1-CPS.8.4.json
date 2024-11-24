@@ -10,12 +10,12 @@
   "title": "CPS.8.4 Support for Communications Between Provider and Patient, and/or the Patient Representative (Function)",
   "status": "active",
   "description": "Facilitate communications between providers and patients, and/or the patient representatives.",
-  "purpose": "Providers are able to communicate with patients and others, capturing as specified by the business rules the nature and content of electronic communication, or the time and details of other communication.\n\nExamples:\n- When test results arrive, the clinician may wish to email the patient that test result was normal (details of this communication are captured).\n- A patient may wish to request a refill of medication by emailing the physician.\n- Patients with asthma may wish to communicate their peak flow logs/diaries to their provider.\n- Hospital may wish to communicate with selected patients about a new smoking cessation program.\n- Automated notification regarding annual flu shots\nExample:\n- When test results arrive, the clinician may wish to email the patient that test result was normal (details of this communication are captured).\n- A patient may wish to request a refill of medication by emailing the physician.\n- Patients with asthma may wish to communicate their peak flow logs/diaries to their provider.\n- Hospital may wish to communicate with selected patients about a new smoking cessation program.\n- Automated notification regarding annual flu shots.",
+  "purpose": "Providers are able to communicate with patients and others, capturing as specified by the business rules the nature and content of electronic communication, or the time and details of other communication.\n\nExamples:\n- When test results arrive, the clinician may wish to email the patient that test result was normal (details of this communication are captured).\n- A patient may wish to request a refill of medication by emailing the physician.\n- Patients with asthma may wish to communicate their peak flow logs/diaries to their provider.\n- Hospital may wish to communicate with selected patients about a new smoking cessation program.\n- Automated notification regarding annual flu shots.",
   "statement": [
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -31,7 +31,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -47,7 +47,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -63,7 +63,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -79,7 +79,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -95,7 +95,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -111,7 +111,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -126,7 +126,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -142,7 +142,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -158,7 +158,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -174,7 +174,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],
@@ -189,7 +189,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -204,7 +204,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -219,7 +219,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+          "url": "${BASE}/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],

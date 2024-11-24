@@ -1,6 +1,7 @@
 const fs = require('fs'),
     xml2js = require('xml2js');
 var xml = new xml2js.Parser();
+var BASE = "http://hl7.org/ehrs";
 
 var maxroot;
 xml.parseString(fs.readFileSync('ehrs_fm_r2_1-2022APR.max'), function (err, data) {
@@ -84,10 +85,10 @@ function handleFM(fm) {
         "id": fmid,
         "meta": {
             "profile": [
-                `http://hl7.org/ehrs/StructureDefinition/FunctionalModel`
+                `${BASE}/StructureDefinition/FunctionalModel`
             ]
         },
-        // "url": "http://hl7.org/fhir/Requirements/" + fmid,
+        // "url": "${BASE}/Requirements/" + fmid,
         "name": name,
         "title": name,
         "status": "active"
@@ -122,12 +123,12 @@ function handleSection(section, parentObject) {
         "id": `${fmid}-${alias}`,
         "meta": {
             "profile": [
-                `http://hl7.org/ehrs/StructureDefinition/FMSection`
+                `${BASE}/StructureDefinition/FMSection`
             ]
         },
         "extension": [
             {
-                "url": "http://hl7.org/ehrs/StructureDefinition/requirements-actors",
+                "url": "${BASE}/StructureDefinition/requirements-actors",
                 "valueString": actors
             }
         ],
@@ -186,7 +187,7 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
         "id": `${fmid}-${alias}`,
         "meta": {
             "profile": [
-                `http://hl7.org/ehrs/StructureDefinition/FM${type}`
+                `${BASE}/StructureDefinition/FM${type}`
             ]
         },
         // "url": `http://hl7.org/fhir/Requirements/${fmid}-${alias}`,
@@ -224,7 +225,7 @@ function handleCriteria(criteria, fhir_parent_req) {
     var fhir_statement = {
         "extension": [
             {
-                "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+                "url": "${BASE}/StructureDefinition/requirements-dependent",
                 "valueBoolean": (dependent['$'].value=="Y")
             }
         ],

@@ -36,5 +36,3 @@ perspective with the intent to enable consistent expression of system functional
 the creation of Functional Profiles, enables a standardized description and common understanding of functions
 sought or available in a given setting (e.g. intensive care, cardiology, office practice in one country or primary
 care in another country).
-
-{% include nav.html previous="annexb" next="annexd" %}
