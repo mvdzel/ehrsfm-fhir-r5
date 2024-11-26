@@ -10,3 +10,6 @@ Constraint failed: FMFLC13: 'Function must have one or more conformance criteria
 
 # Experimental in the core
 % which is experimental, but this structure is not labeled as experimental
+
+# Why?
+Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0

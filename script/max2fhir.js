@@ -88,7 +88,7 @@ function handleFM(fm) {
                 `${BASE}/StructureDefinition/FunctionalModel`
             ]
         },
-        // "url": "${BASE}/Requirements/" + fmid,
+        // "url": `${BASE}/Requirements/` + fmid,
         "name": name,
         "title": name,
         "status": "active"
@@ -128,7 +128,7 @@ function handleSection(section, parentObject) {
         },
         "extension": [
             {
-                "url": "${BASE}/StructureDefinition/requirements-actors",
+                "url": `${BASE}/StructureDefinition/requirements-actors`,
                 "valueString": actors
             }
         ],
@@ -225,7 +225,7 @@ function handleCriteria(criteria, fhir_parent_req) {
     var fhir_statement = {
         "extension": [
             {
-                "url": "${BASE}/StructureDefinition/requirements-dependent",
+                "url": `${BASE}/StructureDefinition/requirements-dependent`,
                 "valueBoolean": (dependent['$'].value=="Y")
             }
         ],

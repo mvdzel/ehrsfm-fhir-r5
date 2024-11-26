@@ -15,7 +15,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -31,7 +31,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -47,7 +47,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -63,7 +63,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -78,7 +78,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -94,7 +94,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -110,7 +110,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -126,7 +126,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],
@@ -141,7 +141,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -156,7 +156,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -171,7 +171,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -186,7 +186,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -202,7 +202,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -218,7 +218,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -234,7 +234,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -249,7 +249,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -264,7 +264,7 @@
     {
       "extension": [
         {
-          "url": "${BASE}/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
