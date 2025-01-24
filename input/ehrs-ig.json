@@ -1,10 +1,10 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "EHRSFMR2.1",
-  "url": "http://hl7.org/ehrs/ImplementationGuide/EHRSFMR2.1",
-  "version": "2.1.0",
-  "name": "EHRSFMR21",
-  "title": "ISO/HL7 10781 - Electronic Health Record System Functional Model, Release 2.1",
+  "id": "EHRSFMR2.1.1",
+  "url": "http://hl7.org/ehrs/ImplementationGuide/EHRSFMR2.1.1",
+  "version": "2.1.1",
+  "name": "EHRSFMR211",
+  "title": "ISO/HL7 10781 - Electronic Health Record System Functional Model, Release 2.1.1",
   "status": "draft",
   "experimental": false,
   "publisher": "EHR WG",
@@ -30,7 +30,7 @@
       ]
     }
   ],
-  "packageId": "hl7.ehrs.ehrsfmr21",
+  "packageId": "hl7.ehrs.ehrsfmr211",
   "fhirVersion": [
     "5.0.0"
   ],
@@ -2658,7 +2658,7 @@
           "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
           "code": "copyrightyear"
         },
-        "value": "2024"
+        "value": "2025"
       },
       {
         "code": {

@@ -1,6 +1,6 @@
 == Suppressed Messages ==
 # Don't know if we should
-This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+% could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 
 # There are < in the script QA fails on that
 Unable to Parse HTML - node 'script' has unexpected content %

@@ -5,7 +5,7 @@ Within HL7, since 2020, the Common H7 Toolset initiative to develop the same und
 This is a EHR-S FM specification that uses FHIR R5 Requirements resource to define its functional model sections, headers, functions and criteria. It references FHIR resources for data requirements and is based on FHIR R5 but not in a way that FHIR Implementation Guides would be based by profiling FHIR resources. It is important and relevant to declare the version of FHIR structures that are being used for toolsmiths and others using those structures.
 
 <div class="note-to-balloters">
-<b>Targetting May 2024 ballot</b>
+<b>Targetting May 2025 ballot</b>
 This is the first publication of a EHR-S Functional Model using the Common HL7 Toolset (FHIR IG Tooling).
 </div>
 
@@ -36,6 +36,5 @@ The Function List (see [artifacts](artifacts.html)) includes the following compo
 | **Co-Chair** | Mark Janczewski MD, MPH | Medical Networks, LLC | mark.janczewski@gmail.com |
 | **Co-Chair** | Michael Brody DPM | Registry Clearinghouse | mbrody@registryclearinghouse.net |
 | **Co-Chair** | John Ritter FHL7, MSc |  | johnritter1@verizon.net |
-| **Co-Chair** | Feliciano Yu MD, MS | University of Arkansas Medical Sciences | fbyu@uams.edu |
 | **Co-Chair** | Lincoln Weed |  | ldweed424@gmail.com |
 | **Co-Chair, Publishing Facilitator** | Michael van der Zel BSc | UMCG | m.van.der.zel@umcg.nl |
