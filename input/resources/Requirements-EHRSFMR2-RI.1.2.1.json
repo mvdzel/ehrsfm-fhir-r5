@@ -55,7 +55,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL manage (persist) the full set of identity, event and provenance Audit Metadata for each Record Entry, conforming to lifecycle events in function [[RI.1.1]] (Record Lifecycle) and metadata requirements in function [[TI.2.1.1]] (Record Entry Audit Triggers)."
+      "requirement": "The system SHALL manage (persist) the full set of identity, event and provenance Audit Metadata for each Record Entry, conforming to lifecycle events in function [RI.1.1](Requirements-EHRSFMR2-RI.1.1.html) (Record Lifecycle) and metadata requirements in function [TI.2.1.1](Requirements-EHRSFMR2-TI.2.1.1.html) (Record Entry Audit Triggers)."
     },
     {
       "extension": [
@@ -70,7 +70,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL manage (persist) the attestation/signature event (e.g., digital signature) of each Record Entry conforming to function [[RI.1.1.4]] (Attest Record Entry Content)."
+      "requirement": "The system SHALL manage (persist) the attestation/signature event (e.g., digital signature) of each Record Entry conforming to function [RI.1.1.4](Requirements-EHRSFMR2-RI.1.1.4.html) (Attest Record Entry Content)."
     },
     {
       "extension": [

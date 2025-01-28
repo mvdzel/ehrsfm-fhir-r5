@@ -104,7 +104,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[AS.9.3]] (Support Service Authorizations) to integrate support of prior authorization processes.",
+      "requirement": "The system SHOULD conform to function [AS.9.3](Requirements-EHRSFMR2-AS.9.3.html) (Support Service Authorizations) to integrate support of prior authorization processes.",
       "derivedFrom": "EHR-S_FM_R1.1 S.3.2.3#5"
     }
   ]

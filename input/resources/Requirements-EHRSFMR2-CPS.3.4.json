@@ -73,7 +73,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.3.1]] (Support for Standard Assessments).",
+      "requirement": "The system SHALL conform to function [CPS.3.1](Requirements-EHRSFMR2-CPS.3.1.html) (Support for Standard Assessments).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.1.2#7"
     },
     {
@@ -89,7 +89,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.3.2]] (Support for Patient Context-Driven Assessments).",
+      "requirement": "The system SHALL conform to function [CPS.3.2](Requirements-EHRSFMR2-CPS.3.2.html) (Support for Patient Context-Driven Assessments).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.1.2#8"
     },
     {
@@ -105,7 +105,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.3.3]] (Support for Standard Care Plans, Guidelines, Protocols).",
+      "requirement": "The system SHALL conform to function [CPS.3.3](Requirements-EHRSFMR2-CPS.3.3.html) (Support for Standard Care Plans, Guidelines, Protocols).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.1.2#6"
     },
     {

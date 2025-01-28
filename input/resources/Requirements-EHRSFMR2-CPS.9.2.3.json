@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.4.2]] (Manage Medication Orders) and provide the ability to transmit medication orders.",
+      "requirement": "The system SHALL conform to function [CP.4.2](Requirements-EHRSFMR2-CP.4.2.html) (Manage Medication Orders) and provide the ability to transmit medication orders.",
       "derivedFrom": "EHR-S_FM_R1.1 DC.3.2.2#1"
     },
     {

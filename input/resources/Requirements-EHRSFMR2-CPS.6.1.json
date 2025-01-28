@@ -73,7 +73,7 @@
         "MAY"
       ],
       "conditionality": false,
-      "requirement": "The system MAY conform to function [[CPS.7.1]] (Access Healthcare Guidance) to enable access to external medication guidance (e.g., drug monograph or package insert information).",
+      "requirement": "The system MAY conform to function [CPS.7.1](Requirements-EHRSFMR2-CPS.7.1.html) (Access Healthcare Guidance) to enable access to external medication guidance (e.g., drug monograph or package insert information).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.2#9"
     },
     {

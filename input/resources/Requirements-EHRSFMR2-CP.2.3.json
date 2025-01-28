@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF the system conforms to function [[CPS.2.3]] (Support Emergency Medical System Originated Data), THEN the system SHALL provide the ability to render Emergency Medical System Originated Data."
+      "requirement": "IF the system conforms to function [CPS.2.3](Requirements-EHRSFMR2-CPS.2.3.html) (Support Emergency Medical System Originated Data), THEN the system SHALL provide the ability to render Emergency Medical System Originated Data."
     }
   ]
 }

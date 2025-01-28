@@ -87,7 +87,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.9.1]] (Produce a Summary Record of Care)."
+      "requirement": "The system SHALL conform to function [CP.9.1](Requirements-EHRSFMR2-CP.9.1.html) (Produce a Summary Record of Care)."
     },
     {
       "extension": [

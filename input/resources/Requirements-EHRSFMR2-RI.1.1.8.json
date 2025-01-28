@@ -100,7 +100,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.1.6]] (Secure Data Exchange)."
+      "requirement": "The system SHALL conform to function [TI.1.6](Requirements-EHRSFMR2-TI.1.6.html) (Secure Data Exchange)."
     },
     {
       "extension": [
@@ -115,7 +115,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL provide the ability to extract Record Entry content prior to transmittal, conforming to function [[RI.1.1.13]] (Extract Record Entry Content)."
+      "requirement": "The system SHALL provide the ability to extract Record Entry content prior to transmittal, conforming to function [RI.1.1.13](Requirements-EHRSFMR2-RI.1.1.13.html) (Extract Record Entry Content)."
     },
     {
       "extension": [
@@ -130,7 +130,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL provide the ability to de-identify Record Entry content prior to transmittal, conforming to function [[RI.1.1.10]] (De-Identify Record Entries)."
+      "requirement": "The system SHALL provide the ability to de-identify Record Entry content prior to transmittal, conforming to function [RI.1.1.10](Requirements-EHRSFMR2-RI.1.1.10.html) (De-Identify Record Entries)."
     },
     {
       "extension": [

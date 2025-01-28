@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL audit key events, as specified in function [[TI.2.1]] (Audit Triggers) and child functions, according to scope of practice, organizational policy, and/or jurisdictional law."
+      "requirement": "The system SHALL audit key events, as specified in function [TI.2.1](Requirements-EHRSFMR2-TI.2.1.html) (Audit Triggers) and child functions, according to scope of practice, organizational policy, and/or jurisdictional law."
     },
     {
       "extension": [
@@ -40,7 +40,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL capture key Audit Metadata at each Audit Trigger, as specified in [[TI.2.1]] (Audit Triggers) and child functions, according to scope of practice, organizational policy, and/or jurisdictional law."
+      "requirement": "The system SHALL capture key Audit Metadata at each Audit Trigger, as specified in [TI.2.1](Requirements-EHRSFMR2-TI.2.1.html) (Audit Triggers) and child functions, according to scope of practice, organizational policy, and/or jurisdictional law."
     },
     {
       "extension": [
@@ -55,7 +55,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL capture an Audit Log Entry at each Audit Trigger as specified in [[TI.2.1]] (Audit Triggers) according to scope of practice, organizational policy, and/or jurisdictional law."
+      "requirement": "The system SHALL capture an Audit Log Entry at each Audit Trigger as specified in [TI.2.1](Requirements-EHRSFMR2-TI.2.1.html) (Audit Triggers) according to scope of practice, organizational policy, and/or jurisdictional law."
     },
     {
       "extension": [

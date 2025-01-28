@@ -400,7 +400,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CPS.8.4]] (Support for Communication between Provider and Patient, and/or the Patient Representative) to manage information regarding orders."
+      "requirement": "The system SHOULD conform to function [CPS.8.4](Requirements-EHRSFMR2-CPS.8.4.html) (Support for Communication between Provider and Patient, and/or the Patient Representative) to manage information regarding orders."
     },
     {
       "extension": [

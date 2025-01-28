@@ -119,7 +119,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF [[TI.3]] (Registry and Directory Services) is implemented, THEN the system SHALL conform to function [[TI.3]] and provide the ability to use registries or directories to uniquely identify providers for the provision of care.",
+      "requirement": "IF [TI.3](Requirements-EHRSFMR2-TI.3.html) (Registry and Directory Services) is implemented, THEN the system SHALL conform to function [TI.3](Requirements-EHRSFMR2-TI.3.html) and provide the ability to use registries or directories to uniquely identify providers for the provision of care.",
       "derivedFrom": "EHR-S_FM_R1.1 S.1.3.7#1"
     },
     {

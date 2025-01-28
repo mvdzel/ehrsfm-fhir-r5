@@ -100,7 +100,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF standardized transmission of the results of a query are required to/from a registry or directory, THEN the system SHALL conform to function [[TI.3]] (Registry and Directory Services)."
+      "requirement": "IF standardized transmission of the results of a query are required to/from a registry or directory, THEN the system SHALL conform to function [TI.3](Requirements-EHRSFMR2-TI.3.html) (Registry and Directory Services)."
     },
     {
       "extension": [

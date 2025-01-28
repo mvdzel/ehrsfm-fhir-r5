@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL provide the ability to update a Record Entry for purposes of amendment, correction or augmentation, conforming to function [[RI.1.1.2]] (Amend Record Entry Content)."
+      "requirement": "The system SHALL provide the ability to update a Record Entry for purposes of amendment, correction or augmentation, conforming to function [RI.1.1.2](Requirements-EHRSFMR2-RI.1.1.2.html) (Amend Record Entry Content)."
     },
     {
       "extension": [
@@ -55,7 +55,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL capture, maintain and render the corresponding date, time, and user specifying when and by whom a Record Entry was amended, corrected, or augmented, conforming to function [[RI.1.1.2.1]] (Evidence of Record Entry Amendment Event)."
+      "requirement": "The system SHALL capture, maintain and render the corresponding date, time, and user specifying when and by whom a Record Entry was amended, corrected, or augmented, conforming to function [RI.1.1.2.1](Requirements-EHRSFMR2-RI.1.1.2.1.html) (Evidence of Record Entry Amendment Event)."
     },
     {
       "extension": [
@@ -85,7 +85,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL manage all versions of the Record Entry for the legal retention period, conforming to function [[RI.1.2.1]] (Manage Record Entries)."
+      "requirement": "The system SHALL manage all versions of the Record Entry for the legal retention period, conforming to function [RI.1.2.1](Requirements-EHRSFMR2-RI.1.2.1.html) (Manage Record Entries)."
     }
   ]
 }

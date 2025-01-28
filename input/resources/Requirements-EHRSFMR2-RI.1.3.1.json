@@ -115,7 +115,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL capture a date/time stamp and identify the author each time a Record Entry is updated including when opened, when updated, with the signature event and when officially closed, conforming to function [[TI.2.1.1]] (Record Entry Audit Triggers)."
+      "requirement": "The system SHALL capture a date/time stamp and identify the author each time a Record Entry is updated including when opened, when updated, with the signature event and when officially closed, conforming to function [TI.2.1.1](Requirements-EHRSFMR2-TI.2.1.1.html) (Record Entry Audit Triggers)."
     }
   ]
 }

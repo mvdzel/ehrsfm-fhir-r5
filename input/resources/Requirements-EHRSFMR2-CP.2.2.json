@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF the system conforms to function [[CPS.2.2]] (Support for externally-sourced Clinical data), THEN the system SHALL provide the ability to render externally-sourced clinical data."
+      "requirement": "IF the system conforms to function [CPS.2.2](Requirements-EHRSFMR2-CPS.2.2.html) (Support for externally-sourced Clinical data), THEN the system SHALL provide the ability to render externally-sourced clinical data."
     }
   ]
 }

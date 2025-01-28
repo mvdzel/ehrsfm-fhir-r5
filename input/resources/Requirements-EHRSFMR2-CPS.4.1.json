@@ -105,7 +105,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.4.1]] (Use Order Sets).",
+      "requirement": "The system SHALL conform to function [CP.4.1](Requirements-EHRSFMR2-CP.4.1.html) (Use Order Sets).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.1#9"
     },
     {

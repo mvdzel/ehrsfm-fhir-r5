@@ -352,7 +352,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.4.2.1]] (Support for Medication Interaction and Allergy Checking) to render any potential interactions when capturing or maintaining medications."
+      "requirement": "The system SHALL conform to function [CPS.4.2.1](Requirements-EHRSFMR2-CPS.4.2.1.html) (Support for Medication Interaction and Allergy Checking) to render any potential interactions when capturing or maintaining medications."
     },
     {
       "extension": [

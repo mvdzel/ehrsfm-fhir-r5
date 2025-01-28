@@ -103,7 +103,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CPS.1.7.1]] (Support for Patient and Family Preferences)."
+      "requirement": "The system SHOULD conform to function [CPS.1.7.1](Requirements-EHRSFMR2-CPS.1.7.1.html) (Support for Patient and Family Preferences)."
     }
   ]
 }

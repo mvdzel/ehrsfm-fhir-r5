@@ -88,7 +88,7 @@
         "MAY"
       ],
       "conditionality": false,
-      "requirement": "The system MAY conform to function [[CPS.7.1]] (Access Healthcare Guidance) to enable access to external immunization guidance (e.g., in the US, the Center for Disease Control immunization recommendations).",
+      "requirement": "The system MAY conform to function [CPS.7.1](Requirements-EHRSFMR2-CPS.7.1.html) (Access Healthcare Guidance) to enable access to external immunization guidance (e.g., in the US, the Center for Disease Control immunization recommendations).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.2#9"
     },
     {

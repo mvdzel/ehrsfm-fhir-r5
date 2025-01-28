@@ -160,7 +160,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[TI.5.3]] (Standards-Based Application Integration) to suppport the creation of a query."
+      "requirement": "The system SHOULD conform to function [TI.5.3](Requirements-EHRSFMR2-TI.5.3.html) (Standards-Based Application Integration) to suppport the creation of a query."
     },
     {
       "extension": [

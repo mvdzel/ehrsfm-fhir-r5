@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF the system conforms to function [[CPS.2.4]] (Support externally-sourced Clinical Images), THEN the system SHALL provide the ability to render externally-sourced clinical images."
+      "requirement": "IF the system conforms to function [CPS.2.4](Requirements-EHRSFMR2-CPS.2.4.html) (Support externally-sourced Clinical Images), THEN the system SHALL provide the ability to render externally-sourced clinical images."
     }
   ]
 }

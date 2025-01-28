@@ -57,7 +57,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CPS.2.1]] (Support externally-sourced Clinical Documents) to capture, store and render previous external patient histories.",
+      "requirement": "The system SHOULD conform to function [CPS.2.1](Requirements-EHRSFMR2-CPS.2.1.html) (Support externally-sourced Clinical Documents) to capture, store and render previous external patient histories.",
       "derivedFrom": "EHR-S_FM_R1.1 DC.1.2#2"
     },
     {
@@ -73,7 +73,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CPS.2.2]] (Support externally-sourced Clinical Data) to capture, store and render previous external patient histories."
+      "requirement": "The system SHOULD conform to function [CPS.2.2](Requirements-EHRSFMR2-CPS.2.2.html) (Support externally-sourced Clinical Data) to capture, store and render previous external patient histories."
     },
     {
       "extension": [

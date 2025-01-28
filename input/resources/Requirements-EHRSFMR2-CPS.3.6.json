@@ -57,7 +57,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CPS.2.5]] (Support patient-originated Data).",
+      "requirement": "The system SHOULD conform to function [CPS.2.5](Requirements-EHRSFMR2-CPS.2.5.html) (Support patient-originated Data).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.4#3"
     },
     {
@@ -73,7 +73,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CP.1.8]] (Manage Patient and Family Preferences).",
+      "requirement": "The system SHOULD conform to function [CP.1.8](Requirements-EHRSFMR2-CP.1.8.html) (Manage Patient and Family Preferences).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.4#4"
     },
     {
@@ -89,7 +89,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.1.4]] (Manage Problem list)."
+      "requirement": "The system SHALL conform to function [CP.1.4](Requirements-EHRSFMR2-CP.1.4.html) (Manage Problem list)."
     }
   ]
 }

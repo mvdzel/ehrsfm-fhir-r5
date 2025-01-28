@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.1.8]] (Patient Privacy and Confidentiality) when managing de-identified views of data according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "requirement": "The system SHALL conform to function [TI.1.8](Requirements-EHRSFMR2-TI.1.8.html) (Patient Privacy and Confidentiality) when managing de-identified views of data according to scope of practice, organizational policy, and/or jurisdictional law.",
       "derivedFrom": "EHR-S_FM_R1.1 S.1.5#1"
     },
     {

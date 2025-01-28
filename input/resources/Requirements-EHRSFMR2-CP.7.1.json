@@ -73,7 +73,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF decision support prompts are used to support a specific clinical guideline or protocol, THEN the system SHALL conform to function [[CPS.3.8]] (Manage Documentation of Clinician Response to Decision Support Prompts).",
+      "requirement": "IF decision support prompts are used to support a specific clinical guideline or protocol, THEN the system SHALL conform to function [CPS.3.8](Requirements-EHRSFMR2-CPS.3.8.html) (Manage Documentation of Clinician Response to Decision Support Prompts).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.1.6.1#4"
     },
     {
@@ -89,7 +89,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF the system supports context sensitive care plans, guidelines and protocols, THEN the system SHALL conform to function [[CPS.3.4]] (Support for Context-Sensitive Care Plans, Guidelines, Protocols).",
+      "requirement": "IF the system supports context sensitive care plans, guidelines and protocols, THEN the system SHALL conform to function [CPS.3.4](Requirements-EHRSFMR2-CPS.3.4.html) (Support for Context-Sensitive Care Plans, Guidelines, Protocols).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.1.6.1#5"
     }
   ]

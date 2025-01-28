@@ -280,7 +280,7 @@
         "MAY"
       ],
       "conditionality": false,
-      "requirement": "The system MAY conform to function [[AS.9.2]] (Support Financial Eligibility Verification) and display the results of e-referral eligibility and health plan/payer checking prior to approval of an referral order."
+      "requirement": "The system MAY conform to function [AS.9.2](Requirements-EHRSFMR2-AS.9.2.html) (Support Financial Eligibility Verification) and display the results of e-referral eligibility and health plan/payer checking prior to approval of an referral order."
     }
   ]
 }

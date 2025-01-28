@@ -150,7 +150,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.4.3]] (Support for Non-Medication Ordering).",
+      "requirement": "The system SHALL conform to function [CPS.4.3](Requirements-EHRSFMR2-CPS.4.3.html) (Support for Non-Medication Ordering).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.2.1#7"
     }
   ]

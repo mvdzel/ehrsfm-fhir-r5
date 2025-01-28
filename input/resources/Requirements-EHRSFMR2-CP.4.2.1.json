@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.4.2.1]] (Support for Medication Interaction and Allergy Checking) to determine allergic reactions, drug-drug interactions, and other potential adverse reactions, and render alerts or notifications when new medications are ordered.",
+      "requirement": "The system SHALL conform to function [CPS.4.2.1](Requirements-EHRSFMR2-CPS.4.2.1.html) (Support for Medication Interaction and Allergy Checking) to determine allergic reactions, drug-drug interactions, and other potential adverse reactions, and render alerts or notifications when new medications are ordered.",
       "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.1#16"
     },
     {
@@ -41,7 +41,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.1.2]] (Manage Allergy, Intolerance and Adverse Reaction List) to provide the ability to manage interaction and allergy checking and render alerts and notifications when new medications are ordered."
+      "requirement": "The system SHALL conform to function [CP.1.2](Requirements-EHRSFMR2-CP.1.2.html) (Manage Allergy, Intolerance and Adverse Reaction List) to provide the ability to manage interaction and allergy checking and render alerts and notifications when new medications are ordered."
     },
     {
       "extension": [

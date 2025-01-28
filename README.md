@@ -23,21 +23,21 @@ Convert current computable version of the FM (MAX file) to FHIR IG artifacts.
 @> (once) dpkg -i jdk-21_linux-x64_bin.deb
 @> (once) apt update; apt install graphviz jekyll
 @> (once) npm instal
-@> node max2fhir.js > output.txt
+@> node max2fhir.js
 @> node max2plantuml.js > ../input/images-source/relationships.plantuml 
 ```
 Copy grouping & resource json from output.txt into ehrs-ig.json
 
 ### Validate
 ```
-(optional) > curl -L https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar -o validator_cli.jar
-> java -jar validator_cli.jar -version current input/resources -ig input/resources
+(optional) @> curl -L https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar -o input-cache/validator_cli.jar
+@> java -jar validator_cli.jar -version current input/resources -ig input/resources
 ```
 
 ### To build IG
 ```
-(optional)> curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher.jar
-> java -jar publisher.jar -ig ig.ini
+(optional) @> curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o input-cache/publisher.jar
+@> java -jar publisher.jar -ig ig.ini
 ```
 
 ### Debugging xslt

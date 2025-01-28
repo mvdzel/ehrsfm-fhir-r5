@@ -70,7 +70,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.2.1]] (Support externally-sourced Clinical Documents) to support the capture of referral documents."
+      "requirement": "The system SHALL conform to function [CPS.2.1](Requirements-EHRSFMR2-CPS.2.1.html) (Support externally-sourced Clinical Documents) to support the capture of referral documents."
     },
     {
       "extension": [
@@ -85,7 +85,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.2.2]] (Support externally-sourced Clinical Data) to support the capture of referral data."
+      "requirement": "The system SHALL conform to function [CPS.2.2](Requirements-EHRSFMR2-CPS.2.2.html) (Support externally-sourced Clinical Data) to support the capture of referral data."
     },
     {
       "extension": [
@@ -100,7 +100,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CPS.2.3]] (Support Emergency Medical System Originated Data) to support the capture of referral data."
+      "requirement": "The system SHOULD conform to function [CPS.2.3](Requirements-EHRSFMR2-CPS.2.3.html) (Support Emergency Medical System Originated Data) to support the capture of referral data."
     },
     {
       "extension": [
@@ -115,7 +115,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.2.4]] (Support externally-sourced Clinical Images) to support the capture of referral images."
+      "requirement": "The system SHALL conform to function [CPS.2.4](Requirements-EHRSFMR2-CPS.2.4.html) (Support externally-sourced Clinical Images) to support the capture of referral images."
     },
     {
       "extension": [
@@ -220,7 +220,7 @@
         "MAY"
       ],
       "conditionality": false,
-      "requirement": "The system MAY conform to function [[AS.9.2]] (Support Financial Eligibility Verification) and display the results of electronic referral eligibility and health plan/payer checking."
+      "requirement": "The system MAY conform to function [AS.9.2](Requirements-EHRSFMR2-AS.9.2.html) (Support Financial Eligibility Verification) and display the results of electronic referral eligibility and health plan/payer checking."
     },
     {
       "extension": [
@@ -370,7 +370,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[AS.6.2]] (Manage Healthcare Resource Availability Information) to support the allocation of resources for incoming referred patients."
+      "requirement": "The system SHOULD conform to function [AS.6.2](Requirements-EHRSFMR2-AS.6.2.html) (Manage Healthcare Resource Availability Information) to support the allocation of resources for incoming referred patients."
     },
     {
       "extension": [

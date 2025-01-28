@@ -151,7 +151,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[TI.1.5]] (Non-Repudiation) and [[TI.1.6]] (Secure Data Exchange) when importing/receiving both structured and unstructured data."
+      "requirement": "The system SHOULD conform to function [TI.1.5](Requirements-EHRSFMR2-TI.1.5.html) (Non-Repudiation) and [TI.1.6](Requirements-EHRSFMR2-TI.1.6.html) (Secure Data Exchange) when importing/receiving both structured and unstructured data."
     },
     {
       "extension": [

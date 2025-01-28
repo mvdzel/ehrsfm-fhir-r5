@@ -40,7 +40,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.6.1]] (Medication Administration) to support the administration of medications as part of the treatment administration."
+      "requirement": "The system SHALL conform to function [CP.6.1](Requirements-EHRSFMR2-CP.6.1.html) (Medication Administration) to support the administration of medications as part of the treatment administration."
     },
     {
       "extension": [
@@ -445,7 +445,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CP.1.2]] (Manage Allergy, Intolerance and Adverse Reaction List) to capture an reaction to a specific treatment."
+      "requirement": "The system SHOULD conform to function [CP.1.2](Requirements-EHRSFMR2-CP.1.2.html) (Manage Allergy, Intolerance and Adverse Reaction List) to capture an reaction to a specific treatment."
     },
     {
       "extension": [
@@ -475,7 +475,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.3.2]] (Manage Patient Clinical Measurements) to capture other clinical data pertinent to the treatment (e.g., vital signs, blood glucose reading)."
+      "requirement": "The system SHALL conform to function [CP.3.2](Requirements-EHRSFMR2-CP.3.2.html) (Manage Patient Clinical Measurements) to capture other clinical data pertinent to the treatment (e.g., vital signs, blood glucose reading)."
     },
     {
       "extension": [
@@ -520,7 +520,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CPS.1.7]] (Preferences, Directives, Consents and Authorizations) in order to capture the patient's preferences regarding receipt of treatment (e.g., refusal of certain materials/supplies) at the time of treatment administration."
+      "requirement": "The system SHOULD conform to function [CPS.1.7](Requirements-EHRSFMR2-CPS.1.7.html) (Preferences, Directives, Consents and Authorizations) in order to capture the patient's preferences regarding receipt of treatment (e.g., refusal of certain materials/supplies) at the time of treatment administration."
     },
     {
       "extension": [

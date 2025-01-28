@@ -57,7 +57,7 @@
         "MAY"
       ],
       "conditionality": false,
-      "requirement": "The system MAY conform to function [[TI.3]] (Registry and Directory Services) to interact with registries, and/or directories to determine the address, profile, and data exchange requirements of known, and/or potential partners.",
+      "requirement": "The system MAY conform to function [TI.3](Requirements-EHRSFMR2-TI.3.html) (Registry and Directory Services) to interact with registries, and/or directories to determine the address, profile, and data exchange requirements of known, and/or potential partners.",
       "derivedFrom": "EHR-S_FM_R1.1 IN.5.4#3"
     },
     {

@@ -88,7 +88,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.3.2]] (Manage Patient Clinical Measurements) to capture other clinical data pertinent to the immunization administration (e.g., vital signs).",
+      "requirement": "The system SHALL conform to function [CP.3.2](Requirements-EHRSFMR2-CP.3.2.html) (Manage Patient Clinical Measurements) to capture other clinical data pertinent to the immunization administration (e.g., vital signs).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#5"
     },
     {
@@ -152,7 +152,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.1.2]] (Manage Allergy, Intolerance and Adverse Reaction List).",
+      "requirement": "The system SHALL conform to function [CP.1.2](Requirements-EHRSFMR2-CP.1.2.html) (Manage Allergy, Intolerance and Adverse Reaction List).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#10"
     },
     {
@@ -231,7 +231,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.1.6]] (Manage Immunization List)."
+      "requirement": "The system SHALL conform to function [CP.1.6](Requirements-EHRSFMR2-CP.1.6.html) (Manage Immunization List)."
     },
     {
       "extension": [

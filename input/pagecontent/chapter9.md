@@ -7,7 +7,7 @@ Incorporated in:
 * ISO/HL7 10781:2020 EHR System Functional Model Release 2.1
 * ISO/HL7 16527:2020 PHR System Functional Model Release 2
 
-### Record Lifecycle Events (See [RI.1.1.1](Requirements-EHRSFMR2.1-RI.1.1.1.html))
+### Record Lifecycle Events (See [RI.1.1.1](Requirements-EHRSFMR2-RI.1.1.1.html))
 
 | Event | Description |
 | --- | --- |

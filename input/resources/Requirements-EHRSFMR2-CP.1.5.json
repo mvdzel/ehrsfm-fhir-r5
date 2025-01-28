@@ -55,7 +55,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[RI.1.1.17]] (Deprecate/Retract Record Entries) to enable the inactivation or deprecation of a patient-specific Health-Related Factor."
+      "requirement": "The system SHALL conform to function [RI.1.1.17](Requirements-EHRSFMR2-RI.1.1.17.html) (Deprecate/Retract Record Entries) to enable the inactivation or deprecation of a patient-specific Health-Related Factor."
     },
     {
       "extension": [

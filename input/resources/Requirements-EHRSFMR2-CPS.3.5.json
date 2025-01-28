@@ -57,7 +57,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[AS.9.1]] (Support Financial Plan Enrollment), to enable participation in research studies.",
+      "requirement": "The system SHOULD conform to function [AS.9.1](Requirements-EHRSFMR2-AS.9.1.html) (Support Financial Plan Enrollment), to enable participation in research studies.",
       "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.3#3"
     },
     {
@@ -105,7 +105,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.3.3]] (Manage Clinical Documents and Notes) to capture patient condition and response to treatment."
+      "requirement": "The system SHALL conform to function [CP.3.3](Requirements-EHRSFMR2-CP.3.3.html) (Manage Clinical Documents and Notes) to capture patient condition and response to treatment."
     },
     {
       "extension": [

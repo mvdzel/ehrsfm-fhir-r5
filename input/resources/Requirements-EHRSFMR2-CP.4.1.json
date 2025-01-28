@@ -87,7 +87,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.4.1]] (Manage Order Set Templates).",
+      "requirement": "The system SHALL conform to function [CPS.4.1](Requirements-EHRSFMR2-CPS.4.1.html) (Manage Order Set Templates).",
       "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.3#4"
     },
     {

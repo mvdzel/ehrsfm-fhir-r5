@@ -41,7 +41,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.1.7]] (Secure Data Routing).",
+      "requirement": "The system SHALL conform to function [TI.1.7](Requirements-EHRSFMR2-TI.1.7.html) (Secure Data Routing).",
       "derivedFrom": "EHR-S_FM_R1.1 IN.1.6#2"
     },
     {

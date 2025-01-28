@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL archive Record Entries according to function [[RI.3]] (Manage Record Archive and Restore).",
+      "requirement": "The system SHALL archive Record Entries according to function [RI.3](Requirements-EHRSFMR2-RI.3.html) (Manage Record Archive and Restore).",
       "derivedFrom": "EHR-LM_R1 14.9"
     }
   ]

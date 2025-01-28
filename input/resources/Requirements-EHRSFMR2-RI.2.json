@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.5.1]] (Application and Structured-Document Interchange Standards).",
+      "requirement": "The system SHALL conform to function [TI.5.1](Requirements-EHRSFMR2-TI.5.1.html) (Application and Structured-Document Interchange Standards).",
       "derivedFrom": "EHR-S_FM_R1.1 IN.2.3#1"
     },
     {
@@ -41,7 +41,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[TI.3]] (Registry and Directory Services).",
+      "requirement": "The system SHOULD conform to function [TI.3](Requirements-EHRSFMR2-TI.3.html) (Registry and Directory Services).",
       "derivedFrom": "EHR-S_FM_R1.1 IN.2.3#2"
     },
     {

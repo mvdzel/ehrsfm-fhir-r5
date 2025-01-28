@@ -182,7 +182,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CPS.3.1]] (Support for Standard Assessments)."
+      "requirement": "The system SHOULD conform to function [CPS.3.1](Requirements-EHRSFMR2-CPS.3.1.html) (Support for Standard Assessments)."
     },
     {
       "extension": [
@@ -197,7 +197,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CPS.3.2]] (Support for Patient Context-Driven Assessments)."
+      "requirement": "The system SHOULD conform to function [CPS.3.2](Requirements-EHRSFMR2-CPS.3.2.html) (Support for Patient Context-Driven Assessments)."
     },
     {
       "extension": [

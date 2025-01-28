@@ -57,7 +57,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CPS.9.2.3]] (Support for Provider Pharmacy Communication) to support transmitting documented reasons for overriding a medication alert to the pharmacy .",
+      "requirement": "The system SHOULD conform to function [CPS.9.2.3](Requirements-EHRSFMR2-CPS.9.2.3.html) (Support for Provider Pharmacy Communication) to support transmitting documented reasons for overriding a medication alert to the pharmacy .",
       "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.2#5"
     },
     {

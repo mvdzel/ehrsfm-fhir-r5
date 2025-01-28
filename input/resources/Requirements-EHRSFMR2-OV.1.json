@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CP.9.1]] (Produce a Summary Record of Care)."
+      "requirement": "The system SHALL conform to function [CP.9.1](Requirements-EHRSFMR2-CP.9.1.html) (Produce a Summary Record of Care)."
     },
     {
       "extension": [
@@ -40,7 +40,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.9.3]] (Health Record Output)."
+      "requirement": "The system SHALL conform to function [CPS.9.3](Requirements-EHRSFMR2-CPS.9.3.html) (Health Record Output)."
     },
     {
       "extension": [
@@ -55,7 +55,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.9.4]] (Standard Report Generation)."
+      "requirement": "The system SHALL conform to function [CPS.9.4](Requirements-EHRSFMR2-CPS.9.4.html) (Standard Report Generation)."
     },
     {
       "extension": [
@@ -70,7 +70,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[RI.1.1]] (Record Lifecycle) and all child functions."
+      "requirement": "The system SHALL conform to function [RI.1.1](Requirements-EHRSFMR2-RI.1.1.html) (Record Lifecycle) and all child functions."
     },
     {
       "extension": [
@@ -85,7 +85,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[RI.1.2]] (Record Lifespan) and all child functions."
+      "requirement": "The system SHALL conform to function [RI.1.2](Requirements-EHRSFMR2-RI.1.2.html) (Record Lifespan) and all child functions."
     },
     {
       "extension": [
@@ -100,7 +100,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[RI.2]] (Record Synchronization)."
+      "requirement": "The system SHALL conform to function [RI.2](Requirements-EHRSFMR2-RI.2.html) (Record Synchronization)."
     },
     {
       "extension": [
@@ -115,7 +115,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[RI.3]] (Record Archive and Restore)."
+      "requirement": "The system SHALL conform to function [RI.3](Requirements-EHRSFMR2-RI.3.html) (Record Archive and Restore)."
     },
     {
       "extension": [
@@ -130,7 +130,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.1.1]] (Entity Authentication)."
+      "requirement": "The system SHALL conform to function [TI.1.1](Requirements-EHRSFMR2-TI.1.1.html) (Entity Authentication)."
     },
     {
       "extension": [
@@ -145,7 +145,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.1.2]] (Entity Authorization) ."
+      "requirement": "The system SHALL conform to function [TI.1.2](Requirements-EHRSFMR2-TI.1.2.html) (Entity Authorization) ."
     },
     {
       "extension": [
@@ -160,7 +160,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.1.3]] (Entity Access Control)."
+      "requirement": "The system SHALL conform to function [TI.1.3](Requirements-EHRSFMR2-TI.1.3.html) (Entity Access Control)."
     },
     {
       "extension": [
@@ -175,7 +175,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.1.4]] (Patient Access Management)."
+      "requirement": "The system SHALL conform to function [TI.1.4](Requirements-EHRSFMR2-TI.1.4.html) (Patient Access Management)."
     },
     {
       "extension": [
@@ -190,7 +190,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.1.5]] (Non-Repudiation)."
+      "requirement": "The system SHALL conform to function [TI.1.5](Requirements-EHRSFMR2-TI.1.5.html) (Non-Repudiation)."
     },
     {
       "extension": [
@@ -205,7 +205,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF the system transmits data to or receives data from a system outside of a secure network, THEN the system SHALL conform to function [[TI.1.6]] (Secure Data Exchange), to ensure that the data are protected."
+      "requirement": "IF the system transmits data to or receives data from a system outside of a secure network, THEN the system SHALL conform to function [TI.1.6](Requirements-EHRSFMR2-TI.1.6.html) (Secure Data Exchange), to ensure that the data are protected."
     },
     {
       "extension": [
@@ -220,7 +220,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF the system transmits data to or receives data from a system outside of a secure network, THEN the system SHALL conform to function [[TI.1.7]] (Secure Data Routing), to ensure that the exchange occurs only among authorized senders and receivers."
+      "requirement": "IF the system transmits data to or receives data from a system outside of a secure network, THEN the system SHALL conform to function [TI.1.7](Requirements-EHRSFMR2-TI.1.7.html) (Secure Data Routing), to ensure that the exchange occurs only among authorized senders and receivers."
     },
     {
       "extension": [
@@ -235,7 +235,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.1.8]] (Patient Privacy and Confidentiality)."
+      "requirement": "The system SHALL conform to function [TI.1.8](Requirements-EHRSFMR2-TI.1.8.html) (Patient Privacy and Confidentiality)."
     },
     {
       "extension": [
@@ -250,7 +250,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.2]] (Audit) and all child functions."
+      "requirement": "The system SHALL conform to function [TI.2](Requirements-EHRSFMR2-TI.2.html) (Audit) and all child functions."
     },
     {
       "extension": [
@@ -265,7 +265,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[TI.3]] (Registry and Directory Services)."
+      "requirement": "The system SHOULD conform to function [TI.3](Requirements-EHRSFMR2-TI.3.html) (Registry and Directory Services)."
     },
     {
       "extension": [
@@ -280,7 +280,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.4]] (Standard Terminology and Terminology Services)."
+      "requirement": "The system SHALL conform to function [TI.4](Requirements-EHRSFMR2-TI.4.html) (Standard Terminology and Terminology Services)."
     },
     {
       "extension": [
@@ -295,7 +295,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF the system manages data for which standard terminologies have been established, THEN the system SHALL conform to function [[TI.4.1]] (Standard Terminologies and Terminology Models) to support semantic interoperability."
+      "requirement": "IF the system manages data for which standard terminologies have been established, THEN the system SHALL conform to function [TI.4.1](Requirements-EHRSFMR2-TI.4.1.html) (Standard Terminologies and Terminology Models) to support semantic interoperability."
     },
     {
       "extension": [
@@ -310,7 +310,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF the system manages data for which standard terminologies have been established, THEN the system SHALL conform to function [[TI.4.2]] (Maintenance and Versioning of Standard Terminologies) to preserve the semantics of coded data over time."
+      "requirement": "IF the system manages data for which standard terminologies have been established, THEN the system SHALL conform to function [TI.4.2](Requirements-EHRSFMR2-TI.4.2.html) (Maintenance and Versioning of Standard Terminologies) to preserve the semantics of coded data over time."
     },
     {
       "extension": [
@@ -325,7 +325,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF terminology mapping is implemented within the system, THEN the system SHALL conform to function [[TI.4.3]] (Terminology Mapping)."
+      "requirement": "IF terminology mapping is implemented within the system, THEN the system SHALL conform to function [TI.4.3](Requirements-EHRSFMR2-TI.4.3.html) (Terminology Mapping)."
     },
     {
       "extension": [
@@ -340,7 +340,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF the system receives or transmits data for which jurisdictionally established interchange standards exist, THEN the system SHALL conform to function [[TI.5.1]] (Application and Structured-Document Interchange Standards) and all child functions to support interoperability."
+      "requirement": "IF the system receives or transmits data for which jurisdictionally established interchange standards exist, THEN the system SHALL conform to function [TI.5.1](Requirements-EHRSFMR2-TI.5.1.html) (Application and Structured-Document Interchange Standards) and all child functions to support interoperability."
     },
     {
       "extension": [
@@ -355,7 +355,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF the system receives and transmits data for which generally accepted interchange standards have been established, THEN the system SHALL conform to function [[TI.5.2]] (Interchange Standards Versioning and Maintenance), to accommodate the inevitable evolution of interchange standards."
+      "requirement": "IF the system receives and transmits data for which generally accepted interchange standards have been established, THEN the system SHALL conform to function [TI.5.2](Requirements-EHRSFMR2-TI.5.2.html) (Interchange Standards Versioning and Maintenance), to accommodate the inevitable evolution of interchange standards."
     },
     {
       "extension": [
@@ -370,7 +370,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[TI.5.3]] (Standards-based Application Integration)."
+      "requirement": "The system SHOULD conform to function [TI.5.3](Requirements-EHRSFMR2-TI.5.3.html) (Standards-based Application Integration)."
     },
     {
       "extension": [
@@ -385,7 +385,7 @@
         "SHALL"
       ],
       "conditionality": true,
-      "requirement": "IF the system receives and transmits data with other systems outside itself, THEN the system SHALL conform to function [[TI.5.4]] (Interchange Agreements), to define how the sender and receiver will exchange data."
+      "requirement": "IF the system receives and transmits data with other systems outside itself, THEN the system SHALL conform to function [TI.5.4](Requirements-EHRSFMR2-TI.5.4.html) (Interchange Agreements), to define how the sender and receiver will exchange data."
     },
     {
       "extension": [
@@ -400,7 +400,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[TI.6]] (Business Rules Management)."
+      "requirement": "The system SHOULD conform to function [TI.6](Requirements-EHRSFMR2-TI.6.html) (Business Rules Management)."
     },
     {
       "extension": [
@@ -415,7 +415,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[TI.7]] (Workflow Management)."
+      "requirement": "The system SHOULD conform to function [TI.7](Requirements-EHRSFMR2-TI.7.html) (Workflow Management)."
     },
     {
       "extension": [
@@ -430,7 +430,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.8]] (Database Backup and Recovery)."
+      "requirement": "The system SHALL conform to function [TI.8](Requirements-EHRSFMR2-TI.8.html) (Database Backup and Recovery)."
     },
     {
       "extension": [
@@ -445,7 +445,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[CPS.10]] (Manage User Help)."
+      "requirement": "The system SHALL conform to function [CPS.10](Requirements-EHRSFMR2-CPS.10.html) (Manage User Help)."
     },
     {
       "extension": [
@@ -460,7 +460,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.9]] (System Management Operations and Performance)."
+      "requirement": "The system SHALL conform to function [TI.9](Requirements-EHRSFMR2-TI.9.html) (System Management Operations and Performance)."
     }
   ]
 }

@@ -33,7 +33,7 @@ maxroot.model.relationships.forEach(relationships => {
                 var st = name.substring (0, name.indexOf('.'));
                 var link = name.indexOf('#')==-1?name:name.substring(0, name.indexOf('#'));
                 objects[sourceId] = sourceObj;
-                console.log("rectangle", `"[[Requirements-EHRSFMR2.1-${link}.html ${name}]]"`, `<<${st}>>`, "as", sourceId);
+                console.log("rectangle", `"[[Requirements-EHRSFMR2-${link}.html ${name}]]"`, `<<${st}>>`, "as", sourceId);
             }
             if (!objects[destId]) {
                 var destObj = maxroot.model.objects[0].object.find(o => o.id == destId);
@@ -41,7 +41,7 @@ maxroot.model.relationships.forEach(relationships => {
                 var st = name.substring (0, name.indexOf('.'));
                 var link = name.indexOf('#')==-1?name:name.substring(0, name.indexOf('#'));
                 objects[destId] = destObj;
-                console.log("rectangle", `"[[Requirements-EHRSFMR2.1-${link}.html ${name}]]"`, `<<${st}>>`, "as", destId);
+                console.log("rectangle", `"[[Requirements-EHRSFMR2-${link}.html ${name}]]"`, `<<${st}>>`, "as", destId);
             }
             if (relationship.stereotype == "ConsequenceLink") {
                 console.log(sourceId, "-->", destId);

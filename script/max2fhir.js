@@ -229,6 +229,9 @@ function handleCriteria(criteria, fhir_parent_req) {
     var refFunctionID = criteria.tag.find(tag => tag['$'].name === 'Reference.FunctionID');
     var refCriteriaID = criteria.tag.find(tag => tag['$'].name === 'Reference.CriteriaID');
 
+    // replace special link notation '[[{id}]]' with markdown link
+    notes = notes.replace(/\[\[([^\]]+)\]\]/g, '[\$1](Requirements-EHRSFMR2-\$1.html)');
+
     if (!fhir_parent_req) {
         console.log("parent not yet created? " + name);
         return;

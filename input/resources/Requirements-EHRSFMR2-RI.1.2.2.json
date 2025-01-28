@@ -25,7 +25,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[RI.1.1.23]] (Place Record Entries on Legal Hold)."
+      "requirement": "The system SHALL conform to function [RI.1.1.23](Requirements-EHRSFMR2-RI.1.1.23.html) (Place Record Entries on Legal Hold)."
     },
     {
       "extension": [
@@ -40,7 +40,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[RI.1.1.24]] (Release Record Entries from Legal Hold)."
+      "requirement": "The system SHALL conform to function [RI.1.1.24](Requirements-EHRSFMR2-RI.1.1.24.html) (Release Record Entries from Legal Hold)."
     },
     {
       "extension": [
@@ -115,7 +115,7 @@
         "MAY"
       ],
       "conditionality": false,
-      "requirement": "The system MAY provide the ability to render Record Entry content preserved for a legal hold by type, class or encounter (e.g., medical Record Entry or report, e-mail, metadata, etc.), conforming to function [[RI.1.1.13]] (Extract Record Entry Content)."
+      "requirement": "The system MAY provide the ability to render Record Entry content preserved for a legal hold by type, class or encounter (e.g., medical Record Entry or report, e-mail, metadata, etc.), conforming to function [RI.1.1.13](Requirements-EHRSFMR2-RI.1.1.13.html) (Extract Record Entry Content)."
     }
   ]
 }

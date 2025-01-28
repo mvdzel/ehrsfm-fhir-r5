@@ -72,7 +72,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.5.1]] (Application and Structured-Document Interchange Standards) to exchange information with external registry services and directories.",
+      "requirement": "The system SHALL conform to function [TI.5.1](Requirements-EHRSFMR2-TI.5.1.html) (Application and Structured-Document Interchange Standards) to exchange information with external registry services and directories.",
       "derivedFrom": "EHR-S_FM_R1.1 IN.3#3"
     },
     {

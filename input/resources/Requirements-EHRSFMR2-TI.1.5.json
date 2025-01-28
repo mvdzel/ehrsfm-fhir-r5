@@ -57,7 +57,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[TI.2]] (Audit) to prevent repudiation of data origination, transmission and receipt according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "requirement": "The system SHALL conform to function [TI.2](Requirements-EHRSFMR2-TI.2.html) (Audit) to prevent repudiation of data origination, transmission and receipt according to scope of practice, organizational policy, and/or jurisdictional law.",
       "derivedFrom": "EHR-S_FM_R1.1 IN.1.5#3"
     },
     {
@@ -73,7 +73,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[RI.1.1.4]] (Attest Record Entry Content) to ensure integrity of data and data exchange and thus prevent repudiation of data origination, transmission or receipt according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "requirement": "The system SHOULD conform to function [RI.1.1.4](Requirements-EHRSFMR2-RI.1.1.4.html) (Attest Record Entry Content) to ensure integrity of data and data exchange and thus prevent repudiation of data origination, transmission or receipt according to scope of practice, organizational policy, and/or jurisdictional law.",
       "derivedFrom": "EHR-S_FM_R1.1 IN.1.5#4"
     }
   ]

@@ -88,7 +88,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CP.1.4]] (Manage Problem List) and provide the ability to maintain the problem list by activating new problems and deactivating old problems as identified when captured using recognized-standard, and/or locally-defined assessments.",
+      "requirement": "The system SHOULD conform to function [CP.1.4](Requirements-EHRSFMR2-CP.1.4.html) (Manage Problem List) and provide the ability to maintain the problem list by activating new problems and deactivating old problems as identified when captured using recognized-standard, and/or locally-defined assessments.",
       "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.1#6"
     },
     {

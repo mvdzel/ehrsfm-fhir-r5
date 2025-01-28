@@ -126,7 +126,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL conform to function [[RI.1.1.17]] (Deprecate/Retract Record Entries) to enable the inactivation or deprecation of a problem.",
+      "requirement": "The system SHALL conform to function [RI.1.1.17](Requirements-EHRSFMR2-RI.1.1.17.html) (Deprecate/Retract Record Entries) to enable the inactivation or deprecation of a problem.",
       "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.3#6"
     },
     {

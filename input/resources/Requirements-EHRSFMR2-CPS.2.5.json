@@ -73,7 +73,7 @@
         "SHALL"
       ],
       "conditionality": false,
-      "requirement": "The system SHALL capture both structured and unstructured data as defined in [[RI.1.2.1]] (Manage Record Entries)."
+      "requirement": "The system SHALL capture both structured and unstructured data as defined in [RI.1.2.1](Requirements-EHRSFMR2-RI.1.2.1.html) (Manage Record Entries)."
     },
     {
       "extension": [

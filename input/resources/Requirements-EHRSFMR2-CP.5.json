@@ -231,7 +231,7 @@
         "SHOULD"
       ],
       "conditionality": false,
-      "requirement": "The system SHOULD conform to function [[CPS.9.2]] (Support for Inter-Provider Communication) to receive a request for action regarding a test result from another provider and to transmit an acknowledgement to that provider of the receipt of that provider's request for action."
+      "requirement": "The system SHOULD conform to function [CPS.9.2](Requirements-EHRSFMR2-CPS.9.2.html) (Support for Inter-Provider Communication) to receive a request for action regarding a test result from another provider and to transmit an acknowledgement to that provider of the receipt of that provider's request for action."
     },
     {
       "extension": [

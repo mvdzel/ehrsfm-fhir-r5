@@ -2,9 +2,6 @@
 # Don't know if we should
 % could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 
-# There are < in the script QA fails on that
-Unable to Parse HTML - node 'script' has unexpected content %
-
 # Place-holder for potential further development (How to ignore this QA issue?)
 Constraint failed: FMFLC13: 'Function must have one or more conformance criteria statements.'
 
