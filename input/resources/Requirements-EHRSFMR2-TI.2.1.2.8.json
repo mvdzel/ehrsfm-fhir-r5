@@ -1,0 +1,136 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.2.1.2.8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_2_1_2_8_Extraordinary_User_Access__Break_the_Glass__Security_Audit_Trigger",
+  "title": "TI.2.1.2.8 Extraordinary User Access (Break the Glass) Security Audit Trigger (Function)",
+  "status": "active",
+  "description": "Manage Audit Trigger initiated to track extraordinary user access (break the glass).",
+  "purpose": "Capture extraordinary user access (break the glass), both routine and exceptional, including key metadata (who, what, when, where, why).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.8-01",
+      "label": "TI.2.1.2.8#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL audit each occurrence when extraordinary access is successful (e.g., \"break the glass\" scenario)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.8-02",
+      "label": "TI.2.1.2.8#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the organization."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.8-03",
+      "label": "TI.2.1.2.8#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF known, THEN the system SHALL capture identity of the user."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.8-04",
+      "label": "TI.2.1.2.8#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the system."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.8-05",
+      "label": "TI.2.1.2.8#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.8-06",
+      "label": "TI.2.1.2.8#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the date and time of the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.8-07",
+      "label": "TI.2.1.2.8#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the location (i.e., network address)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.8-08",
+      "label": "TI.2.1.2.8#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the rationale for extraordinary user access."
+    }
+  ]
+}

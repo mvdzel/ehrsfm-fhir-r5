@@ -1,0 +1,212 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-RI.1.1.14.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_14_1_Evidence_of_Record_Entry_Archive_Event",
+  "title": "RI.1.1.14.1 Evidence of Record Entry Archive Event (Function)",
+  "status": "active",
+  "description": "Maintain Evidence of Record Entry Archive Event",
+  "purpose": "Evidence of Record Entry Archive Event includes key metadata, ensures health record integrity (and trust) and enables record audit.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-01",
+      "label": "RI.1.1.14.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL audit each occurrence when Record Entry content is archived.",
+      "derivedFrom": "EHR-LM_R1 14.9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-02",
+      "label": "RI.1.1.14.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the organization where Record Entry content is archived."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-03",
+      "label": "RI.1.1.14.1#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the patient who is subject of archived Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-04",
+      "label": "RI.1.1.14.1#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture an archive identifier for archived Record Entry content (e.g., nursing home inpatient stay from 3/15/2000 thru 6/10/2000)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-05",
+      "label": "RI.1.1.14.1#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the user archiving Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-06",
+      "label": "RI.1.1.14.1#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the system application which archived Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-07",
+      "label": "RI.1.1.14.1#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the type of Record Event trigger (i.e., archive)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-08",
+      "label": "RI.1.1.14.1#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the date and time Record Entry content is archived."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-09",
+      "label": "RI.1.1.14.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture identity of the location (i.e., network address) to which Record Entry content is archived."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-10",
+      "label": "RI.1.1.14.1#10",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture the rationale for archiving Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-11",
+      "label": "RI.1.1.14.1#11",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the set of Record Entry content to be archived."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-12",
+      "label": "RI.1.1.14.1#12",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture the data, document or other identifier for archived Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.14.1-13",
+      "label": "RI.1.1.14.1#13",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture the method and target media of archived Record Entry content."
+    }
+  ]
+}

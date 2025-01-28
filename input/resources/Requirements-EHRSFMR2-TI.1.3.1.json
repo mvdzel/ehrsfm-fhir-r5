@@ -1,0 +1,121 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.1.3.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_1_3_1_Emergency_Access_Control",
+  "title": "TI.1.3.1 Emergency Access Control (Function)",
+  "status": "active",
+  "description": "Manage emergency access to EHR-S resources.",
+  "purpose": "The intent of Emergency Access Control is to mitigate the potential for impeding the provision of care in an emergency situation in accordance with organizational policy.\n\nFor example, emergency access may include:\n- Single record entry (e.g., single laboratory results, single document, single view);\n- Single patient;\n- Single login session, multiple patients;\n- Site mode allowing simultaneous emergency access to all users.\n\nLogging of a user's activities should occur in the audit record/metadata. Reports of emergency access use for follow up are critical for compliance and monitoring.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3.1-01",
+      "label": "TI.1.3.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture emergency access (permission) rules according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3.1-02",
+      "label": "TI.1.3.1#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture categories of emergency access criteria (e.g., 1) Single record entry such as single laboratory results, single document, single view; 2) Single patient; 3) Single login session, multiple patients; 4) Site mode allowing simultaneous emergency access to all users) according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3.1-03",
+      "label": "TI.1.3.1#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL manage emergency access by individual users based on criteria (e.g., defined rules and categories) according to organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3.1-04",
+      "label": "TI.1.3.1#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to maintain emergency access time limits according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3.1-05",
+      "label": "TI.1.3.1#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY present periodic reminders to a system administrator to review user's emergency access privileges."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3.1-06",
+      "label": "TI.1.3.1#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture a reason for emergency access."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3.1-07",
+      "label": "TI.1.3.1#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render an after action report for follow up of emergency access."
+    }
+  ]
+}

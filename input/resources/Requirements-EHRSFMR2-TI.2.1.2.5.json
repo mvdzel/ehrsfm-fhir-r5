@@ -1,0 +1,136 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.2.1.2.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_2_1_2_5_User_Log_Out__End_user_session__Security_Audit_Trigger",
+  "title": "TI.2.1.2.5 User Log Out (End user session) Security Audit Trigger (Function)",
+  "status": "active",
+  "description": "Manage Audit Trigger initiated to track user log out (end user session).",
+  "purpose": "Capture user log out (end user session), both routine and exceptional, including key metadata (who, what, when, where, why).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.5-01",
+      "label": "TI.2.1.2.5#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL audit each occurrence of user logout (end session)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.5-02",
+      "label": "TI.2.1.2.5#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the organization."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.5-03",
+      "label": "TI.2.1.2.5#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF known, THEN the system SHALL capture identity of the user."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.5-04",
+      "label": "TI.2.1.2.5#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the system."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.5-05",
+      "label": "TI.2.1.2.5#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.5-06",
+      "label": "TI.2.1.2.5#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the date and time of the event initiating audit trigger."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.5-07",
+      "label": "TI.2.1.2.5#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the location (i.e., network address)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.2.1.2.5-08",
+      "label": "TI.2.1.2.5#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture how the session ended (e.g., user logout, timeout, loss of connection, administrator logout, system failure)."
+    }
+  ]
+}

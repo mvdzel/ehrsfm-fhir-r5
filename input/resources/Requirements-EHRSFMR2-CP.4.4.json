@@ -1,0 +1,204 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.4.4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_4_4_Manage_Orders_for_Diagnostic_Screening_Tests",
+  "title": "CP.4.4 Manage Orders for Diagnostic/Screening Tests (Function)",
+  "status": "active",
+  "description": "Enable the origination, documentation, transmission, tracking and maintenance of orders for diagnostic tests.",
+  "purpose": "Orders for diagnostic tests (e.g., diagnostic radiology, laboratory ) are captured and tracked including new, renewal and discontinue orders. Each order includes appropriate detail, such as order identification, instructions and clinical information necessary to perform the test. Orders and supporting detailed documentation shall be communicated to the service provider for completion of the diagnostic test(s).Some systems may contain instructions, but in some settings, instructions may be provided from external sources (e.g., handouts).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-01",
+      "label": "CP.4.4#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage orders for diagnostic tests.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.2.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-02",
+      "label": "CP.4.4#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and render standard order detail for diagnostic test order fulfillment.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.2.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-03",
+      "label": "CP.4.4#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain user-created instructions, and/or prompts when ordering diagnostic tests or procedures."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-04",
+      "label": "CP.4.4#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage the status (e.g., requisitioned, completed, in process) of diagnostic test(s).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.2.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-05",
+      "label": "CP.4.4#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and render patient instructions relevant to the diagnostic test ordered.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.2.2#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-06",
+      "label": "CP.4.4#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to transmit orders to the recipient (s) for order fulfillment of the diagnostic test.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.2.2#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-07",
+      "label": "CP.4.4#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to transmit supporting detailed documentation to the recipient (s) for order fulfillment of the diagnostic test.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.2.2#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-08",
+      "label": "CP.4.4#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CPS.4.3]] (Support for Non-Medication Ordering).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.2.2#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-09",
+      "label": "CP.4.4#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to transmit order activity to public health authorities according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "PHFP DC.1.7.2.2CC#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-10",
+      "label": "CP.4.4#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": true,
+      "requirement": "IF subsequent orders are being captured, THEN the system SHOULD provide the ability to render prior diagnostic results for a given patient."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-11",
+      "label": "CP.4.4#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture and render complete patient demographic information for diagnostic orders according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.4-12",
+      "label": "CP.4.4#12",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture, maintain, and render justification-related information regarding a test order (e.g., clinical rationale, reason, or a link to the Problem list)."
+    }
+  ]
+}

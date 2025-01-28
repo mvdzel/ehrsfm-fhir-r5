@@ -1,0 +1,151 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.10.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_10_2_Maintenance_and_Versioning_of_Standard_or_Preferred_Clinical_Models",
+  "title": "TI.10.2 Maintenance and Versioning of Standard or Preferred Clinical Models (Function)",
+  "status": "active",
+  "description": "Enable version control according to scope of practice, organizational policy, and/or jurisdictional law to ensure maintenance of utilized standard or preferred clinical models.\n\nThis includes the ability to accommodate changes to clinical models as the source clinical model undergoes its update process. Such changes need to be cascaded to clinical content embedded in templates, custom formularies, etc., as determined by existing policy.",
+  "purpose": "Version control allows for multiple sets or versions of the same clinical model to exist and be distinctly recognized over time. Standard clinical models can be updated, and concurrent use of different versions may be required. Ideally, the meaning of a clinical model never changes over time, but a clinical model can be deprecated, and replaced with a new clinical model in a new version. \n\nIt is important that retrospective analysis and research maintains the ability to relate to the appropriate clinical model. If the meaning of a clinical model changes over time, it is also important that for legal health records, as well as for retrospective analysis and research, the different meaning can be correlated to ensure the permanence of the information as originally captured. This does not necessarily imply that complete older versions of the clinical model be kept in the EHR-S, only access to the changes needs to be maintained.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.2-01",
+      "label": "TI.10.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage data using different versions of standard or preferred clinical models."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.2-02",
+      "label": "TI.10.2#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to update standard or preferred clinical models."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.2-03",
+      "label": "TI.10.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD maintain relationships among versions of a standard or preferred clinical models to allow preservation of interpretation over time."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.2-04",
+      "label": "TI.10.2#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to receive and harmonize data from and transmit data to other systems that use known different versions of a standard or preferred clinical model while preserving the meaning of that model."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.2-05",
+      "label": "TI.10.2#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to update clinical models to a deprecated status."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.2-06",
+      "label": "TI.10.2#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to update individual data elements within a clinical model to a deprecated status."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.2-07",
+      "label": "TI.10.2#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to update terms with their equivalent when terminology is changed, where coded terminology content is embedded in clinical models (e.g., templates and custom formularies), when the terminology changes can be accomplished unambiguously, and if consistent with scope of practice, organizational policy, and/or jurisdictional law.\n\nNEEDS REVIEW"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.2-08",
+      "label": "TI.10.2#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to update standard or preferred clinical models used to enter clinical content (via templates, custom formularies, etc.)"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.2-09",
+      "label": "TI.10.2#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL maintain an audit log or a change history of clinical models to the individual clinical model, for versions used, dates implemented and updated to enable correct interpretation of historical data over time.\n"
+    }
+  ]
+}

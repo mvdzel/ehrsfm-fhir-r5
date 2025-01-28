@@ -1,0 +1,151 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.10.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_10_1_Standard_or_Preferred_Clinical_Models",
+  "title": "TI.10.1 Standard or Preferred Clinical Models (Function)",
+  "status": "active",
+  "description": "Employ approved standard or Preferred Clinical Models to ensure structured data correctness and to enable semantic interoperability (both within an enterprise and externally). Support a standard or Preferred Clinical Models model.",
+  "purpose": "Healthcare is shifting from supply-oriented care to more demand / patient-oriented integrated care. The focus is the patient and the integrated care he needs executed by one or more healthcare provider(s) in one or more organizations. Information on the patient must be shared by these healthcare providers and organizations. The EHR system must be focused on a problem-oriented recording in an integrated EHR system. This recording should take place in the care process and seamlessly fit in the workflow of the healthcare professional. When the information is properly recorded in the EHR, these information can be reused: by other healthcare providers, for deriving quality information, financial information and for research. For this purposes the use of widely accepted international standards is necessary. \n\nClinical Models are used to capture functional, semantic (non technical) agreements for the standardization of information used in the care process. The purpose of the standardization is that this information from the care process is reused for other purposes such as quality registration, transfer or patient-related research. A Clinical Model is an information model in which a care-based concept is described in terms of the data elements from which that concept exists, the data types of those data elements, the binding to a (standard) terminology, etc.\nClinical models are information models of minimal clinical concepts, each containing multiple data with agreed content, structure and mutual relationship. \n\nThe binding to a terminology  provides semantic and computable identity to its concepts. Examples of terminologies that an EHR-S may support include: LOINC, SNOMED, ICD-9, ICD-10, and CPT-4. See also Function TI.4 Standard Terminology and Terminology Services.\n\nThe key is that the standard be approved by all stakeholders. For example, a standard Clinical Model for 'Problem'. The information that is recorded in the EHR according to the Clinical Model can be reused for other purposes as  quality registration, transfer or patient-related research.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.1-01",
+      "label": "TI.10.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to exchange data with other systems (internal or external to the EHR-S) using approved standard or preferred clinical models or compositions of clinical models (e.g patient summary, follow-up message)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.1-02",
+      "label": "TI.10.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine that clinical terms and coded clinical data exist in an approved Clinical Model."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.1-03",
+      "label": "TI.10.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to receive and transmit healthcare data using formal standard information models and approved standard or preferred clinical models according to scope of practice, organizational policy, and/or jurisdictional law.\n"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.1-04",
+      "label": "TI.10.1#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage data using a standard or preferred clinical model according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.1-05",
+      "label": "TI.10.1#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage clinical model assets and supporting tools (internal or external to the EHR-S)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.1-06",
+      "label": "TI.10.1#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "IF there is no recognized-standard or preferred clinical model available, THEN the system MAY provide the ability to manage data using a locally-defined clinical model."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.1-07",
+      "label": "TI.10.1#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture information into structured data formats using approved standard or preferred clinical models without the user requiring knowledge of the clinical models used.\n"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.1-08",
+      "label": "TI.10.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to enter data using content that is common to the user, and allow for collection and presentation of text form data to meet the pre-determined purposes of others. Text forms should exclude cryptic or uncommon abbreviations."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.10.1-09",
+      "label": "TI.10.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to present the terms used in standard or preferred clinical models in a language which is appropriate for the user.\n"
+    }
+  ]
+}

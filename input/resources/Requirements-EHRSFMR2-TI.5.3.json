@@ -1,0 +1,47 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.5.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_5_3_Standards_Based_Application_Integration",
+  "title": "TI.5.3 Standards-Based Application Integration (Function)",
+  "status": "active",
+  "description": "Integrate applications in a standards-based manner.",
+  "purpose": "An EHR-S often consists of multiple applications. Some of those applications may be within the EHR-S; others may be external to the EHR-S. The user of the EHR-S often benefits when those applications are integrated. Application integration can be accomplished in an ad-hoc fashion or in a standards-based fashion.\n\nThe method(s) by which applications may be integrated within an organization depends on that organization's approach to application integration. A given organization could conceivably employ multiple application integration approaches to meet various application integration requirements.\nExample:\nExamples of standards-based application integration approaches include:\n- Desktop visual integration via HL7 Clinical Context Object Workgroup (CCOW) standards.\n- Workflow function integration via the Workflow Management Coalition (WfMC) standards.\n- Enterprise Information System Architecture integration of EHR systems via Service Oriented Architecture (SOA) standards.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.5.3-01",
+      "label": "TI.5.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to integrate applications in a standards-based fashion when the system is composed of, and/or is extended by disparate applications.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.5.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.5.3-02",
+      "label": "TI.5.3#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to integrate user (or system) authentication for the purposes application context management (e.g., Graphical User Interface application integration via HL7's Context Management Standard from the Clinical Context Object Work Group (CCOW))."
+    }
+  ]
+}

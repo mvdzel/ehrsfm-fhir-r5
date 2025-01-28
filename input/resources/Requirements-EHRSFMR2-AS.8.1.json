@@ -1,0 +1,183 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.8.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_8_1_Support_Rules_Driven_Clinical_Coding",
+  "title": "AS.8.1 Support Rules-Driven Clinical Coding (Function)",
+  "status": "active",
+  "description": "Make available all pertinent patient information needed to support coding of diagnoses, procedures and outcomes.",
+  "purpose": "The user is assisted in coding information for clinical reporting reasons. For example, a professional coder may have to code the principal diagnosis in the current, applicable ICD as a basis for hospital funding. All diagnoses and procedures during the episode may be presented to the coder, as well as the applicable ICD hierarchy containing these codes.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.1-01",
+      "label": "AS.8.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render patient information needed to support coding of diagnosis, procedures and outcomes.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.2.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.1-02",
+      "label": "AS.8.1#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine coding of diagnoses, procedures and outcomes based on provider specialty, care setting and other information that may be entered into the system during the encounter.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.2.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.1-03",
+      "label": "AS.8.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze clinical documents for deficiencies (e.g., missing information) using coding based rules."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.1-04",
+      "label": "AS.8.1#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD render the results of document coding deficiencies (e.g., missing information) analysis to the coder."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.1-05",
+      "label": "AS.8.1#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render the results of a coding documentation deficiency analysis to the appropriate user(s) (e.g., the deficient document or a link to same)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.1-06",
+      "label": "AS.8.1#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to integrate the deficiency remediation into the coding workflow."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.1-07",
+      "label": "AS.8.1#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to present configurable (e.g., with respect to content, time of presentation), standard reports that support clinical documentation coding workflow."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.1-08",
+      "label": "AS.8.1#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to present configurable (e.g., with respect to content, time of presentation), ad-hoc reports that support clinical documentation coding workflow."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.1-09",
+      "label": "AS.8.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture the time of care provision to facilitate correct coding."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.1-10",
+      "label": "AS.8.1#10",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture and maintain user preferences for how the list of diagnoses are rendered (e.g., numerical order, alphabetic order)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.1-11",
+      "label": "AS.8.1#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link statements regarding diagnoses with codes when more than one code is required for a condition (e.g., multiple codes for a single condition, late effects and cause, etiology and manifestation)."
+    }
+  ]
+}

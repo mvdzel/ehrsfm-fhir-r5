@@ -1,0 +1,185 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.4.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_4_3_Support_for_Non_Medication_Ordering",
+  "title": "CPS.4.3 Support for Non-Medication Ordering (Function)",
+  "status": "active",
+  "description": "Facilitate provider review and validation of order information to make it pertinent, effective and resource-conservative at the point of order entry.",
+  "purpose": "The system assists provider during order entry for therapies, treatments, care, diagnostics and medical supplies and equipment. Support includes, for example: alerts to duplicate orders, missing results or other information required to initiate order, suggested corollary orders, order sets, best practice guidelines, institution-specific order guidelines and patient diagnosis specific recommendations. Also alerts for orders that may be inappropriate or contraindicated for specific patients, for example, X-rays on pregnant women.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.3-01",
+      "label": "CPS.4.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine and render, at the time of order entry, required order entry components for non-medication orders.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.3-02",
+      "label": "CPS.4.3#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL render an alert at the time of order entry if a non-medication order is missing required information.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.3-03",
+      "label": "CPS.4.3#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD render an alert for orders that may be inappropriate or contraindicated for specific patients at the time of order entry.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.4.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.3-04",
+      "label": "CPS.4.3#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain and render elapsed time parameters for purposes of duplicate order checking."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.3-05",
+      "label": "CPS.4.3#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link a non-medication order with related clinical problem(s), and/or diagnosis code(s)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.3-06",
+      "label": "CPS.4.3#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture and maintain information required for pediatric ordering (e.g., age and weight of the child for radiology or laboratory orders) according to scope of practice.",
+      "derivedFrom": "PHFP DC.2.4.2#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.3-07",
+      "label": "CPS.4.3#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD auto-populate the answers to questions required for diagnostic test ordering from data within the medical record or captured during the encounter."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.3-08",
+      "label": "CPS.4.3#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to tag certain diagnostic studies that may/should not be repeated within a prescribed period of time and present an indicator at time of ordering."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.3-09",
+      "label": "CPS.4.3#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and render reminders to patients regarding necessary follow up tests based on the prescribed medication (e.g., reminders may be sent manually or automatically via a pre-determined rule)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.3-10",
+      "label": "CPS.4.3#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and render reminders to the clinicians regarding necessary patient follow up tests based on the prescribed medication."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.3-11",
+      "label": "CPS.4.3#11",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage the process of order reconciliation according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

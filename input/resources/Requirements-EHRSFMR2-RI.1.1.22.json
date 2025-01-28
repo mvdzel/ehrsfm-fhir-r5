@@ -1,0 +1,31 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-RI.1.1.22",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_22_Unlink_Record_Lifecycle_Event",
+  "title": "RI.1.1.22 Unlink Record Lifecycle Event (Function)",
+  "status": "active",
+  "description": "Unlink Record Entries (2 or more instances)",
+  "purpose": "Occurs when an agent causes the system to disconnect two or more record entries previously connected, rendering them separate (disconnected) again. \n\nReference: ISO 21089-2018, Section 15.22.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.22-01",
+      "label": "RI.1.1.22#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to update multiple patient Record Entries by unlinking them according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

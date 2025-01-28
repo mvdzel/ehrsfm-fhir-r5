@@ -1,0 +1,230 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.1.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_1_1_Manage_Patient_History",
+  "title": "CP.1.1 Manage Patient History (Function)",
+  "status": "active",
+  "description": "Manage medical, procedural/surgical, mental health, substance use, social and family history. This includes pertinent positive and negative histories, patient-reported or externally available patient clinical history.",
+  "purpose": "The history of the current illness and patient historical data related to previous medical diagnoses, surgeries and other procedures performed on the patient, clinicians involved in procedures or in past consultations, and relevant health conditions of family members is captured through such methods as patient reporting (e.g., interview, medical alert band) or electronic or non-electronic historical data. This data may take the form of a pertinent positive such as \"The patient/family member has had...\" or a pertinent negative such as \"The patient/family member has not had...\". When first seen by a health care provider, patients typically bring with them clinical information from past encounters. This and similar information may supplement locally captured documentation and notes wherever appropriate. Information regarding the patient's living situations may be an important means for a provider to uniquely identify a patient or to identify illnesses that may occur within a given proximity. Information regarding past or present living situations or environmental factors related to the patient or the fetal death may include a description of the father's type of occupation and occupational demographic information (such as the name and location of the employment). For example, it may be important for the clinician to know that the patient works in an occupation where lead exposure is common. It may also be important for the clinician to know that the patient lives in a household where asbestos routinely appears on clothing.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-01",
+      "label": "CP.1.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage current patient history including pertinent positive and negative elements (e.g., diagnosis or ruled out diagnosis), and information on clinicians involved.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-02",
+      "label": "CP.1.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage the identity of clinicians involved in patient history elements according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-03",
+      "label": "CP.1.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[CPS.2.1]] (Support externally-sourced Clinical Documents) to capture, store and render previous external patient histories.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-04",
+      "label": "CP.1.1#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[CPS.2.2]] (Support externally-sourced Clinical Data) to capture, store and render previous external patient histories."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-05",
+      "label": "CP.1.1#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture family history."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-06",
+      "label": "CP.1.1#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture social history."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-07",
+      "label": "CP.1.1#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture as part of the patient history the patient's relationships (e.g., genealogic, living situation, other).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-08",
+      "label": "CP.1.1#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture structured data in the patient history (e.g., administrative, social, mental health, geographic location, and/or financial statuses, poverty, orphan, disability, incarceration, incompetence, or remote geographic location)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-09",
+      "label": "CP.1.1#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL maintain and render documentation made in a non-linear as well as linear temporal and non-temporal sequence."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-10",
+      "label": "CP.1.1#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to present multiple levels of data (log view versus readable view) versus not display at all."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-11",
+      "label": "CP.1.1#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture patient history adhering to a standards-based form or template according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-12",
+      "label": "CP.1.1#12",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture an indication of the patient's receipt of social subsidies."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-13",
+      "label": "CP.1.1#13",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture Investigational Product (e.g., medication, device, immunization) exposure information including Start Date/time, End Date/Time, Dose Amount, Dose Unit, Study Treatment Name, Route, Formulation as discrete elements."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.1-14",
+      "label": "CP.1.1#14",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage information regarding past or present living situations or environmental factors related to the patient (e.g., war, famine, poverty, political situation, or proximity to dangerous chemicals) according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.6.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_6_2_Manage_Immunization_Administration",
+  "title": "CP.6.2 Manage Immunization Administration (Function)",
+  "status": "active",
+  "description": "Capture and maintain discrete data concerning immunizations given to a patient including date administered, type, manufacturer, lot number, and any allergic or adverse reactions. Facilitate the interaction with an immunization registry to allow maintenance of a patient's immunization history.",
+  "purpose": "During an encounter, recommendations based on accepted immunization schedules are presented to the provider. Allergen and adverse reaction histories are checked prior to giving the immunization. If an immunization is administered, discrete data elements associated with the immunization including date, type, immunization expiration date, manufacturer and lot number are recorded. Any new adverse or allergic reactions are noted. If required, a report is made to the public health immunization registry or other organization (e.g., military unit commander, refugee program leadership). This function should include the ability to use GTIN barcode scanners to capture vaccine information (NDC, lot number, expiration date).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-01",
+      "label": "CP.6.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture immunization administration details as discrete data, including:\n- the immunization name/type, series, strength and dose;\n- date and time of administration;\n- manufacturer, lot number, expiration date,\n- route and site of administration;\n- administering provider;\n- observations, reactions and complications;\n- reason immunization not given, and/or immunization related activity not performed;\naccording to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-02",
+      "label": "CP.6.2#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY auto-populate the immunization administration record as a by-product of verification of administering provider, patient, medication, dose, route and time according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.2#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-03",
+      "label": "CP.6.2#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to determine and render required immunizations, and when they are due, based on widely accepted immunization schedules, when rendering encounter information.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-04",
+      "label": "CP.6.2#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, in a discrete field, an allergy/adverse reaction to a specific immunization."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-05",
+      "label": "CP.6.2#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CP.3.2]] (Manage Patient Clinical Measurements) to capture other clinical data pertinent to the immunization administration (e.g., vital signs).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-06",
+      "label": "CP.6.2#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link standard codes (e.g., LOINC, SNOMED or other jurisdictionally-specific codes) with discrete data elements associated with an immunization.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-07",
+      "label": "CP.6.2#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to maintain a patient-specific immunization schedule.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-08",
+      "label": "CP.6.2#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render a patient's immunization history upon request for appropriate authorities such as schools or day-care centers.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-09",
+      "label": "CP.6.2#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CP.1.2]] (Manage Allergy, Intolerance and Adverse Reaction List).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#10"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-10",
+      "label": "CP.6.2#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD transmit required immunization administration information to a public health immunization registry according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#11"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-11",
+      "label": "CP.6.2#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD exchange immunization histories with public health immunization registries or Immunization Information Systems according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#12"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-12",
+      "label": "CP.6.2#12",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD harmonize Immunization histories with a public health immunization registry or Immunization information Systems according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.8.2#15"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-13",
+      "label": "CP.6.2#13",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture and render immunization histories from a public health immunization registry or Immunization Information Systems including immunization administration recommendations."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-14",
+      "label": "CP.6.2#14",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CP.1.6]] (Manage Immunization List)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-15",
+      "label": "CP.6.2#15",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to update immunization histories at the time of capturing an immunization administration."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-16",
+      "label": "CP.6.2#16",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render an immunization order as written (e.g., exact clinician order language or as mandated - such as by a public health requirement), when rendering administration information."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-17",
+      "label": "CP.6.2#17",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to determine due and overdue ordered immunizations including earliest through latest date ranges and render a notification according to organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-18",
+      "label": "CP.6.2#18",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render a patient educational information regarding the administration (e.g., Vaccine Information Statement (VIS)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-19",
+      "label": "CP.6.2#19",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture that patient educational information (e.g., VIS) was provided at the time of immunization administration."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-20",
+      "label": "CP.6.2#20",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture that patient educational information (e.g., VIS) was provided at the time of the immunization including to whom the information was provided and the date/time that it was provided."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-21",
+      "label": "CP.6.2#21",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain immunization refusal reasons as discrete data.",
+      "derivedFrom": "PHFP DC.2.3.2#10"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.6.2-22",
+      "label": "CP.6.2#22",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture patient preferences regarding receipt of immunization (e.g., refusal of certain vaccines) at time of immunization administration."
+    }
+  ]
+}

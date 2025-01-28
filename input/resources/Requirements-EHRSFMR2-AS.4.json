@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "AS_4_Manage_Communication",
+  "title": "AS.4 Manage Communication (Header)",
+  "status": "active",
+  "description": "Support communication to enable the exchange of information internally and between healthcare and non-healthcare organizations.",
+  "purpose": "Communication among providers involved in the care process can range from real time communication (e.g., communication between a therapist and nurse), to asynchronous communication (e.g., consult reports between physicians). Some forms of inter-practitioner communication will be paper based and the EHR-S must be able to produce appropriate documents.\n\nThe system should provide for both verbal and written communication. These exchanges would include but not be limited to consults, and referrals as well as possible exchanges within the office as part of the provision and administration of patient care (e.g., the communication of new information obtained within the office environment during the process of administration of a tetanus shot while the patient is in the exam room)."
+}

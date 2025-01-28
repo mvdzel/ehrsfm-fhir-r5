@@ -1,0 +1,64 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.7.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_7_1_Manage_Presentation_Filters",
+  "title": "AS.7.1 Manage Presentation Filters (Function)",
+  "status": "active",
+  "description": "Present specialized views based on the encounter-specific values, clinical protocols and business rules.",
+  "purpose": "The system user is presented with a presentation view and system interaction appropriate to the context with capture of encounter-specific values, clinical protocols and business rules. This \"user view\" may be configurable by the user or system technicians. As an example, a mobile home health care worker using wireless laptop at the patient's home would be presented with a home health care specific workflow synchronized to the current patient's care plan and tailored to support the interventions appropriate for this patient, including chronic disease management protocols.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.7.1-01",
+      "label": "AS.7.1#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain presentation filters that are specific to the types of encounter (e.g., care provider specialty, location of encounter, date of encounter, associated diagnosis).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.7.1-02",
+      "label": "AS.7.1#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and maintain presentation filters that are specific to the patient demographics.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.7.1-03",
+      "label": "AS.7.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain (i.e., tailor) an individual user's \"user view\".",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.1#3"
+    }
+  ]
+}

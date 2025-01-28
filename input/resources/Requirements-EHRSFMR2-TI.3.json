@@ -1,0 +1,191 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_3_Registry_and_Directory_Services",
+  "title": "TI.3 Registry and Directory Services (Function)",
+  "status": "active",
+  "description": "Enable the use of registry services and directories to uniquely identify, locate and supply links for retrieval of information related to:\n- patients and providers for healthcare purposes;\n- payers, health plans, sponsors, and employers for administrative and financial purposes;\n- public health agencies for healthcare purposes, and- healthcare resources and devices for resource management purposes.",
+  "purpose": "Registry and directory service functions are critical to successfully managing the security, interoperability, and the consistency of the health record data across an EHR-S. These services enable the linking of relevant information across multiple information sources within, or external to, an EHR-S for use within an application. This applies to directories/registries internal to the EHR-S as well as directories/registries external to the EHR-S. Transmission may occur automatically or manually and may include small or large amounts of data. Directories and registries support communication between EHR Systems and may be organized hierarchically or in a federated fashion. For example, a patient being treated by a primary care physician for a chronic condition may become ill while out of town. The new provider's EHR-S interrogates a local, regional, or national registry to find the patient's previous records. From the primary care record, a remote EHR-S retrieves relevant information in conformance with applicable patient privacy and confidentiality rules.\n\nAn example of local registry usage is an EHR-S application sending a query message to the Hospital Information System to retrieve a patient's demographic data.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.3-01",
+      "label": "TI.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage internal registry services and directories.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.3-02",
+      "label": "TI.3#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to exchange information with external registry services and directories."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.3-03",
+      "label": "TI.3#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to exchange information securely with external registry services and directories.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.3-04",
+      "label": "TI.3#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.5.1]] (Application and Structured-Document Interchange Standards) to exchange information with external registry services and directories.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.3-05",
+      "label": "TI.3#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture and render local registry services and directory information through standards-based interfaces.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.3-06",
+      "label": "TI.3#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system communicates with external registry services and directories (i.e., external to an EHR-S), THEN the system SHOULD capture and render information using standards-based interfaces.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.3#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.3-07",
+      "label": "TI.3#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine the unique identity of a patient through the use of internal, and/or external registry services or directories.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.3#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.3-08",
+      "label": "TI.3#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine links to healthcare information regarding a patient through the use of internal, and/or external registry services or directories.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.3#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.3-09",
+      "label": "TI.3#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine the unique identity of a provider through the use of internal, and/or external registry services or directories.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.3#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.3-10",
+      "label": "TI.3#10",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine the identity of payers, health plans and sponsors for administrative or financial purposes through the use of internal, and/or external registry services or directories.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.3#10"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.3-11",
+      "label": "TI.3#11",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine the identity of employers for administrative or financial purposes through the use of internal, and/or external registry services or directories.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.3#11"
+    }
+  ]
+}

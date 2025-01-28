@@ -1,0 +1,123 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.2.8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_2_8_Support_Medical_Device_Originated_Data",
+  "title": "CPS.2.8 Support Medical Device Originated Data (Function)",
+  "status": "active",
+  "description": "Support collection and presentation of data captured from medical and medication monitoring devices.",
+  "purpose": "Collection of medical device information is supported as appropriate to the care setting. Examples include: vital signs/pulse-oximeter, anesthesia machines, home diagnostic devices for chronic disease management, laboratory machines, bar coded artifacts (e.g., medicine, immunizations, demographics, history, and identification), transcranial magnetic stimulation systems, or medication reminder systems.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.2.8-01",
+      "label": "CPS.2.8#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture electronic data from medical devices according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.3.2.5#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.2.8-02",
+      "label": "CPS.2.8#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render information collected from medical devices as part of the medical record.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.3.2.5#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.2.8-03",
+      "label": "CPS.2.8#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain the following information of a device when it is suspected as the cause of a Serious Adverse Event: brand name, common device name, manufacturer, model number, catalog number, serial number, lot number, expiration date, other number(s), operator of device, if implanted (date), if explanted (date), single or multiple use device indicator (i.e. if this is a single use device that was reprocessed and reused on a patient)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.2.8-04",
+      "label": "CPS.2.8#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to present data captured from medical devices for verification by a provider according to scope of practice, organizational policy, and/or jurisdictional law, and present the identification of the relevant device."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.2.8-05",
+      "label": "CPS.2.8#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD link data that was captured by a medical device to the originating device ID and device type."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.2.8-06",
+      "label": "CPS.2.8#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture the date/time from medical devices."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.2.8-07",
+      "label": "CPS.2.8#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability for the user to capture data manually from medical devices."
+    }
+  ]
+}

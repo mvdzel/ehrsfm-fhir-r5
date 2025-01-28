@@ -1,0 +1,48 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.1.6",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_1_6_Provider_Caseload_Panel",
+  "title": "AS.1.6 Provider Caseload/Panel (Function)",
+  "status": "active",
+  "description": "Provide access to a provider's caseload or panel information.",
+  "purpose": "An organization might employ the concept of caseload or panel of patients to facilitate continuity of care and distribution of work. A caregiver may have, or be accountable for, one or more defined caseloads or panels of members/patient/clients within the organization. Information about a caseload or panel may include an indication that an opening is available on a certain caseload or an indication that a certain patient is not suitable for that caseload. A member/patient may be provided access to a listing of caregivers with open caseloads or panels to select a provider.\nExample:\nExamples of caseload or panel assignments:\n- A wound care nurse is assigned certain patients based upon their care needs. A list of those patients can be produced to assist the wound care nurse in delivering care.\n- A provider with an open caseload can be assigned additional patients.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.6-01",
+      "label": "AS.1.6#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage a provider's caseload or panel information according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.3.6#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.6-02",
+      "label": "AS.1.6#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[AS.1.7]] (Manage Practitioner/Patient Relationships).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.3.6#3"
+    }
+  ]
+}

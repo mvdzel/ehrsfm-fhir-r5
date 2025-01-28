@@ -1,0 +1,91 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-POP.6.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "POP_6_3_Support_for_Process_Improvement",
+  "title": "POP.6.3 Support for Process Improvement (Function)",
+  "status": "active",
+  "description": "Support the capture and subsequent export or retrieval of data necessary to support process improvement measures and related initiatives.",
+  "purpose": "Many organizations and institutions may require regular reporting of data necessary to support improvement in the effectiveness and efficiency of care. These reports may include, but is not limited to, specific data such as patient outcomes, patient safety, processes of care, workflow and costs of care. The system needs to provide the report generating capability to easily create these reports or provide for the export of data to external report generating software.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.6.3-01",
+      "label": "POP.6.3#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture necessary data (e.g., clinical user feedback) supporting organizational efforts to optimize the EHR System (EHR-S)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.6.3-02",
+      "label": "POP.6.3#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture necessary data (e.g., patient satisfaction feedback) supporting organizational efforts to improve the quality of healthcare and patient satisfaction."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.6.3-03",
+      "label": "POP.6.3#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze returned patient survey data and render the results to facilitate improvements in provider-patient interactions, healthcare delivery, etc."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.6.3-04",
+      "label": "POP.6.3#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage realm or organizational relevant health care delivery performance measurements (e.g., Healthcare Effectiveness Data and Information Set (HEDIS), time to aspirin from arrival, or time to antibiotics in pneumonia)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.6.3-05",
+      "label": "POP.6.3#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage ad hoc health care delivery performance measurements (e.g., Healthcare Effectiveness Data and Information Set (HEDIS), time to aspirin from arrival, or time to antibiotics in pneumonia)."
+    }
+  ]
+}

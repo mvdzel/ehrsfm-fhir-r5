@@ -1,0 +1,91 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.9.2.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_9_2_2_Support_for_Provider_to_Professional_Communication",
+  "title": "CPS.9.2.2 Support for Provider to Professional Communication (Function)",
+  "status": "active",
+  "description": "Manage communications to professionals (e.g., coroners, medical examiners, law enforcement) for health care events.",
+  "purpose": "Health care providers must be able to provide notifications and associated administrative, and/or clinical information to various professional individuals or organizations of specific health care events (e.g., patient deaths, births, gunshot wounds) in order to promote or trigger a workflow.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.2-01",
+      "label": "CPS.9.2.2#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine, tag and present healthcare event records for notification to appropriate personnel or systems (e.g., events requiring notification to medical examiner, coroner, funeral director, law enforcement, vital records organizations), according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.2-02",
+      "label": "CPS.9.2.2#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and store an indicator of death/fetal death notification to appropriate personnel or systems (e.g., medical examiner, coroner, funeral director, law enforcement, vital records organizations) including the date and time of the notification event, according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.2-03",
+      "label": "CPS.9.2.2#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and store an indicator of birth notification to appropriate personnel or systems (e.g., general practitioner, vital records organization) including the date and time of the notification event, according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.2-04",
+      "label": "CPS.9.2.2#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and render clinical details regarding birth, death and fetal death events to appropriate personnel or systems according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.2-05",
+      "label": "CPS.9.2.2#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and render administrative details regarding birth, death and fetal death events to appropriate personnel or systems according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

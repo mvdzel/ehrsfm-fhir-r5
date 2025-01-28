@@ -1,0 +1,47 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_2_Audit",
+  "title": "TI.2 Audit (Function)",
+  "status": "active",
+  "description": "Audit Key Record, Security, System and Clinical Events",
+  "purpose": "EHR Systems have built in audit triggers to capture key events in real-time, including events related to record management, security, system operations or performance or clinical situations.\n\nEvent details, including key metadata (who, what, when, where), are captured in an Audit Log.\n\nAudit Review functions allow various methods of critical event notification as well as routine log review.\n\nAudit functions implement requirements according to scope of practice, organizational policy, and jurisdictional law.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.2-01",
+      "label": "TI.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.1.3]] (Entity Access Control) to limit access to, or modification of, audit record information to appropriate entities according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.2.2#13"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.2-02",
+      "label": "TI.2#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.1.3]] (Entity Access Control) to limit access to audit record information for purposes of deletion according to scope of practice, organizational policy, and/or jurisdictional law (e.g., limit access to only allow a specific system administrator to delete audit record information)."
+    }
+  ]
+}

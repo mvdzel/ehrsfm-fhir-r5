@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "CP_7_Manage_Future_Care",
+  "title": "CP.7 Manage Future Care (Header)",
+  "status": "active",
+  "description": "Provide the functionality to manage treatment and care planning through presentation of guidelines and protocols as well as managing recommendations for future care.",
+  "purpose": "The presentation of appropriate guidelines and protocols for future care and the capture and management of recommendations for future care are required to ensure lifetime care of the patient. This includes the management of recommendations for post-encounter care and linkage of recommendations to other components in the health record such as the problem lists and other source documentation."
+}

@@ -1,0 +1,91 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.6.4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_6_4_Support_Triage_Categorization",
+  "title": "AS.6.4 Support Triage Categorization (Function)",
+  "status": "active",
+  "description": "Provide support for prioritizing patients based upon acuity, wait time, and practitioner load.",
+  "purpose": "An EHR-S should support the management of patients waiting for care by displaying them and supporting decisions by the clinicians who are caring for them. The triage process not only collects data on arriving patients, but the categorization and prioritization of patients who are unable to be seen immediately. It is a dynamic process where patient priorities change over time. Unless a care team has unlimited resources, some patients will invariably need to wait.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.6.4-01",
+      "label": "AS.6.4#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage a triage acuity rating for a patient."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.6.4-02",
+      "label": "AS.6.4#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture, maintain and render triage acuity ratings derived from standardized acuity scales."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-AS.6.4-03",
+      "label": "AS.6.4#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and maintain configurable triage acuity ratings according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.6.4-04",
+      "label": "AS.6.4#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY present evidence based triage business rules algorithms during the triage process."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.6.4-05",
+      "label": "AS.6.4#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture and update a triage assignment in response to specific prompts for patient associated data or data already captured in the record (e.g., arrival by ambulance, age, vital signs)."
+    }
+  ]
+}

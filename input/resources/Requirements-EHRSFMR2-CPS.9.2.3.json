@@ -1,0 +1,173 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.9.2.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_9_2_3_Support_for_Provider__Pharmacy_Communication",
+  "title": "CPS.9.2.3 Support for Provider -Pharmacy Communication (Function)",
+  "status": "active",
+  "description": "Provide features to enable secure bi-directional communication of information electronically between practitioners and pharmacies or between practitioner and intended recipient of pharmacy orders.",
+  "purpose": "When a medication is prescribed, the order is routed to the pharmacy or other intended recipient of pharmacy orders. This information is used to avoid transcription errors and facilitate detection of potential adverse reactions. If there is a question from the pharmacy, that communication can be presented to the provider with their other tasks. In certain environments, medication order creation is a collaborative process involving the prescriber and facility staff. Accordingly, this function applies to communication process between the prescriber, facility and the pharmacy or other intended recipient of pharmacy orders. The transmission of prescription data between systems should conform to realm acceptable messaging standards. Informative examples:\n- HL7 Clinical Document Architecture Release 2\n- ISO/EN 13606 Electronic Health Record Communication\n- CEN ENV 13607:2000. Health informatics. Messages for the exchange of information on medicine prescriptions\n- X12N healthcare transactions\n- US realm: National Council for Prescription Drug Programs (NCPDP)\n- Canadian realm: National Electronic Claims Standard (NeCST).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.3-01",
+      "label": "CPS.9.2.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CP.4.2]] (Manage Medication Orders) and provide the ability to transmit medication orders.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.3.2.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.3-02",
+      "label": "CPS.9.2.3#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability for a prescriber/provider to transmit orders, prescriptions, eligibility inquiries, acknowledgements and renewal responses electronically to a pharmacy to initiate, change, cancel, or renew a medication order.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.3.2.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.3-03",
+      "label": "CPS.9.2.3#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to receive any acknowledgements, prior authorizations, renewals, inquiries and fill notifications provided by the pharmacy or other participants in the electronic prescription process.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.3.2.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.3-04",
+      "label": "CPS.9.2.3#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to exchange clinical information with pharmacies using current realm-specific messaging or services standards.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.3.2.2#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.3-05",
+      "label": "CPS.9.2.3#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability for providers and pharmacies to receive and transmit clinical information via secure e-mail or other electronic means, on both general and specific orders.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.3.2.2#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.3-06",
+      "label": "CPS.9.2.3#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to receive and transmit secure real-time messages or services.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.3.2.2#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.3-07",
+      "label": "CPS.9.2.3#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to transmit information on workflow tasks as part of communication to the provider.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.3.2.2#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.3-08",
+      "label": "CPS.9.2.3#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to transmit a request to the pharmacy (based on an existing order) that additional medication be delivered (i.e. re-supply request)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.3-09",
+      "label": "CPS.9.2.3#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to receive and transmit drug utilization review (DUR) findings and formulary &amp; benefits (F&amp;B) data with the pharmacy using standards-based messaging."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.2.3-10",
+      "label": "CPS.9.2.3#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture authorization for transmittal of medication renewal data to an external system and transmittal of a notice to patient via preconfigured notification channel (e.g., Consumer Health Solution or Personal Health Record), according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

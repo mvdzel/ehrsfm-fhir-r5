@@ -1,0 +1,46 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.2.7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_2_7_Support_Patient_Data_Derived_from_Eligibility__Formulary_and_Benefit_Documentation_for_Electronic_Prescribing",
+  "title": "CPS.2.7 Support Patient Data Derived from Eligibility, Formulary and Benefit Documentation for Electronic Prescribing (Function)",
+  "status": "active",
+  "description": "Capture and explicitly label patient data derived from eligibility, formulary and benefit information; and link the data source with that data.",
+  "purpose": "Sources of eligibility, formulary and benefit may provide data for entry into the electronic prescribing or be given a mechanism for entering this data directly. The data must be explicitly labeled as derived from eligibility, formulary and benefit information. Patient data that is derived from eligibility, formulary and benefit data may be provided by: \n- a provider \n- a payer, or \n- entities that transmit or process eligibility, formulary and benefit data.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.2.7-01",
+      "label": "CPS.2.7#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage patient data derived from eligibility, formulary and benefit information."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.2.7-02",
+      "label": "CPS.2.7#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture the source of patient data derived from eligibility, formulary and benefit information."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.9",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "CP_9_Manage_Care_Coordination___Reporting",
+  "title": "CP.9 Manage Care Coordination & Reporting (Header)",
+  "status": "active",
+  "description": "Provide the functionality required to coordinate care with other providers and report care provided.",
+  "purpose": "During care provision it is necessary to coordinate care with other providers, internal or external to the organization, as well as to communicate the care provided."
+}

@@ -1,0 +1,439 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.1.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_1_2_Manage_Allergy__Intolerance_and_Adverse_Reaction_List",
+  "title": "CP.1.2 Manage Allergy, Intolerance and Adverse Reaction List (Function)",
+  "status": "active",
+  "description": "Manage patient-specific allergy, intolerance and adverse reaction lists.",
+  "purpose": "Allergens to substances, (including immunizations), are identified and the list of allergies is captured and maintained over time. Information regarding allergies may be coded or free text; coded information is preferred (where possible). In this function the term \"allergy\" is used to refer to allergies, intolerances, adverse reactions and sensitivities. All pertinent dates, including patient-reported events, are stored and the description of the patient allergy and adverse reaction is modifiable over time. The entire allergy history, including reaction, for any allergen is viewable. The list(s) includes all reactions including those that are classifiable as a true allergy, intolerance, side effect or other adverse reaction to drug, food or environmental triggers. Notations indicating whether item is patient reported, and/or provider verified are maintained. The term 'true allergy' is defined by the US National Library of Medicine as: an allergy that is caused by a series of chemical steps in the body that produce the allergic reaction. The allergy information that should be captured may vary according to scope of practice, organizational policy, and/or jurisdictional law. For example, the documentation requirements regarding an allergic reaction to a substance that is reportable may require a higher level of data capture.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-01",
+      "label": "CP.1.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage allergy, intolerance, and adverse reaction to drug, food, medical products (e.g., vaccines, biologics, devices, chemicals) or environmental triggers as unique, discrete entries.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#1",
+      "satisfiedBy": [
+        "https://hl7.org/fhir/allergyintolerance.html"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-02",
+      "label": "CP.1.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage the reason for the capture, update or removal of the allergy, no-longer-allergic, intolerance, sensitivity, and adverse reaction.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-03",
+      "label": "CP.1.2#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage the reaction type as discrete data.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-04",
+      "label": "CP.1.2#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage the reaction type as coded data."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-05",
+      "label": "CP.1.2#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage the severity of an allergic or adverse reaction as discrete data.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-06",
+      "label": "CP.1.2#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage a report of No Known Allergies (NKA) for the patient.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-07",
+      "label": "CP.1.2#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage a report of No Known Food Allergies (NKFA) for the patient.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-08",
+      "label": "CP.1.2#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage the source of allergy, intolerance, and adverse reaction information.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-09",
+      "label": "CP.1.2#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to tag as deactivated an allergy, intolerance or adverse reaction.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-10",
+      "label": "CP.1.2#10",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture as discrete data the reason for deactivation of an allergy, intolerance or adverse reaction.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-11",
+      "label": "CP.1.2#11",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render an allergy, intolerance, and adverse reaction that has been deactivated.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#10"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-12",
+      "label": "CP.1.2#12",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render the list of allergies, intolerances and adverse reactions in a user-defined sort order.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#11"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-13",
+      "label": "CP.1.2#13",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability for authorized users to manage configuration parameters that limit user-defined overrides of sort-orders for the rendering of lists of allergies, intolerances, and/or adverse reactions according to scope of practice, organizational policy, and/or jurisdictional law (e.g., to reduce the confusion when the same list is sorted by severity one day and then by date-of-onset the next day)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-14",
+      "label": "CP.1.2#14",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to tag that the list of allergies, intolerances and adverse reactions has been reviewed.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#12"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-15",
+      "label": "CP.1.2#15",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and render the date on which allergy information was entered.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#13"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-16",
+      "label": "CP.1.2#16",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and render the approximate date of the allergy occurrence.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.4.1#14"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-17",
+      "label": "CP.1.2#17",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage allergy-information as standards-based coded data."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-18",
+      "label": "CP.1.2#18",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain allergy information prior to completion of the medication order."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-19",
+      "label": "CP.1.2#19",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and render an indication that the allergies are \"Unknown\" or \"Unable to Assess Allergies\"."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-20",
+      "label": "CP.1.2#20",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture the reason for \"Unknown\" or \"Unable to Assess Allergies\" documentation."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-21",
+      "label": "CP.1.2#21",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to tag records and render an indication that the allergies are \"Unknown\" or \"Unable to Assess Allergies\" and need to be updated."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-22",
+      "label": "CP.1.2#22",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture free text allergies and render them in a manner that distinguishes them from coded allergy entries."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-23",
+      "label": "CP.1.2#23",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD tag and render an indicator that interaction checking (e.g., drug-allergy checking) will not occur against free text allergies."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-24",
+      "label": "CP.1.2#24",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render historical allergy information."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-25",
+      "label": "CP.1.2#25",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to link an allergy, intolerance, or adverse reaction with diagnostic results (e.g., laboratory or allergy test result)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-26",
+      "label": "CP.1.2#26",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[CPS.4.2.1]] (Support for Medication Interaction and Allergy Checking) to render any potential interactions when capturing or maintaining allergies, intolerances or adverse reactions."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.2-27",
+      "label": "CP.1.2#27",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture an indicator that a provider was presented with, and acknowledged, a drug interaction notification.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.1.1#3"
+    }
+  ]
+}

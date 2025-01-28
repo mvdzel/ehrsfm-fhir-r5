@@ -1,7 +1,7 @@
 {
     "resourceType": "StructureDefinition",
     "id": "requirements-dependent",
-    "url": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent",
+    "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
     "name": "RequirementsDependent",
     "title": "requirements-dependent",
     "description": "Requirements Statement Criteria is dependent",
@@ -23,7 +23,7 @@
             {
                 "id": "Extension.url",
                 "path": "Extension.url",
-                "fixedUri": "http://hl7.org/ehrs/StructureDefinition/requirements-dependent"
+                "fixedUri": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent"
             },
             {
                 "id": "Extension.value[x]",

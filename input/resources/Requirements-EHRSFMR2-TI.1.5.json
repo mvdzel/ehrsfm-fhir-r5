@@ -1,0 +1,80 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.1.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_1_5_Non_Repudiation",
+  "title": "TI.1.5 Non-Repudiation (Function)",
+  "status": "active",
+  "description": "Limit an EHR-S user's ability to deny (repudiate) data origination, transmission or receipt by that user.",
+  "purpose": "An EHR-S allows data entry to a patient's electronic health record and it can be a sender or receiver of healthcare information. Non-repudiation is a way to guarantee that the source of the data/record cannot later deny that fact; and that the sender of a message cannot later deny having sent the message; and that the recipient cannot deny having received the message. Components of non-repudiation can include:\n- Digital signature, which serves as a unique identifier for an individual (much like a written signature);\n- Confirmation service, which utilizes a message transfer agent to create a digital receipt (providing confirmation that a message was sent, and/or received);\n- Timestamp, which proves that a document existed at a certain date and time;\n- The use of standardized timekeeping protocols (e.g., the Integrating the Healthcare Enterprise (IHE) Consistent Time Profile).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.5-01",
+      "label": "TI.1.5#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the identity of the entity taking the action according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.5#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.5-02",
+      "label": "TI.1.5#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture time stamp of the initial entry, modification and exchange of data according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.5#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.5-03",
+      "label": "TI.1.5#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.2]] (Audit) to prevent repudiation of data origination, transmission and receipt according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.5#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.5-04",
+      "label": "TI.1.5#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[RI.1.1.4]] (Attest Record Entry Content) to ensure integrity of data and data exchange and thus prevent repudiation of data origination, transmission or receipt according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.5#4"
+    }
+  ]
+}

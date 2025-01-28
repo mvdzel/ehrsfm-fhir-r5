@@ -1,0 +1,166 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-POP.2.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "POP_2_3_Support_for_Cohort_and_Aggregate_Data_Sharing",
+  "title": "POP.2.3 Support for Cohort and Aggregate Data Sharing (Function)",
+  "status": "active",
+  "description": "Support cohort and aggregate-level population data sharing within an organization, and/or with other organizations.",
+  "purpose": "Population health data needs to be shared in a number of formats. The cohort and aggregate data (query results) may need to be shared within a facility or transmitted to other organizations on an ad hoc or periodic (namely, regularly scheduled) basis. For example, public health surveillance, monitoring and research often rely on analysis of data from multiple sources, including EHR systems. The data may need to be prepared in user-defined formats or formats defined by external parties. The care provider, public health expert, or organization may need to transmit individual or aggregate data in multiple formats (e.g., to an external statistical analytic application or to public health agencies to meet reporting requirements). Query results may need to be viewed, saved, and/or printed in pre-defined or ad hoc report formats, ( e.g., for quality reporting within the care organization). Some or all members of a cohort or population may need to be anonymized, depending on the rules governing the data sharing.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.2.3-01",
+      "label": "POP.2.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain, and render a request for a population-based query result according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.2.3-02",
+      "label": "POP.2.3#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain, and render pre-defined report criteria (e.g, fields to be included in the resulting report or dataset), parameters, formats, and metadata that specify use, and/or reuse of the reported data according to scope of practice, organizational policy, and/or jurisdictional law (e.g., the metadata may indicate that the report is intended for initial, confirmatory or other analyses)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.2.3-03",
+      "label": "POP.2.3#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to enter, maintain, and render ad hoc (user-specified) report criteria (e.g., the fields to be included in the resulting report or dataset), parameters, formats, and metadata that specify use, and/or reuse of the reported data according to scope of practice, organizational policy, and/or jurisdictional law (e.g., the metadata may indicate that the report is intended for initial, confirmatory or other analyses)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.2.3-04",
+      "label": "POP.2.3#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to maintain and render the results of a query (e.g., person-level lists, case reports, or aggregates) as specified by the requestors' report criteria using a recognized or a locally-defined standard (e.g., via reporting formats that are specified by public health guidelines)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.2.3-05",
+      "label": "POP.2.3#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain, and render with reports the metadata that specify use, and/or reuse of the reported data according to scope of practice, organizational policy, and/or jurisdictional law (e.g., the metadata may indicate that the report is intended for preliminary, confirmatory or other analyses; or the metadata may also indicate that the data may only be used for surveillance purposes)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.2.3-06",
+      "label": "POP.2.3#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF standardized transmission of the results of a query are required to/from a registry or directory, THEN the system SHALL conform to function [[TI.3]] (Registry and Directory Services)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.2.3-07",
+      "label": "POP.2.3#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render the results of a query in the form of a dataset that can be used by other program areas using analytical software (e.g., statistical software programs) according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.2.3-08",
+      "label": "POP.2.3#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render the results of a query according to applicable privacy and confidentially rules (to prevent identification of individuals by unauthorized parties) according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.2.3-09",
+      "label": "POP.2.3#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to transmit information related to individual case reports, including clinical information (e.g., test results) from a care provider to public health organizations (e.g., public health notifiable, and/or reportable condition programs) according to scope of practice, organizational policy, and/or jurisdictional law (e.g., a care provider notifies the local public health authority of an individual case of a sexually-transmitted disease that was identified during the analysis of a related query)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.2.3-10",
+      "label": "POP.2.3#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain, and render the request for a population-based query result using a recognized-standard, and/or locally-defined report format or metadata according to jurisdictional law."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.4.2.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_4_2_1_Medication_Interaction_and_Allergy_Checking",
+  "title": "CP.4.2.1 Medication Interaction and Allergy Checking (Function)",
+  "status": "active",
+  "description": "Provide alerts for potential medication interactions and medication allergy reactions.",
+  "purpose": "Check and provide alerts at the time of medication order based upon coded, active and non-active medications for possible interactions, allergies, sensitivities, intolerances, and other adverse reactions.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.2.1-01",
+      "label": "CP.4.2.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CPS.4.2.1]] (Support for Medication Interaction and Allergy Checking) to determine allergic reactions, drug-drug interactions, and other potential adverse reactions, and render alerts or notifications when new medications are ordered.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.1#16"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.2.1-02",
+      "label": "CP.4.2.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CP.1.2]] (Manage Allergy, Intolerance and Adverse Reaction List) to provide the ability to manage interaction and allergy checking and render alerts and notifications when new medications are ordered."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.2.1-03",
+      "label": "CP.4.2.1#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render an alert, at the time a new medication is prescribed/ordered, that drug interaction, allergy, and formulary checking will not be performed against uncoded or free text medication(s)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.2.1-04",
+      "label": "CP.4.2.1#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render a notification, at the time a new uncoded medication is prescribed/ordered, that drug interaction, allergy, and formulary checking will not be performed, according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.2.1-05",
+      "label": "CP.4.2.1#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render and tag as inactive recently inactivated medications for inclusion in current medication screening according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

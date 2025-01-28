@@ -1,0 +1,80 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.3.11",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_3_11_Support_Other_Encounter_and_Episode_of_Care_Documentation",
+  "title": "CPS.3.11 Support Other Encounter and Episode of Care Documentation (Function)",
+  "status": "active",
+  "description": "Where not covered above, provide the means to manage and organize the documentation of the health care needed and delivered during an encounter/episode of care.",
+  "purpose": "Using data standards and technologies that support interoperability, effective documentation of an encounter can promote patient- centered/oriented care and enables real-time, immediate point-of-service care delivery. Effective encounter and episode-of-care documentation can facilitate efficient work flow and improve operations performance. This can help to ensure the integrity of \n- the health record, \n- public health, financial and administrative reporting, and \n- the healthcare delivery process.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.11-01",
+      "label": "CPS.3.11#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render patient data by encounter, including previous admissions and episodes of care.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.5#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.11-02",
+      "label": "CPS.3.11#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and annotate patient encounter data from external systems, such as diagnostic tests and reports.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.5#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.11-03",
+      "label": "CPS.3.11#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture encounter documentation by one or more of the following input methods:\n- direct keyboard entry of text;\n- structured data entry utilizing templates, forms, pick lists or macro substitution; and\n- dictation with subsequent transcription of voice to text, either manually or via voice recognition system.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.5#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.11-04",
+      "label": "CPS.3.11#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain presentation filters that are specific to the types of encounter (e.g., care provider specialty, location of encounter, date of encounter, associated diagnosis).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.1.5#4"
+    }
+  ]
+}

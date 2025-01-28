@@ -1,0 +1,203 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-RI.1.1.3.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_3_1_Evidence_of_Record_Entry_Translate_Event",
+  "title": "RI.1.1.3.1 Evidence of Record Entry Translate Event (Function)",
+  "status": "active",
+  "description": "Maintain Evidence of Record Entry Translate Event",
+  "purpose": "Evidence of Record Entry Translate Event includes key metadata, ensures health record integrity (and trust) and enables record audit.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-01",
+      "label": "RI.1.1.3.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL audit each occurrence when Record Entry content is translated.",
+      "derivedFrom": "EHR-LM_R1 14.2.2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-02",
+      "label": "RI.1.1.3.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the organization where Record Entry content is translated.",
+      "derivedFrom": "EHR-LM_R1 14.2.2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-03",
+      "label": "RI.1.1.3.1#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the patient who is subject of translated Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-04",
+      "label": "RI.1.1.3.1#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF a user initiated a Record Entry content translation, THEN the system SHALL capture identity of the user initiating Record Entry content translation.",
+      "derivedFrom": "EHR-LM_R1 14.2.2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-05",
+      "label": "RI.1.1.3.1#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture identity of the system application which translated Record Entry content.",
+      "derivedFrom": "EHR-LM_R1 14.2.2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-06",
+      "label": "RI.1.1.3.1#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the type of Record Event trigger (i.e., translation)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-07",
+      "label": "RI.1.1.3.1#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the date and time Record Entry content is translated.",
+      "derivedFrom": "EHR-LM_R1 14.2.2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-08",
+      "label": "RI.1.1.3.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture identity of the location (i.e., network address) where Record Entry content is translated.",
+      "derivedFrom": "EHR-LM_R1 14.2.2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-09",
+      "label": "RI.1.1.3.1#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": true,
+      "requirement": "IF a user initiated a Record Entry translation, THEN the system MAY capture the rationale for translating Record Entry content.",
+      "derivedFrom": "EHR-LM_R1 14.2.2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-10",
+      "label": "RI.1.1.3.1#10",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture a sequence identifier for translated Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-11",
+      "label": "RI.1.1.3.1#11",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture the identifier and version of Translation Tools used for each translated Record Entry."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.3.1-12",
+      "label": "RI.1.1.3.1#12",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture a reference (e.g., link, pointer) to pre-translation data for each Record Entry translation."
+    }
+  ]
+}

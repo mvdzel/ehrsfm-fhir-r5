@@ -1,0 +1,77 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.5.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_5_3_Clinical_Task_Linking",
+  "title": "AS.5.3 Clinical Task Linking (Function)",
+  "status": "active",
+  "description": "Linkage of tasks to EHR components, patients, and/or a relevant part of the electronic health record.",
+  "purpose": "Clinical tasks must include information or provide an electronic link to information that is required to complete the task. There is a need to create the appropriate links and, then, to have the system automatically present the information that was linked. For example, this may include a patient location in a facility, a patient's, and/or family's contact information, or a link to new laboratory results in the patient's EHR. Other example: the linkage of prescription task to the appropriate patient care plan to facilitate follow-up actions; a task to take weights links to the \"Weights and Vitals\" screen to record the result; a task to complete a fall assessment links to the fall assessment form to be completed. An example of a well-defined task is \"Dr. Jones must review Mr. Smith's blood work results.\" Efficient workflow is facilitated by navigating to the appropriate area of the record to ensure that the appropriate test result for the correct patient is reviewed.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.5.3-01",
+      "label": "AS.5.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to link a clinical task to the component of the EHR system required to complete the task (e.g., link a clinical task regarding a surgical procedure to an assessment template that will help the provider to collect laceration information regarding a patient's stab wound).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.3.1.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.5.3-02",
+      "label": "AS.5.3#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY present automatically the component of the system required to complete a clinical task (e.g., offering a provider with an assessment template that will help collect laceration information regarding a patient's stab wound)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.5.3-03",
+      "label": "AS.5.3#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link a non-clinical task to a clinical task."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.5.3-04",
+      "label": "AS.5.3#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to link a clinical task to a patient."
+    }
+  ]
+}

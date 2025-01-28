@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "AS_8_Manage_Information_Access_for_Supplemental_Use",
+  "title": "AS.8 Manage Information Access for Supplemental Use (Header)",
+  "status": "active",
+  "description": "Support extraction, transformation and linkage of information from structured data and unstructured text in the patient's health record for care management, financial, administrative, and public health purposes.",
+  "purpose": "Information in the patient's health record is used for administrative purposes (e.g., care management, finance and public health services) that are supplemental to care provision and care provision support. Using data standards and technologies that support interoperability, information access functionalities serve primary and secondary record use and reporting. This health record information may include internal and external sources of patient data."
+}

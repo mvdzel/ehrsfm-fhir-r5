@@ -1,0 +1,78 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-RI.1.1.9",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_9_Receive_Retain_Record_Lifecycle_Event",
+  "title": "RI.1.1.9 Receive/Retain Record Lifecycle Event (Function)",
+  "status": "active",
+  "description": "Receive/Retain Record Entries (1 or more instances)",
+  "purpose": "Occurs when an agent causes the system to a) initiate capture of data content from elsewhere, and b) incorporate that content into the storage considered a permanent part of the health record. \n\nReference: ISO 21089-2018, Section 15.9.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.9-01",
+      "label": "RI.1.1.9#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain Record Entry content from external systems, retaining and persisting original unaltered content and signature bindings, Action and Record Entry provenance and metadata.",
+      "derivedFrom": "EHR-LM_R1 14.6.1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.9-02",
+      "label": "RI.1.1.9#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and maintain Record Entry extracts from external systems, retaining and persisting source, identity, record content, corresponding provenance and metadata.",
+      "derivedFrom": "EHR-LM_R1 14.6.1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.9-03",
+      "label": "RI.1.1.9#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture the identity of the patient or individual subject to whom Record Entry content was received."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.9-04",
+      "label": "RI.1.1.9#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": true,
+      "requirement": "IF received with Record Entry content, THEN the system SHOULD control subsequent data access to that permitted by corresponding authorizations and patient consents."
+    }
+  ]
+}

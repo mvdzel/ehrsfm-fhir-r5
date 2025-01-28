@@ -1,0 +1,76 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.5.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_5_2_Clinical_Task_Assignment_and_Routing_for_Medication_Management___Administration",
+  "title": "AS.5.2 Clinical Task Assignment and Routing for Medication Management & Administration (Function)",
+  "status": "active",
+  "description": "Assignment, delegation, and/or transmission of tasks for Medication Orders and Prescription Management.",
+  "purpose": "There are tasks that are specific to prescription management. An example of a system-triggered task is when a medication defined as for continuous use runs out, a notification task should be initiated for evaluation of the need to renew or not. Quality care implies consideration of medication continuation or renewal in light of various patient and visit factors . This requires also that the relevant information is presented to the clinician in an effective manner. The decision by the clinician must then be captured in an efficient manner and actioned by the system through task assignment and communication. Presentation of tasks to be carried out needs to be in a manner that facilitates their execution and management and needs to correspond to user preferences. For example, the list could be ordered by priority or by pharmacy phone number for efficiency.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.5.2-01",
+      "label": "AS.5.2#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability for the user to enter set rules for being notified about medication continuation, and/or renewal for specific patients."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.5.2-02",
+      "label": "AS.5.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine and render cases for which the clinician needs to evaluate the need for renewal of a medication, given the specific rules set for the patient, and patient profile, visit history, current medication and treatments."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.5.2-03",
+      "label": "AS.5.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD present relevant information on the patient to facilitate decision on medication continuation or renewal."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.5.2-04",
+      "label": "AS.5.2#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to determine the tasks to be performed in relation to medication continuation or renewal."
+    }
+  ]
+}

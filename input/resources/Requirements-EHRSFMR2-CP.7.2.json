@@ -1,0 +1,121 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.7.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_7_2_Manage_Recommendations_for_Future_Care",
+  "title": "CP.7.2 Manage Recommendations for Future Care (Function)",
+  "status": "active",
+  "description": "Document and support the management of the disposition process for a patient by managing recommendations for future care.",
+  "purpose": "Patient encounters or treatments can end in many different states and support for these requires that the EHR support the ability to capture and maintain recommendations for the further future care of the patient. The EHR should accommodate, at a minimum, the following possible recommendations for future care (or dispositions) along with other supporting information for the recommendations:\n- discharge,\n- admission,\n- transfer,\n- death,\n- left without being seen (LWBS),\n- left without treatment (LWOT),\n- elopements (i.e. leaving without notifying the facility or wandering),\n- left against medical advice (AMA),\n- patients triaged to other clinics, and \n- administrative errors.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.7.2-01",
+      "label": "CP.7.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture recommendations for future care as discrete data elements including the recommending provider and an alert date for the recommendation to take effect."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.7.2-02",
+      "label": "CP.7.2#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to maintain recommendations and associated recommendation meta-data (e.g., date of alert)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.7.2-03",
+      "label": "CP.7.2#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render an alert of the recommendation based on the date associated with the recommendation (e.g., if recommendation is to \"book appointment for physical therapy in 2 weeks\" - alert will be triggered in 1.5 weeks for follow-up)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.7.2-04",
+      "label": "CP.7.2#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture recommendations for future care or post-encounter disposition from encounter and diagnostic studies imported in structured documents."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.7.2-05",
+      "label": "CP.7.2#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture recommended actions for future care along with the recommending provider, the date recommended and the date suggested to carry out the recommendation."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.7.2-06",
+      "label": "CP.7.2#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link the recommendation for future care with the original documentation of that recommendation."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.7.2-07",
+      "label": "CP.7.2#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link the recommendation with condition(s) on the Problem List."
+    }
+  ]
+}

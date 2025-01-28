@@ -1,0 +1,155 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.6.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_6_1_Support_for_Medication_Administration",
+  "title": "CPS.6.1 Support for Medication Administration (Function)",
+  "status": "active",
+  "description": "Alert providers to potential administration errors (such as wrong patient, wrong drug, wrong dose, wrong route and wrong time) in support of safe and accurate medication administration and support medication administration workflow.",
+  "purpose": "The system promotes the reduction of medication errors at time of administration and at the point of care by positive patient identification, by checks on drug identification including name, dose, route and designated time of administration. Access to drug monograph information may be provided to allow providers to check details about a drug and enhance patient education. Medication administration includes the administration of medication therapies such as chemotherapy. Workflow for medication administration is supported through prompts and reminders regarding the “window” for timely administration of medications.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.1-01",
+      "label": "CPS.6.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine and render notifications regarding potential administration errors such as wrong patient, wrong drug, wrong dose, wrong route and wrong time as it relates to medication administration at the point of medication administration.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.1-02",
+      "label": "CPS.6.1#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render reminders regarding the date/time range for timely administration of medications.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.2#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.1-03",
+      "label": "CPS.6.1#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY determine and render recommendations for alternative medication administration techniques based on age, developmental stage, weight, physiological status, mental status, educational level, and past physical history of the patient.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.2#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.1-04",
+      "label": "CPS.6.1#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY conform to function [[CPS.7.1]] (Access Healthcare Guidance) to enable access to external medication guidance (e.g., drug monograph or package insert information).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.2#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.1-05",
+      "label": "CPS.6.1#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render physiological parameters or task completion that must be checked and recorded prior to medication administration."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.1-06",
+      "label": "CPS.6.1#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render at the time of medication administration that an alert was triggered during medication ordering."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.1-07",
+      "label": "CPS.6.1#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine and render medication screening alerts from the electronic record of medication administration."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.1-08",
+      "label": "CPS.6.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link to reference information/knowledge resources at the time of medication administration."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.1-09",
+      "label": "CPS.6.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render relevant laboratory results (e.g., serum creatinine level for medication metabolized by the renal system) during medication ordering or administration."
+    }
+  ]
+}

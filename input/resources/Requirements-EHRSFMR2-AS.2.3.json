@@ -1,0 +1,111 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.2.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_2_3_Manage_Patient_s_Residence_for_the_Provision_and_Administration_of_Services",
+  "title": "AS.2.3 Manage Patient's Residence for the Provision and Administration of Services (Function)",
+  "status": "active",
+  "description": "Provide the patient's residence information for the provision and administration of services to the patient, patient transport, and as required for public health reporting.",
+  "purpose": "This function is intended to support the provision of services to patients at their place of residence. Examples include but are not limited to the following:\n- Visiting nurse may be providing care to a new mother and baby at their place of residence.\n- A patient with a mobility problem may require transport to and from a clinic appointment.\n- Support identification of multiple residences for a patient like a child with multiple guardians (divorced parents with joint custody) or adults with Winter/Summer residences.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.2.3-01",
+      "label": "AS.2.3#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage the patient's primary residence or place of habitation (e.g., home address or homeless shelter).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.4.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.2.3-02",
+      "label": "AS.2.3#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage the patient's secondary or alternate residence.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.4.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.2.3-03",
+      "label": "AS.2.3#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage patient information related to the provision of service (e.g., ambulance transport or home health care services).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.4.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.2.3-04",
+      "label": "AS.2.3#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage patient information related to transport, such as, mobility status and special needs. (e.g., wheelchair, walker)",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.4.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.2.3-05",
+      "label": "AS.2.3#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage facility information related to patient mobility status and special needs (e.g., stairs, elevator, wheelchair access)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.2.3-06",
+      "label": "AS.2.3#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage public health reporting related patient residence information.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.4.3#5"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.9.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_9_3_Health_Record_Output",
+  "title": "CPS.9.3 Health Record Output (Function)",
+  "status": "active",
+  "description": "Support the definition of the formal health record, a partial record for referral purposes, or sets of records for other necessary disclosure purposes.",
+  "purpose": "Provide hardcopy and electronic output that fully chronicles the healthcare process, supports selection of specific sections of the health record, and allows healthcare organizations to define the report, and/or documents that will comprise the formal health record for disclosure purposes. A mechanism should be provided for both chronological and specified record element output. This may include defined reporting groups (i.e. print sets). For example Print Set A = Patient Demographics, History & Physical, Consultation Reports, and Discharge Summaries. Print Set B = all information created by one caregiver. Print Set C = all information from a specified encounter. An auditable record of these requests and associated exports may be maintained by the system. This record could be implemented in any way that would allow the who, what, why and when of a request and export to be recoverable for review. The system has the capability of providing a report or accounting of disclosures by patient that meets in accordance with scope of practice, organizational policy, and jurisdictional law.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-01",
+      "label": "CPS.9.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render reports consisting of all and part of an individual patient's record according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-02",
+      "label": "CPS.9.3#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain the records or reports that are considered the formal health record for disclosure purposes.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.1#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-03",
+      "label": "CPS.9.3#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render reports in both chronological and specified record elements order.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.1#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-04",
+      "label": "CPS.9.3#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to maintain and render hardcopy and electronic report summary information (e.g., demographics, procedures, medications, laboratory, immunizations, allergies, vital signs).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.1#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-05",
+      "label": "CPS.9.3#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and maintain reporting groups (i.e., print sets) for specific types of disclosure or information sharing.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.1#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-06",
+      "label": "CPS.9.3#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render patient identifying information on each page of reports (i.e., hard copy and electronic) according to organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.1#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-07",
+      "label": "CPS.9.3#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to update reports to match mandated formats.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.2.1#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-08",
+      "label": "CPS.9.3#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render a report that includes metadata for disclosure purposes (e.g., point of record exchange)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-09",
+      "label": "CPS.9.3#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage-data-visibility of data elements or portions of a report to prevent a given recipient from seeing certain data according to organizational policy and/or jurisdictional law (e.g., by hiding, redacting, removing from view, and/or removing from output).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.1.5#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-10",
+      "label": "CPS.9.3#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and render [cite] the reasons for redaction."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-11",
+      "label": "CPS.9.3#11",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render [reproduce] a copy of the redacted document/record (e.g., through rules, storing a copy)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-12",
+      "label": "CPS.9.3#12",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render patient care events sorted or configured by date and time ranges and data/record type."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-13",
+      "label": "CPS.9.3#13",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to maintain a record of disclosure/release that includes the recipient and outbound content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-14",
+      "label": "CPS.9.3#14",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render wrist bands that include appropriate demographic and clinical information."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.9.3-15",
+      "label": "CPS.9.3#15",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render a record summary using the format specified by an organization to which a patient is transferred."
+    }
+  ]
+}

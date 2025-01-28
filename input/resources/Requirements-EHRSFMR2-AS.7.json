@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "AS_7_Support_Encounter_Episode_of_Care_Management",
+  "title": "AS.7 Support Encounter/Episode of Care Management (Header)",
+  "status": "active",
+  "description": "Manage and document the health care needed and delivered during an encounter/episode of care.",
+  "purpose": "Using data standards and technologies that support interoperability, encounter management promotes patient-centered/oriented care and enables real time, immediate point of service, point of care by facilitating efficient work flow and operations performance to ensure the integrity of (1) the health record, (2) public health, financial and administrative reporting, and (3) the healthcare delivery process.\n\nThis support is necessary for care provision functionality that relies on providing user interaction and workflows. These interactions and workflows are configured according to clinical protocols and business rules. These protocols and rules are based on encounter specific values such as care setting, encounter type (inpatient, outpatient, home health, etc.), provider type, patient's EHR, health status, demographics, and the initial purpose of the encounter."
+}

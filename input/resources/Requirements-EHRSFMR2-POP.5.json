@@ -1,0 +1,96 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-POP.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "POP_5_Donor_Management_Support",
+  "title": "POP.5 Donor Management Support (Function)",
+  "status": "active",
+  "description": "Manage population-based information regarding potential human-product donors, and/or recipients.",
+  "purpose": "Population-based health risks often require the identification of potential donors and recipients (e.g., during a disaster, blood is often needed). Other population-based donors and recipients may need to be identified for items such as organs, eggs, sperm, or stem cells. The user can make this information available to internal and external donor matching agencies. A consent or authorization includes patient authorization for redisclosure of sensitive information to third parties (such as donor management).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.5-01",
+      "label": "POP.5#01",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage the demographic, clinical and consent information that is needed for the population health-based human-product donation.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.5-02",
+      "label": "POP.5#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture demographic and clinical information about potential human-product donors.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.5-03",
+      "label": "POP.5#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture demographic, clinical and consent information about a human-product donation.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.5-04",
+      "label": "POP.5#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY transmit documented demographic and clinical information about potential human-product donors to other principals according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.2#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.5-05",
+      "label": "POP.5#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY transmit documented demographic, clinical and consent information about the human-product donation to other principals according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.1.2#5"
+    }
+  ]
+}

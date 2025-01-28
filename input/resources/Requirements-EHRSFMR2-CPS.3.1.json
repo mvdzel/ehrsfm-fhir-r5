@@ -1,0 +1,174 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.3.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_3_1_Support_for_Standard_Assessments",
+  "title": "CPS.3.1 Support for Standard Assessments (Function)",
+  "status": "active",
+  "description": "Support the establishment, updates and use of assessment forms that will assist in the development of and adherence to care plans, guidelines, and protocols at the point of information capture.",
+  "purpose": "As part of managing assessment definitions, the system will support the ability to create a set of assessment forms and, optionally, associated logic (e.g., workflow, business and clinical rules). This assessment definition process may include the ability to define, revise and manage the tools, files and processing for the conduct of a patient assessment. Furthermore, the assessment definition may also include template development, prompts for additional information, related notification alerts and workflow processes. When a clinician fills out an assessment, data entered triggers the system to prompt the assessor to consider issues that would help assure a complete/accurate assessment. A simple demographic value or presenting problem (or combination) could provide a template for data gathering that represents best practice in this situation, e.g., Type 2 (Adult Onset) Diabetes diabetic review, fall and 70+, and rectal bleeding. Support for standard assessment may include the ability to record and store the value for the answers to specific questions in standardized assessment tools or questionnaires. When a specific recognized-standard assessment does not exist, the system will support the creation of unique new, locally-defined assessment. The system may enable, and/or encourage the use of the format and data elements of similar assessments in the systems whenever possible. NOTE: A new assessment may not necessarily be unique, since a facility may copy an assessment from another facility.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.1-01",
+      "label": "CPS.3.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain, and render recognized-standard assessment information in the patient record.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.1#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.1-02",
+      "label": "CPS.3.1#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture supplemental assessment data from evidence-based standard assessments, practice standards, or other generally accepted, verifiable, and regularly updated standard clinical sources.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.1#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.1-03",
+      "label": "CPS.3.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD render prompts based on practice standards to recommend additional assessment functions.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.1#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.1-04",
+      "label": "CPS.3.1#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture the configuration of prompts based on practice standards to recommend additional assessment functions (e.g., by defining the text of each prompt)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.1-05",
+      "label": "CPS.3.1#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[CP.1.4]] (Manage Problem List) and provide the ability to maintain the problem list by activating new problems and deactivating old problems as identified when captured using recognized-standard, and/or locally-defined assessments.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.1#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.1-06",
+      "label": "CPS.3.1#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to maintain recognized-standard, and/or locally-defined assessment information for problems identified on the patient's problem list.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.1#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.1-07",
+      "label": "CPS.3.1#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY audit modifications to the title, version, and data field labels (i.e., questions) of the recognized-standard, and/or locally-defined assessment used in a patient encounter.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.1#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.1-08",
+      "label": "CPS.3.1#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to link the value of the assessment responses to the related data field label (i.e., link the answer to the exact wording of the question).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.1.1#10"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.1-09",
+      "label": "CPS.3.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage assessment templates for provider use in assessing patient condition according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.5#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.1-10",
+      "label": "CPS.3.1#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage recognized-standard, and/or locally-defined assessment templates according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

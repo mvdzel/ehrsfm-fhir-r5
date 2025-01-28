@@ -1,0 +1,80 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.9.4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_9_4_Support_Service_Requests_and_Claims",
+  "title": "AS.9.4 Support Service Requests and Claims (Function)",
+  "status": "active",
+  "description": "Support interactions with other systems, applications, and modules to support the creation of health care attachments for submitting additional clinical information in support of service requests and claims.",
+  "purpose": "Retrieves structured and unstructured data, including but not limited to laboratory data, imaging data, device monitoring data, and text based data, based on rules or requests for additional clinical information, in support of service requests or claims, at the appropriate juncture in the encounter workflow.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.9.4-01",
+      "label": "AS.9.4#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render available, applicable clinical information to support service requests.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.3.4#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.9.4-02",
+      "label": "AS.9.4#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render available, applicable clinical information to support claims.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.3.4#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.9.4-03",
+      "label": "AS.9.4#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render available clinical information to support service requests in computer readable formats, according to business rules or the information requested.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.3.4#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.9.4-04",
+      "label": "AS.9.4#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render available clinical information to support claims in computer readable formats, according to business rules or the information requested.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.3.4#4"
+    }
+  ]
+}

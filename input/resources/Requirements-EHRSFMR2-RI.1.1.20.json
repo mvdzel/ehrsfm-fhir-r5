@@ -1,0 +1,31 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-RI.1.1.20",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_20_Unmerge_Record_Lifecycle_Event",
+  "title": "RI.1.1.20 Unmerge Record Lifecycle Event (Function)",
+  "status": "active",
+  "description": "Unmerge Record Entries previously merged (2 or more instances)",
+  "purpose": "Occurs when an agent causes the system to reverse a previous record entry merge operation, rendering them separate again. \n\nReference: ISO 21089-2018, Section 15.20.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.20-01",
+      "label": "RI.1.1.20#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to update multiple patient Record Entries that were previously harmonized or integrated by unmerging them according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

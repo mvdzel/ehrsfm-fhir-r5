@@ -1,0 +1,184 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-RI.1.1.13",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_13_Extract_Record_Lifecycle_Event",
+  "title": "RI.1.1.13 Extract Record Lifecycle Event (Function)",
+  "status": "active",
+  "description": "Extract Record Entry content to produce subsets, derivations or aggregations (1 or more instances)",
+  "purpose": "Occurs when an agent causes the system to selectively pull out a subset of record entry content, based on explicit criteria. \n\nReference: ISO 21089-2018, Section 15.13.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.13-01",
+      "label": "RI.1.1.13#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to extract Record Entry content to produce subsets, derivations, summaries or aggregations according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.13-02",
+      "label": "RI.1.1.13#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to de-identify Record Entries during extraction in accordance with function [[RI.1.1.10]] (De-Identify Record Entries)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.13-03",
+      "label": "RI.1.1.13#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to extract Record Entry content based on queries with selection criteria, for example, key words, date/time range, full text search."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.13-04",
+      "label": "RI.1.1.13#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to extract metadata associated with Record Entry content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.13-05",
+      "label": "RI.1.1.13#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to extract, with parameterized selection criteria, across the complete data set that constitutes all Record Entries for a patient.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.2.4#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.13-06",
+      "label": "RI.1.1.13#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to extract and present a full chronicle of the healthcare process from assembled Record Entries.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.2.4#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.13-07",
+      "label": "RI.1.1.13#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to extract and present a full chronicle of healthcare delivered to a patient from assembled Record Entries."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.13-08",
+      "label": "RI.1.1.13#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to extract Record Entry content for various purposes, including administrative, financial, research, quality analysis and public health.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1#11"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.13-09",
+      "label": "RI.1.1.13#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to extract Record Entries for system migration."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.13-10",
+      "label": "RI.1.1.13#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage a set of over-riding parameters to exclude sensitive or privileged Record Entry content from extraction."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.13-11",
+      "label": "RI.1.1.13#11",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to extract unstructured Record Entry content and convert it into structured data."
+    }
+  ]
+}

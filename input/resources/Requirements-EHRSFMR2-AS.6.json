@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.6",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "AS_6_Manage_Resource_Availability",
+  "title": "AS.6 Manage Resource Availability (Header)",
+  "status": "active",
+  "description": "Manage the availability of healthcare resources to support the provision of care.",
+  "purpose": "Resources may include human resources (e.g., providers, support personnel) as well as physical resources (e.g., facilities, transportation, equipment, supplies). Managing resources includes managing the availability of necessary resources to support the provision of care including resource scheduling and managing information about the resources (e.g., availability, capabilities). The management of resources may also include supporting triage categorization, waiting rooms and patient acuity and severity determination."
+}

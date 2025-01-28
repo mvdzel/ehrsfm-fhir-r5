@@ -1,0 +1,155 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.1.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_1_3_Entity_Access_Control",
+  "title": "TI.1.3 Entity Access Control (Function)",
+  "status": "active",
+  "description": "Manage access to EHR-S resources.",
+  "purpose": "To ensure access is controlled, an EHR-S must authenticate and check authorization of entities for appropriate operations.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3-01",
+      "label": "TI.1.3#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.1.1]] (Entity Authentication).",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3-02",
+      "label": "TI.1.3#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.1.2]] (Entity Authorization).",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3-03",
+      "label": "TI.1.3#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage system and data access rules for all EHR-S resources according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3-04",
+      "label": "TI.1.3#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL manage the enforcement of authorizations to access EHR-S resources.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3-05",
+      "label": "TI.1.3#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL control access to EHR-S resources after a configurable period of inactivity by terminating the session, or by initiating a session lock that remains in effect until the entity re-establishes access using appropriate identification and authentication procedures, according to organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3-06",
+      "label": "TI.1.3#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to control-access to data, and/or functionality according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3-07",
+      "label": "TI.1.3#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL control-access to data, and/or functionality by using authentication mechanisms that comply with regulatory and policy guidelines (e.g.,by using a combination of Username and Password, Digital Certificates, Secure Tokens, and/or Biometrics)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3-08",
+      "label": "TI.1.3#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine the identity of public health agencies for healthcare purposes through the use of internal, and/or external registry services or directories."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.3-09",
+      "label": "TI.1.3#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine the identity of healthcare resources (e.g., Meal Delivery services for home-based patients) and devices (e.g., wheelchairs) for resource management purposes through the use of internal, and/or external registry services or directories."
+    }
+  ]
+}

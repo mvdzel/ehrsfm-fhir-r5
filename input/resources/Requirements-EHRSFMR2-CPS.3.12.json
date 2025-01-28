@@ -1,0 +1,151 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.3.12",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_3_12_Manage_Health_Information_Record_Quality",
+  "title": "CPS.3.12 Manage Health Information Record Quality (Function)",
+  "status": "active",
+  "description": "Support grammatical and lexical integrity of the health record by providing medical spelling, thesaurus and grammar ready assistance during clinical documentation as well as enabling shortcuts for pre-defined text.",
+  "purpose": "Users and patients will benefit from features that enable rapid checking of spelling and grammar, a medical thesaurus function as well as text shortcuts to expand pre-defined text during clinical documentation. A shortcut may also be defined to trigger a specific system function such as the opening of a pre-defined template. These functions may be defined at an enterprise level based on scope of practice, organizational policy, and/or jurisdictional law. However, pre-defined text may also be configured by provider or provider type.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.12-01",
+      "label": "CPS.3.12#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and present the correct medical spelling based on an integrated realm-based medical spelling function."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.12-02",
+      "label": "CPS.3.12#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and present the correct medical thesaurus based on an integrated realm-based medical thesaurus function."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.12-03",
+      "label": "CPS.3.12#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and present the correct medical grammar based on an integrated realm-based medical grammar function."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.12-04",
+      "label": "CPS.3.12#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and present the appropriate pre-defined text when an associated shortcut is entered during clinical documentation."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.12-05",
+      "label": "CPS.3.12#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and present personally pre-defined text when triggered by the associated macro based on an integrated personally pre-defined-text function."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.12-06",
+      "label": "CPS.3.12#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage shortcut for the insertion of templates (e.g., insert new patient assessment template when Ctrl-A is entered)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.12-07",
+      "label": "CPS.3.12#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and present the appropriate template when the associated shortcut is entered."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.12-08",
+      "label": "CPS.3.12#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage an integrated enterprise pre-defined text function and associated macros."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.12-09",
+      "label": "CPS.3.12#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage an integrated personally pre-defined text function and associated macros."
+    }
+  ]
+}

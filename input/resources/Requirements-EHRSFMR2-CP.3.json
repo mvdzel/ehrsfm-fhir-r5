@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "CP_3_Manage_Clinical_Documentation",
+  "title": "CP.3 Manage Clinical Documentation (Header)",
+  "status": "active",
+  "description": "Clinical Documentation must be managed including the capture of the documentation during an encounter, maintenance and appropriate rendering.",
+  "purpose": "Clinical documentation includes all documentation that the clinician may capture during the course of an encounter with the patient or relevant to the patient. This includes assessments, clinical measurements, clinical documents and notes, patient-specific care and treatment plans. Management of clinical documentation also includes the acknowledgement and amendments of documentation provided by other providers."
+}

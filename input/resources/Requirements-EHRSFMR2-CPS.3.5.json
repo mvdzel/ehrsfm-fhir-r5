@@ -1,0 +1,171 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.3.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_3_5_Support_for_Research_Protocols_Relative_to_Individual_Patient_Care",
+  "title": "CPS.3.5 Support for Research Protocols Relative to Individual Patient Care (Function)",
+  "status": "active",
+  "description": "Provide support for the management of patients enrolled in research protocols.",
+  "purpose": "The clinician is presented with appropriate protocols for patients participating in research studies, and is supported in the management and tracking of study participants.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.5-01",
+      "label": "CPS.3.5#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to present protocols for patients enrolled in research studies.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.5-02",
+      "label": "CPS.3.5#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain and render research study protocols.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.5-03",
+      "label": "CPS.3.5#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[AS.9.1]] (Support Financial Plan Enrollment), to enable participation in research studies.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.5-04",
+      "label": "CPS.3.5#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze and maintain patients participating in research studies.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.5-05",
+      "label": "CPS.3.5#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and maintain appropriate details of patient condition and response to treatment as required for patients enrolled in research studies.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.2.3#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.5-06",
+      "label": "CPS.3.5#06",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CP.3.3]] (Manage Clinical Documents and Notes) to capture patient condition and response to treatment."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.5-07",
+      "label": "CPS.3.5#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture, maintain and render research subject disposition information including date/time and trial phase/cycle of study completion/discontinuation as discrete elements."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.5-08",
+      "label": "CPS.3.5#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine patients eligible for known active clinical research protocols as defined by inclusion and exclusion criteria."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.5-09",
+      "label": "CPS.3.5#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD present information notifying staff of patient's eligibility for known active clinical research protocols as defined by inclusion and exclusion criteria."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.5-10",
+      "label": "CPS.3.5#10",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD capture research protocol deviation information, including any verbatim text of protocol deviation."
+    }
+  ]
+}

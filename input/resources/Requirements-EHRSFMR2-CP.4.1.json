@@ -1,0 +1,186 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.4.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_4_1_Use_Order_Sets",
+  "title": "CP.4.1 Use Order Sets (Function)",
+  "status": "active",
+  "description": "Use Order Set templates to facilitate order entry by rendering the appropriate orders based on provider request, input or system configuration.",
+  "purpose": "Predefined order set templates may include medication and non-medication orders (e.g., diet, activities, nursing care, prescriptions and requests for investigations). They allow a care provider to choose common orders for a particular circumstance or disease state according to standards or other criteria such as provider preference. Recommended order set templates may be presented based on patient data or other contexts. Order Set templates may also allow the provider to modify (add/remove/change) orders during order entry for a particular patient.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.1-01",
+      "label": "CP.4.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture a set of actions, and/or items to be ordered for a patient using a predefined order set template."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.1-02",
+      "label": "CP.4.1#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to maintain a patient's orders as an order set."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.1-03",
+      "label": "CP.4.1#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render a patient's orders as an order set.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.1-04",
+      "label": "CP.4.1#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to integrate patient information and order set templates to determine appropriate orders based on patient characteristics (e.g., abdominal pain for female patient of childbearing age would present pregnancy testing order set template).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.1-05",
+      "label": "CP.4.1#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[CPS.4.1]] (Manage Order Set Templates).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.1-06",
+      "label": "CP.4.1#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine and render the appropriate order set template based on disease, care setting, conditions, symptoms or medications.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.3#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.1-07",
+      "label": "CP.4.1#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and integrate in an order set, various types of orders for a patient (e.g., medications, laboratory tests, imaging studies, procedures and referrals).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.1-08",
+      "label": "CP.4.1#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to delete individual orders from an instance of an order set for an individual patient according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.1-09",
+      "label": "CP.4.1#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to tag as deleted an individual order(s) from an instance of an order set for an individual patient according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.1-10",
+      "label": "CP.4.1#10",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to integrate multiple order set templates, customizing and storing it as a new order set template according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.4.1-11",
+      "label": "CP.4.1#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link order set(s) with condition(s) on the patient's problem list."
+    }
+  ]
+}

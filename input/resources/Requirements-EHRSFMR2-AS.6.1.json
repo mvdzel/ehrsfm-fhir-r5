@@ -1,0 +1,46 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.6.1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_6_1_Manage_Facility_Demographics",
+  "title": "AS.6.1 Manage Facility Demographics (Function)",
+  "status": "active",
+  "description": "Maintain facility demographic information.",
+  "purpose": "Demographic information is necessary to uniquely define a healthcare facility (e.g., hospital, freestanding birthing center, clinic, doctor's office, hospice, or nursing home/long-term care facility, transportation/ambulance provider). Example of demographic information may include the facility name, physical location and unique facility identifier (e.g., U.S. National Provider Identifier).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-AS.6.1-01",
+      "label": "AS.6.1#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage the facility's demographic information (e.g., the facility name, facility address, facility type, and the registration number of the facility in accordance with jurisdictional law)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.6.1-02",
+      "label": "AS.6.1#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY capture transfer facility demographic information for a transfer patient."
+    }
+  ]
+}

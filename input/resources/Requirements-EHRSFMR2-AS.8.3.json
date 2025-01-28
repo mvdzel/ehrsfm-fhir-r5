@@ -1,0 +1,111 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.8.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_8_3_Support_Integration_of_Cost_Financial_information_into_Patient_Care",
+  "title": "AS.8.3 Support Integration of Cost/Financial information into Patient Care (Function)",
+  "status": "active",
+  "description": "Support interactions with other systems, applications, and modules to enable the use of cost management information required to guide users and workflows.",
+  "purpose": "The provider is alerted or presented with the most cost-effective services, referrals, devices, etc., to recommend to the patient. This may be tailored to the patient's health insurance/plan coverage rules. Medications may be presented in order of cost, or the cost of specific interventions may be presented at the time of ordering.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.3-01",
+      "label": "AS.8.3#01",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to extract formularies, preferred providers, and other information, from internal or external sources, that are associated with a patient's health care plan and coverage so that the provider can offer cost effective alternatives to patients.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.2.3#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.3-02",
+      "label": "AS.8.3#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to extract information about exemptions on coverage limitations and guidelines.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.2.3#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.3-03",
+      "label": "AS.8.3#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture or transmit the request for information about exemptions on coverage limitations and guidelines."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.3-04",
+      "label": "AS.8.3#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render expected patient out-of- pocket cost information for medications, diagnostic testing, and procedures, from internal or external sources, that are associated with a patients health care plan and coverage.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.2.3#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.3-05",
+      "label": "AS.8.3#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render a notification of an alert to the provider of care where formularies, preferred provider and other information indicate the health plan requires an alternative.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.2.3#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.8.3-06",
+      "label": "AS.8.3#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD conform to function [[AS.9.3]] (Support Service Authorizations) to integrate support of prior authorization processes.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.2.3#5"
+    }
+  ]
+}

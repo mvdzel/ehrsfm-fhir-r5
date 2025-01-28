@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.6",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+    ]
+  },
+  "name": "CP_6_Manage_Medication__Immunization_and_Treatment_Administration",
+  "title": "CP.6 Manage Medication, Immunization and Treatment Administration (Header)",
+  "status": "active",
+  "description": "Provide the functionality required to support the management of medication and immunization administration.",
+  "purpose": "Provide the functionality required to support the safe administration of medications or immunizations to a patient based on medical requirement and orders within the system. This includes presenting providers with the list of medications or immunizations that are to be administered to a patient, necessary administration information, and capture all required and relevant administration details."
+}

@@ -1,0 +1,48 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.1.7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_1_7_Secure_Data_Routing",
+  "title": "TI.1.7 Secure Data Routing (Function)",
+  "status": "active",
+  "description": "Route electronically exchanged EHR data only to/from known and authenticated destinations/sources (according to applicable healthcare-specific rules and relevant standards).",
+  "purpose": "An EHR-S needs to ensure that it is exchanging EHR information with the entities (applications, institutions, directories) it expects. This function depends on entity authorization and authentication to be available in the system. For example, a physician practice management application in an EHR-S might send claim attachment information to an external entity. To accomplish this, the application must use a secure routing method, which ensures that both the sender and receiving sides are authorized to engage in the information exchange. Known sources and destinations can be established in a static setup or they can be dynamically determined. Examples of a static setup are recordings of IP (Internet Protocol) addresses or recordings of DNS (Domain Name System) names. For dynamic determination of known sources and destinations, systems can use authentication mechanisms as described in TI.1. For example, the sending of a laboratory order from the EHR-S to a laboratory system within the same organization usually uses a simple static setup for routing. In contrast, sending a laboratory order to a reference laboratory outside of the organization will involve some kind of authentication process. Provision of a secure network infrastructure is beyond the scope of an EHR-S.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.7-01",
+      "label": "TI.1.7#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.1.1]] (Entity Authentication) to exchange EHR data only to and from known, authenticated sources and destinations.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.7#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.7-02",
+      "label": "TI.1.7#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL conform to function [[TI.2]] (Audit) to capture audit information about changes to the status of sources and destinations.",
+      "derivedFrom": "EHR-S_FM_R1.1 IN.1.7#3"
+    }
+  ]
+}

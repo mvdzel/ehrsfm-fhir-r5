@@ -1,0 +1,14 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.4.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_4_5_Support_Orders_for_Blood_Products_and_Other_Biologics",
+  "title": "CPS.4.5 Support Orders for Blood Products and Other Biologics (Function)",
+  "status": "active",
+  "description": "This function has not been defined and is captured here as a place-holder for potential further development of the Functional Model and to maintain alignment with the corresponding CP section.",
+  "purpose": "None Defined at this time."
+}

@@ -1,0 +1,91 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-RI.1.3.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_3_2_Manage_Record_Entry_Amended__Corrected_and_Augmented_State",
+  "title": "RI.1.3.2 Manage Record Entry Amended, Corrected and Augmented State (Function)",
+  "status": "active",
+  "description": "Manage Record Entries amended, corrected or augmented after finalization (or signature/attestation).",
+  "purpose": "Clinicians need the ability to correct, amend or augment Record Entries once they have been completed. When an amendment, correction or augmentation has been made, principles for documentation practices require that the original documentation must be accessible, readable, and unobliterated. A user must have a clear indication that modifications have been made to an Record Entry. There is optionality in how a system may identify a Record Entry that has been corrected or amended – a flag or indicator could be displayed, the text could be in a different font, etc. The original Record Entry is not required to be displayed, but can be linked or traced back. The original Record Entry and each successive amendment, correction or augmentation should be retained for the legally prescribed timeframe as defined by scope of practice, organizational policy, and/or jurisdictional law.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.3.2-01",
+      "label": "RI.1.3.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to update a Record Entry for purposes of amendment, correction or augmentation, conforming to function [[RI.1.1.2]] (Amend Record Entry Content)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.3.2-02",
+      "label": "RI.1.3.2#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to tag a Record Entry as an amendment, a correction of erroneous information and the reason, or an augmentation to supplement content."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.3.2-03",
+      "label": "RI.1.3.2#03",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL capture, maintain and render the corresponding date, time, and user specifying when and by whom a Record Entry was amended, corrected, or augmented, conforming to function [[RI.1.1.2.1]] (Evidence of Record Entry Amendment Event)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.3.2-04",
+      "label": "RI.1.3.2#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL present the current version and provide a link or clear direction for accessing previous version(s) of the Record Entry."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.3.2-05",
+      "label": "RI.1.3.2#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL manage all versions of the Record Entry for the legal retention period, conforming to function [[RI.1.2.1]] (Manage Record Entries)."
+    }
+  ]
+}

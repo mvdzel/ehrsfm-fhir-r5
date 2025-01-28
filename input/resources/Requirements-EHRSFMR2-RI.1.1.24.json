@@ -1,0 +1,31 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-RI.1.1.24",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_24_Remove_Legal_Hold_Record_Lifecycle_Event",
+  "title": "RI.1.1.24 Remove Legal Hold Record Lifecycle Event (Function)",
+  "status": "active",
+  "description": "Remove Legal Hold from Record Entries  (1 or more instances)",
+  "purpose": "Occurs when an agent causes the system to remove a tag or other cues for special access management had required to fulfill organizational policy under the legal doctrine of “duty to preserve”. \n\nReference: ISO 21089-2018, Section 15.24.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.24-01",
+      "label": "RI.1.1.24#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to update the legal hold status of patient Record Entries by releasing the patient Record Entries from legal hold according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

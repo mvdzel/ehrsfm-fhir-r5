@@ -1,0 +1,12 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FunctionalModel"
+    ]
+  },
+  "name": "EHRS_FM_R2_1_April_2022",
+  "title": "EHRS_FM_R2_1_April_2022",
+  "status": "active"
+}

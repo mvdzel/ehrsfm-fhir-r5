@@ -1,0 +1,31 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.3.7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_3_7_Capture_Guidelines_and_Standards_from_External_Sources",
+  "title": "CPS.3.7 Capture Guidelines and Standards from External Sources (Function)",
+  "status": "active",
+  "description": "Capture practice guidance from a variety of “trusted” external sources.",
+  "purpose": "Capture and import information provided by external health care organizations as relates to clinical practice guidelines (CPGs). External healthcare organizations in this function include, but are not limited to Patient management systems, Healthcare delivery organizations, Population health/surveillance organizations (e.g., local, regional, national and global Public Health services, PAHO, WHO), and professional, governmental, or industrial healthcare optimization initiatives.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.3.7-01",
+      "label": "CPS.3.7#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD import recognized-standard, and/or locally-defined standard -based guidance, such as clinical practice guidelines."
+    }
+  ]
+}

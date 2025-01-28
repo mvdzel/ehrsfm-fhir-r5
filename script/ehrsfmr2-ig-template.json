@@ -1,0 +1,194 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.uv.ehrsfmr2",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "informative"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "ehr"
+    }
+  ],
+  "url": "$CANONICAL$/ImplementationGuide/hl7.fhir.uv.ehrsfmr2",
+  "version": "2.1.1",
+  "name": "EHRSFMR2",
+  "title": "ISO/HL7 10781 - Electronic Health Record System Functional Model, Release 2.1.1",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "HL7 International / Electronic Health Records",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/ehr"
+        }
+      ]
+    }
+  ],
+  "description": "This is the base EHR-System Functional Model used in Functional Profiles.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "packageId": "hl7.fhir.uv.ehrsfmr2",
+  "fhirVersion": [
+    "5.0.0"
+  ],
+  "definition": {
+    "grouping": $GROUPINGS$,
+    "resource": $RESOURCES$,
+    "page": {
+      "name": "index.html",
+      "generation": "markdown",
+      "title": "Home Page",
+      "page": [
+        {
+          "name": "relationships.html",
+          "generation": "markdown",
+          "title": "Relationships Diagram"
+        },
+        {
+          "name": "overview.html",
+          "generation": "markdown",
+          "title": "Overview",
+          "page": [
+            {
+              "name": "chapter0.html",
+              "generation": "markdown",
+              "title": "Introduction"
+            },
+            {
+              "name": "chapter1.html",
+              "generation": "markdown",
+              "title": "Scope"
+            },
+            {
+              "name": "chapter2.html",
+              "generation": "markdown",
+              "title": "Normative References"
+            },
+            {
+              "name": "chapter3.html",
+              "generation": "markdown",
+              "title": "Terms and Definitions"
+            },
+            {
+              "name": "chapter4.html",
+              "generation": "markdown",
+              "title": "Overview and Definition of the Functional Model (Normative)"
+            },
+            {
+              "name": "chapter5.html",
+              "generation": "markdown",
+              "title": "Anticipated Uses (Informative)"
+            },
+            {
+              "name": "chapter6.html",
+              "generation": "markdown",
+              "title": "Conformance Clause"
+            },
+            {
+              "name": "chapter7.html",
+              "generation": "markdown",
+              "title": "EHR System Conformance Claim via Self-Attestion"
+            },
+            {
+              "name": "chapter8.html",
+              "generation": "markdown",
+              "title": "Glossary"
+            },
+            {
+              "name": "chapter9.html",
+              "generation": "markdown",
+              "title": "Glossary Supplement: Record Lifecycle Events and Descriptions (Normative)"
+            }
+          ]
+        },
+        {
+          "name": "annex.html",
+          "generation": "markdown",
+          "title": "Annex",
+          "page": [
+            {
+              "name": "annexa.html",
+              "generation": "markdown",
+              "title": "Function List (Normative)"
+            },
+            {
+              "name": "annexb.html",
+              "generation": "markdown",
+              "title": "Glossary of Terms for the EHR-S FM (Informative)"
+            },
+            {
+              "name": "annexc.html",
+              "generation": "markdown",
+              "title": "Background (Informative)"
+            },
+            {
+              "name": "annexd.html",
+              "generation": "markdown",
+              "title": "Bibliography"
+            }
+          ]
+        },
+        {
+          "name": "validation.html",
+          "generation": "markdown",
+          "title": "Validation Rules"
+        },
+        {
+          "name": "downloads.html",
+          "generation": "markdown",
+          "title": "Useful Downloads"
+        },
+        {
+          "name": "changes.html",
+          "generation": "markdown",
+          "title": "IG Change History"
+        },
+        {
+          "name": "searchform.html",
+          "generation": "markdown",
+          "title": "Search Form"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "releaselabel"
+        },
+        "value": "local"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "copyrightyear"
+        },
+        "value": "2025"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "shownav"
+        },
+        "value": "true"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.2.4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_2_4_Render_externally_sourced_Clinical_Images",
+  "title": "CP.2.4 Render externally-sourced Clinical Images (Function)",
+  "status": "active",
+  "description": "Render clinical images that has been captured from multiple external sources.",
+  "purpose": "Clinical Images relevant to the patient record can be captured from many external sources and should be rendered appropriately alongside other information in the patient record.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.2.4-01",
+      "label": "CP.2.4#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": true,
+      "requirement": "IF the system conforms to function [[CPS.2.4]] (Support externally-sourced Clinical Images), THEN the system SHALL provide the ability to render externally-sourced clinical images."
+    }
+  ]
+}

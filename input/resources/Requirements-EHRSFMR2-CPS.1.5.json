@@ -1,0 +1,153 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.1.5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_1_5_Manage_Patient_Encounter",
+  "title": "CPS.1.5 Manage Patient Encounter (Function)",
+  "status": "active",
+  "description": "Manage patient encounter information, including tele-health encounters, and support follow-up encounters.",
+  "purpose": "Each encounter of the patient with the healthcare setting needs to be recorded and the information relevant to the distinct encounter managed. This information includes date and time of the encounter, providers involved, location(s), and the reason for the encounter etc. Additionally, follow-up encounters may require prior administrative and clinical information to be determined or captured, maintained and rendered.\n\nTele-health encounters have unique requirements that may also be supported by the system.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.1.5-01",
+      "label": "CPS.1.5#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage information regarding a patient encounter, including a minimum of the following data: the date/time, providers, location, and reason for the encounter."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.1.5-02",
+      "label": "CPS.1.5#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine and render a notification that the patient requires a follow-up encounter."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.1.5-03",
+      "label": "CPS.1.5#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine or capture administrative information that is required for a follow-up encounter (e.g., co-payments, service location, prior authorization for a chest x-ray)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.1.5-04",
+      "label": "CPS.1.5#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to maintain and render administrative information relevant to an encounter."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.1.5-05",
+      "label": "CPS.1.5#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to determine or capture clinical information that is required for a follow-up encounter (e.g., fasting requirements, pre-medications)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.1.5-06",
+      "label": "CPS.1.5#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to manage a patient tele-health encounter including a minimum of the following data: date/time, providers, location and reason for the encounter."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.1.5-07",
+      "label": "CPS.1.5#07",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture one or more complaints, presenting problems, or other reasons for the visit or encounter (e.g., chest pain, gunshot wound, and drug overdose during a single encounter).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.2#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.1.5-08",
+      "label": "CPS.1.5#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture the primary reason (e.g., the Chief Complaint or the most important reason) for visit/encounter from the patient's perspective.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.2#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.1.5-09",
+      "label": "CPS.1.5#09",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render an indication that the patient was referred for the visit or encounter."
+    }
+  ]
+}

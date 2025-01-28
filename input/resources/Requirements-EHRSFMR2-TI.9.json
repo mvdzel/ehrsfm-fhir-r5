@@ -1,0 +1,61 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.9",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_9_System_Management_Operations_and_Performance",
+  "title": "TI.9 System Management Operations and Performance (Function)",
+  "status": "active",
+  "description": "Manage the change of status of an external facility and the ability to access, render and determine information related to Service Level Agreement.",
+  "purpose": "A health care delivery relies on services provided by other external facilities such as laboratories or Long Term Care facilities. The status of those facilities is subject to change for example: power outage, flooding or overcapacity. Therefore, the EHR system needs to capture the status of the external facilities, notify appropriate individuals / organizations or even change the workflow based on established business rules. Change of the status of an external facility is patient safety concern because a provider may need to adjust patient care or care workflows accordingly. For example, changes of status of external facility include: laboratory no longer accredited, laboratory power outage, Long Term Care facility at overcapacity. If laboratory loses accreditation an administrator needs to be notified to adjust the workflow. If status change is anticipated on regular basis, the system may automatically trigger workflow adjustment according to established business rules that take into consideration the status of the external facility. The example for later, the local Long Term Care facility may routinely exceed the capacity on the weekends; therefore, the business rule will accommodate for automatic workflow adjustments. A provider may need to be aware of certain Service Level Agreement information in order to mitigate patient safety-related risks that depend on system availability or system performance.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-TI.9-01",
+      "label": "TI.9#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage the change of status of an external facility."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.9-02",
+      "label": "TI.9#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage Service Level Agreement information according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.9-03",
+      "label": "TI.9#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render system availability statistics and system performance statistics as specified in the Service Level Agreement according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.6.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_6_2_Support_for_Immunization_Administration",
+  "title": "CPS.6.2 Support for Immunization Administration (Function)",
+  "status": "active",
+  "description": "Alert providers to potential administration errors (such as wrong patient, wrong drug, wrong dose, wrong route and wrong schedule) in support of safe and accurate immunization administration and support immunization administration workflow.",
+  "purpose": "The system assists in reduction of medication errors at time of administration by positive patient identification and by checks on immunization identification. Workflow for immunization administration is supported through prompts and reminders regarding the “window” for timely administration of immunizations.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-01",
+      "label": "CPS.6.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine and render notifications regarding potential administration errors such as wrong patient, wrong drug, wrong dose, wrong route and wrong time as it relates to immunization administration at the point of immunization administration.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-02",
+      "label": "CPS.6.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render reminders regarding the date/time range for timely administration of immunizations.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.2#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-03",
+      "label": "CPS.6.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture the date/time range for due/overdue immunization reminders according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-04",
+      "label": "CPS.6.2#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY determine and render recommendations for alternative immunization administration techniques based on age, developmental stage, weight, physiological status, mental status, educational level and past physical history of the patient.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.2#8"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-05",
+      "label": "CPS.6.2#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY conform to function [[CPS.7.1]] (Access Healthcare Guidance) to enable access to external immunization guidance (e.g., in the US, the Center for Disease Control immunization recommendations).",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.2.3.2#9"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-06",
+      "label": "CPS.6.2#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render physiological parameters or task completion that must be checked and recorded prior to immunization administration."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-07",
+      "label": "CPS.6.2#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to render at the time of immunization administration that an alert was triggered during immunization ordering."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-08",
+      "label": "CPS.6.2#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to determine and render immunization screening alerts from the electronic record of immunization administration."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-09",
+      "label": "CPS.6.2#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to link to reference information/knowledge resources at the time of immunization administration."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-10",
+      "label": "CPS.6.2#10",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL determine and render potential adverse or allergic reactions (based on the patient's allergen history and adverse reaction history) for all immunizations when rendering immunization administration information."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-11",
+      "label": "CPS.6.2#11",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and present recommendations for required immunizations based on patient risk factors."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.6.2-12",
+      "label": "CPS.6.2#12",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to analyze immunization histories from multiple sources for reconciliation (e.g., align history imported from Immunization Information System and local history)."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.1.8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_1_8_Support_for_Provider_Credentialing",
+  "title": "AS.1.8 Support for Provider Credentialing (Function)",
+  "status": "active",
+  "description": "Manage Provider Credentialing Information",
+  "purpose": "Maintaining credentials, certifications, and other information is relevant for records management and evidentiary support because it establishes users and clinical personnel who are involved in patient care/encounter and supports the access control process.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.8-01",
+      "label": "AS.1.8#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and render information on clinician credentialing and privileging requirements, as defined by the applicable professional and governing organizations, according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.8-02",
+      "label": "AS.1.8#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture and render the credentialing and privileging status for all members of the care team, including those participating remotely (e.g., via tele-health activities such as tele-consultation, home health monitoring) as defined by the applicable professional and governing organizations, according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

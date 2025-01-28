@@ -1,0 +1,32 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-RI.1.1.12",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "RI_1_1_12_Re_identify_Record_Lifecycle_Event",
+  "title": "RI.1.1.12 Re-identify Record Lifecycle Event (Function)",
+  "status": "active",
+  "description": "Re-Identify Record Entries that were previously de-identified or pseudonymized (1 or more instances)",
+  "purpose": "Occurs when an agent causes the system to restore information to data that allows identification of information source and/or information subject. \n\nReference: ISO 21089-2018, Section 15.12.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-RI.1.1.12-01",
+      "label": "RI.1.1.12#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to re-identify (or associate original identity with) Record Entry content according to scope of practice, organizational policy, and/or jurisdictional law.",
+      "derivedFrom": "EHR-LM_R1 14.7.2"
+    }
+  ]
+}

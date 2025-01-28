@@ -1,0 +1,31 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-TI.1.8.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "TI_1_8_2_Protect_Individual_Patient_Identity",
+  "title": "TI.1.8.2 Protect Individual Patient Identity (Function)",
+  "status": "active",
+  "description": "Flag patient identity as confidential to others.",
+  "purpose": "Create a flag to indicate to all providers caring for the patient, as well as administrative staff who may receive phone calls from family members or others, the need to protect the identity of patients at risk of harm, or requesting similar anonymity. Despite best efforts of confidentiality, display should identify patients at particular risk of harm during stay (e.g., domestic violence).",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-TI.1.8.2-01",
+      "label": "TI.1.8.2#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to maintain the designation of patients who require protection of their identity from others, including family, visitors, and non participating healthcare providers according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CP.1.7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CP_1_7_Manage_Medical_Equipment__Prosthetic_Orthotic__Device_List",
+  "title": "CP.1.7 Manage Medical Equipment, Prosthetic/Orthotic, Device List (Function)",
+  "status": "active",
+  "description": "Create and maintain a patient-specific list of medical equipment, medical prosthetic, orthotic, and/or implantable devices.",
+  "purpose": "Details of medical equipment, orthotic/prosthetic, and/or devices are captured as discrete data elements including information such as device type, date issued, date implanted or manufactured, device model number, device serial/lot number, manufacturer, supplier, involved extremity, anatomical location, date of battery change, and other data elements which many be required to correctly identify and track the equipment/device. The list may link to external sources, such as the US Food and Drug Administration (FDA), so that the provider may be alerted if the medical device is recalled. The entire equipment, prosthetic, orthotic, and/or implantable device list is able to be rendered.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.7-01",
+      "label": "CP.1.7#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to manage, as discrete data, a patient-specific list of specialized medical equipment, prosthetic, orthotic, and/or implantable devices."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.7-02",
+      "label": "CP.1.7#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain and render, as discrete data, the description of each instance of use of specialized medical equipment, prosthetic, orthotic, and/or implantable device."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.7-03",
+      "label": "CP.1.7#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain and render the reason for each instance of use of specialized medical equipment, prosthetic, orthotic, and/or implantable device."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.7-04",
+      "label": "CP.1.7#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture, maintain and render the specific type of specialized medical equipment, prosthetic, orthotic, and/or implantable device."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.7-05",
+      "label": "CP.1.7#05",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture an indication of No Known specialized medical equipment, prosthetic, orthotic, and/or implantable device for the patient."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.7-06",
+      "label": "CP.1.7#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture, maintain and render, as discrete data, information necessary to identify and track the equipment/device including, at a minimum: type, manufacturer, manufacture date, date implanted (or placed into service), date removed/discontinued, model/serial number, anatomical location and any unique device identifier (e.g., UDI in US)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.7-07",
+      "label": "CP.1.7#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to tag as deactivated and capture reason for deactivation, an entry in the list when the specialized medical equipment, prosthetic, orthotic, or implantable device is no longer in use by the patient."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.7-08",
+      "label": "CP.1.7#08",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to update an entry in the list to re-activate a previously deactivated specialized medical equipment, medical prosthetic, orthotic, or implantable device."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.7-09",
+      "label": "CP.1.7#09",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to render a list of deactivated specialized medical equipment, prosthetic, orthotic, or implantable devices including the reason for deactivation."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.7-10",
+      "label": "CP.1.7#10",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture the date of the next scheduled equipment or device maintenance."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CP.1.7-11",
+      "label": "CP.1.7#11",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture equipment or device maintenance instructions."
+    }
+  ]
+}

@@ -1,7 +1,10 @@
 const fs = require('fs'),
     xml2js = require('xml2js');
-var xml = new xml2js.Parser();
-var BASE = "http://hl7.org/ehrs";
+const xml = new xml2js.Parser();
+//
+// If you change the CANONICAL remember to manually change the CANONICAL in the input/profiles files!
+//
+const CANONICAL = "http://hl7.org/fhir/uv/ehrsfmr2";
 
 var maxroot;
 xml.parseString(fs.readFileSync('ehrs_fm_r2_1-2022APR.max'), function (err, data) {
@@ -20,7 +23,7 @@ rawSatisfiedBy.split('\n').forEach(row => {
     satisfiedBy[id] = uri;
 });
 
-var fmid = "EHRSFMR2.1";
+const FMID_PREFIX = "EHRSFMR2";
 var groupings = [ ];
 var resources = [ ];
 var reqs = { };
@@ -72,8 +75,16 @@ var grouping = {
     "description" : ""
 }
 groupings.push(grouping);
-console.log('"grouping":' + JSON.stringify(groupings, null, 2));
-console.log('"resource":' + JSON.stringify(resources, null, 2));
+
+// create ehrsfm-ig.json from template
+var template_filename = "ehrsfmr2-ig-template.json";
+var ig_json = fs.readFileSync(template_filename, 'utf8');
+ig_json = ig_json.replace("$GROUPINGS$", JSON.stringify(groupings, null, 2));
+ig_json = ig_json.replace("$RESOURCES$", JSON.stringify(resources, null, 2));
+ig_json = ig_json.replace("$CANONICAL$", CANONICAL);
+
+var filename = "../input/ehrsfmr2-ig.json";
+fs.writeFileSync(filename, ig_json);
 
 function handleFM(fm) {
     var title = fm.name[0];
@@ -82,10 +93,10 @@ function handleFM(fm) {
 
     var fhir_req = {
         "resourceType": "Requirements",
-        "id": fmid,
+        "id": FMID_PREFIX,
         "meta": {
             "profile": [
-                `${BASE}/StructureDefinition/FunctionalModel`
+                `${CANONICAL}/StructureDefinition/FunctionalModel`
             ]
         },
         // "url": `${BASE}/Requirements/` + fmid,
@@ -95,7 +106,7 @@ function handleFM(fm) {
     };
 
     var resource = {
-        "reference": { "reference": `Requirements/${fmid}` },
+        "reference": { "reference": `Requirements/${FMID_PREFIX}` },
         "isExample": false,
         "groupingId": "OTH"
     }
@@ -120,15 +131,15 @@ function handleSection(section, parentObject) {
 
     var fhir_section = {
         "resourceType": "Requirements",
-        "id": `${fmid}-${alias}`,
+        "id": `${FMID_PREFIX}-${alias}`,
         "meta": {
             "profile": [
-                `${BASE}/StructureDefinition/FMSection`
+                `${CANONICAL}/StructureDefinition/FMSection`
             ]
         },
         "extension": [
             {
-                "url": `${BASE}/StructureDefinition/requirements-actors`,
+                "url": `${CANONICAL}/StructureDefinition/requirements-actors`,
                 "valueString": actors
             }
         ],
@@ -150,7 +161,7 @@ function handleSection(section, parentObject) {
     groupings.push(grouping);
 
     var resource = {
-        "reference": { "reference": `Requirements/${fmid}-${alias}` },
+        "reference": { "reference": `Requirements/${FMID_PREFIX}-${alias}` },
         "isExample": false,
         "groupingId": "OTH"
     }
@@ -184,10 +195,10 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
 
     var fhir_headerorfunction = {
         "resourceType": "Requirements",
-        "id": `${fmid}-${alias}`,
+        "id": `${FMID_PREFIX}-${alias}`,
         "meta": {
             "profile": [
-                `${BASE}/StructureDefinition/FM${type}`
+                `${CANONICAL}/StructureDefinition/FM${type}`
             ]
         },
         // "url": `http://hl7.org/fhir/Requirements/${fmid}-${alias}`,
@@ -198,7 +209,7 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
         "purpose": _description
     }
     var resource = {
-        "reference": { "reference": `Requirements/${fmid}-${alias}` },
+        "reference": { "reference": `Requirements/${FMID_PREFIX}-${alias}` },
         "isExample": false,
         "groupingId": alias.substring(0, alias.indexOf('.'))
     }
@@ -225,11 +236,11 @@ function handleCriteria(criteria, fhir_parent_req) {
     var fhir_statement = {
         "extension": [
             {
-                "url": `${BASE}/StructureDefinition/requirements-dependent`,
+                "url": `${CANONICAL}/StructureDefinition/requirements-dependent`,
                 "valueBoolean": (dependent['$'].value=="Y")
             }
         ],
-        "key": fmid + "-" + id.replace('#','-'),
+        "key": FMID_PREFIX + "-" + id.replace('#','-'),
         "label": name,
         "conformance": [
           optionality['$'].value

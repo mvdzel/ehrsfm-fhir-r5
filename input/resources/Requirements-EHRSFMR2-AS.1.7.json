@@ -1,0 +1,157 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.1.7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_1_7_Manage_Practitioner_Patient_Relationships",
+  "title": "AS.1.7 Manage Practitioner/Patient Relationships (Function)",
+  "status": "active",
+  "description": "Identify relationships among providers treating a single patient, and provide the ability to manage patient lists assigned to a particular provider.",
+  "purpose": "This function addresses the ability to manage current information about the relationships between providers and the patients. This information should be able to flow seamlessly between the different components of the system, and between the EHR system and other systems. Business rules may be reflected in the presentation of, and the access to this information. The relationship among providers treating a single patient will include any necessary chain of authority/responsibility.\n\nExample:\n- In a care setting with multiple providers, where the patient can only see certain kinds of providers (or an individual provider); allow the selection of only the appropriate providers.\n- The user is presented with a list of people assigned to a given practitioner and may alter the assignment as required to a group, to another individual\n        or by sharing the assignment.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.7-01",
+      "label": "AS.1.7#01",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to extract the information needed to identify all providers by name associated with a specific patient encounter.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.4#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.7-02",
+      "label": "AS.1.7#02",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to tag the role of each provider associated with a patient (e.g., encounter provider, primary care provider, attending, resident, or consultant).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.4#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.7-03",
+      "label": "AS.1.7#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to tag the role of each provider associated with a patient using structured data."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.7-04",
+      "label": "AS.1.7#04",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to capture the list of providers who have been associated with a specific episode of care for a patient (i.e., all the providers who have participated in a specific episode of care (which could include multiple encounters)).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.4#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.7-05",
+      "label": "AS.1.7#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain, as discrete data elements, the identity of providers who have been associated with a specific patient encounter."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.7-06",
+      "label": "AS.1.7#06",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability for an authorized user to capture and maintain information on the relationship of a provider to a patient.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.4#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.7-07",
+      "label": "AS.1.7#07",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render patient lists by provider.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.4#5"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.7-08",
+      "label": "AS.1.7#08",
+      "conformance": [
+        "SHALL"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHALL provide the ability to tag primary or principal provider(s) responsible for the care of a patient within a care setting.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.3.4#6"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.1.7-09",
+      "label": "AS.1.7#09",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain, as structured data elements, the principal provider responsible for the care of an individual patient."
+    }
+  ]
+}

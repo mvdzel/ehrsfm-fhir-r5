@@ -1,7 +1,7 @@
 {
     "resourceType": "StructureDefinition",
     "id": "FMHeader",
-    "url": "http://hl7.org/ehrs/StructureDefinition/FMHeader",
+    "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader",
     "status": "draft",
     "name": "FMHeader",
     "title": "FMHeader",

@@ -1,0 +1,76 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-AS.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "AS_2_Manage_Patient_Demographics__Location_and_Synchronization",
+  "title": "AS.2 Manage Patient Demographics, Location and Synchronization (Function)",
+  "status": "active",
+  "description": "Capture and management of patient administrative information across locations in order to support care, including directories, and/or registries.",
+  "purpose": "A patient directory/registry may contain information including, but not limited to: full name, residence or physical location, alternate contact person, primary phone number, and relevant health status information. Various views of Patient Registry or Directory information may constructed to accommodate various user's needs. Examples of specific directory views are presented in the following functions.\n\nThe patient administrative information also includes patient location information (within a facility as well as home care location(s)); as well as the patient's registration in healthcare programs.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.2-01",
+      "label": "AS.2#01",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to harmonize a patient's demographic information with an external system (e.g., a centralized registry or health information exchange) triggered by clinical or administrative events (e.g., arrival of a new patient, reappearance of a past patient at a given facility, or periodic synchronization of health information)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.2-02",
+      "label": "AS.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to transmit a notification to an external system (e.g., an external Client Registry or a Personal Health Record System) that a patient's demographic information was modified."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.2-03",
+      "label": "AS.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to tag patient information with the current status (e.g., active, admitted, inactive, or discharged)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-AS.2-04",
+      "label": "AS.2#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to manage the administrative status and location of the patient during care within a facility. (e.g., waiting to see a provider, admitted, holding, waiting for nurse, waiting for consultant, or on the way to the Operating Room)."
+    }
+  ]
+}

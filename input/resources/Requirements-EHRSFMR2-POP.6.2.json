@@ -1,0 +1,110 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-POP.6.2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "POP_6_2_Quality__Performance_and_Accountability_Measures",
+  "title": "POP.6.2 Quality, Performance and Accountability Measures (Function)",
+  "status": "active",
+  "description": "Support the capture and subsequent export or retrieval of patient, and/or population data necessary to provide quality, performance, and accountability measurements for which providers, facilities, delivery systems, and communities are held accountable.",
+  "purpose": "Many regions require regular reporting on the healthcare provided to individuals and populations. This reporting may include measures related to or addressing processes, outcomes, costs of care, quality of care, adherence to best practice guidelines, and credentialing and privileging monitoring. The system needs to provide the report-generating capability to easily create these reports or provide for the export of data to external report-generating software.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.6.2-01",
+      "label": "POP.6.2#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to render patient, and/or population data required to assess health quality, performance and accountability measures to appropriate organizations.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.1.2#1"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.6.2-02",
+      "label": "POP.6.2#02",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and maintain multiple data sets required for health care quality, performance and accountability measurements (e.g., the number of flu shots given, or the number of pregnant women counseled to take folic acid).",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.1.2#2"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.6.2-03",
+      "label": "POP.6.2#03",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD render patient, and/or population health care quality, performance and accountability measures data in a report format that can be displayed, transmitted electronically, or printed.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.1.2#3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-POP.6.2-04",
+      "label": "POP.6.2#04",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD render patient, and/or population health care quality, performance and accountability measures data or query results through a secure data service.",
+      "derivedFrom": "EHR-S_FM_R1.1 S.2.1.2#4"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.6.2-05",
+      "label": "POP.6.2#05",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD determine and render patient, and/or population health care quality, performance and accountability measures in real-time, near real-time or just-in-time according to scope of practice, organizational policy, and/or jurisdictional law."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": true
+        }
+      ],
+      "key": "EHRSFMR2-POP.6.2-06",
+      "label": "POP.6.2#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY determine and render to administrative and financial systems the formula used for measuring patient, and/or population health care quality, performance and accountability measures, according to scope of practice, organizational policy, and/or jurisdictional law."
+    }
+  ]
+}

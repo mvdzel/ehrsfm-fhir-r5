@@ -1,0 +1,139 @@
+{
+  "resourceType": "Requirements",
+  "id": "EHRSFMR2-CPS.4.2.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+    ]
+  },
+  "name": "CPS_4_2_3_Support_for_Medication_Ordering_Efficiencies",
+  "title": "CPS.4.2.3 Support for Medication Ordering Efficiencies (Function)",
+  "status": "active",
+  "description": "Provide the tooling necessary to support efficient medication ordering.",
+  "purpose": "Support efficient medication ordering workflows by allowing medications to be sorted and reviewed by key attributes, e.g., generic or trade names. Also support editing medication orders across multiple instances of an order and capturing medication orders in order sets.",
+  "statement": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.2.3-01",
+      "label": "CPS.4.2.3#01",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD present a medication compendia or formulary content (e.g., drug, dose, route and SIG) to facilitate the selection of the medication to be ordered.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.1#7"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.2.3-02",
+      "label": "CPS.4.2.3#02",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to link instructions to all medications within a given class of medications."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.2.3-03",
+      "label": "CPS.4.2.3#03",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY render a list of frequently-ordered medications by diagnosis by provider which could include the full details of the medication, including SIG, quantity, refills, dispense as written, etc. and capture the provider's selection.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.1#11"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.2.3-04",
+      "label": "CPS.4.2.3#04",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture medications by therapeutic class, and/or indication.",
+      "derivedFrom": "EHR-S_FM_R1.1 DC.1.7.1#12"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.2.3-05",
+      "label": "CPS.4.2.3#05",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture, maintain and render medication samples dispensed, including lot number and expiration date."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.2.3-06",
+      "label": "CPS.4.2.3#06",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to tag that the medication sample was dispensed in the office."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.2.3-07",
+      "label": "CPS.4.2.3#07",
+      "conformance": [
+        "MAY"
+      ],
+      "conditionality": false,
+      "requirement": "The system MAY provide the ability to capture and render reminders to patients regarding necessary follow up tests based on the prescribed medication (e.g., reminders may be sent manually or automatically via a pre-determined rule)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "valueBoolean": false
+        }
+      ],
+      "key": "EHRSFMR2-CPS.4.2.3-08",
+      "label": "CPS.4.2.3#08",
+      "conformance": [
+        "SHOULD"
+      ],
+      "conditionality": false,
+      "requirement": "The system SHOULD provide the ability to capture and render reminders to the clinicians regarding necessary patient follow up tests, based on the prescribed medication."
+    }
+  ]
+}
