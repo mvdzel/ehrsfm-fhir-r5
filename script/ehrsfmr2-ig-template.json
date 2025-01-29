@@ -159,11 +159,6 @@
           "name": "changes.html",
           "generation": "markdown",
           "title": "IG Change History"
-        },
-        {
-          "name": "searchform.html",
-          "generation": "markdown",
-          "title": "Search Form"
         }
       ]
     },
