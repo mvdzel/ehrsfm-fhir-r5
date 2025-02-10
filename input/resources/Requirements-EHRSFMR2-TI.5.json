@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-TI.5",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
   "name": "TI_5_Standards_Based_Interoperability",

@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-TI.1.5",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
   "name": "TI_1_5_Non_Repudiation",
@@ -15,7 +15,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],
@@ -31,7 +31,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],
@@ -47,7 +47,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],
@@ -63,7 +63,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],

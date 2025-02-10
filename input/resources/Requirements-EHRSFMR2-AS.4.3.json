@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-AS.4.3",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
   "name": "AS_4_3_Support_for_Communications_Between_Organizations",
@@ -15,7 +15,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],
@@ -30,7 +30,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],

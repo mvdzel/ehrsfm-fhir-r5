@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-POP.2.2",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
   "name": "POP_2_2_Support_for_Epidemiologic_Data_Analysis",
@@ -15,7 +15,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],
@@ -30,7 +30,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -45,7 +45,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": true
         }
       ],
@@ -60,7 +60,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -75,7 +75,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],
@@ -90,7 +90,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
+          "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-dependent",
           "valueBoolean": false
         }
       ],

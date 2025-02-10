@@ -8550,7 +8550,8 @@ according to scope of practice, organizational policy, and/or jurisdictional law
       <id>553</id>
       <name>CP.6.3 Manage Treatment Administration</name>
       <alias>CP.6.3</alias>
-      <notes>$ST$Provide the functionality required to support the management of treatment administration and documentation. (Treatment defined as the administration or application of remedies to a patient for a disease or injury; medicinal or surgical management; therapy.)$DE$Provide the functionality required to support the documentation of non-medication treatments (e.g., wound dressing change that includes use of a topical cream or sterile wash during that process) to a patient based on clinical needs and requirements and provider orders within the system. This includes presenting end users with the list of clinical treatments that are to be administered to a patient, necessary administration information, and capture all required and relevant documentation details.$EX$</notes>
+      <!--@MZ moved dot to end in stmt-->
+      <notes>$ST$Provide the functionality required to support the management of treatment administration and documentation. (Treatment defined as the administration or application of remedies to a patient for a disease or injury; medicinal or surgical management; therapy).$DE$Provide the functionality required to support the documentation of non-medication treatments (e.g., wound dressing change that includes use of a topical cream or sterile wash during that process) to a patient based on clinical needs and requirements and provider orders within the system. This includes presenting end users with the list of clinical treatments that are to be administered to a patient, necessary administration information, and capture all required and relevant documentation details.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>488</parentId>
@@ -9920,7 +9921,7 @@ All functions within the Care Provision Support Section have an identifier start
       <modified>2017-03-27T00:00:00</modified>
       <tag name="Row" value="634"></tag>
       <tag name="Optionality" value="SHALL"></tag>
-      <tag name="Conditional" value="N"></tag>
+      <tag name="Conditional" value="Y"></tag><!--@MZ was N-->
       <tag name="Dependent" value="N"></tag>
       <tag name="Reference.Alias" value="EHR-S_FM_R1.1"></tag>
       <tag name="Reference.FunctionID" value="DC.1.1.1"></tag>
@@ -22967,7 +22968,7 @@ Task-assignment lists help users prioritize and complete assigned tasks. For exa
       <id>1597</id>
       <name>AS.6.5 Support Waiting Room Management</name>
       <alias>AS.6.5</alias>
-      <notes>$ST$Provide support to waiting room management$DE$An EHR-S should support the reporting, tracking and alerts needed to help managethose patients that need to wait and supporting prioritization decisions by the clinicians who are caring for them.$EX$</notes>
+      <notes>$ST$Provide support to waiting room management.$DE$An EHR-S should support the reporting, tracking and alerts needed to help managethose patients that need to wait and supporting prioritization decisions by the clinicians who are caring for them.$EX$</notes>
       <stereotype>Function</stereotype>
       <type>Feature</type>
       <parentId>1576</parentId>
@@ -26980,7 +26981,7 @@ The system may also provide the ability to create and render configurable report
       <id>2717</id>
       <name>RI.1.1.25.1#09</name>
       <alias />
-      <notes>The system SHALL capture the data, document or other identifier for verified  Record Entry content.</notes>
+      <notes>The system SHALL capture the data, document or other identifier for verified Record Entry content.</notes>
       <stereotype>Criteria</stereotype>
       <type>Requirement</type>
       <parentId>2694</parentId>
@@ -27132,7 +27133,7 @@ The system may also provide the ability to create and render configurable report
       <tag name="Reference.CriteriaID" value=""></tag>
       <tag name="ExternalReference" value=""></tag>
       <tag name="Row" value="0"></tag>
-      <tag name="Conditional" value="N"></tag>
+      <tag name="Conditional" value="Y"></tag><!--@MZ was N-->
       <tag name="Dependent" value="N"></tag>
       <tag name="Optionality" value="SHALL"></tag>
     </object>
@@ -27230,7 +27231,7 @@ The system may also provide the ability to create and render configurable report
       <tag name="Reference.Alias" value=""></tag>
       <tag name="Reference.FunctionID" value=""></tag>
       <tag name="Row" value="0"></tag>
-      <tag name="Conditional" value="N"></tag>
+      <tag name="Conditional" value="Y"></tag><!--@MZ was N-->
       <tag name="Dependent" value="N"></tag>
       <tag name="Optionality" value="MAY"></tag>
       <tag name="Reference.CriteriaID" value=""></tag>
@@ -27432,7 +27433,7 @@ The system may also provide the ability to create and render configurable report
       <tag name="Reference.CriteriaID" value=""></tag>
       <tag name="ExternalReference" value=""></tag>
       <tag name="Row" value="0"></tag>
-      <tag name="Conditional" value="N"></tag>
+      <tag name="Conditional" value="Y"></tag><!--@MZ was N-->
       <tag name="Dependent" value="N"></tag>
       <tag name="Optionality" value="SHALL"></tag>
     </object>
@@ -27526,7 +27527,7 @@ The system may also provide the ability to create and render configurable report
       <parentId>2698</parentId>
       <modified>2018-08-06T00:00:00</modified>
       <tag name="Row" value="0"></tag>
-      <tag name="Conditional" value="N"></tag>
+      <tag name="Conditional" value="Y"></tag><!--@MZ was N-->
       <tag name="Reference.ChangeIndicator" value="">Values: NC,N,C,D,DEP
 </tag>
       <tag name="Reference.Alias" value=""></tag>
@@ -27835,7 +27836,7 @@ Note: Standards exist for Consistent Date and Time.$EX$</notes>
       <tag name="Reference.CriteriaID" value=""></tag>
       <tag name="ExternalReference" value=""></tag>
       <tag name="Row" value="0"></tag>
-      <tag name="Conditional" value="N"></tag>
+      <tag name="Conditional" value="Y"></tag><!--@MZ was N-->
       <tag name="Dependent" value="N"></tag>
       <tag name="Optionality" value="SHALL"></tag>
     </object>
@@ -27919,7 +27920,7 @@ Reference: ISO 21089-2018, Section 15.4.$EX$</notes>
       <tag name="Dependent" value="N"></tag>
       <tag name="Optionality" value="SHALL"></tag>
       <tag name="Row" value="0"></tag>
-      <tag name="Conditional" value="N"></tag>
+      <tag name="Conditional" value="Y"></tag><!--@MZ was N-->
     </object>
     <object>
       <id>1797</id>
@@ -27955,7 +27956,7 @@ Reference: ISO 21089-2018, Section 15.5.$EX$</notes>
       <tag name="Reference.FunctionID" value=""></tag>
       <tag name="Reference.CriteriaID" value=""></tag>
       <tag name="Row" value="0"></tag>
-      <tag name="Conditional" value="N"></tag>
+      <tag name="Conditional" value="Y"></tag>
       <tag name="Dependent" value="N"></tag>
       <tag name="Optionality" value="SHALL"></tag>
     </object>
@@ -28034,7 +28035,7 @@ Reference: ISO 21089-2018, Section 15.7.$EX$</notes>
       <id>1859</id>
       <name>RI.1.1.8 Transmit Record Lifecycle Event</name>
       <alias>RI.1.1.8</alias>
-      <notes>$ST$Transmit Record Entries (1 or more instances)$DE$Occurs when an agent causes the system to send record entry content from one (EHR/PHR/other) system to another.  
+      <notes>$ST$Transmit Record Entries (1 or more instances)$DE$Occurs when an agent causes the system to send record entry content from one (EHR/PHR/other) system to another.
 
 Reference: ISO 21089-2018, Section 15.8.$EX$</notes>
       <stereotype>Function</stereotype>
@@ -35327,7 +35328,7 @@ Note: the mapping of one clinical model to another is mostly done on the level o
       <parentId>2754</parentId>
       <modified>2018-08-06T00:00:00</modified>
       <tag name="Row" value="0"></tag>
-      <tag name="Conditional" value="N"></tag>
+      <tag name="Conditional" value="Y"></tag><!--@MZ was N-->
       <tag name="Dependent" value="N"></tag>
       <tag name="Optionality" value="MAY"></tag>
       <tag name="Reference.ChangeIndicator" value="">Values: NC,N,C,D,DEP

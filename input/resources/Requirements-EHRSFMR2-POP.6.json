@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-POP.6",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
   "name": "POP_6_Measurement__Analysis__Research_and_Reports",

@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-AS.6",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
   "name": "AS_6_Manage_Resource_Availability",

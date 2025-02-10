@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-TI.1",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
   "name": "TI_1_Security",

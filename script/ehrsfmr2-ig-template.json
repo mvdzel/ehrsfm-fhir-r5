@@ -1,6 +1,6 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "hl7.fhir.uv.ehrsfmr2",
+  "id": "$PACKAGE_ID$",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -15,7 +15,7 @@
       "valueCode": "ehr"
     }
   ],
-  "url": "$CANONICAL$/ImplementationGuide/hl7.fhir.uv.ehrsfmr2",
+  "url": "$CANONICAL$/ImplementationGuide/$PACKAGE_ID$",
   "version": "2.1.1",
   "name": "EHRSFMR2",
   "title": "ISO/HL7 10781 - Electronic Health Record System Functional Model, Release 2.1.1",
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "packageId": "hl7.fhir.uv.ehrsfmr2",
+  "packageId": "$PACKAGE_ID$",
   "fhirVersion": [
     "5.0.0"
   ],

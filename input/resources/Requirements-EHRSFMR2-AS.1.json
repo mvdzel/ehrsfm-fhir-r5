@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-AS.1",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
   "name": "AS_1_Manage_Provider_Information",

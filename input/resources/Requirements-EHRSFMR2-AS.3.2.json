@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-AS.3.2",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
   "name": "AS_3_2_Manage_Legal_and_Other_Related_PHR_files",

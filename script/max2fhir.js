@@ -4,7 +4,10 @@ const xml = new xml2js.Parser();
 //
 // If you change the CANONICAL remember to manually change the CANONICAL in the input/profiles files!
 //
-const CANONICAL = "http://hl7.org/fhir/uv/ehrsfmr2";
+// const CANONICAL = "http://hl7.org/fhir/uv/ehrsfmr2";
+// const PACKAGE_ID = "hl7.fhir.uv.ehrsfmr2";
+const CANONICAL = "http://hl7.org/ehrs/uv/ehrsfmr2";
+const PACKAGE_ID = "hl7.ehrs.uv.ehrsfmr2";
 
 var maxroot;
 xml.parseString(fs.readFileSync('ehrs_fm_r2_1-2022APR.max'), function (err, data) {
@@ -81,7 +84,8 @@ var template_filename = "ehrsfmr2-ig-template.json";
 var ig_json = fs.readFileSync(template_filename, 'utf8');
 ig_json = ig_json.replace("$GROUPINGS$", JSON.stringify(groupings, null, 2));
 ig_json = ig_json.replace("$RESOURCES$", JSON.stringify(resources, null, 2));
-ig_json = ig_json.replace("$CANONICAL$", CANONICAL);
+ig_json = ig_json.replaceAll("$CANONICAL$", CANONICAL);
+ig_json = ig_json.replaceAll("$PACKAGE_ID$", PACKAGE_ID);
 
 var filename = "../input/ehrsfmr2-ig.json";
 fs.writeFileSync(filename, ig_json);

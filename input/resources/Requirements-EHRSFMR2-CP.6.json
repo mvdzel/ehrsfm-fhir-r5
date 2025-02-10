@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-CP.6",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
   "name": "CP_6_Manage_Medication__Immunization_and_Treatment_Administration",

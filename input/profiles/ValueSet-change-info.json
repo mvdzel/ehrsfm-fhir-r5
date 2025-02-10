@@ -6,7 +6,7 @@
             "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
         ]
     },
-    "url": "http://hl7.org/fhir/uv/ehrsfmr2/ValueSet/change-info",
+    "url": "http://hl7.org/ehrs/uv/ehrsfmr2/ValueSet/change-info",
     "name": "ChangeInfo",
     "title": "Requirement Change Indicators",
     "status": "active",
@@ -15,7 +15,7 @@
     "compose": {
         "include": [
             {
-                "system": "http://hl7.org/fhir/uv/ehrsfmr2/CodeSystem/change-info"
+                "system": "http://hl7.org/ehrs/uv/ehrsfmr2/CodeSystem/change-info"
             }
         ]
     }

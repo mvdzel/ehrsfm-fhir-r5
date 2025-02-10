@@ -1,7 +1,7 @@
 {
     "resourceType": "StructureDefinition",
     "id": "requirements-example",
-    "url": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-example",
+    "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-example",
     "name": "RequirementsExample",
     "title": "requirements-example",
     "description": "Requirements Statement Example",
@@ -23,7 +23,7 @@
             {
                 "id": "Extension.url",
                 "path": "Extension.url",
-                "fixedUri": "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/requirements-example"
+                "fixedUri": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-example"
             },
             {
                 "id": "Extension.value[x]",

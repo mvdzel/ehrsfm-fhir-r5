@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-CPS.4.6",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
   "name": "CPS_4_6_Support_for_Referrals",

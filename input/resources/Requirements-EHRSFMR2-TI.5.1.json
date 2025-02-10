@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-TI.5.1",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMHeader"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
   "name": "TI_5_1_Application__Structured_Message__and_Structured_Document_Interchange_Standards",

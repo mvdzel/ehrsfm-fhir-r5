@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-TI.10",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
   "name": "TI_10_Standard_or_Preferred_Clinical_Models_and_Clinical_Model_Services",

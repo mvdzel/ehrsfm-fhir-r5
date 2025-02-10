@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-CPS.4.4",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
   "name": "CPS_4_4_Support_Orders_for_Diagnostic_Screening_Tests",

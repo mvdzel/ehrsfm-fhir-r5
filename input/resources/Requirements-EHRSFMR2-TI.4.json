@@ -3,7 +3,7 @@
   "id": "EHRSFMR2-TI.4",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/uv/ehrsfmr2/StructureDefinition/FMFunction"
+      "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
   "name": "TI_4_Standard_Terminology_and_Terminology_Services",

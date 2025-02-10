@@ -10,3 +10,6 @@ Constraint failed: FMFLC13: 'Function must have one or more conformance criteria
 
 # Why?
 Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+
+# No Examples is right
+The Implementation Guide contains no examples for this extension
