@@ -36,11 +36,15 @@ Copy grouping & resource json from output.txt into ehrs-ig.json
 
 ### To build IG
 
-Requires 1.8.12+ because of hl7.ehr support.
+Requires 1.8.14(?) because of hl7.ehr support.
 ```
 (optional) @> curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o input-cache/publisher.jar
 @> java -jar publisher.jar -ig ig.ini
 ```
+
+### publication-request.json
+
+https://confluence.hl7.org/spaces/FHIR/pages/144970227/IG+Publication+Request+Documentation
 
 ### Debugging xslt
 
