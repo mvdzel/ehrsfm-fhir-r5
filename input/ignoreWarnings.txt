@@ -2,9 +2,6 @@
 # Don't know if we should
 % could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 
-# Place-holder for potential further development (How to ignore this QA issue?)
-Constraint failed: FMFLC13: 'Function must have one or more conformance criteria statements.'
-
 # Experimental in the core
 % which is experimental, but this structure is not labeled as experimental
 
@@ -13,3 +10,9 @@ Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 
 # No Examples is right
 The Implementation Guide contains no examples for this extension
+
+# Acceptable "...must end in a period."
+%FMFLC10%
+%FMFLC12%
+%FMHC007%
+%FMHC005%

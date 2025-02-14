@@ -109,8 +109,9 @@ function handleFM(fm) {
         },
         // "url": `${BASE}/Requirements/` + fmid,
         "name": name,
-        "title": name,
-        "status": "active"
+        "title": title,
+        "status": "active",
+        "description": "*intentionally left blank*"
     };
 
     var resource = {

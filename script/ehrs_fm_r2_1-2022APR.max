@@ -16096,7 +16096,7 @@ For example: If a patient's pain, anticoagulation hyperglycemia or other high ri
       <name>CPS.4.4 Support Orders for Diagnostic/Screening Tests</name>
       <alias>CPS.4.4</alias>
       <notes>$ST$This function has not been defined and is captured here as a place-holder for potential further development of the Functional Model and to maintain alignment with the corresponding CP section.$DE$None Defined at this time.$EX$</notes>
-      <stereotype>Function</stereotype>
+      <stereotype>Header</stereotype>
       <type>Feature</type>
       <parentId>919</parentId>
       <modified>2014-04-16T00:00:00</modified>
@@ -16110,7 +16110,7 @@ For example: If a patient's pain, anticoagulation hyperglycemia or other high ri
       <name>CPS.4.5 Support Orders for Blood Products and Other Biologics</name>
       <alias>CPS.4.5</alias>
       <notes>$ST$This function has not been defined and is captured here as a place-holder for potential further development of the Functional Model and to maintain alignment with the corresponding CP section.$DE$None Defined at this time.$EX$</notes>
-      <stereotype>Function</stereotype>
+      <stereotype>Header</stereotype>
       <type>Feature</type>
       <parentId>919</parentId>
       <modified>2014-04-16T00:00:00</modified>
@@ -35748,7 +35748,7 @@ An example of local registry usage is an EHR-S application sending a query messa
       <notes>$ST$Support semantic interoperability through the use of standard terminologies, standard terminology models and standard terminology services.$DE$The purpose of supporting terminology standards and services is to enable semantic interoperability. Interoperability is demonstrated by the consistency of human and machine interpretation of shared data and reports. It includes the capture and support of consistent data for templates and decision support logic.
 
 Terminology standards pertain to concepts, representations, synonyms, relationships and computable (machine-readable) definitions. Terminology services provide a common way for managing and retrieving these items, including historically correct version interpretation. Terminology services need to support legal requirements for retrospective health record information and system data.$EX$</notes>
-      <stereotype>Function</stereotype>
+      <stereotype>Header</stereotype>
       <type>Feature</type>
       <parentId>2193</parentId>
       <modified>2014-04-16T00:00:00</modified>
@@ -35865,7 +35865,7 @@ Clinical Model Services specification.
 The use of clinical models in an EHR system can vary. The clinical models can be used to specify which data elements should be visible in the user interface, which values should be allowed to select from pull down menu’s or check boxes. For record keeping clinical models can define which data elements should be stored (for instance besides the values the user sees on the screen, and which terminology codes should in addition be stored with the data to maintain the meaning. Also, the clinical models can be used to specify the data exchange for a given use case. 
 Clinical models may be provided through a clinical model service internal or external to an EHR-S. Typical functions of clinical model services include the runtime provisions of the single clinical model or sets of clinical models. It is also possible to provide specifications for single data elements, and where applicable (versions) of value sets used to populate the data in the EHR-S in a standard manner. In addition, the clinical model service could provide mappings between values from different value sets, e.g. between different versions of value sets, or alternatively mappings between data elements, e.g. from source to target.$EX$
 </notes>
-      <stereotype>Function</stereotype>
+      <stereotype>Header</stereotype>
       <type>Feature</type>
       <parentId>2193</parentId>
       <modified>2020-04-02T00:00:00</modified>
