@@ -11,7 +11,11 @@ const PACKAGE_ID = "hl7.ehrs.uv.ehrsfmr2";
 const FMID_PREFIX = "EHRSFMR2";
 
 var maxroot;
-xml.parseString(fs.readFileSync(MAX_FILE), function (err, data) {
+var raw = fs.readFileSync(MAX_FILE, "utf8");
+// raw = raw.replace(/[‘’]/g,"'").replace(/[“”]/g,'"'); // replace special quote
+// raw = raw.replace(/[–]/g,'-'); // replace special dash
+raw = raw.replaceAll('',''); // Jekyll illegal char (tab) in TI.1.8.1
+xml.parseString(raw, function (err, data) {
     maxroot = data;
 });
 // The order in the base model is wrong in some places e.g. RI.1.1.25 criteria come before the function.
@@ -93,7 +97,7 @@ fs.writeFileSync(filename, ig_json);
 function handleFM(fm) {
     var title = fm.name[0];
     var name = title.replace(/[^A-Za-z0-9_]/g, '_');
-    var notes = fm.notes[0];
+    // var notes = fm.notes[0];
 
     var fhir_req = {
         "resourceType": "Requirements",
@@ -195,7 +199,9 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
     var description = notes.substring(deidx+4, exidx).trim();
     var example = notes.substring(exidx+4).trim();
     var type = headerOrFunction.stereotype[0];
-    var _description = description + (example!=""?`\nExample:\n${example}`:"");
+    description = description + (example!=""?`\nExample:\n${example}`:"");
+    // replace special link notation '[[{id}]]' with markdown link
+    description = description.replace(/\[\[([^\]]+)\]\]/g, `[\$1](Requirements-${FMID_PREFIX}-\$1.html)`);
 
     var fhir_headerorfunction = {
         "resourceType": "Requirements",
@@ -210,7 +216,7 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
         "title": `${title} (${type})`,
         "status": "active",
         "description": statement,
-        "purpose": _description
+        "purpose": description
     }
     var resource = {
         "reference": { "reference": `Requirements/${FMID_PREFIX}-${alias}` },
@@ -234,7 +240,7 @@ function handleCriteria(criteria, fhir_parent_req) {
     var refCriteriaID = criteria.tag.find(tag => tag['$'].name === 'Reference.CriteriaID');
 
     // replace special link notation '[[{id}]]' with markdown link
-    notes = notes.replace(/\[\[([^\]]+)\]\]/g, '[\$1](Requirements-EHRSFMR2-\$1.html)');
+    notes = notes.replace(/\[\[([^\]]+)\]\]/g, `[\$1](Requirements-${FMID_PREFIX}-\$1.html)`);
 
     if (!fhir_parent_req) {
         console.log("parent not yet created? " + name);

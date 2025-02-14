@@ -10,5 +10,5 @@
   "title": "TI.1 Security (Header)",
   "status": "active",
   "description": "Manage EHR-S security.",
-  "purpose": "EHR-S security consists of entity authentication, entity authorization, entity access control, patient access management, secure data exchange, attestation, patient privacy and confidentiality. EHR audit functions are described in [[TI.2]]."
+  "purpose": "EHR-S security consists of entity authentication, entity authorization, entity access control, patient access management, secure data exchange, attestation, patient privacy and confidentiality. EHR audit functions are described in [TI.2](Requirements-EHRSFMR2-TI.2.html)."
 }

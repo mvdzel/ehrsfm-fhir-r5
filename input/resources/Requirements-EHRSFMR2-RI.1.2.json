@@ -10,5 +10,5 @@
   "title": "RI.1.2 Record Lifespan (Header)",
   "status": "active",
   "description": "Manage Record Lifespan",
-  "purpose": "Record Lifecycle Events (Function [[RI.1.1]]) are those required to manage Record Entries in persistent storage over the full course of Record Lifespan (Section [[RI.1.2]]). See Section [[RI.1.1]], Record Lifecycle, for further description."
+  "purpose": "Record Lifecycle Events (Function [RI.1.1](Requirements-EHRSFMR2-RI.1.1.html)) are those required to manage Record Entries in persistent storage over the full course of Record Lifespan (Section [RI.1.2](Requirements-EHRSFMR2-RI.1.2.html)). See Section [RI.1.1](Requirements-EHRSFMR2-RI.1.1.html), Record Lifecycle, for further description."
 }

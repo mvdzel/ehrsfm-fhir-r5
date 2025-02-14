@@ -10,7 +10,7 @@
   "title": "TI.2.1.1 Record Entry Audit Triggers (Function)",
   "status": "active",
   "description": "Manage Record Entry Audit Triggers",
-  "purpose": "Record Entries are managed throughout their lifespan at various points in their lifecycle. Record Entry Audit Triggers are designed to capture Record Entry related events including key metadata (who, what, when, where, why). See Function [[RI.1]], Record Lifecycle.",
+  "purpose": "Record Entries are managed throughout their lifespan at various points in their lifecycle. Record Entry Audit Triggers are designed to capture Record Entry related events including key metadata (who, what, when, where, why). See Function [RI.1](Requirements-EHRSFMR2-RI.1.html), Record Lifecycle.",
   "statement": [
     {
       "extension": [
