@@ -2,7 +2,7 @@
     "resourceType": "StructureDefinition",
     "id": "FMFunction",
     "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction",
-    "status": "draft",
+    "status": "active",
     "name": "FMFunction",
     "title": "FMFunction",
     "description": "This StructureDefinition represents the base EHR-S FM Function type",

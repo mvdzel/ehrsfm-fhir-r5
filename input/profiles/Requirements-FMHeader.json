@@ -2,7 +2,7 @@
     "resourceType": "StructureDefinition",
     "id": "FMHeader",
     "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader",
-    "status": "draft",
+    "status": "active",
     "name": "FMHeader",
     "title": "FMHeader",
     "description": "This StructureDefinition represents the base EHR-S FM Header type",

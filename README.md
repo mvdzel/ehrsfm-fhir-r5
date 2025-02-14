@@ -18,11 +18,12 @@ curl -X POST  "https://us-central1-fhir-org-starter-project.cloudfunctions.net/i
 
 Convert current computable version of the FM (MAX file) to FHIR IG artifacts.
 ```
-> docker run --name=ehrsfm-fhir-r5 -it -v "$(pwd)":/app node:lts-buster /bin/bash
-@> cd script
-@> (once) dpkg -i jdk-21_linux-x64_bin.deb
+> docker run --name=ehrsfm-ig -it -v "$(pwd)":/app node:latest /bin/bash
+@> (once) dpkg -i jdk-23_linux-x64_bin.deb
 @> (once) apt update; apt install graphviz jekyll
-@> (once) npm instal
+@> (once) git config --global --add safe.directory /app
+@> cd script
+@> (once) npm install
 @> node max2fhir.js
 @> node max2plantuml.js > ../input/images-source/relationships.plantuml 
 ```
@@ -39,7 +40,7 @@ Copy grouping & resource json from output.txt into ehrs-ig.json
 Requires 1.8.14(?) because of hl7.ehr support.
 ```
 (optional) @> curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o input-cache/publisher.jar
-@> java -jar publisher.jar -ig ig.ini
+@> java -jar input-cache/publisher.jar -ig ig.ini
 ```
 
 ### publication-request.json
@@ -79,7 +80,6 @@ The HL7 repo is now setup to being a mirror of the work repo (@mvdzel). Use thes
 
 ## Solutions / workarounds
 
-* How to create links [[TI.1.5]] from criteria to Functions? -> done in ig-template _append.fragment-footer.html javascript include
 * How to create links from criterie to satisfiedby -> done in ig-template Requirements.liquid
   * Example: CP.1.4 add as last in first requirement
         "satisfiedBy": [ "https://hl7.org/fhir/condition.html" ]
