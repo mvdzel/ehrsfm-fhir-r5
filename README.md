@@ -1,4 +1,4 @@
-For issues: https://github.com/mvdzel/ehrsfm-fhir-r5/issues/
+For issues: https://github.com/HL7/ehrsfm-ig/issues/ or https://github.com/orgs/HL7/projects/8
 
 ## CI-Build
 
