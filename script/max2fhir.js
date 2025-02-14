@@ -3,14 +3,15 @@ const fs = require('fs'),
 const xml = new xml2js.Parser();
 //
 // If you change the CANONICAL remember to manually change the CANONICAL in the input/profiles files!
+// Also update ig.ini when PACKAGE_ID changes
 //
-// const CANONICAL = "http://hl7.org/fhir/uv/ehrsfmr2";
-// const PACKAGE_ID = "hl7.fhir.uv.ehrsfmr2";
+const MAX_FILE = "ehrs_fm_r2_1-2022APR.max";
 const CANONICAL = "http://hl7.org/ehrs/uv/ehrsfmr2";
 const PACKAGE_ID = "hl7.ehrs.uv.ehrsfmr2";
+const FMID_PREFIX = "EHRSFMR2";
 
 var maxroot;
-xml.parseString(fs.readFileSync('ehrs_fm_r2_1-2022APR.max'), function (err, data) {
+xml.parseString(fs.readFileSync(MAX_FILE), function (err, data) {
     maxroot = data;
 });
 // The order in the base model is wrong in some places e.g. RI.1.1.25 criteria come before the function.
@@ -26,7 +27,6 @@ rawSatisfiedBy.split('\n').forEach(row => {
     satisfiedBy[id] = uri;
 });
 
-const FMID_PREFIX = "EHRSFMR2";
 var groupings = [ ];
 var resources = [ ];
 var reqs = { };
@@ -80,14 +80,14 @@ var grouping = {
 groupings.push(grouping);
 
 // create ehrsfm-ig.json from template
-var template_filename = "ehrsfmr2-ig-template.json";
+var template_filename = "ig-template.json";
 var ig_json = fs.readFileSync(template_filename, 'utf8');
 ig_json = ig_json.replace("$GROUPINGS$", JSON.stringify(groupings, null, 2));
 ig_json = ig_json.replace("$RESOURCES$", JSON.stringify(resources, null, 2));
 ig_json = ig_json.replaceAll("$CANONICAL$", CANONICAL);
 ig_json = ig_json.replaceAll("$PACKAGE_ID$", PACKAGE_ID);
 
-var filename = "../input/ehrsfmr2-ig.json";
+var filename = `../input/ImplementationGuide-${PACKAGE_ID}.json`;
 fs.writeFileSync(filename, ig_json);
 
 function handleFM(fm) {

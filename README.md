@@ -65,13 +65,6 @@ No narrative removes rendering of Requirement.statements. So don't use this.
   },
 ```
 
-## SFTP Publish
-```
-> sftp user@sftp
-@> cd WWW/ehrsfm-fhir-r5
-@> put -r *
-```
-
 ## GIT Mirror
 The HL7 repo is now setup to being a mirror of the work repo (@mvdzel). Use these commands to update the HL7 mirror.
 ```
