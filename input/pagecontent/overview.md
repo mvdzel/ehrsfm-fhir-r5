@@ -6,7 +6,7 @@
     <li><a href="chapter4.html">Overview and Definition of the Functional Model</a></li>
     <li><a href="chapter5.html">Anticipated Uses</a></li>
     <li><a href="chapter6.html">Conformance Clause</a></li>
-    <li><a href="chapter7.html">EHR System Conformance Claim via Self-Attestion</a></li>
+    <li><a href="chapter7.html">EHR System Conformance Claim via Self-Attestation</a></li>
     <li><a href="chapter8.html">Glossary</a></li>
     <li><a href="chapter9.html">Glossary Supplement: Record Lifecycle Events and Descriptions</a></li>
 </ol>

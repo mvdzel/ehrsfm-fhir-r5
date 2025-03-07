@@ -21,6 +21,7 @@ Health Records Systems (EHR-S). In May 2004 the SIG was promoted to a full HL7 T
 becoming the EHR TC. The EHR TC is intended primarily to serve as a body which promotes the uptake of
 Electronic Health Record (EHR) implementation by standardizing the functions that may be present, based on
 user selection, in an EHR-S.
+
 The Department of Health and Human Services, the Veterans Health Administration, the Health Information
 Management Systems Society and the Robert Wood Johnson Foundation, in a public-private partnership,
 approached HL7 to accelerate their existing work to develop a consensus standard to define the functions of an
@@ -28,7 +29,7 @@ EHR-S. HL7, through its EHR SIG, responded by developing an EHR-S Functional Mod
 as a Draft Standard for Trial Use (DSTU) in April 2004. The Functional Model DSTU was published and formally
 registered with the American National Standards Institute (ANSI) in July 2004. The Functional Model was then
 balloted and passed as a normative standard as part of the January 2007 HL7 Work Group Meeting and is now
-registered as a normative standard with ANSI
+registered as a normative standard with ANSI 
 Learning important lessons from the ballot process, a Functional Model with a clearer, more simplified list of
 functions, has been created. The HL7 EHR System Functional Model provides a reference list of functions that
 may be present in an Electronic Health Record System (EHR-S). The Function List is described from a user

@@ -19,13 +19,13 @@ This Conformance Clause defines the minimum requirements for Functional Profiles
 EHR System Functional Model. It also identifies how EHR systems achieve conformance to the Functional Model,
 which is via the system’s conformance to a particular functional domain profile, multiple Functional Profiles, or
 combination of domain and companion profiles. This clause specifies:
-5. The purpose, structure, and use of conformance criteria that are to be included in the Functional Model
+1. The purpose, structure, and use of conformance criteria that are to be included in the Functional Model
 and conforming Functional Profiles,
-6. The rules for defining conforming Functional Profiles of the Functional Model,
-7. The relationship between Functional Profiles and EHR systems,
-8. Sample Conformance Clauses and use case scenarios,
-9. Guidance on the conformance requirements that a Functional Profile might levy on EHR systems,
-10. Guidance on the purpose and use of an EHR system Conformance Statement.
+2. The rules for defining conforming Functional Profiles of the Functional Model,
+3. The relationship between Functional Profiles and EHR systems,
+4. Sample Conformance Clauses and use case scenarios,
+5. Guidance on the conformance requirements that a Functional Profile might levy on EHR systems,
+6. Guidance on the purpose and use of an EHR system Conformance Statement.
 
 While the conformance requirements for Functional Profiles can be found in this clause, they necessarily
 reference the Functional Model and other sources.
