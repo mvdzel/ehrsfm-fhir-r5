@@ -8,7 +8,7 @@
 # Why?
 Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 
-# No Examples is right
+# No Examples is right; will go away when ehrs-base-ig is ready
 The Implementation Guide contains no examples for this extension
 
 # Acceptable "...must end in a period."
@@ -16,3 +16,6 @@ The Implementation Guide contains no examples for this extension
 %FMFLC12%
 %FMHC007%
 %FMHC005%
+
+# https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/IG.20publisher.20adds.20extensions.20that.20than.20cause.20QA.20errors
+The Extension 'http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version' definition allows for the types [code] but found type string
