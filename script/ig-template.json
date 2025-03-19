@@ -22,7 +22,7 @@
   "url": "$CANONICAL$/ImplementationGuide/$PACKAGE_ID$",
   "version": "2.1.1-ballot",
   "name": "EHRSFMR2",
-  "title": "ISO/HL7 10781 - Electronic Health Record System Functional Model, Release 2.1",
+  "title": "HL7 Electronic Health Record System Functional Model, Release 2.1",
   "status": "active",
   "experimental": false,
   "publisher": "HL7 International / Electronic Health Records",

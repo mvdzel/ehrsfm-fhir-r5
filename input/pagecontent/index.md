@@ -4,6 +4,8 @@ Within HL7, since 2020, the Common H7 Toolset initiative to develop the same und
 
 This is a EHR-S FM specification that uses FHIR R5 Requirements resource to define its functional model sections, headers, functions and criteria. It references FHIR resources for data requirements and is based on FHIR R5 but not in a way that FHIR Implementation Guides would be based by profiling FHIR resources. It is important and relevant to declare the version of FHIR structures that are being used for toolsmiths and others using those structures.
 
+The content comes from ISO/HL7 10781 as the most recently balloted version of the EHR-S FM. HL7 last balloted/published it in 2000, ISO In 2023. The ISO version is identical except that it has new graphics in the Overview and we fixed some minor errata.
+
 <div class="note-to-balloters">
 <b>Targetting May 2025 ballot</b>
 This is the publication of the EHR-S Functional Model using the Common HL7 Toolset (FHIR IG Tooling).
