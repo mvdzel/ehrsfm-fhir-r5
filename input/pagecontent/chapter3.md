@@ -1,3 +1,4 @@
+<div markdown="1">
 <style>table, td, th { border: 1px solid black; padding:5px; }</style>
 
 | Term | Definition |
@@ -12,6 +13,7 @@
 | extension | the ability for an EHR-S to incorporate additional functionality beyond what is defined in the Functional Profile|
 | functional profile | a subset of the Functional Model, in which functions have been designated (sometimes in varying degrees) for certain EHR systems or healthcare delivery settings or narrow operation requirements |
 | informative functional profile | a registered functional profile that has successfully completed formal public scrutiny via the HL7 consensus process| 
-| inherited criterion |  all the conformance criteria listed in a parent function will be inherited by all its children functions| 
+| inherited criterion | all the conformance criteria listed in a parent function will be inherited by all its children functions| 
 | registered functional profile| a functional profile that has successfully completed HL7 EHR Work Group registration process and review| 
 | situational criterion | criterion that is required if the circumstances given are applicable (IF/Then or Dependent SHALL)|
+</div>

@@ -13,12 +13,16 @@
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
       "valueCode": "ehr"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+      "valueCode": "5.0.0"
     }
   ],
   "url": "http://hl7.org/ehrs/uv/ehrsfmr2/ImplementationGuide/hl7.ehrs.uv.ehrsfmr2",
-  "version": "2.1.1",
+  "version": "2.1.1-ballot",
   "name": "EHRSFMR2",
-  "title": "ISO/HL7 10781 - Electronic Health Record System Functional Model, Release 2.1.1",
+  "title": "ISO/HL7 10781 - Electronic Health Record System Functional Model, Release 2.1",
   "status": "active",
   "experimental": false,
   "publisher": "HL7 International / Electronic Health Records",
@@ -2660,7 +2664,7 @@
           "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
           "code": "releaselabel"
         },
-        "value": "CI build"
+        "value": "Normative Ballot"
       },
       {
         "code": {
