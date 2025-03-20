@@ -1,5 +1,4 @@
-<style>table, td, th { border: 1px solid black; padding:5px; }</style>
-<table cellspacing="0" border="0">
+<table cellspacing="0" class="grid">
 	<tr>
 		<th align="left">Term</th>
 		<th align="left">Definition</th>

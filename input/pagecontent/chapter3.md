@@ -1,5 +1,3 @@
-<div markdown="1">
-<style>table, td, th { border: 1px solid black; padding:5px; }</style>
 
 | Term | Definition |
 | --- | --- |
@@ -16,4 +14,4 @@
 | inherited criterion | all the conformance criteria listed in a parent function will be inherited by all its children functions| 
 | registered functional profile| a functional profile that has successfully completed HL7 EHR Work Group registration process and review| 
 | situational criterion | criterion that is required if the circumstances given are applicable (IF/Then or Dependent SHALL)|
-</div>
+{: .grid .table-striped}

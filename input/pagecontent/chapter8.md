@@ -85,7 +85,7 @@ activities (logging and auditing), and sustaining operations. This
 hierarchy has one parent, Secure (System), and three (3) intermediate
 children: Control Access, Track, and Sustain (Operations).
 
-<table border="1">
+<table class="grid">
 <caption><p>Table 6: Action-Verbs supporting the Secure System Hierarchy</p></caption>
 <colgroup>
 <col style="width: 9%" />
@@ -134,7 +134,7 @@ Table 7 has one parent, Manage (Data), and six (6) children with
 subsets: Capture, Maintain, Render, Exchange, Determine, and
 Manage-Data-Visibility.
 
-<table border="1">
+<table class="grid">
 <caption><p>Table 7: Action Verbs supporting the Data Management
 Hierarchy</p></caption>
 <colgroup>
@@ -165,46 +165,46 @@ Hierarchy</p></caption>
 <td>Manage Data Visibility</td>
 </tr>
 <tr class="even">
-<td rowspan="2"><p>Auto-populate</p>
-<p>Enter</p>
-<p>Import</p>
-<p>Receive</p></td>
+<td rowspan="2">Auto-populate<br/>
+Enter<br/>
+Import<br/>
+Receive<br/></td>
 <td>Store</td>
 <td>Update</td>
 <td>Remove</td>
 <td rowspan="2">Extract</td>
 <td rowspan="2">Present</td>
 <td rowspan="2">Transmit</td>
-<td rowspan="2"><p>Export</p>
-<p>Import</p>
-<p>Receive</p>
-<p>Transmit</p></td>
+<td rowspan="2">Export<br/>
+Import<br/>
+Receive<br/>
+Transmit<br/></td>
 <td rowspan="2">Analyze</td>
 <td rowspan="2">Decide</td>
-<td rowspan="2"><p>De-Identify/</p>
-<p>Re-Identify</p>
-<p>Hide/</p>
-<p>Unhide</p>
-<p>Mask/</p>
-<p>Unmask</p></td>
+<td rowspan="2">De-Identify/<br/>
+Re-Identify<br/>
+Hide/<br/>
+Unhide<br/>
+Mask/<br/>
+Unmask<br/></td>
 </tr>
 <tr class="odd">
-<td><p>Archive</p>
-<p>Backup</p>
-<p>Decrypt</p>
-<p>Encrypt</p>
-<p>Recover</p>
-<p>Restore</p>
-<p>Save</p></td>
-<td><p>Annotate</p>
-<p>Attest</p>
-<p>Edit</p>
-<p>Harmonize</p>
-<p>Integrate</p>
-<p>Link/Unlink</p>
-<p>Tag/Untag</p></td>
-<td><p>Delete</p>
-<p>Purge</p></td>
+<td>Archive<br/>
+Backup<br/>
+Decrypt<br/>
+Encrypt<br/>
+Recover<br/>
+Restore<br/>
+Save<br/></td>
+<td>Annotate<br/>
+Attest<br/>
+Edit<br/>
+Harmonize<br/>
+Integrate<br/>
+Link/Unlink<br/>
+Tag/Untag<br/></td>
+<td>Delete<br/>
+Purge<br/></td>
 </tr>
 </tbody>
 </table>
@@ -345,7 +345,7 @@ follows:
 
 Table 8 lists the full set of eligible Action-Verbs and their logical construction:
 
-<table border="1">
+<table class="grid">
 <caption><p>Table 8: Action Verbs and their Logical Construction</p></caption>
 <colgroup>
 <col style="width: 9%" />
@@ -353,9 +353,9 @@ Table 8 lists the full set of eligible Action-Verbs and their logical constructi
 </colgroup>
 <thead>
 <tr class="row-ro1"><th style="text-align:left;width:0.889in; ">
-<p>Action-Verb</p>
+<b>Action-Verb</b>
 </th><th style="text-align:left;width:0.889in; ">
-<p>Construction</p>
+<b>Construction</b>
 </th></tr>
 </thead>
 <tbody><tr class="row-ro1"><td style="text-align:left;width:0.889in; " class="cell-Default">
@@ -594,7 +594,7 @@ that deprecated Action-Verbs not be used in Conformance Criteria.
 
 Table 9 lists a set of deprecated verbs and possible alternatives:
 
-<table border="1">
+<table class="grid">
 <caption><p>Table 9: Deprecated Action-Verbs and Possible Alternative(s)</p></caption>
 <colgroup>
 <col style="width: 9%" />

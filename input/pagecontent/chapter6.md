@@ -1,5 +1,3 @@
-<style>table, td, th { border: 1px solid black; padding:5px; }</style>
-
 ### Introduction <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>
 
 Sections 6.2 through 6.7 are the HL7 EHR Work Group approved Conformance Clauses. As important
@@ -576,6 +574,7 @@ The difference between a ‘shall’ criterion and a ‘dependent shall’ crite
 |---|---|---|
 | Be present in the Functional Profile|Yes, either verbatim or modified (e.g., constrained or refined)|Yes, verbatim.<br/>If dependency exists, add additional criteria reflecting the dependency.|
 | Implemented by EHR systems|Yes.|Situational - only implement if the dependency exists.<br/>Specifically, EHR system does not implement the ‘dependent shall’ criterion (as copied from the FM), but does implement additional ‘shall’ criteria created to reflect the dependency.|
+{: .grid .table-striped}
 
 Table 3 Differences between 'shall' and 'dependent shall'
 
@@ -621,7 +620,7 @@ Functional Profile criteria
 (HIPAA) as well as other jurisdictional legal requirements or other more stringent requirements would
 be applied to ‘dependent shall’ criteria in the Functional Profile.
 
-<table>
+<table class="grid">
 <tr><th>FM</th>
 <th>Dependency Applicable?</th>
 <th>Applicability</th>
@@ -640,7 +639,7 @@ organizational policies or jurisdictional legal requirements that apply), then d
 deciding that no dependencies apply. This explanation may be in an appendix. It is likely that this
 explanation will apply to multiple ‘dependent shall’ criteria.
 
-<table>
+<table class="grid">
 <tr><th>FM</th>
 <th>Dependency Applicable?</th>
 <th>Applicability</th>

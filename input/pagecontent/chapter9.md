@@ -38,3 +38,4 @@ Incorporated in:
 | Unlink Record Lifecycle Event | occurs when an agent causes the system to disconnect two or more record entries previously connected, rendering them separate (disconnected) again. |
 | Unmerge Record Lifecycle Event | occurs when an agent causes the system to reverse a previous record entry merge operation, rendering them separate again. |
 | Verify Record Lifecycle Event | occurs when an agent causes the system to confirm compliance of data or data objects with regulations, requirements, specifications, or other imposed conditions based on organizational policy. |
+{: .grid .table-striped}

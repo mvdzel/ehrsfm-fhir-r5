@@ -1,5 +1,3 @@
-<style>table, td, th { border: 1px solid black; padding:5px; }</style>
-
 The HL7 EHR System Functional Model provides a reference list of functions that may be present in an Electronic
 Health Record System (EHR-S). The function list is described from a user perspective with the intent to enable
 consistent expression of system functionality. This EHR-S Functional Model, through the creation of Functional
@@ -49,6 +47,7 @@ This EHR-S Functional Model package includes both Informative and Normative sect
 | -- | -- |
 | Informative <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a> | Content of the EHR-S Functional Model Package that contains information which clarifies concepts or otherwise provides additional information to aid understanding and comprehension. Informative material is not balloted as part of the standard. |
 | Normative <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a> | Content that is part of the EHR-S Functional Model which HL7 committee members and interested industry participants have formally reviewed and balloted following the HL7 procedures for Balloting Normative Documents. This HL7 developed Functional Model document has been successfully balloted as a normative standard by the HL7 organization. |
+{: .grid .table-striped}
 
 **Table 1: Normative Status Types**
 

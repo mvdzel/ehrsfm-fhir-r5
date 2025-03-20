@@ -1,5 +1,3 @@
-<style>table, td, th { border: 1px solid black; padding:5px; }</style>
-
 The EHR-S Functional Model is composed of a list of functions, known as the Function List, which is divided into
 seven sections: Overarching, Care Provision, Care Provision Support, Population Health Support, Administrative
 Support, Record Infrastructure and Trust Infrastructure.
@@ -67,6 +65,7 @@ components as detailed below.
 | CP.1.4 | C | | | | 1. The system SHALL provide the ability to manage, as discrete data, all active problems associated with a patient.
 | CP.1.4 | C | | | | 2. The system SHALL capture and render a history of all problems associated with a patient.
 | CP.1.4 | C | | | | 3. The system SHALL provide the ability to manage relevant dates including the onset date and resolution date of problem.
+{: .grid .table-striped}
 
 **Table 2: Function List Example**
 
