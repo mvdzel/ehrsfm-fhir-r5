@@ -12,23 +12,28 @@
     "concept": [
         {
             "code": "NC",
-            "display": "No Change"
+            "display": "No Change",
+            "definition": "Indicates this is not changed from previous version."
         },
         {
             "code": "C",
-            "display": "Changed"
+            "display": "Changed",
+            "definition": "Indicates this is changed from previous version."
         },
         {
             "code": "N",
-            "display": "New"
+            "display": "New",
+            "definition": "Indicates this is new in this version."
         },
         {
             "code": "D",
-            "display": "Deleted"
+            "display": "Deleted",
+            "definition": "Indicates this has been deleted in this version."
         },
         {
             "code": "DEP",
-            "display": "Deprecated"
+            "display": "Deprecated",
+            "definition": "Indicates this is marked deprecated in this version."
         }
     ]
 }

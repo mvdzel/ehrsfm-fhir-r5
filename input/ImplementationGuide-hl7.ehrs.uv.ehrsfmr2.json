@@ -22,7 +22,7 @@
   "url": "http://hl7.org/ehrs/uv/ehrsfmr2/ImplementationGuide/hl7.ehrs.uv.ehrsfmr2",
   "version": "2.1.1-ballot",
   "name": "EHRSFMR2",
-  "title": "HL7 Electronic Health Record System Functional Model, Release 2.1",
+  "title": "HL7 Electronic Health Record System Functional Model, Release 2.1.1",
   "status": "active",
   "experimental": false,
   "publisher": "HL7 International / Electronic Health Records",
@@ -2655,6 +2655,11 @@
           "name": "changes.html",
           "generation": "markdown",
           "title": "IG Change History"
+        },
+        {
+          "name": "hidden.html",
+          "generation": "markdown",
+          "title": "Only here because IG QA requires"
         }
       ]
     },
