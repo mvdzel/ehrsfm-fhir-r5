@@ -2,7 +2,7 @@
     "package-id": "hl7.ehrs.uv.ehrsfmr2",
     "version": "2.1.1-ballot",
     "path": "http://hl7.org/ehrs/uv/ehrsfmr2/2025May",
-    "mode": "milestone",
+    "mode": "working",
     "status": "ballot",
     "sequence": "Normative 1",
     "title": "HL7 Electronic Health Record System Functional Model, Release 2.1.1",
