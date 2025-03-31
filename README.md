@@ -7,7 +7,7 @@ For issues: https://github.com/HL7/ehrsfm-ig/issues/ or https://github.com/orgs/
 
 ### Trigger FHIR auto-ig builder
 ```
-curl -X POST  "https://us-central1-fhir-org-starter-project.cloudfunctions.net/ig-commit-trigger" \
+curl -X POST https://us-central1-fhir-org-starter-project.cloudfunctions.net/ig-commit-trigger \
   -H "Content-type: application/json" \
   --data '{"ref": "refs/heads/master", "repository": {"full_name": "mvdzel/ehrsfm-fhir-r5"}}'
 ```
