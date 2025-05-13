@@ -17,5 +17,5 @@ The Function List includes the following components:
 | Examples | [extension](StructureDefinition-requirements-example.html) | Example of the Function if needed |
 | Actors | [extension](StructureDefinition-requirements-requirements-actors.html) | Actors with the Function. Often included in the description. |
 | Conditional Flag <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a> | [statement.conditionality](https://hl7.org/fhir/R5/requirements-definitions.html#Requirements.statement.conditionality) | See [Interpreting and Applying a Conditional ‘SHALL’](chapter6.html#interpreting-and-applying-a-conditional-shall-i) |
-| Dependent Flag | [extension](StructureDefinition-requirements-dependent.html) | See [‘Dependent SHALL’ Criteria](chapter6.html#dependent-shall-criteria) |
+| Dependent Flag | [statement.extension](StructureDefinition-requirements-dependent.html) | See [‘Dependent SHALL’ Criteria](chapter6.html#dependent-shall-criteria) |
 {: .grid .table-striped}
