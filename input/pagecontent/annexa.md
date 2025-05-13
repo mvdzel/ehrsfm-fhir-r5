@@ -2,7 +2,7 @@ Please refer to the included files [artifacts](artifacts.html) for the EHR-S FM 
 
 ### Function List Component Descriptions
 
-The Function List (see [artifacts](artifacts.html)) includes the following components:
+The Function List includes the following components:
 
 | FM Element | Requirements element | Description |
 | --- | --- | --- |
@@ -13,5 +13,9 @@ The Function List (see [artifacts](artifacts.html)) includes the following compo
 | Description <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a> | [purpose](https://hl7.org/fhir/R5/requirements-definitions.html#Requirements.purpose) | This is a more detailed description of the function, including examples if needed.<br/>Example: Medication  lists are managed over time, whether over the course of a visit or stay, or the lifetime of a patient. All pertinent dates, including medication start, modification, and end dates are stored. The entire medication history for any medication, including alternative supplements and herbal medications, is viewable. Medication lists are not limited to medication orders recorded by providers, but may include, for example, pharmacy dispense/supply records, patient-reported medications and additional information such as age specific dosage. |
 | Conformance Criteria <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a> | [statement.requirement](https://hl7.org/fhir/R5/requirements-definitions.html#Requirements.statement.requirement)  | Each function in the Function List includes one or more Conformance Criteria. A Conformance Criteria, which exists as normative language in this standard, defines the requirements for conforming to the function. The language used to express a conformance criterion is highly structured with standardized components with set meanings. The structured language used to define conformance clauses in the Function List are defined in the Glossary (Chapter 4).
 | R1.1 Reference <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a> | [statement.derivedFrom](https://hl7.org/fhir/R5/requirements-definitions.html#Requirements.statement.derivedFrom) | Reference to the previous version of the Functional Model is included to support transition from one version to the next. The first 2 digits indicate the source document; FM = Functional Model, LM = Lifecycle Model. The remainder of the reference is to the function and, if applicable, conformance criteria.
-| Change Indicator | [Extension](StructureDefinition-requirements-change-info.html) | The change indicator shows the change from previous versions. This will be valued as follows: <br/>C - Changed<br/>D - Deleted<br/>N - New<br/>NC - No Change |
+| Change Indicator | [extension](StructureDefinition-requirements-change-info.html) | The change indicator shows the change from previous versions. This will be valued as follows: <br/>C - Changed<br/>D - Deleted<br/>N - New<br/>NC - No Change |
+| Examples | [extension](StructureDefinition-requirements-example.html) | Example of the Function if needed |
+| Actors | [extension](StructureDefinition-requirements-requirements-actors.html) | Actors with the Function. Often included in the description. |
+| Conditional Flag <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a> | [statement.conditionality](https://hl7.org/fhir/R5/requirements-definitions.html#Requirements.statement.conditionality) | See [Interpreting and Applying a Conditional ‘SHALL’](chapter6.html#interpreting-and-applying-a-conditional-shall-i) |
+| Dependent Flag | [extension](StructureDefinition-requirements-dependent.html) | See [‘Dependent SHALL’ Criteria](chapter6.html#dependent-shall-criteria) |
 {: .grid .table-striped}
