@@ -136,7 +136,7 @@ function handleSection(section, parentObject) {
     var overview = notes.substring(4, exidx).trim();
     var example = notes.substring(exidx+4, acidx).trim();
     var actors = notes.substring(acidx+4).trim();
-    var _description = overview + (example!=""?`\nExample:\n${example}`:"");
+    var _description = overview + (example!=""?`\n\nExample(s):\n${example}`:"");
 
     var fhir_section = {
         "resourceType": "Requirements",
@@ -200,7 +200,7 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
     var description = notes.substring(deidx+4, exidx).trim();
     var example = notes.substring(exidx+4).trim();
     var type = headerOrFunction.stereotype[0];
-    description = description + (example!=""?`\nExample:\n${example}`:"");
+    description = description + (example!=""?`\n\nExample(s):\n${example}`:"");
     // replace special link notation '[[{id}]]' with markdown link
     description = description.replace(/\[\[([^\]]+)\]\]/g, `[\$1](Requirements-${FMID_PREFIX}-\$1.html)`);
 
