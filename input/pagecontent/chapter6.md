@@ -272,7 +272,7 @@ Functional Profile for that function SHALL
     shall’ criterion.
     1. State the specific scope of practice, organizational policy, and/or jurisdictional law which applies or
     state why these dependencies do not apply.
-7. Adhere to the rules for creating new functions in Functional Profiles in Section 8.7.2.
+7. Adhere to the rules for creating new functions in Functional Profiles in Section 3.9.7.2.
 8. Adhere to the rules for creating and changing conformance criteria in Section 8.5.
 9. Complete the two traceability columns, see Section 8.3.3, for any changes to functions or criteria, and
 include the following codes for type of change: (N/C for no change; A for added; M for modified.).
@@ -653,7 +653,7 @@ explanation will apply to multiple ‘dependent shall’ criteria.
 Add additional criteria – regardless of whether a dependency exists or not.
 
 It is always permissible for a Functional Profile to add new criteria. Add new criteria that are derived
-from the ‘dependent shall’. Use any keyword: ‘shall’, ‘should’ or ‘may’ (see Section 3) in these new
+from the ‘dependent shall’. Use any keyword: ‘shall’, ‘should’ or ‘may’ (see Section 3.4) in these new
 criteria.
 
 Examples:

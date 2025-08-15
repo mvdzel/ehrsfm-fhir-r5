@@ -377,22 +377,22 @@
 	<tr>
 		<td align="left">Conformance</td>
 		<td align="left">fulfillment of specified requirements by a product, process, or service.</td>
-		<td align="left">HL7 EHR-S/PHR-S Functional Model Chapter 2: Conformance Clause</td>
+		<td align="left">HL7 EHR-S Functional Model Chapter 3.7: Conformance Clause</td>
 	</tr>
 	<tr>
 		<td align="left">Conformance Criteria</td>
 		<td align="left">statements of requirement indicating the behavior, action, capability that constitutes implementation of the function</td>
-		<td align="left">HL7 EHR-S/PHR-S Functional Model Chapter 2: Conformance Clause</td>
+		<td align="left">HL7 EHR-S Functional Model Chapter 3.7: Conformance Clause</td>
 	</tr>
 	<tr>
 		<td align="left">Conformance clause</td>
 		<td align="left">section of a specification that defines the requirements, criteria, or conditions to be satisfied in order to claim conformance</td>
-		<td align="left">HL7 EHR-S/PHR-S Functional Model Chapter 2: Conformance Clause</td>
+		<td align="left">HL7 EHR-S Functional Model Chapter 3.7: Conformance Clause</td>
 	</tr>
 	<tr>
 		<td align="left">Conformance statement</td>
 		<td align="left">statement associated with a specific implementation of a profile of the EHR-S or PHR-S Functional Model.</td>
-		<td align="left">HL7 EHR-S/PHR-S Functional Model Chapter 2: Conformance Clause</td>
+		<td align="left">HL7 EHR-S Functional Model Chapter 3.3: Conformance Clause</td>
 	</tr>
 	<tr>
 		<td align="left">Consent, Informed Consent</td>
@@ -517,7 +517,7 @@
 	<tr>
 		<td align="left">Derived profile</td>
 		<td align="left">profile created from an existing profile</td>
-		<td align="left">HL7 EHR-S Functional Model Chapter 2: Conformance Clause</td>
+		<td align="left">HL7 EHR-S Functional Model Chapter 3.3: Conformance Clause</td>
 	</tr>
 	<tr>
 		<td align="left">Destroy</td>
@@ -1322,7 +1322,7 @@
 	<tr>
 		<td align="left">Profile</td>
 		<td align="left">(EHR or PHR System) Functional Model subset, in which functions have been designated for particular purposes, domains, services, specialties or care settings. A Functional Profile (FP) allows selection of functions and conformance criteria from the base FM, as well and revisions and extensions to those functions and criteria.</td>
-		<td align="left">HL7 EHR/PHR System Functional Model Chapter 2: Conformance Clause</td>
+		<td align="left">HL7 EHR/PHR System Functional Model Chapter 3.3: Conformance Clause</td>
 	</tr>
 	<tr>
 		<td align="left">Protocol</td>
@@ -1512,12 +1512,12 @@
 	<tr>
 		<td align="left">SHALL</td>
 		<td align="left">Indicates a mandatory requirement to be followed (implemented) in order to conform. Synonymous with “is required to”.</td>
-		<td align="left">HL7 EHR-S Functional Model Chapter 2: Conformance Clause</td>
+		<td align="left">HL7 EHR-S Functional Model Chapter 3.3: Conformance Clause</td>
 	</tr>
 	<tr>
 		<td align="left">SHOULD</td>
 		<td align="left">Indicates an optional yet recommended action, one that is particularly suitable. Synonymous with “is permitted and recommended”.</td>
-		<td align="left">HL7 EHR-S Functional Model Chapter 2: Conformance Clause</td>
+		<td align="left">HL7 EHR-S Functional Model Chapter 3.3: Conformance Clause</td>
 	</tr>
 	<tr>
 		<td align="left">SIG</td>

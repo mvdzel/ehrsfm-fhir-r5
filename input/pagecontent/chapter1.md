@@ -51,8 +51,8 @@ This EHR-S Functional Model package includes both Informative and Normative sect
 
 **Table 1: Normative Status Types**
 
-Each section within this document is clearly labeled "Normative" <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a> if it is normative. For example, in section 6
-(Overview) section 6.3 is normative. In section 8, Conformance Clause; sections 8.1 through 8.6 are normative.
+Each section within this document is clearly labeled "Normative" <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a> if it is normative. For example, in section 3.4
+(Overview) section 3.4.3 is normative. In section 3.7, Conformance Clause; sections 3.7.1 through 3.7.6 are normative.
 
-In the external Annex A, Function List, the Function ID, Function Name, Function Statement, and Conformance
+In Annex A, Function List, the Function ID, Function Name, Function Statement, and Conformance
 Criteria components are Normative in this Functional Model.

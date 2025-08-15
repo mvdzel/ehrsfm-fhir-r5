@@ -3,7 +3,7 @@
 ## Preface <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>
 
 Portions of this Glossary Clause are classified as NORMATIVE, including
-the Action-Verb Structure Section (8.4). See section by section labels.
+the Action-Verb Structure Section (3.9.4). See section by section labels.
 The Glossary is provided as guidance for preparing and interpreting HL7
 Electronic Health Record and Personal Health Record System Functional
 Models (EHR-S FM and PHR-S FM respectively) and Functional Profile (FP)
