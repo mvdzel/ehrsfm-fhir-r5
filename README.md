@@ -103,3 +103,10 @@ https://pandoc.org/
 ```
 > docker run --rm --volume "`pwd`:/data" --user `id -u`:`id -g` pandoc/core Glossary.docx -o chapter8.md
 ```
+
+## Converting figures from powerpoint to svg
+
+1. Saved using desktop powerpoint to svg files 
+1. Installed Inkscape v0.92 
+1. Open in Inkscape and ungroup and remove big background pane
+1. `> inkscape --verb=FitCanvasToDrawing --verb=FileSave --verb=FileQuit input.svg`
