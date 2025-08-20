@@ -38,13 +38,13 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1042"
+     inkscape:window-height="1016"
      id="namedview186"
      showgrid="false"
      inkscape:zoom="1.6926369"
      inkscape:cx="451.29185"
      inkscape:cy="192.98602"
-     inkscape:window-x="1920"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg184" />
@@ -524,7 +524,7 @@
      font-size="16"
      font-stretch="condensed"
      font-weight="700"
-     x="463.16666"
+     x="459.16666"
      y="431.16666">EHR-S Functional</text>
   <text
      style="font-weight:700;font-stretch:condensed;font-size:16px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
