@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="662.22034"
+   height="262.5065"
+   overflow="hidden"
+   version="1.1"
+   id="svg58"
+   sodipodi:docname="Dia7.SVG"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   style="overflow:hidden">
+  <metadata
+     id="metadata64">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs62" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     id="namedview60"
+     showgrid="false"
+     inkscape:zoom="0.84631843"
+     inkscape:cx="628.48818"
+     inkscape:cy="-33.751836"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg58" />
+  <path
+     style="fill:#ed7d31;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path4"
+     stroke-miterlimit="8"
+     d="m 292.72031,0.66666502 h 131 V 66.666665 h -131 z" />
+  <text
+     style="font-weight:400;font-size:37.33330154px;font-family:Arial, Arial_MSFontService, sans-serif;fill:#ffffff"
+     id="text6"
+     font-size="37.3333"
+     font-weight="400"
+     x="323.72629"
+     y="35.166664">RI.4</text>
+  <path
+     style="fill:#4472c4;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path8"
+     stroke-miterlimit="8"
+     d="M 56.720306,96.666665 H 186.72031 V 162.66667 H 56.720306 Z" />
+  <text
+     style="font-weight:400;font-size:37.33330154px;font-family:Arial, Arial_MSFontService, sans-serif;fill:#ffffff"
+     id="text10"
+     font-size="37.3333"
+     font-weight="400"
+     x="71.197296"
+     y="131.16667">RI.4.1</text>
+  <path
+     style="fill:#4472c4;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path12"
+     stroke-miterlimit="8"
+     d="m 213.72031,96.666665 h 131 v 66.000005 h -131 z" />
+  <text
+     style="font-weight:400;font-size:37.33330154px;font-family:Arial, Arial_MSFontService, sans-serif;fill:#ffffff"
+     id="text14"
+     font-size="37.3333"
+     font-weight="400"
+     x="229.16129"
+     y="131.16667">RI.4.2</text>
+  <text
+     style="font-weight:400;font-size:24px;font-family:Calibri, Calibri_MSFontService, sans-serif;fill:#afabab"
+     id="text16"
+     font-size="24"
+     font-weight="400"
+     x="-2.1796875"
+     y="40.166664">parent</text>
+  <path
+     style="fill:#4472c4;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path18"
+     stroke-miterlimit="8"
+     d="m 371.72031,96.666665 h 131 v 66.000005 h -131 z" />
+  <text
+     style="font-weight:400;font-size:37.33330154px;font-family:Arial, Arial_MSFontService, sans-serif;fill:#ffffff"
+     id="text20"
+     font-size="37.3333"
+     font-weight="400"
+     x="387.1243"
+     y="131.16667">RI.4.3</text>
+  <path
+     style="fill:#afabab"
+     inkscape:connector-curvature="0"
+     id="path22"
+     d="M 70.720306,46.333665 H 276.28831 v 2.666 H 70.720306 Z m 204.235004,-2.667 8,4 -8,4 z" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#4472c4;stroke-width:4;stroke-linecap:square;stroke-miterlimit:8;stroke-dasharray:12, 4"
+     inkscape:connector-curvature="0"
+     id="path24"
+     stroke-miterlimit="8"
+     d="m 529.22031,96.166665 h 131 v 66.000005 h -131 z" />
+  <text
+     style="font-weight:400;font-size:37.33330154px;font-family:Arial, Arial_MSFontService, sans-serif;fill:#4472c4"
+     id="text26"
+     font-size="37.3333"
+     font-weight="400"
+     x="545.08728"
+     y="131.16667">RI.4.4</text>
+  <path
+     style="fill:#afabab"
+     inkscape:connector-curvature="0"
+     id="path28"
+     d="m 284.05364,231.29867 1e-4,-61.9654 h -2.66667 l -9e-5,61.9654 z m 2.66676,-60.632 -3.99999,-8 -4.00001,8 z" />
+  <path
+     style="fill:#afabab"
+     inkscape:connector-curvature="0"
+     id="path30"
+     d="m 319.39442,239.03004 112.35989,-65.84197 -1.348,-2.3007 -112.36011,65.84193 z m 112.55789,-62.86707 4.88,-7.4958 -8.925,0.5935 z" />
+  <path
+     style="fill:#afabab"
+     inkscape:connector-curvature="0"
+     id="path32"
+     d="m 260.14931,239.60767 -117.314,-67.462 1.329,-2.311 117.314,67.462 z m -117.488,-64.485 -4.941,-7.456 8.929,0.521 z" />
+  <path
+     style="fill:#afabab"
+     inkscape:connector-curvature="0"
+     id="path34"
+     d="m 600.05331,168.66667 v 64.119 h -2.666 v -64.119 z m 2.667,62.786 -4,8 -4,-8 z" />
+  <text
+     style="font-weight:400;font-size:24px;font-family:Calibri, Calibri_MSFontService, sans-serif;fill:#afabab"
+     id="text36"
+     font-size="24"
+     font-weight="400"
+     x="263.59232"
+     y="260.16666">child</text>
+  <text
+     style="font-weight:400;font-size:24px;font-family:Calibri, Calibri_MSFontService, sans-serif;fill:#afabab"
+     id="text38"
+     font-size="24"
+     font-weight="400"
+     x="553.07629"
+     y="262.16666">new</text>
+  <text
+     style="font-weight:400;font-size:24px;font-family:Calibri, Calibri_MSFontService, sans-serif;fill:#afabab"
+     id="text40"
+     font-size="24"
+     font-weight="400"
+     x="600.28931"
+     y="262.16666">child</text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path42"
+     stroke-miterlimit="8"
+     d="m 119.72031,77.666665 h 479.836" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path44"
+     stroke-miterlimit="8"
+     d="m 119.72031,77.666665 v 14.607" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path46"
+     stroke-miterlimit="8"
+     d="m 119.72031,77.666665 v 18.96" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path48"
+     stroke-miterlimit="8"
+     d="m 282.72031,79.666665 v 18.96" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path50"
+     stroke-miterlimit="8"
+     d="m 436.72031,79.666665 v 18.96" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path52"
+     stroke-miterlimit="8"
+     d="m 598.72031,77.666665 v 18.96" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path54"
+     stroke-miterlimit="8"
+     d="m 355.72031,64.666665 v 13.483" />
+</svg>

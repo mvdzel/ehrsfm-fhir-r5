@@ -1,6 +1,6 @@
 ### Introduction <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>
 
-Sections 6.2 through 6.7 are the HL7 EHR Work Group approved Conformance Clauses. As important
+Sections 3.7.2 through 3.7.7 are the HL7 EHR Work Group approved Conformance Clauses. As important
 background on conformance, please note the following:
 1. This Conformance Clause defines what it means to conform to the EHR-S Functional Model.
 2. Conformance to the Functional Model is defined for functional domain profiles, and for functional
@@ -90,12 +90,12 @@ Profiles. An EHR system can also claim conformance to a domain Functional Profil
 more companion profiles. An EHR system cannot claim conformance to only a companion profile. Figure 3
 (below) illustrates this relationship.
 
-{% include img.html img="figure3.png" caption="Figure 3: Conformance Relationships" width="70%" %}
+{% include img.html img="figure3.svg" caption="Figure 3: Conformance Relationships" width="70%" %}
 
 #### Profile Traceability
 
 Functional Profiles allow for added specificity and extensibility to the Functional Model with changes allowed to
-the base FM functions and criteria. However, Section 8.6 (following) defines rules for these changes. It is also
+the base FM functions and criteria. However, Section 3.7.6 (following) defines rules for these changes. It is also
 required that any changes and additions be tracked. Two added columns in profiles accomplish this. One column
 will document the unique source FM row number for each item in the new profile (or source profile for a derived
 profile). The second column will provide codes for the type of changes from the source FM (or source profile).
@@ -181,7 +181,7 @@ minimum the following: ID, Name, Statement, Description, and Conformance Criteri
 column. Conformance criteria listed in a parent function **SHALL** be inherited by all its children functions.
 Conformance Criteria have a “C” in the “Type” column.
 
-{% include img.html img="figure4.png" caption="Figure 4: Portion of the Functional Model hierarchical structure" width="70%" %}
+{% include img.html img="figure4.svg" caption="Figure 4: Portion of the Functional Model hierarchical structure" width="70%" %}
 
 (Note: The numbering schema above reflects functions in the Care Provision chapter. For instance, CP.4.2 is
 the function ‘Manage Medication Orders.)
@@ -220,11 +220,11 @@ of the Essential Future priority (e.g., EF-2015, EF-2016).
 To accommodate changes in technology as well as Functional Profiles’ needs, the Functional Model is designed
 for extensibility, for functions and their related criteria. Incorporation of additional functions in the Functional
 Profile beyond what is defined in the Functional Model is accommodated through a set of rules for adding new
-functions as defined in [Section 8.7.2](chapter6.html#rules-for-creating-new-functions-in-functional-profiles).
+functions as defined in [Section 3.7.7.2](chapter6.html#rules-for-creating-new-functions-in-functional-profiles).
 
 Incorporation of additional criterion, changing the sequence of criterion and providing greater profile-specific detail,
 beyond what is defined in the Functional Model, is accommodated through a set of rules for adding new criterion
-or changing existing criterion as defined in [Section 8.7.2](chapter6.html#rules-for-creating-new-functions-in-functional-profiles).
+or changing existing criterion as defined in [Section 3.7.7.2](chapter6.html#rules-for-creating-new-functions-in-functional-profiles).
 
 ### Functional Profile Conformance <a href="https://hl7.org/fhir/versions.html#std-process" title="Normative Content" class="normative-flag">N</a>
 
@@ -262,7 +262,7 @@ Optional).
     Profile), then the parent's ‘shall’ criteria SHALL appear in at least one child of that function.
     1. If, as yet there is no ‘shall’ criterion (for the function in the Functional Model), then at least one of
     the ‘should’ or ‘may’ criterion SHALL be made mandatory, i.e., a ‘shall’ criterion.
-    1. Adhere to the rules for referencing functions or criteria in Section 8.5.3.
+    1. Adhere to the rules for referencing functions or criteria in Section 3.7.5.3.
 6. For any function in the Functional Model where one or more criteria are ‘dependent shall’ criteria, the
 Functional Profile for that function SHALL
     1. Replicate verbatim each ‘dependent shall’ in the Functional Profile, regardless of whether the
@@ -272,16 +272,16 @@ Functional Profile for that function SHALL
     shall’ criterion.
     1. State the specific scope of practice, organizational policy, and/or jurisdictional law which applies or
     state why these dependencies do not apply.
-7. Adhere to the rules for creating new functions in Functional Profiles in Section 3.9.7.2.
-8. Adhere to the rules for creating and changing conformance criteria in Section 8.5.
-9. Complete the two traceability columns, see Section 8.3.3, for any changes to functions or criteria, and
+7. Adhere to the rules for creating new functions in Functional Profiles in Section 3.7.7.2.
+8. Adhere to the rules for creating and changing conformance criteria in Section 3.7.5.
+9. Complete the two traceability columns, see Section 3.7.3.3, for any changes to functions or criteria, and
 include the following codes for type of change: (N/C for no change; A for added; M for modified.).
 10. Be structured in accordance with the structural requirements defined for the Functional Model in
-Section 8.6.1.
+Section 3.7.6.1.
 11. Use the Glossary Action verbs for modifying or creating new conformance criterion.
 
 Functional domain profiles claiming conformance to the Functional Model MAY:
-1. Create additional functions according to the rules specified in Section 8.7.2.
+1. Create additional functions according to the rules specified in Section 3.7.7.2.
 2. Contain conformance criteria more specific and limited in scope than those of the Functional Model.
 3. Replace the text ‘standard(s)-based’ found in some criteria with specific standards and/or
 specifications named at the most discrete level of designation.
@@ -297,7 +297,7 @@ specifications named at the most discrete level of designation.
 Functional domain profiles claiming conformance to the Functional Model SHALL NOT:
 1. Specify any requirements that would contradict or cause non-conformance to the Functional Model.
 2. Modify the name or statement of any function in the Functional Model, except to allow for alignment
-with realm specific nomenclature as specified in Section 8.6.2.
+with realm specific nomenclature as specified in Section 3.7.6.2.
 3. Change a mandatory conformance criteria to an optional criteria (i.e., replace the ‘shall’ within the
 criteria to ‘should’ or ‘may’) of any function in the Functional Model.
 4. Modify any requirements of a function not selected for the Functional Profile (i.e., all unselected
@@ -310,7 +310,7 @@ If a function is not adequately specified for a Functional Profile or does not e
 only create new children, the new children can be parents or leafs . Figure 5 illustrates the addition of a new child
 function.
 
-{% include img.html img="figure5.png" caption="Figure 5: Creating a new function" width="70%" %}
+{% include img.html img="figure5.svg" caption="Figure 5: Creating a new function" width="50%" %}
 
 The following rules specify the method for creating new functions.
 1. Whenever possible, conformance criteria SHOULD be used to avoid creating a new function. This may
@@ -329,7 +329,7 @@ function MAY be created (e.g., adding a new kind of summary list under the summa
 6. ‘Parent functions SHALL NOT be split. This preserves the structure of the underlying Functional Model
 in the Functional Profiles.
 
-{% include img.html img="figure6.png" caption="Figure 6: Splitting a function" width="70%" %}
+{% include img.html img="figure6.svg" caption="Figure 6: Splitting a function" width="50%" %}
 
 If new children functions are created by a Functional Profile that is balloted or registered, these new functions will
 be captured by the HL7 EHR WG and tracked for review. The EHR TC WILL use these new functions and
@@ -337,7 +337,7 @@ related criterion as input and candidates for changes to the Functional Model (e
 conformance criteria). The EHR WG MAY maintain a file of functions and criterion reviewed and rejected for
 inclusion in a future version of the FM.
 
-{% include img.html img="figure7.png" caption="Figure 7: Adding a new child function" width="70%" %}
+{% include img.html img="figure7.svg" caption="Figure 7: Adding a new child function" width="50%" %}
 
 Function IN 4.4 is added as a new child which is a sibling to IN 4.1, IN 4.2, and IN 4.3.
 
@@ -345,8 +345,8 @@ Function IN 4.4 is added as a new child which is a sibling to IN 4.1, IN 4.2, an
 
 **Derived functional domain profiles claiming conformance to one or more base functional
 domain profiles SHALL:**
-1. Adhere to all the rules for Functional Domain Profiles as specified in Section 8.7.1.
-2. Adhere to the rules for creating new functions as specified in Section 8.7.2, if not prohibited by the
+1. Adhere to all the rules for Functional Domain Profiles as specified in Section 3.7.7.1.
+2. Adhere to the rules for creating new functions as specified in Section 3.7.7.2, if not prohibited by the
 base Functional Profile.
 3. Identify the base Functional Profiles from which it is derived.
 4. For each function inherited from a base Functional Profile, retain and not change mandatory
@@ -470,7 +470,7 @@ Statement (a concept most vendors are already familiar with). A vendor may creat
 #### Sample Functional Domain Profile Conformance Clauses
 
 To aid Functional Profile developers in developing a Conformance Clause for their Functional Profile, as required
-by Section 8.1 rule #3, the following examples are offered. Note: in these examples, the keywords ‘shall’, ‘should’,
+by Section 3.7.1 rule #3, the following examples are offered. Note: in these examples, the keywords ‘shall’, ‘should’,
 and ‘may’ are capitalized and bold. This is a convention to draw attention to the keywords.
 
 **Conformance Clause for a care-setting functional domain profile**
@@ -653,7 +653,7 @@ explanation will apply to multiple ‘dependent shall’ criteria.
 Add additional criteria – regardless of whether a dependency exists or not.
 
 It is always permissible for a Functional Profile to add new criteria. Add new criteria that are derived
-from the ‘dependent shall’. Use any keyword: ‘shall’, ‘should’ or ‘may’ (see Section 3.4) in these new
+from the ‘dependent shall’. Use any keyword: ‘shall’, ‘should’ or ‘may’ (see Section 3.7.4) in these new
 criteria.
 
 Examples:

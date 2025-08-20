@@ -2,10 +2,10 @@ The EHR-S Functional Model is composed of a list of functions, known as the Func
 seven sections: Overarching, Care Provision, Care Provision Support, Population Health Support, Administrative
 Support, Record Infrastructure and Trust Infrastructure.
 
-{% include img.html img="figure1.png" caption="Figure 1: Function List Sections" width="70%" %}
-
 Within the seven Sections of the Functional List the functions are grouped under header functions which each
 have one or more sub-functions in a hierarchical structure.
+
+{% include img.html img="figure1.svg" caption="Figure 1: Function List Sections" width="70%" %}
 
 ### Sections of the Function List
 
@@ -27,7 +27,7 @@ In the aggregate, the EHR-S FM is intended to include the superset of functions 
 be generated. This subset illustrates what is needed within an EHR-S. Only a subset of all EHR-S FM functions
 will apply to any particular EHR-S Functional Profile (FP).
 
-{% include img.html img="figure2.png" caption="Figure 2. Profiling from the EHR-S FM" width="70%" %}
+{% include img.html img="figure2.svg" caption="Figure 2. Profiling from the EHR-S FM" width="70%" %}
 
 Figure 2 shows that a profile would include all 7 sections of the Functional Model, however it may not be
 necessary to include all the functions and criteria within each section. A profile may include additional functions
@@ -75,7 +75,7 @@ This is the unique identifier of a function in the Function List (e.g., CP.1.1) 
 The Function ID also serves to identify the section within which the function exists (CP = Care Provision Section)
 and the hierarchy or relationship between functions (CP.1.1 is at the same level as CP.1.2, CP.1.1 is also a parent
 of CP.1.1.1 and child of CP.1. In many cases the parent is fully expressed by the children. NOTE: For a detailed
-discussion and graphic of the parent and child relationship, see 6.6.1 Hierarchical Structure in Chapter 6,
+discussion and graphic of the parent and child relationship, see 3.7.6.1 Hierarchical Structure in Chapter 3.7,
 Conformance Clause.)
 
 #### Function Type <a href="https://hl7.org/fhir/versions.html#std-process" title="Informative Content" class="informative-flag">I</a>

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="573.13739"
+   height="447.32291"
+   overflow="hidden"
+   version="1.1"
+   id="svg184"
+   sodipodi:docname="figure3.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   style="overflow:hidden">
+  <metadata
+     id="metadata190">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs188" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1042"
+     id="namedview186"
+     showgrid="false"
+     inkscape:zoom="1.6926369"
+     inkscape:cx="451.29185"
+     inkscape:cy="192.98602"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg184" />
+  <rect
+     style="fill:#ffffff"
+     id="rect4"
+     height="41"
+     width="97"
+     y="15.666665"
+     x="0.66666502" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path6"
+     stroke-miterlimit="8"
+     d="m 12.791665,15.666665 v 41 m 72.75,-41 v 41" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     id="rect8"
+     stroke-miterlimit="8"
+     height="41"
+     width="97"
+     y="15.666665"
+     x="0.66666502" />
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text10"
+     font-size="13.3333"
+     font-weight="400"
+     x="28.148659"
+     y="40.166664">EHR</text>
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text12"
+     font-size="13.3333"
+     font-weight="400"
+     x="56.315651"
+     y="40.166664">-</text>
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text14"
+     font-size="13.3333"
+     font-weight="400"
+     x="60.815651"
+     y="40.166664">S</text>
+  <rect
+     style="fill:#ffffff"
+     id="rect16"
+     height="41"
+     width="97"
+     y="137.66667"
+     x="0.66666502" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path18"
+     stroke-miterlimit="8"
+     d="m 12.791665,137.66667 v 41 m 72.75,-41 v 41" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     id="rect20"
+     stroke-miterlimit="8"
+     height="41"
+     width="97"
+     y="137.66667"
+     x="0.66666502" />
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text22"
+     font-size="13.3333"
+     font-weight="400"
+     x="28.148659"
+     y="162.16667">EHR</text>
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text24"
+     font-size="13.3333"
+     font-weight="400"
+     x="56.315651"
+     y="162.16667">-</text>
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text26"
+     font-size="13.3333"
+     font-weight="400"
+     x="60.815651"
+     y="162.16667">S</text>
+  <rect
+     style="fill:#ffffff"
+     id="rect28"
+     height="41"
+     width="97"
+     y="225.66667"
+     x="0.66666502" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path30"
+     stroke-miterlimit="8"
+     d="m 12.791665,225.66667 v 41 m 72.75,-41 v 41" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     id="rect32"
+     stroke-miterlimit="8"
+     height="41"
+     width="97"
+     y="225.66667"
+     x="0.66666502" />
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text34"
+     font-size="13.3333"
+     font-weight="400"
+     x="28.148659"
+     y="251.16667">EHR</text>
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text36"
+     font-size="13.3333"
+     font-weight="400"
+     x="56.315651"
+     y="251.16667">-</text>
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text38"
+     font-size="13.3333"
+     font-weight="400"
+     x="60.815651"
+     y="251.16667">S</text>
+  <rect
+     style="fill:#ffffff"
+     id="rect40"
+     height="41"
+     width="97"
+     y="313.66666"
+     x="0.66666502" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path42"
+     stroke-miterlimit="8"
+     d="m 12.791665,313.66667 v 41 m 72.75,-41 v 41" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     id="rect44"
+     stroke-miterlimit="8"
+     height="41"
+     width="97"
+     y="313.66666"
+     x="0.66666502" />
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text46"
+     font-size="13.3333"
+     font-weight="400"
+     x="28.148659"
+     y="339.16666">EHR</text>
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text48"
+     font-size="13.3333"
+     font-weight="400"
+     x="56.315651"
+     y="339.16666">-</text>
+  <text
+     style="font-weight:400;font-size:13.33329964px;font-family:Arial, Arial_MSFontService, sans-serif"
+     id="text50"
+     font-size="13.3333"
+     font-weight="400"
+     x="60.815651"
+     y="339.16666">S</text>
+  <path
+     style="fill:#a9d18e;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     id="path52"
+     d="m 308.66667,35.666665 h 61 v 57.833 l -10.167,10.167005 h -50.833 z" />
+  <path
+     style="fill:#88a872;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     id="path54"
+     d="m 359.49967,103.66667 2.034,-8.133005 8.133,-2.034 z" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path56"
+     stroke-miterlimit="8"
+     d="m 359.49967,103.66667 2.034,-8.133005 8.133,-2.034 -10.167,10.167005 h -50.833 V 35.666665 h 61 v 57.833" />
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text58"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="323.90366"
+     y="53.166664">Domain</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text60"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="326.57065"
+     y="85.166664">Profile</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:12px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text62"
+     font-size="12"
+     font-stretch="condensed"
+     font-weight="400"
+     x="322.38168"
+     y="118.16666">Hospital</text>
+  <path
+     style="fill:#a9d18e;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     id="path64"
+     d="m 306.66667,123.66667 h 63 v 58.5 l -10.5,10.5 h -52.5 z" />
+  <path
+     style="fill:#88a872;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     id="path66"
+     d="m 359.16667,192.66667 2.1,-8.4 8.4,-2.1 z" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path68"
+     stroke-miterlimit="8"
+     d="m 359.16667,192.66667 2.1,-8.4 8.4,-2.1 -10.5,10.5 h -52.5 v -69 h 63 v 58.5" />
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text70"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="322.92166"
+     y="141.16667">Domain</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text72"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="325.58865"
+     y="173.16667">Profile</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:12px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text74"
+     font-size="12"
+     font-stretch="condensed"
+     font-weight="400"
+     x="321.28067"
+     y="207.16667">Clinic</text>
+  <path
+     style="fill:#a9d18e;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     id="path76"
+     d="m 306.66667,212.66667 h 63 v 57.5 l -10.5,10.5 h -52.5 z" />
+  <path
+     style="fill:#88a872;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     id="path78"
+     d="m 359.16667,280.66667 2.1,-8.4 8.4,-2.1 z" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path80"
+     stroke-miterlimit="8"
+     d="m 359.16667,280.66667 2.1,-8.4 8.4,-2.1 -10.5,10.5 h -52.5 v -68 h 63 v 57.5" />
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text82"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="322.92166"
+     y="229.16667">Domain</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text84"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="325.58865"
+     y="261.16666">Profile</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:12px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text86"
+     font-size="12"
+     font-stretch="condensed"
+     font-weight="400"
+     x="316.25168"
+     y="296.16666">Pharmacy</text>
+  <path
+     style="fill:#ffd966;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     id="path88"
+     d="m 164.66667,0.66666502 h 51 V 64.166665 l -8.5,8.5 h -42.5 z" />
+  <path
+     style="fill:#cdae52;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     id="path90"
+     d="m 207.16667,72.666665 1.7,-6.8 6.8,-1.7 z" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path92"
+     stroke-miterlimit="8"
+     d="m 207.16667,72.666665 1.7,-6.8 6.8,-1.7 -8.5,8.5 h -42.5 V 0.66666502 h 51 V 64.166665" />
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text94"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="174.55064"
+     y="21.166664">Derived</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text96"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="174.46367"
+     y="37.166664">Domain</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text98"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="177.13066"
+     y="53.166664">Profile</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text100"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="161.29268"
+     y="89.166664">Canadian</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text102"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="161.29268"
+     y="105.16666">Children’s</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text104"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="161.29268"
+     y="121.16666">Hospital</text>
+  <path
+     style="fill:#f4b183;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     id="path106"
+     d="m 306.66667,300.66667 h 63 v 57.5 l -10.5,10.5 h -52.5 z" />
+  <path
+     style="fill:#c48e69;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     id="path108"
+     d="m 359.16667,368.66667 2.1,-8.4 8.4,-2.1 z" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path110"
+     stroke-miterlimit="8"
+     d="m 359.16667,368.66667 2.1,-8.4 8.4,-2.1 -10.5,10.5 h -52.5 v -68 h 63 v 57.5" />
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:9.33333015px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text112"
+     font-size="9.33333"
+     font-stretch="condensed"
+     font-weight="400"
+     x="318.25565"
+     y="317.16666">Companion</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:9.33333015px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text114"
+     font-size="9.33333"
+     font-stretch="condensed"
+     font-weight="400"
+     x="327.08865"
+     y="349.16666">Profile</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:12px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text116"
+     font-size="12"
+     font-stretch="condensed"
+     font-weight="400"
+     x="304.40964"
+     y="383.16666">Cancer Research</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:12px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text118"
+     font-size="12"
+     font-stretch="condensed"
+     font-weight="400"
+     x="339.07663"
+     y="383.16666" />
+  <path
+     style="fill:#dae3f3;fill-rule:evenodd;stroke:#000000;stroke-width:1.33333004;stroke-miterlimit:8"
+     inkscape:connector-curvature="0"
+     id="path120"
+     stroke-miterlimit="8"
+     d="m 484.66667,89.666665 h 80 V 258.07467 c -40,0 -40,64.167 -80,27.709 z" />
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:12px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text122"
+     font-size="12"
+     font-stretch="condensed"
+     font-weight="400"
+     x="503.10367"
+     y="130.16667">Functions</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:12px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text124"
+     font-size="12"
+     font-stretch="condensed"
+     font-weight="400"
+     x="494.84964"
+     y="146.16667">Conformance</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:12px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text126"
+     font-size="12"
+     font-stretch="condensed"
+     font-weight="400"
+     x="508.60367"
+     y="162.16667">Criteria</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:12px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text128"
+     font-size="12"
+     font-stretch="condensed"
+     font-weight="400"
+     x="504.76968"
+     y="194.16667">Rules for</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:12px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text130"
+     font-size="12"
+     font-stretch="condensed"
+     font-weight="400"
+     x="503.43668"
+     y="210.16667">functional</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:12px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text132"
+     font-size="12"
+     font-stretch="condensed"
+     font-weight="400"
+     x="508.10367"
+     y="226.16667">Profiles</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text134"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="101.29966"
+     y="34.166664">Conforms to</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text136"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="141.63368"
+     y="34.166664" />
+  <text
+     style="font-weight:700;font-stretch:condensed;font-size:16px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text138"
+     font-size="16"
+     font-stretch="condensed"
+     font-weight="700"
+     x="463.16666"
+     y="431.16666">EHR-S Functional</text>
+  <text
+     style="font-weight:700;font-stretch:condensed;font-size:16px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text140"
+     font-size="16"
+     font-stretch="condensed"
+     font-weight="700"
+     x="490.99966"
+     y="431.16666" />
+  <text
+     style="font-weight:700;font-stretch:condensed;font-size:16px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text142"
+     font-size="16"
+     font-stretch="condensed"
+     font-weight="700"
+     x="495.33267"
+     y="431.16666" />
+  <text
+     style="font-weight:700;font-stretch:condensed;font-size:16px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text144"
+     font-size="16"
+     font-stretch="condensed"
+     font-weight="700"
+     x="499.66666"
+     y="447.16666">Model</text>
+  <text
+     style="font-weight:700;font-stretch:condensed;font-size:16px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text146"
+     font-size="16"
+     font-stretch="condensed"
+     font-weight="700"
+     x="247.29265"
+     y="439.16666">Functional Profiles</text>
+  <text
+     style="font-weight:700;font-stretch:condensed;font-size:16px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text148"
+     font-size="16"
+     font-stretch="condensed"
+     font-weight="700"
+     x="317.29263"
+     y="439.16666" />
+  <text
+     style="font-weight:700;font-stretch:condensed;font-size:16px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text150"
+     font-size="16"
+     font-stretch="condensed"
+     font-weight="700"
+     x="7.2996607"
+     y="437.16666">Implementations</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text152"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="239.37169"
+     y="43.166664">Conforms to</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text154"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="279.70468"
+     y="43.166664" />
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text156"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="397.42166"
+     y="89.166664">Conforms to</text>
+  <text
+     style="font-weight:400;font-stretch:condensed;font-size:10.66670036px;font-family:'Arial Narrow', 'Arial Narrow_MSFontService', sans-serif"
+     id="text158"
+     font-size="10.6667"
+     font-stretch="condensed"
+     font-weight="400"
+     x="437.75467"
+     y="89.166664" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path160"
+     d="m 97.673665,34.999665 64.881005,0.68 -0.014,1.333 -64.881005,-0.679 z m 57.266005,-3.976 8.932,5.336 -9.042,5.149 c -0.32,0.182 -0.727,0.07 -0.909,-0.25 -0.182,-0.32 -0.071,-0.727 0.249,-0.909 l 8.049,-4.583 -0.012,1.152 -7.951,-4.75 c -0.316,-0.189 -0.419,-0.598 -0.23,-0.915 0.189,-0.316 0.598,-0.419 0.914,-0.23 z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path162"
+     d="M 97.666665,156.99967 H 305.42267 v 1.334 H 97.666665 Z m 200.092005,-4.575 8.987,5.242 -8.987,5.243 c -0.318,0.185 -0.726,0.078 -0.912,-0.24 -0.185,-0.318 -0.078,-0.727 0.24,-0.912 l 8,-4.667 v 1.152 l -8,-4.667 c -0.318,-0.185 -0.425,-0.593 -0.24,-0.911 0.186,-0.318 0.594,-0.426 0.912,-0.24 z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path164"
+     d="m 215.89067,36.038665 92.056,32.912 -0.449,1.256 -92.055,-32.912 z m 86.38,26.023 6.697,7.963 -10.227,1.91 c -0.362,0.068 -0.71,-0.171 -0.778,-0.532 -0.067,-0.362 0.171,-0.711 0.533,-0.778 l 9.104,-1.701 -0.388,1.084 -5.962,-7.087 c -0.237,-0.282 -0.2,-0.703 0.081,-0.94 0.282,-0.237 0.703,-0.2 0.94,0.081 z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path166"
+     d="m 97.923485,158.38188 209.821185,-87.590715 -0.514,-1.2304 -209.820825,87.590695 z m 204.512185,-80.416015 6.274,-8.3 -10.313,-1.3757 c -0.365,-0.0487 -0.7,0.2077 -0.749,0.5726 -0.049,0.365 0.208,0.7003 0.573,0.749 l 9.18,1.2246 -0.444,-1.0628 -5.585,7.3883 c -0.222,0.2938 -0.163,0.7119 0.13,0.9339 0.294,0.222 0.712,0.1639 0.934,-0.1299 z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path168"
+     d="M 97.666665,333.99967 H 305.42267 v 1.334 H 97.666665 Z m 200.092005,-4.575 8.987,5.242 -8.987,5.243 c -0.318,0.185 -0.726,0.078 -0.912,-0.24 -0.185,-0.318 -0.078,-0.727 0.24,-0.912 l 8,-4.667 v 1.152 l -8,-4.667 c -0.318,-0.185 -0.425,-0.593 -0.24,-0.911 0.186,-0.318 0.594,-0.426 0.912,-0.24 z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path170"
+     d="M 97.666665,245.99967 H 305.42267 v 1.334 H 97.666665 Z m 200.092005,-4.575 8.987,5.242 -8.987,5.243 c -0.318,0.185 -0.726,0.078 -0.912,-0.24 -0.185,-0.318 -0.078,-0.727 0.24,-0.912 l 8,-4.667 v 1.152 l -8,-4.667 c -0.318,-0.185 -0.425,-0.593 -0.24,-0.911 0.186,-0.318 0.594,-0.426 0.912,-0.24 z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path172"
+     d="m 370.13267,69.190665 107.863,105.622005 -0.932,0.952 -107.863,-105.622005 z m 105.59,96.991005 2.753,10.034 -10.089,-2.543 c -0.357,-0.089 -0.574,-0.452 -0.484,-0.809 0.09,-0.357 0.453,-0.573 0.81,-0.483 l 8.981,2.262 -0.806,0.823 -2.451,-8.931 c -0.098,-0.355 0.111,-0.722 0.466,-0.819 0.355,-0.098 0.722,0.111 0.82,0.466 z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path174"
+     d="m 369.85867,157.02867 107.543,32.326 -0.384,1.277 -107.543,-32.326 z m 101.52,25.738 7.098,7.608 -10.116,2.433 c -0.358,0.086 -0.718,-0.134 -0.804,-0.492 -0.086,-0.358 0.134,-0.718 0.492,-0.804 l 9.005,-2.166 -0.332,1.103 -6.318,-6.773 c -0.251,-0.269 -0.236,-0.691 0.033,-0.942 0.269,-0.251 0.691,-0.236 0.942,0.033 z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path176"
+     d="m 369.92368,246.7428 107.58899,-44.95203 -0.514,-1.2303 -107.58901,44.95207 z m 102.28099,-37.77523 6.272,-8.302 -10.3139,-1.3726 c -0.365,-0.0485 -0.7002,0.208 -0.7488,0.5729 -0.0485,0.365 0.208,0.7003 0.5729,0.7488 l 9.1808,1.2218 -0.444,-1.0627 -5.583,7.3901 c -0.222,0.2938 -0.163,0.7119 0.13,0.9338 0.294,0.2219 0.712,0.1637 0.934,-0.1301 z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path178"
+     d="m 370.16448,335.2591 107.92819,-121.16243 -0.996,-0.887 -107.92781,121.16257 z m 106.24819,-112.39743 2.063,-10.198 -9.8926,3.224 c -0.3501,0.114 -0.5414,0.491 -0.4273,0.841 0.1141,0.35 0.4904,0.541 0.8404,0.427 l 8.8055,-2.87 -0.86,-0.766 -1.836,9.078 c -0.073,0.361 0.16,0.713 0.521,0.786 0.361,0.073 0.713,-0.161 0.786,-0.522 z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path180"
+     d="m 97.925535,335.38102 207.861135,-87.58735 -0.518,-1.2287 -207.860875,87.58735 z m 202.574135,-80.39415 6.246,-8.3209 -10.318,-1.3413 c -0.365,-0.0475 -0.699,0.21 -0.747,0.5751 -0.047,0.3651 0.21,0.6996 0.575,0.7471 l 9.185,1.194 -0.447,-1.0614 -5.561,7.407 c -0.221,0.2944 -0.161,0.7123 0.133,0.9334 0.295,0.221 0.713,0.1615 0.934,-0.133 z" />
+</svg>
