@@ -158,7 +158,7 @@ function handleSection(section, parentObject) {
         "status": "active",
         "description": _description
     }
-    // remove extension if there is no example
+    // remove extension if there is no actors
     if (actors == "") {
         delete fhir_section.extension;
     }
