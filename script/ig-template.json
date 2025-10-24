@@ -20,7 +20,7 @@
     }
   ],
   "url": "$CANONICAL$/ImplementationGuide/$PACKAGE_ID$",
-  "version": "2.1.1-ballot",
+  "version": "2.1.1",
   "name": "EHRSFMR2",
   "title": "HL7 Electronic Health Record System Functional Model, Release 2.1.1",
   "status": "active",
@@ -177,7 +177,7 @@
           "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
           "code": "releaselabel"
         },
-        "value": "Normative Ballot"
+        "value": "Normative"
       },
       {
         "code": {
