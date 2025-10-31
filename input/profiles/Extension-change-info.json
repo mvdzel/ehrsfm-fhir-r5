@@ -12,7 +12,7 @@
     "context": [
         {
             "type": "element",
-            "expression": "Requirements or Requirements.statement"
+            "expression": "Requirements.statement"
         }
     ],
     "type": "Extension",
