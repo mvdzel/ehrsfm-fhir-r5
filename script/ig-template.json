@@ -182,6 +182,13 @@
       {
         "code": {
           "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "propagate-status"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
           "code": "copyrightyear"
         },
         "value": "2025"
