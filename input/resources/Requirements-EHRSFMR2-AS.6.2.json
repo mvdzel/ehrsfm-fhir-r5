@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "AS_6_2_Manage_Healthcare_Resource_Availability_Information",
   "title": "AS.6.2 Manage Healthcare Resource Availability Information (Function)",
   "status": "active",

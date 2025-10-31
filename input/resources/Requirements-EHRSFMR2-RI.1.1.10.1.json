@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "RI_1_1_10_1_Evidence_of_Record_Entry_De_Identification_Event",
   "title": "RI.1.1.10.1 Evidence of Record Entry De-Identification Event (Function)",
   "status": "active",

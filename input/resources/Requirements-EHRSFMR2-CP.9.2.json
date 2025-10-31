@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_9_2_Capture_Health_Service_Report_Information",
   "title": "CP.9.2 Capture Health Service Report Information (Function)",
   "status": "active",

@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "TI_7_Workflow_Management",
   "title": "TI.7 Workflow Management (Function)",
   "status": "active",

@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_9_2_3_Support_for_Provider__Pharmacy_Communication",
   "title": "CPS.9.2.3 Support for Provider -Pharmacy Communication (Function)",
   "status": "active",

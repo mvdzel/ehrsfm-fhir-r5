@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_1_7_Preferences__Directives__Consents_and_Authorizations",
   "title": "CPS.1.7 Preferences, Directives, Consents and Authorizations (Function)",
   "status": "active",

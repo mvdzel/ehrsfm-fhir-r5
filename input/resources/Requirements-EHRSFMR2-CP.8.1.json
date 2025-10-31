@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_8_1_Generate__Record_and_Distribute_Patient_Specific_Instructions",
   "title": "CP.8.1 Generate, Record and Distribute Patient-Specific Instructions (Function)",
   "status": "active",

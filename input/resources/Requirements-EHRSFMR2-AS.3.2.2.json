@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "AS_3_2_2_Manage_PHR_End_of_Life_Documents_and_Other_Advance_Directives",
   "title": "AS.3.2.2 Manage PHR End-of-Life Documents and Other Advance Directives (Function)",
   "status": "active",

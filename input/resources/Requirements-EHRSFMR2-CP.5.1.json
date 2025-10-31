@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_5_1_Manage_Results_of_Diagnostic_Tests",
   "title": "CP.5.1 Manage Results of Diagnostic Tests (Function)",
   "status": "active",

@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "POP_2_1_Support_for_Epidemiological_Investigation_Surveillance_Data_Collection",
   "title": "POP.2.1 Support for Epidemiological Investigation/Surveillance Data Collection (Function)",
   "status": "active",

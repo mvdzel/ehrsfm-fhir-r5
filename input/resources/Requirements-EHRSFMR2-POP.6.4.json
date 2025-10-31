@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "POP_6_4_Support_for_Care_System_Performance_Indicators__Dashboards_",
   "title": "POP.6.4 Support for Care System Performance Indicators (Dashboards) (Function)",
   "status": "active",

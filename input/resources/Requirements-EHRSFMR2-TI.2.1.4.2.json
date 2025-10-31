@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "TI_2_1_4_2_Acknowledgements_of_Clinically_Significant_Report_Changes_Clinical_Audit_Trigger",
   "title": "TI.2.1.4.2 Acknowledgements of Clinically Significant Report Changes Clinical Audit Trigger (Function)",
   "status": "active",

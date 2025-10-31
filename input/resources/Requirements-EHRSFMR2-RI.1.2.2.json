@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "RI_1_2_2_Manage_Record_Entries_for_Legal_Hold",
   "title": "RI.1.2.2 Manage Record Entries for Legal Hold (Function)",
   "status": "active",

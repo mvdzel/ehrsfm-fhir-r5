@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_1_8_Manage_Patient_and_Family_Preferences",
   "title": "CP.1.8 Manage Patient and Family Preferences (Function)",
   "status": "active",

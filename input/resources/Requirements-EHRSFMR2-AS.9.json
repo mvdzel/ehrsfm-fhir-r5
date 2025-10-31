@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "AS_9_Manage_Administrative_Transaction_Processing",
   "title": "AS.9 Manage Administrative Transaction Processing (Header)",
   "status": "active",

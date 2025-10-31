@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_2_4_Render_externally_sourced_Clinical_Images",
   "title": "CP.2.4 Render externally-sourced Clinical Images (Function)",
   "status": "active",

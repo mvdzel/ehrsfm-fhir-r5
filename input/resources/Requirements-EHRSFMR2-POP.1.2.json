@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "POP_1_2_Present_Notifications_and_Reminders_for_Preventative_Services_and_Wellness",
   "title": "POP.1.2 Present Notifications and Reminders for Preventative Services and Wellness (Function)",
   "status": "active",

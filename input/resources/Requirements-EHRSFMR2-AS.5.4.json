@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "AS_5_4_Clinical_Task_Status_Tracking",
   "title": "AS.5.4 Clinical Task Status Tracking (Function)",
   "status": "active",

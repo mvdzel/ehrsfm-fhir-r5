@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "POP_2_3_Support_for_Cohort_and_Aggregate_Data_Sharing",
   "title": "POP.2.3 Support for Cohort and Aggregate Data Sharing (Function)",
   "status": "active",

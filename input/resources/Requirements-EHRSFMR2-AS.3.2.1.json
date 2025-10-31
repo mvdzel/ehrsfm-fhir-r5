@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "AS_3_2_1_Manage_Consents_and_Authorizations_from_a_PHR",
   "title": "AS.3.2.1 Manage Consents and Authorizations from a PHR (Function)",
   "status": "active",

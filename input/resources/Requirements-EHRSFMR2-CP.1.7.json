@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_1_7_Manage_Medical_Equipment__Prosthetic_Orthotic__Device_List",
   "title": "CP.1.7 Manage Medical Equipment, Prosthetic/Orthotic, Device List (Function)",
   "status": "active",

@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "TI_2_1_4_3_Disable_Decision_Support_Alerts_Clinical_Audit_Trigger",
   "title": "TI.2.1.4.3 Disable Decision Support Alerts Clinical Audit Trigger (Function)",
   "status": "active",

@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_8_4_Support_for_Communications_Between_Provider_and_Patient__and_or_the_Patient_Representative",
   "title": "CPS.8.4 Support for Communications Between Provider and Patient, and/or the Patient Representative (Function)",
   "status": "active",

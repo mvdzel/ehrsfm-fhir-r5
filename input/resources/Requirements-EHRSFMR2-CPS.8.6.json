@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_8_6_Communication_with_Personal_Health_Record_Systems",
   "title": "CPS.8.6 Communication with Personal Health Record Systems (Function)",
   "status": "active",

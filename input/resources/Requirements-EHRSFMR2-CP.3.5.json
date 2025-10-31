@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_3_5_Acknowledge_Amend_Other_Provider_Documentation",
   "title": "CP.3.5 Acknowledge/Amend Other Provider Documentation (Function)",
   "status": "active",

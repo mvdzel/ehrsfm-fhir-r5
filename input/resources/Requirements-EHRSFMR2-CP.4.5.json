@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_4_5_Manage_Orders_for_Blood_Products_and_Other_Biologics",
   "title": "CP.4.5 Manage Orders for Blood Products and Other Biologics (Function)",
   "status": "active",

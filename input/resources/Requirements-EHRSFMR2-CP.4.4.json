@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_4_4_Manage_Orders_for_Diagnostic_Screening_Tests",
   "title": "CP.4.4 Manage Orders for Diagnostic/Screening Tests (Function)",
   "status": "active",

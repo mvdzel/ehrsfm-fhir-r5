@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "TI_1_8_1_Redact_Patient_Identifying_Information",
   "title": "TI.1.8.1 Redact Patient Identifying Information (Function)",
   "status": "active",

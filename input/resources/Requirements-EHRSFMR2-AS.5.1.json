@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "AS_5_1_Clinical_Task_Creation__Assignment_and_Routing",
   "title": "AS.5.1 Clinical Task Creation, Assignment and Routing (Function)",
   "status": "active",

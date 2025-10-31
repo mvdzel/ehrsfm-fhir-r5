@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_3_5_Support_for_Research_Protocols_Relative_to_Individual_Patient_Care",
   "title": "CPS.3.5 Support for Research Protocols Relative to Individual Patient Care (Function)",
   "status": "active",

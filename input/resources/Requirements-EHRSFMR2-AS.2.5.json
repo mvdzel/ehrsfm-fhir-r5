@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "AS_2_5_Manage_Patients_in_Healthcare_Programs",
   "title": "AS.2.5 Manage Patients in Healthcare Programs (Function)",
   "status": "active",

@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_9_2_1_Manage_Consultation_Requests_and_Responses",
   "title": "CPS.9.2.1 Manage Consultation Requests and Responses (Function)",
   "status": "active",

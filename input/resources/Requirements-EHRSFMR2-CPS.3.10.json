@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_3_10_Support_for_Identification_of_Potential_Problems_and_Trends",
   "title": "CPS.3.10 Support for Identification of Potential Problems and Trends (Function)",
   "status": "active",

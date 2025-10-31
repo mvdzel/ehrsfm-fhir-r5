@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_7_1_Present_Guidelines_and_Protocols_for_Planning_Care",
   "title": "CP.7.1 Present Guidelines and Protocols for Planning Care (Function)",
   "status": "active",

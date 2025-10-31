@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_4_4_Support_Orders_for_Diagnostic_Screening_Tests",
   "title": "CPS.4.4 Support Orders for Diagnostic/Screening Tests (Header)",
   "status": "active",

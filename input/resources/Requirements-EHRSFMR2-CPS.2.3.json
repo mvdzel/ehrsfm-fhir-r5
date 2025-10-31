@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_2_3_Support_Emergency_Medical_System_Originated_Data",
   "title": "CPS.2.3 Support Emergency Medical System Originated Data (Function)",
   "status": "active",

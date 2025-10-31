@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_3_2_Manage_Patient_Clinical_Measurements",
   "title": "CP.3.2 Manage Patient Clinical Measurements (Function)",
   "status": "active",

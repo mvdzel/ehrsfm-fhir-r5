@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "RI_1_1_27_1_Evidence_of_Record_Entry_Decryption_Event",
   "title": "RI.1.1.27.1 Evidence of Record Entry Decryption Event (Function)",
   "status": "active",

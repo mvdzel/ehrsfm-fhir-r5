@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "TI_4_1_Standard_Terminology_and_Terminology_Models",
   "title": "TI.4.1 Standard Terminology and Terminology Models (Function)",
   "status": "active",

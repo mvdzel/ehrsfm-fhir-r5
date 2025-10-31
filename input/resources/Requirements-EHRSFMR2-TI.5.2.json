@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "TI_5_2_Interchange_Standards_Versioning_and_Maintenance",
   "title": "TI.5.2 Interchange Standards Versioning and Maintenance (Function)",
   "status": "active",

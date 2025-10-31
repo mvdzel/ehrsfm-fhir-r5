@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "AS_5_2_Clinical_Task_Assignment_and_Routing_for_Medication_Management___Administration",
   "title": "AS.5.2 Clinical Task Assignment and Routing for Medication Management & Administration (Function)",
   "status": "active",

@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "TI_10_Standard_or_Preferred_Clinical_Models_and_Clinical_Model_Services",
   "title": "TI.10 Standard or Preferred Clinical Models and Clinical Model Services (Header)",
   "status": "active",

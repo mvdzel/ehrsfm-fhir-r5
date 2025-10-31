@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "AS_2_1_Synchronize_Patient_Demographic_Data",
   "title": "AS.2.1 Synchronize Patient Demographic Data (Function)",
   "status": "active",

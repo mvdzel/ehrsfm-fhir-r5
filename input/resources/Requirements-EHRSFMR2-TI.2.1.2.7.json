@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "TI_2_1_2_7_User_Attempts_to_Access_Data__Unsuccessful___Access_Denied__Security_Audit_Trigger",
   "title": "TI.2.1.2.7 User Attempts to Access Data (Unsuccessful – Access Denied) Security Audit Trigger (Function)",
   "status": "active",

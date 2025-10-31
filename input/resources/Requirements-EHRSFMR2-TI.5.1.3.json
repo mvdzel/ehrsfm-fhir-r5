@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "TI_5_1_3_Structured_Message_Interchange_Standards",
   "title": "TI.5.1.3 Structured-Message Interchange Standards (Function)",
   "status": "active",

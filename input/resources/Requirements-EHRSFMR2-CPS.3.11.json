@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_3_11_Support_Other_Encounter_and_Episode_of_Care_Documentation",
   "title": "CPS.3.11 Support Other Encounter and Episode of Care Documentation (Function)",
   "status": "active",

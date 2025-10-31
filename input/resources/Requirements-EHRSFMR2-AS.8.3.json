@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "AS_8_3_Support_Integration_of_Cost_Financial_information_into_Patient_Care",
   "title": "AS.8.3 Support Integration of Cost/Financial information into Patient Care (Function)",
   "status": "active",

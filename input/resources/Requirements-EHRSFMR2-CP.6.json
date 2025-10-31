@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CP_6_Manage_Medication__Immunization_and_Treatment_Administration",
   "title": "CP.6 Manage Medication, Immunization and Treatment Administration (Header)",
   "status": "active",

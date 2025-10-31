@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "AS_9_5_Support_Financial_Claims___Encounter_Reports",
   "title": "AS.9.5 Support Financial Claims & Encounter Reports (Function)",
   "status": "active",

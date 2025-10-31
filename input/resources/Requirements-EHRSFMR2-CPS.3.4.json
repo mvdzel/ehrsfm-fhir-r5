@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_3_4_Support_for_Context_Sensitive_Care_Plans__Guidelines__Protocols",
   "title": "CPS.3.4 Support for Context-Sensitive Care Plans, Guidelines, Protocols (Function)",
   "status": "active",

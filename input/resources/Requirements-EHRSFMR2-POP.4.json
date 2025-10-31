@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "POP_4_Support_for_Monitoring_Response_Notifications_Regarding_a_Specific_Patient_s_Health",
   "title": "POP.4 Support for Monitoring Response Notifications Regarding a Specific Patient's Health (Function)",
   "status": "active",

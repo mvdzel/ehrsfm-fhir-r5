@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_2_4_Support_externally_sourced_Clinical_Images",
   "title": "CPS.2.4 Support externally-sourced Clinical Images (Function)",
   "status": "active",

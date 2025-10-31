@@ -8,6 +8,7 @@ const xml = new xml2js.Parser();
 const MAX_FILE = "ehrs_fm_r2_1-2022APR.max";
 const CANONICAL = "http://hl7.org/ehrs/uv/ehrsfmr2";
 const PACKAGE_ID = "hl7.ehrs.uv.ehrsfmr2";
+const STANDARDS_STATUS = "normative";
 const FMID_PREFIX = "EHRSFMR2";
 
 var maxroot;
@@ -107,6 +108,12 @@ function handleFM(fm) {
                 `${CANONICAL}/StructureDefinition/FunctionalModel`
             ]
         },
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+                "valueCode": STANDARDS_STATUS
+            }
+        ],
         // "url": `${BASE}/Requirements/` + fmid,
         "name": name,
         "title": title,
@@ -147,6 +154,10 @@ function handleSection(section, parentObject) {
             ]
         },
         "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+                "valueCode": STANDARDS_STATUS
+            },
             {
                 "url": `${CANONICAL}/StructureDefinition/requirements-actors`,
                 "valueString": actors
@@ -212,6 +223,12 @@ function handleHeaderOrFunction(headerOrFunction, parentObject) {
                 `${CANONICAL}/StructureDefinition/FM${type}`
             ]
         },
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+                "valueCode": STANDARDS_STATUS
+            }
+        ],
         // "url": `http://hl7.org/fhir/Requirements/${fmid}-${alias}`,
         "name": name,
         "title": `${title} (${type})`,

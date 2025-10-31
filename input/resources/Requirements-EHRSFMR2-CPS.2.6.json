@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_2_6_Support_Patient_Health_Data_Derived_from_Administrative_and_Financial_Data_and_Documentation",
   "title": "CPS.2.6 Support Patient Health Data Derived from Administrative and Financial Data and Documentation (Function)",
   "status": "active",

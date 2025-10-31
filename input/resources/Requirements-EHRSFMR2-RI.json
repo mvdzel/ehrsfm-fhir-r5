@@ -8,6 +8,10 @@
   },
   "extension": [
     {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    },
+    {
       "url": "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/requirements-actors",
       "valueString": "Many RI functions are performed transparently by EHR systems – at least from the perspective of users whose role is primarily clinical. Many RI functions occur in the background without end user intervention. Other actors may interact more directly with RI functions: System Administrators (to create archives of historical patient encounters or to purge records after their legal retention period has expired)."
     }

@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_8_5_Patient__Family_and_Care_Giver_Education",
   "title": "CPS.8.5 Patient, Family and Care Giver Education (Function)",
   "status": "active",

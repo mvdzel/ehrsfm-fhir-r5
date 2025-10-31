@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "CPS_3_8_Manage_Documentation_of_Clinician_Response_to_Decision_Support_Prompts",
   "title": "CPS.3.8 Manage Documentation of Clinician Response to Decision Support Prompts (Function)",
   "status": "active",

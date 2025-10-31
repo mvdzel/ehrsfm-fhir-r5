@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "POP_6_2_Quality__Performance_and_Accountability_Measures",
   "title": "POP.6.2 Quality, Performance and Accountability Measures (Function)",
   "status": "active",

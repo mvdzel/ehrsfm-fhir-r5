@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMFunction"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "TI_2_1_2_4_User_Request_to_Change_Password_Security_Audit_Trigger",
   "title": "TI.2.1.2.4 User Request to Change Password Security Audit Trigger (Function)",
   "status": "active",

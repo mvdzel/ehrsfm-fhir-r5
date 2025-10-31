@@ -6,6 +6,12 @@
       "http://hl7.org/ehrs/uv/ehrsfmr2/StructureDefinition/FMHeader"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "normative"
+    }
+  ],
   "name": "POP_2_Support_Population_Based_Epidemiological_Investigation_Surveillance",
   "title": "POP.2 Support Population-Based Epidemiological Investigation/Surveillance (Header)",
   "status": "active",
