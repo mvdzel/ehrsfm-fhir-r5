@@ -5,7 +5,6 @@
     "mode": "milestone",
     "status": "normative",
     "sequence": "Normative 1",
-    "title": "HL7 Electronic Health Record System Functional Model, Release 2.1.1",
     "desc": "This is the normative release of the migrated content from pdf",
     "changes": "changes.html"
 }

@@ -26,3 +26,6 @@ Most code systems defined in HL7 IGs will need to move to THO later during the p
 
 # https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/IG.20publisher.20adds.20extensions.20that.20than.20cause.20QA.20errors
 The Extension 'http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version' definition allows for the types [code] but found type string
+
+# https://chat.fhir.org/#narrow/channel/196008-ig-publishing-requirements/topic/EHR.20product.20family.20issue/near/562294702
+Constraint failed: txt-2: 'The narrative SHALL have some non-whitespace content (htmlChecks())' (defined in http://hl7.org/fhir/StructureDefinition/Narrative)

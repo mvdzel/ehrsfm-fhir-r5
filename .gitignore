@@ -2,6 +2,7 @@ node_modules/
 output/
 temp/
 template/
+translations/
 input-cache/
 */node_modules
 .~lock*
