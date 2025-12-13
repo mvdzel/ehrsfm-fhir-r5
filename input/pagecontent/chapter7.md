@@ -1,4 +1,4 @@
-Claiming Conformance to a Functional Profile
+### Claiming Conformance to a Functional Profile
 
 When a software vendor/developer wishes to claim (for their product) conformance to a version of an EHR
 Functional Profile the document claiming conformance should include the following information:
