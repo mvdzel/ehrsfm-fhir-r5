@@ -88,6 +88,12 @@
                         "severity": "error",
                         "human": "Criterion must have a textual description.",
                         "expression": "requirement.hasValue()"
+                    },
+                    {
+                        "key": "GENGRAM",
+                        "severity": "warning",
+                        "human": "Criterion does not match general grammar structure.",
+                        "expression": "requirement.toString().matches('^(?:IF .+ THEN )?[Tt]he system (?:SHALL|SHOULD|MAY)(?: provide the ability to)? .+$')"
                     }
                 ]
             }

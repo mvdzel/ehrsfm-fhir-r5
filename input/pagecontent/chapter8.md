@@ -897,8 +897,8 @@ importance. The following rules are to be followed whenever possible:
 
 Selected verbs in conformance criteria should be at the proper level of
 granularity. If a parent verb in a hierarchy is used, then it means that
-the actions of all the children verbs under it [are pertinent and
-applicable:]{.underline}
+the actions of all the children verbs under it <u>are pertinent and
+applicable:</u>
 
 -   For example, instead of saying MAINTAIN clinical data which would
     imply storage, update and deletion of data, one would say STORE and

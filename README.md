@@ -37,7 +37,7 @@ Copy grouping & resource json from output.txt into ehrs-ig.json
 
 ### To build IG
 
-Requires 1.8.13 because of hl7.ehrs support.
+Requires 1.8.13+ because of hl7.ehrs support.
 ```
 (optional) @> curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o input-cache/publisher.jar
 @> java -jar input-cache/publisher.jar -ig ig.ini
