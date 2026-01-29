@@ -93,7 +93,7 @@
                         "key": "GENGRAM",
                         "severity": "warning",
                         "human": "Criterion does not match general grammar structure.",
-                        "expression": "requirement.toString().matches('^(?:IF .+ THEN )?[Tt]he system (?:SHALL|SHOULD|MAY)(?: provide the ability to)? .+$')"
+                        "expression": "requirement.toString().matches('^(?:IF .+ THEN )?[Tt]he system (?:SHALL|SHOULD|MAY|SHOULD NOT)(?: provide the ability to)? (?:analyze|annotate|archive|attest|audit|authenticate|authorize|auto-populate|backup|capture|control access|decide|decrypt|de-identify|delete|determine|edit|encrypt|enter|exchange|extract|harmonize|hide|import|inactivate|integrate|link|log|maintain|manage|manage-data-visibility|mask|present|pseudonymize|purge|receive|recover|re-identify|remove|remove access|render|restore|save|secure|send|store|sustain|synchronize|tag|track|transmit|unhide|unmask|untag|update).+$')"
                     }
                 ]
             }
