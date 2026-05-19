@@ -9,9 +9,9 @@ The content comes from ISO/HL7 10781 as the most recently balloted version of th
 ![ANSI Approved Logo](ansi-approved.gif)
 
 |===
-|Formal Name: |HL7 Electronic Health Record System Functional Model, Release 2.1.2
-|ANSI Designation: |ANSI/HL7 ??, R?-2026
-|Date of Approval: |2026-??-??
+|Formal Name: |HL7 Electronic Health Record System Functional Model, Release 2.1.1<br/>(revision and redesignation of ANSI/HL7 EHR, R2.1-2020 (R2025))
+|ANSI Designation: |ANSI/HL7 EHR-S FM R2.1.1-2026
+|Date of Approval: |2026-04-05
 |===
 {: .grid .table .table-striped}
 

@@ -1,6 +1,6 @@
 {
     "package-id": "hl7.ehrs.uv.ehrsfmr2",
-    "version": "2.1.2",
+    "version": "2.1.1",
     "path": "http://hl7.org/ehrs/uv/ehrsfmr2/Normative1",
     "mode": "milestone",
     "status": "normative",
