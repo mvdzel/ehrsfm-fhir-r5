@@ -29,3 +29,6 @@ The Extension 'http://hl7.org/fhir/StructureDefinition/structuredefinition-norma
 
 # https://chat.fhir.org/#narrow/channel/196008-ig-publishing-requirements/topic/EHR.20product.20family.20issue/near/562294702
 Constraint failed: txt-2: 'The narrative SHALL have some non-whitespace content (htmlChecks())' (defined in http://hl7.org/fhir/StructureDefinition/Narrative)
+
+# Known: In preparation for future QA 
+Constraint failed: GENGRAM: 'Criterion does not match general grammar structure.%

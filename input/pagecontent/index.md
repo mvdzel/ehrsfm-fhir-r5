@@ -7,6 +7,7 @@ This is a EHR-S FM specification that uses FHIR R5 Requirements resource to defi
 The content comes from ISO/HL7 10781 as the most recently balloted version of the EHR-S FM. HL7 last balloted/published it in 2000, ISO in 2023. The ISO version is identical except that it has new graphics and we fixed some minor errata.
 
 ![ANSI Approved Logo](ansi-approved.gif)
+
 |===
 |Formal Name: |HL7 Electronic Health Record System Functional Model, Release 2.1.2
 |ANSI Designation: |ANSI/HL7 ??, R?-2026
