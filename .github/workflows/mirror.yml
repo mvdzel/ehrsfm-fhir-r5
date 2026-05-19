@@ -1,5 +1,7 @@
 name: Mirror to HL7
 
+# HL7_TOKEN secret needs repo and workflow permissions
+
 on:
     #  push:
     #    branches:
